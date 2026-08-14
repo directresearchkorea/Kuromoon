@@ -27,7 +27,7 @@ const DATA_DIR   = path.join(WEB_DIR, 'data');
 const TMPL_DIR   = path.join(WEB_DIR, 'templates');
 const PUBLIC_DIR = path.join(WEB_DIR, 'public');
 
-const SITE_URL = 'https://kuromoon.com';
+const SITE_URL = 'https://kuromoon.net';
 
 // ─── Category display labels ────────────────────────────────────────
 const CATEGORY_LABELS = {

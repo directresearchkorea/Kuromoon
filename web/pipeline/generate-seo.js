@@ -11,7 +11,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const BASE_URL = 'https://kuromoon.com';
+const BASE_URL = 'https://kuromoon.net';
 const WEB_DIR = path.resolve(__dirname, '..');
 const DATA_DIR = path.join(WEB_DIR, 'data');
 const PUBLIC_DIR = path.join(WEB_DIR, 'public');
@@ -83,7 +83,7 @@ function generateSitemap(places) {
  * Generate robots.txt
  */
 function generateRobots() {
-    return `# Kuromoon (kuromoon.com) — Robots.txt
+    return `# Kuromoon (kuromoon.net) — Robots.txt
 # AI crawlers are welcome!
 
 User-agent: *
