@@ -1,4 +1,4 @@
-# Kuromoon (kuromoon.com) — Robots.txt
+# Kuromoon (kuromoon.net) — Robots.txt
 # AI crawlers are welcome!
 
 User-agent: *
@@ -19,4 +19,4 @@ Allow: /
 User-agent: ClaudeBot
 Allow: /
 
-Sitemap: https://kuromoon.com/sitemap.xml
+Sitemap: https://kuromoon.net/sitemap.xml
