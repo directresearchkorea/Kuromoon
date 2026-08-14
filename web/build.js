@@ -281,14 +281,14 @@ function buildDetailPages(lang, places, template) {
       statusBadgeBlock = `
         <div class="source-badge">
           🔥 네이버 블로그 리뷰 ${reviewCount}건 돌파
-          ${showStatus ? `<br/>✅ 최근 상태: ${statusText} (AI 검증)` : ''}
+          ${showStatus ? `<br/>✅ 최근 상태: ${statusText}` : ''}
         </div>
       `;
     } else {
       statusBadgeBlock = `
         <div class="source-badge">
           🔥 Over ${reviewCount} Naver blog reviews
-          ${showStatus ? `<br/>✅ Recent status: ${statusText} (AI Verified)` : ''}
+          ${showStatus ? `<br/>✅ Recent status: ${statusText}` : ''}
         </div>
       `;
     }

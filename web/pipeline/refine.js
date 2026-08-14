@@ -88,8 +88,12 @@ function sanitizeCategory(category, placeName = '') {
 /**
  * Build the extraction prompt for Gemini
  */
-function buildPrompt(sourceText, category) {
+function buildPrompt(sourceText, category, referenceDate) {
+    const refDateStr = referenceDate || new Date().toISOString().slice(0, 10);
     return `당신은 한국 로컬 비즈니스 데이터 전문 추출기입니다.
+비정형 텍스트 분석 시 기준이 되는 날짜(오늘 또는 데이터 수집일)는 **${refDateStr}** 입니다.
+텍스트 내에 "14일부터 20일까지", "다음 주 화요일", "이번 주 주말", "8월 14일 ~ 20일" 등 연도나 월이 생략되었거나 상대적인 날짜 표현이 나오는 경우, 이 기준 날짜인 **${refDateStr}**을 바탕으로 정확한 연도와 월을 유추하여 YYYY-MM-DD 형식으로 변환해야 합니다.
+
 아래 비정형 텍스트에서 업체/이벤트 정보를 추출하여 **반드시 유효한 JSON만** 응답해주세요.
 설명, 인사말, 마크다운 코드블록 없이 순수 JSON 객체만 출력하세요.
 
@@ -293,7 +297,8 @@ async function main() {
         log(`   Text preview: "${input.source_text.substring(0, 60)}..."`);
 
         try {
-            const prompt = buildPrompt(input.source_text, input.category);
+            const refDate = input.created_at || new Date().toISOString().slice(0, 10);
+            const prompt = buildPrompt(input.source_text, input.category, refDate);
             const extracted = await callGeminiAPI(prompt, apiKey);
 
             // Validate
@@ -435,7 +440,8 @@ ${reviewTexts}`;
 
     let prompt;
     if (sourceText) {
-        prompt = buildPrompt(sourceText, input.category);
+        const refDate = input.created_at || new Date().toISOString().slice(0, 10);
+        prompt = buildPrompt(sourceText, input.category, refDate);
     } else {
         const cleanTags = Array.isArray(input.tags) && input.tags.length > 0 ? input.tags : ["로컬", "추천", "가볼만한곳"];
         prompt = `당신은 한국 로컬 비즈니스 데이터 전문 추출기입니다.
