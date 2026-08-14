@@ -1,0 +1,26 @@
+# Kuromoon Git Exclusion Rules
+
+# Security & Secret Keys (CRITICAL: NEVER COMMIT)
+.env
+*.env
+web/.env
+
+# Node Dependencies
+node_modules/
+web/node_modules/
+
+# Pipeline Temporary & Raw Internal Data
+web/data/raw_inputs.json
+web/data/refined_places.json
+web/data/review_needed.json
+web/data/discarded_places.json
+web/data/pipeline_log.json
+
+# Local Admin Dashboard (Private, never upload to Git)
+web/public/dashboard.html
+
+# IDE & OS Temp Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

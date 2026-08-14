@@ -1,0 +1,18 @@
+# Kuromoon Web Exclusion Rules
+
+# Security & Secrets
+.env
+*.env
+
+# Dependencies
+node_modules/
+
+# Temporary & Internal Pipeline Data
+data/raw_inputs.json
+data/refined_places.json
+data/review_needed.json
+data/discarded_places.json
+data/pipeline_log.json
+
+# Local Admin Dashboard (Private, never upload to Git)
+public/dashboard.html

@@ -1,0 +1,26 @@
+{
+  "name": "kuromoon-web",
+  "version": "1.0.0",
+  "description": "Kuromoon — AI-cited Korean local directory",
+  "scripts": {
+    "build": "node build.js",
+    "pipeline": "node pipeline/run-all.js",
+    "pipeline:push": "node pipeline/run-all.js --push",
+    "refine": "node pipeline/refine.js",
+    "verify": "node pipeline/verify.js",
+    "seo": "node pipeline/generate-seo.js",
+    "trends": "node pipeline/trend-detect.js",
+    "collect": "node pipeline/collect-places.js",
+    "dashboard": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "nodemailer": "^9.0.3"
+  },
+  "devDependencies": {
+    "pagefind": "^1.5.2"
+  }
+}

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuromoon (쿠로문) Business Proposal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #6366f1;
+            --primary-light: #818cf8;
+            --primary-dark: #4f46e5;
+            --secondary: #ec4899;
+            --bg: #0f172a;
+            --surface: rgba(30, 41, 59, 0.7);
+            --surface-light: rgba(51, 65, 85, 0.8);
+            --text: #f8fafc;
+            --text-muted: #94a3b8;
+            --glass-border: rgba(255, 255, 255, 0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans KR', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Animated Background */
+        .bg-shapes {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: -1;
+            overflow: hidden;
+            background: radial-gradient(circle at 15% 50%, rgba(99, 102, 241, 0.15), transparent 25%),
+                        radial-gradient(circle at 85% 30%, rgba(236, 72, 153, 0.15), transparent 25%);
+        }
+
+        .shape {
+            position: absolute;
+            filter: blur(80px);
+            opacity: 0.5;
+            animation: float 20s infinite alternate;
+        }
+
+        .shape-1 {
+            top: -10%;
+            left: -10%;
+            width: 50vw;
+            height: 50vw;
+            background: var(--primary);
+            border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+        }
+
+        .shape-2 {
+            bottom: -10%;
+            right: -10%;
+            width: 40vw;
+            height: 40vw;
+            background: var(--secondary);
+            border-radius: 60% 40% 30% 70% / 50% 60% 40% 50%;
+            animation-delay: -10s;
+        }
+
+        @keyframes float {
+            0% { transform: translate(0, 0) rotate(0deg); }
+            100% { transform: translate(5%, 10%) rotate(20deg); }
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 5rem;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        h1 {
+            font-size: 4rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, #a5b4fc, #fbcfe8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 1rem;
+            letter-spacing: -0.05em;
+        }
+
+        .slogan {
+            font-size: 1.5rem;
+            color: var(--text-muted);
+            font-weight: 300;
+        }
+
+        .glass-card {
+            background: var(--surface);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid var(--glass-border);
+            border-radius: 24px;
+            padding: 3rem;
+            margin-bottom: 3rem;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            transform: translateY(0);
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.4s ease;
+            opacity: 0;
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+
+        .glass-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 30px 60px -12px rgba(0, 0, 0, 0.6), 0 0 40px rgba(99, 102, 241, 0.1);
+        }
+
+        .glass-card:nth-child(2) { animation-delay: 0.2s; }
+        .glass-card:nth-child(3) { animation-delay: 0.4s; }
+        .glass-card:nth-child(4) { animation-delay: 0.6s; }
+        .glass-card:nth-child(5) { animation-delay: 0.8s; }
+
+        h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        h2::before {
+            content: '';
+            display: block;
+            width: 40px;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            border-radius: 2px;
+        }
+
+        h3 {
+            font-size: 1.25rem;
+            color: var(--primary-light);
+            margin: 2rem 0 1rem 0;
+        }
+
+        p {
+            margin-bottom: 1.2rem;
+            font-size: 1.1rem;
+            font-weight: 300;
+        }
+
+        ul {
+            list-style: none;
+            margin-bottom: 1.5rem;
+        }
+
+        li {
+            position: relative;
+            padding-left: 2rem;
+            margin-bottom: 0.8rem;
+            font-size: 1.05rem;
+        }
+
+        li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: var(--secondary);
+            font-weight: bold;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .metric-box {
+            background: var(--surface-light);
+            border: 1px solid var(--glass-border);
+            padding: 1.5rem;
+            border-radius: 16px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .metric-box:hover {
+            background: rgba(99, 102, 241, 0.15);
+            border-color: var(--primary-light);
+        }
+
+        .metric-title {
+            font-size: 1rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+        }
+
+        .metric-value {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: #fff;
+        }
+
+        .highlight {
+            color: var(--secondary);
+            font-weight: 500;
+        }
+
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(40px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Tag system */
+        .tags {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin-top: 1rem;
+        }
+
+        .tag {
+            background: rgba(99, 102, 241, 0.2);
+            color: var(--primary-light);
+            padding: 0.25rem 0.75rem;
+            border-radius: 999px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            border: 1px solid rgba(99, 102, 241, 0.3);
+        }
+        
+        .tag.secondary {
+            background: rgba(236, 72, 153, 0.2);
+            color: #fbcfe8;
+            border-color: rgba(236, 72, 153, 0.3);
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 3rem; }
+            .glass-card { padding: 2rem; }
+            .container { padding: 2rem 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>Kuromoon (쿠로문)</h1>
+            <p class="slogan">AI가 추천하는 한국 로컬의 진짜 평판</p>
+            <div class="tags" style="justify-content: center; margin-top: 1.5rem;">
+                <span class="tag">AI-Optimized</span>
+                <span class="tag">Schema.org JSON-LD</span>
+                <span class="tag secondary">Generative Engine Optimization (GEO)</span>
+            </div>
+        </header>
+
+        <main>
+            <section class="glass-card">
+                <h2>1. Executive Summary</h2>
+                <p><strong>Kuromoon(쿠로문)</strong>은 제미나이(Gemini), ChatGPT 등 생성형 AI 검색 엔진이 한국의 로컬 비즈니스 정보를 완벽하게 인용할 수 있도록 설계된 <strong>초경량 AI 전용 디렉토리 플랫폼</strong>입니다.</p>
+                <p>현재 네이버, 카카오 등 국내 포털의 폐쇄형(Closed Garden) 생태계로 인해 글로벌 AI 크롤러들은 한국의 양질의 로컬 데이터(맛집, 뷰티, 팝업스토어 등)에 접근하지 못하고 있습니다. Kuromoon은 정적 HTML과 Schema.org JSON-LD를 활용하여 AI가 가장 선호하는 형태로 데이터를 구조화하고 오픈 웹에 제공함으로써, <strong>생성형 엔진 최적화(GEO) 트래픽을 선점하는 블루오션 전략</strong>을 취합니다.</p>
+            </section>
+
+            <section class="glass-card">
+                <h2>2. Market Opportunity (시장 기회)</h2>
+                <h3>문제점 (Problem)</h3>
+                <ul>
+                    <li>글로벌 AI 검색 엔진에서 한국어 로컬 정보 및 평판 데이터가 현저히 부족함.</li>
+                    <li>기존 국내 플랫폼들은 자사 앱 설치 및 결제를 유도하기 위해 데이터를 닫아두어 AI 크롤러 파싱이 불가능함.</li>
+                </ul>
+                
+                <h3>해결책 (Solution)</h3>
+                <ul>
+                    <li>AI 크롤러가 가장 쉽게 파싱할 수 있는 형태(초경량 HTML + llms.txt + JSON-LD)로 로컬 데이터를 재가공.</li>
+                    <li>제미나이가 Kuromoon의 데이터를 답변의 <span class="highlight">신뢰할 수 있는 출처(Source)</span>로 인용하게 하여 막대한 자연 유입 트래픽을 창출.</li>
+                </ul>
+
+                <div class="grid">
+                    <div class="metric-box">
+                        <div class="metric-title">Target Audience 1</div>
+                        <div class="metric-value" style="font-size: 1.5rem;">한국 Z세대</div>
+                        <p style="font-size: 0.9rem; margin-top: 0.5rem;">광고성 리뷰를 피해 AI 기반 팩트 체크를 선호</p>
+                    </div>
+                    <div class="metric-box">
+                        <div class="metric-title">Target Audience 2</div>
+                        <div class="metric-value" style="font-size: 1.5rem;">외국인 관광객/거주자</div>
+                        <p style="font-size: 0.9rem; margin-top: 0.5rem;">언어 장벽 없이 영어로 구조화된 뷰티/의료/다이닝 정보 탐색</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="glass-card">
+                <h2>3. Core Features & MVP (핵심 기능 및 MVP)</h2>
+                <p>MVP 단계에서는 <strong>서울 주요 지역(성수, 홍대, 강남, 한남, 이태원)</strong>의 고부가가치 및 트렌드 민감 업종에 집중합니다.</p>
+                
+                <h3>Target Categories</h3>
+                <ul>
+                    <li><strong>팝업스토어 & 이벤트:</strong> 단기 운영으로 검색이 어려운 정보의 파편화 해결 (가장 높은 AI 검색 유입 기대)</li>
+                    <li><strong>K-뷰티 & 의료 (미용실, 피부과 등):</strong> 외국인 친화적 정보 및 예약 안내 제공 (높은 객단가 및 확장성)</li>
+                    <li><strong>니치 다이닝:</strong> 비건, 할랄, 글루텐프리 등 롱테일 키워드 기반 필터링 제공</li>
+                    <li><strong>콘셉트 카페:</strong> 콘센트 여부, 노키즈존, 와이파이 속도 등 세부 속성 데이터화</li>
+                </ul>
+            </section>
+
+            <section class="glass-card">
+                <h2>4. Technical Strategy (기술 전략)</h2>
+                <p>마찰 없는(Zero-friction) 사용자 경험과 압도적인 크롤링 효율을 달성하기 위해 최신 웹 아키텍처를 도입합니다.</p>
+                
+                <ul>
+                    <li><strong>트렌드 감지 & AI 정제:</strong> 인스타그램/웹 데이터를 수집하고 Gemini API를 통해 비정형 텍스트를 JSON 구조화 데이터로 자동 정제.</li>
+                    <li><strong>3단계 자가 검증 필터:</strong> 국세청 사업자 API, 다중 소스 교차 검증, HTTP 링크 테스트로 신뢰도 90점 이상의 데이터만 노출.</li>
+                    <li><strong>초경량 프론트엔드:</strong> JS 프레임워크를 배제한 바닐라 HTML/CSS 구성. 개별 정적 페이지 빌드로 로딩 속도 극대화.</li>
+                    <li><strong>SEO & GEO 극대화:</strong> 다국어 URL 분리(/ko/, /en/), 모든 페이지 Schema.org 메타데이터 탑재, Google Indexing API 실시간 색인.</li>
+                </ul>
+            </section>
+
+            <section class="glass-card">
+                <h2>5. Business Model (수익 모델)</h2>
+                <p>초기 트래픽 확보 후, 다음과 같은 수익화 파이프라인을 구축합니다.</p>
+                <ul>
+                    <li><strong>프리미엄 리스팅 (B2B):</strong> 검색 상단 노출 및 상세 페이지 내 풍부한 멀티미디어/예약 링크 제공.</li>
+                    <li><strong>글로벌 제휴 수익 (Affiliate):</strong> 외국인 관광객 대상 K-뷰티, 병원 예약 중개 수수료.</li>
+                    <li><strong>로컬 트렌드 데이터 판매:</strong> 누적된 검색 및 클릭 데이터를 활용하여 브랜드/기업에 상권 트렌드 리포트 제공.</li>
+                </ul>
+                
+                <div class="tags" style="margin-top: 2rem;">
+                    <span class="tag">#ZeroFriction</span>
+                    <span class="tag">#GlobalAI</span>
+                    <span class="tag">#LocalData</span>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script>
+        // Add subtle hover effects to cards
+        document.querySelectorAll('.glass-card').forEach(card => {
+            card.addEventListener('mousemove', (e) => {
+                const rect = card.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                card.style.background = `rgba(30, 41, 59, 0.7) radial-gradient(circle at ${x}px ${y}px, rgba(99, 102, 241, 0.1) 0%, transparent 50%)`;
+            });
+            card.addEventListener('mouseleave', () => {
+                card.style.background = `rgba(30, 41, 59, 0.7)`;
+            });
+        });
+    </script>
+</body>
+</html>

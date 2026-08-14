@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="{{LANG}}" prefix="og: https://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{GA_MEASUREMENT_ID}}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{GA_MEASUREMENT_ID}}');
+  </script>
+
+  <!-- ─── Primary SEO ─── -->
+  <title>{{META_TITLE}}</title>
+  <meta name="description" content="{{META_DESCRIPTION}}">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://kuromoon.com/{{LANG}}/">
+
+  <!-- ─── Hreflang (GEO critical) ─── -->
+  <link rel="alternate" hreflang="ko" href="https://kuromoon.com/ko/">
+  <link rel="alternate" hreflang="en" href="https://kuromoon.com/en/">
+  <link rel="alternate" hreflang="x-default" href="https://kuromoon.com/en/">
+
+  <!-- ─── Open Graph ─── -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Kuromoon">
+  <meta property="og:title" content="{{META_TITLE}}">
+  <meta property="og:description" content="{{META_DESCRIPTION}}">
+  <meta property="og:url" content="https://kuromoon.com/{{LANG}}/">
+  <meta property="og:locale" content="{{OG_LOCALE}}">
+
+  <!-- ─── Twitter Card ─── -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{META_TITLE}}">
+  <meta name="twitter:description" content="{{META_DESCRIPTION}}">
+
+  <!-- ─── Schema.org WebSite JSON-LD ─── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Kuromoon",
+    "alternateName": "쿠로문",
+    "url": "https://kuromoon.com",
+    "description": "{{META_DESCRIPTION}}",
+    "inLanguage": ["ko", "en"],
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://kuromoon.com/{{LANG}}/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <!-- ─── Header ─── -->
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <div class="logo">
+          <span>Kuromoon</span>
+          <span class="logo-moon">🌙</span>
+        </div>
+        <div class="lang-switch">
+          <a href="../ko/index.html" class="lang-btn {{KO_ACTIVE}}">KO</a>
+          <a href="../en/index.html" class="lang-btn {{EN_ACTIVE}}">EN</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main data-pagefind-ignore>
+    <div class="container">
+
+      <!-- ─── Hero ─── -->
+      <section class="hero">
+        <div class="hero-badge">✦ {{HERO_BADGE}}</div>
+        <h1>{{HERO_TITLE}}</h1>
+        <p class="hero-sub">{{HERO_SUB}}</p>
+        
+        <div class="search-container" style="margin-top: 1.5rem; text-align: center;">
+          <input type="text" id="searchInput" class="search-input" placeholder="장소, 이름, 키워드 검색..." style="width: 100%; max-width: 400px; padding: 0.8rem 1.2rem; border-radius: 25px; border: 1px solid #333; background: #1a1a24; color: #fff; font-size: 1rem; outline: none;">
+        </div>
+      </section>
+
+      <!-- ─── Category Tabs ─── -->
+      <nav class="category-tabs" aria-label="Categories">
+        <button class="tab active" data-category="all">{{TAB_ALL}}</button>
+        <button class="tab" data-category="popup">🎪 {{TAB_POPUP}}</button>
+        <button class="tab" data-category="activity">🎨 {{TAB_ACTIVITY}}</button>
+        <button class="tab" data-category="beauty">💄 {{TAB_BEAUTY}}</button>
+        <button class="tab" data-category="dining">🍽️ {{TAB_DINING}}</button>
+        <button class="tab" data-category="cafe">☕ {{TAB_CAFE}}</button>
+        <button class="tab" data-category="bookmark">❤️ {{TAB_BOOKMARK}}</button>
+      </nav>
+
+      <!-- ─── Place List ─── -->
+      <section class="place-list" aria-label="Place list">
+        {{PLACES_LIST}}
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ─── Footer ─── -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Kuromoon · AI가 검증한 한국 로컬 정보</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.min.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+# Kuromoon — GitHub Actions Workflow
+# Full automation pipeline: trend detect → refine → verify → build → SEO → deploy
+
+name: Kuromoon Pipeline
+
+on:
+  # Manual trigger
+  workflow_dispatch:
+
+  # Scheduled runs disabled (Running locally via Windows Task Scheduler)
+  # schedule:
+  #   - cron: '0 21 * * *'  # 6AM KST
+  #   - cron: '0 9 * * *'   # 6PM KST
+
+env:
+  GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+  NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+  NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+  PUBLIC_DATA_API_KEY: ${{ secrets.PUBLIC_DATA_API_KEY }}
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: web
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Step 1: Trend Detection
+      - name: Trend Detection
+        run: node pipeline/trend-detect.js
+
+      # Step 2: AI Data Refinement
+      - name: AI Data Refinement (Gemini)
+        run: node pipeline/refine.js
+
+      # Step 3: Self-Verification (3 Filters)
+      - name: Self-Verification
+        run: node pipeline/verify.js
+
+      # Step 4: Static Site Build
+      - name: Build Static Pages
+        run: node build.js
+
+      # Step 5: SEO Assets
+      - name: Generate SEO Assets
+        run: node pipeline/generate-seo.js
+
+      # Commit updated data & generated pages
+      - name: Commit changes
+        run: |
+          cd ..
+          git config user.name "Kuromoon Bot"
+          git config user.email "bot@kuromoon.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "🤖 Auto-update: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push

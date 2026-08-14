@@ -1,0 +1,22 @@
+# Kuromoon (kuromoon.com) — Robots.txt
+# AI crawlers are welcome!
+
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+Sitemap: https://kuromoon.com/sitemap.xml

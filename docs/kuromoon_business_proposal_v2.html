@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuromoon (쿠로문) Business Proposal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #6366f1;
+            --primary-light: #818cf8;
+            --primary-dark: #4f46e5;
+            --secondary: #ec4899;
+            --bg: #0f172a;
+            --surface: rgba(30, 41, 59, 0.7);
+            --surface-light: rgba(51, 65, 85, 0.8);
+            --text: #f8fafc;
+            --text-muted: #94a3b8;
+            --glass-border: rgba(255, 255, 255, 0.1);
+            --accent: #10b981;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans KR', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Animated Background */
+        .bg-shapes {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: -1;
+            overflow: hidden;
+            background: radial-gradient(circle at 15% 50%, rgba(99, 102, 241, 0.15), transparent 25%),
+                        radial-gradient(circle at 85% 30%, rgba(236, 72, 153, 0.15), transparent 25%);
+        }
+
+        .shape {
+            position: absolute;
+            filter: blur(80px);
+            opacity: 0.5;
+            animation: float 20s infinite alternate;
+        }
+
+        .shape-1 {
+            top: -10%;
+            left: -10%;
+            width: 50vw;
+            height: 50vw;
+            background: var(--primary);
+            border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+        }
+
+        .shape-2 {
+            bottom: -10%;
+            right: -10%;
+            width: 40vw;
+            height: 40vw;
+            background: var(--secondary);
+            border-radius: 60% 40% 30% 70% / 50% 60% 40% 50%;
+            animation-delay: -10s;
+        }
+
+        @keyframes float {
+            0% { transform: translate(0, 0) rotate(0deg); }
+            100% { transform: translate(5%, 10%) rotate(20deg); }
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 5rem;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        h1 {
+            font-size: 4rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, #a5b4fc, #fbcfe8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 1rem;
+            letter-spacing: -0.05em;
+        }
+
+        .slogan {
+            font-size: 1.5rem;
+            color: var(--text-muted);
+            font-weight: 300;
+        }
+
+        .glass-card {
+            background: var(--surface);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid var(--glass-border);
+            border-radius: 24px;
+            padding: 3rem;
+            margin-bottom: 3rem;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            transform: translateY(0);
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.4s ease;
+            opacity: 0;
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+
+        .glass-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 30px 60px -12px rgba(0, 0, 0, 0.6), 0 0 40px rgba(99, 102, 241, 0.1);
+        }
+
+        /* Staggered Animations */
+        .glass-card:nth-child(1) { animation-delay: 0.1s; }
+        .glass-card:nth-child(2) { animation-delay: 0.2s; }
+        .glass-card:nth-child(3) { animation-delay: 0.3s; }
+        .glass-card:nth-child(4) { animation-delay: 0.4s; }
+        .glass-card:nth-child(5) { animation-delay: 0.5s; }
+        .glass-card:nth-child(6) { animation-delay: 0.6s; }
+        .glass-card:nth-child(7) { animation-delay: 0.7s; }
+
+        h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        h2::before {
+            content: '';
+            display: block;
+            width: 40px;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            border-radius: 2px;
+        }
+
+        h3 {
+            font-size: 1.35rem;
+            color: var(--primary-light);
+            margin: 2.5rem 0 1rem 0;
+            border-bottom: 1px solid var(--glass-border);
+            padding-bottom: 0.5rem;
+        }
+
+        h4 {
+            font-size: 1.15rem;
+            color: #fbcfe8;
+            margin: 1.5rem 0 0.5rem 0;
+        }
+
+        p {
+            margin-bottom: 1.2rem;
+            font-size: 1.1rem;
+            font-weight: 300;
+        }
+
+        ul {
+            list-style: none;
+            margin-bottom: 1.5rem;
+        }
+
+        li {
+            position: relative;
+            padding-left: 2rem;
+            margin-bottom: 0.8rem;
+            font-size: 1.05rem;
+        }
+
+        li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: var(--secondary);
+            font-weight: bold;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .metric-box, .role-box {
+            background: var(--surface-light);
+            border: 1px solid var(--glass-border);
+            padding: 1.5rem;
+            border-radius: 16px;
+            transition: all 0.3s ease;
+        }
+
+        .metric-box:hover, .role-box:hover {
+            background: rgba(99, 102, 241, 0.15);
+            border-color: var(--primary-light);
+        }
+
+        .metric-title {
+            font-size: 1rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+
+        .metric-value {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: #fff;
+            text-align: center;
+        }
+
+        .role-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .role-title span {
+            font-size: 0.8rem;
+            background: var(--primary);
+            padding: 0.2rem 0.6rem;
+            border-radius: 999px;
+        }
+
+        .highlight {
+            color: var(--secondary);
+            font-weight: 500;
+        }
+
+        .timeline {
+            position: relative;
+            margin-top: 2rem;
+            padding-left: 2rem;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(to bottom, var(--primary), var(--secondary));
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2.5rem;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -2.35rem;
+            top: 0.25rem;
+            width: 1rem;
+            height: 1rem;
+            background: var(--bg);
+            border: 2px solid var(--secondary);
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+        .timeline-month {
+            font-weight: 800;
+            color: var(--primary-light);
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(40px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Tag system */
+        .tags {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin-top: 1rem;
+        }
+
+        .tag {
+            background: rgba(99, 102, 241, 0.2);
+            color: var(--primary-light);
+            padding: 0.25rem 0.75rem;
+            border-radius: 999px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            border: 1px solid rgba(99, 102, 241, 0.3);
+        }
+        
+        .tag.secondary {
+            background: rgba(236, 72, 153, 0.2);
+            color: #fbcfe8;
+            border-color: rgba(236, 72, 153, 0.3);
+        }
+        
+        .tag.success {
+            background: rgba(16, 185, 129, 0.2);
+            color: #6ee7b7;
+            border-color: rgba(16, 185, 129, 0.3);
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 3rem; }
+            .glass-card { padding: 2rem; }
+            .container { padding: 2rem 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>Kuromoon (쿠로문)</h1>
+            <p class="slogan">AI가 추천하는 한국 로컬의 진짜 평판</p>
+            <div class="tags" style="justify-content: center; margin-top: 1.5rem;">
+                <span class="tag">AI-Optimized</span>
+                <span class="tag">Schema.org JSON-LD</span>
+                <span class="tag secondary">Generative Engine Optimization (GEO)</span>
+            </div>
+        </header>
+
+        <main>
+            <!-- 1. Executive Summary -->
+            <section class="glass-card">
+                <h2>1. Executive Summary</h2>
+                <p><strong>Kuromoon(쿠로문)</strong>은 제미나이(Gemini), ChatGPT 등 생성형 AI 검색 엔진이 한국의 로컬 비즈니스 정보를 완벽하게 인용할 수 있도록 설계된 <strong>초경량 AI 전용 디렉토리 플랫폼</strong>입니다.</p>
+                <p>현재 네이버, 카카오 등 국내 포털의 폐쇄형(Closed Garden) 생태계로 인해 글로벌 AI 크롤러들은 한국의 양질의 로컬 데이터(맛집, 뷰티, 팝업스토어 등)에 접근하지 못하고 있습니다. Kuromoon은 정적 HTML과 Schema.org JSON-LD를 활용하여 AI가 가장 선호하는 형태로 데이터를 구조화하고 오픈 웹에 제공함으로써, <strong>생성형 엔진 최적화(GEO) 트래픽을 선점하는 블루오션 전략</strong>을 취합니다.</p>
+            </section>
+
+            <!-- 2. Market Opportunity -->
+            <section class="glass-card">
+                <h2>2. Market Opportunity (시장 기회)</h2>
+                <div class="grid">
+                    <div class="metric-box">
+                        <div class="metric-title">Target Audience 1</div>
+                        <div class="metric-value" style="font-size: 1.5rem;">한국 Z세대</div>
+                        <p style="font-size: 0.9rem; margin-top: 0.5rem; text-align: center;">광고성 리뷰를 피해 AI 기반 팩트 체크를 선호</p>
+                    </div>
+                    <div class="metric-box">
+                        <div class="metric-title">Target Audience 2</div>
+                        <div class="metric-value" style="font-size: 1.5rem;">외국인 관광객/거주자</div>
+                        <p style="font-size: 0.9rem; margin-top: 0.5rem; text-align: center;">언어 장벽 없이 영어로 구조화된 뷰티/의료/다이닝 정보 탐색</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 3. Organization & Job Descriptions -->
+            <section class="glass-card">
+                <h2>3. Organization & Job Description (조직 및 인력 기획)</h2>
+                <p>프로젝트의 빠른 실행과 성공적인 BEP 달성을 위해, <strong>초기 4인의 핵심 인력(Core Team)</strong>으로 린(Lean)하게 시작합니다.</p>
+                
+                <div class="grid">
+                    <div class="role-box">
+                        <div class="role-title">Project Manager <span>PM/PO</span></div>
+                        <p style="font-size: 0.95rem; color: var(--text-muted);">전체 프로덕트 방향성 및 마일스톤 관리</p>
+                        <ul style="font-size: 0.9rem;">
+                            <li>비즈니스 모델(BM) 기획 및 로드맵 수립</li>
+                            <li>GEO(생성형 엔진 최적화) 전략 리드 및 AI 검색 트렌드 분석</li>
+                            <li>마케팅/개발/영업 간 커뮤니케이션 조율 및 백로그 관리</li>
+                            <li>핵심 파트너십(에이전시, 대형 병원 등) 초기 영업 주도</li>
+                        </ul>
+                    </div>
+
+                    <div class="role-box">
+                        <div class="role-title">AI & Data Engineer <span>Tech</span></div>
+                        <p style="font-size: 0.95rem; color: var(--text-muted);">로컬 데이터 수집 파이프라인 및 정제 시스템 구축</p>
+                        <ul style="font-size: 0.9rem;">
+                            <li>인스타그램, 포털 등에서 비정형 데이터 스크래핑 봇 개발</li>
+                            <li>Gemini / OpenAI API를 활용한 데이터를 JSON 형태로 자동 정제 (AI 자동화 파이프라인)</li>
+                            <li>데이터 신뢰도 자가 검증 시스템(국세청 API 연동, 링크 활성화 검사) 개발</li>
+                        </ul>
+                    </div>
+
+                    <div class="role-box">
+                        <div class="role-title">Frontend Developer <span>Tech</span></div>
+                        <p style="font-size: 0.95rem; color: var(--text-muted);">초경량/고효율의 웹 플랫폼 구현</p>
+                        <ul style="font-size: 0.9rem;">
+                            <li>바닐라 HTML/CSS 기반의 정적 페이지(Static Site) 생성 로직 구현</li>
+                            <li>Schema.org, JSON-LD, llms.txt 등 AI 크롤러 친화적 마크업 개발</li>
+                            <li>다국어(한국어/영어) 지원 라우팅 및 렌더링 최적화</li>
+                            <li>모바일/데스크톱 반응형 UI 및 마이크로 인터랙션 디자인</li>
+                        </ul>
+                    </div>
+
+                    <div class="role-box">
+                        <div class="role-title">Content MD & Marketer <span>Biz</span></div>
+                        <p style="font-size: 0.95rem; color: var(--text-muted);">양질의 데이터 확보 및 초기 바이럴 주도</p>
+                        <ul style="font-size: 0.9rem;">
+                            <li>성수/홍대 등 핵심 타겟 상권의 트렌디한 팝업/뷰티 업체 큐레이션</li>
+                            <li>데이터 정합성 검수 및 외국어(영어) 뉘앙스 최적화</li>
+                            <li>틱톡, 인스타 릴스 등 숏폼 크리에이터 제휴를 통한 오가닉 바이럴 마케팅</li>
+                            <li>B2B 프리미엄 리스팅 인바운드 대응 및 세일즈 지원</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 4. Monetization Strategy -->
+            <section class="glass-card">
+                <h2>4. Monetization Strategy (매출 창출 제안)</h2>
+                <p>AI 검색 유입을 통한 트래픽(Traffic)을 기반으로, 확실한 니즈가 있는 로컬 비즈니스 업주들로부터 직접적인 매출을 발생시키는 <strong>다각화된 BM</strong>을 제안합니다.</p>
+
+                <h3>1) 프리미엄 리스팅 구독 (Premium Listing SaaS) - 핵심 수익원</h3>
+                <ul>
+                    <li><strong>기본 리스팅(Free):</strong> 상호명, 기본 주소, 영업시간 등 기본 데이터 무상 노출 (DB 볼륨 확대용).</li>
+                    <li><strong>프리미엄 구독(Paid):</strong> 월 3~5만 원 수준의 구독료 모델. AI 검색 결과 우선 노출 유도, 풍부한 멀티미디어(사진/영상) 삽입, <strong>'직접 예약 링크(캐치테이블, 네이버 예약, 인스타 DM 등)' 버튼 활성화</strong>.</li>
+                    <li><strong>타겟:</strong> 외국인 손님 유치가 절실한 K-뷰티샵, 피부과 및 객단가가 높은 팝업 전시.</li>
+                </ul>
+
+                <h3>2) 글로벌 제휴 마케팅 수수료 (Affiliate & CPA)</h3>
+                <ul>
+                    <li>영어/다국어 버전을 통해 유입된 외국인 관광객이 플랫폼 내에서 제휴 업체의 예약이나 결제를 완료할 경우 <strong>CPA(Cost Per Action) 수수료</strong>를 수취.</li>
+                    <li>크리에이트립(Creatrip) 같은 외국인 전용 예약 플랫폼, 혹은 피부과/성형외과와 직접 제휴하여 쿠폰 발급/예약 중개 커미션 획득.</li>
+                </ul>
+
+                <h3>3) B2B 타겟 광고 & '이주의 팝업' 스폰서십</h3>
+                <ul>
+                    <li>1~2주 단위로 열리고 닫히는 <strong>팝업스토어 특화 광고 상품</strong>. 메인 페이지 상단 "이번 주 주목할 팝업" 배너 판매.</li>
+                    <li>신규 브랜드를 런칭하는 에이전시를 대상으로 단기 고효율 노출 패키지 판매.</li>
+                </ul>
+
+                <h3>4) 로컬 트렌드 데이터 판매 (Data API)</h3>
+                <ul>
+                    <li>누적된 검색 키워드, 지역별 클릭률(CTR), 트렌드 급상승 업종 데이터를 가공하여 프랜차이즈 기업, 마케팅 에이전시에 월간 트렌드 리포트 또는 API 형태로 유료 판매.</li>
+                </ul>
+            </section>
+
+            <!-- 5. 12-Month Marketing Plan to BEP -->
+            <section class="glass-card">
+                <h2>5. 12-Month Marketing Plan (BEP 및 흑자 전환 계획)</h2>
+                <p>초기 자본 연소(Cash Burn)를 최소화하고, 12개월 내 월 매출 3~4,000만 원(인건비/서버비 커버)을 달성하여 <strong>BEP(손익분기점)를 맞추고 흑자 전환</strong>하는 단계별 플랜입니다.</p>
+                
+                <div class="timeline">
+                    <!-- Phase 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-month">Phase 1: DB Build & GEO (Month 1-3)</div>
+                        <h4>초기 데이터 구축 및 AI 엔진 인덱싱 (지출 최소화 구간)</h4>
+                        <ul>
+                            <li><strong>전략:</strong> 유료 마케팅 제로. 철저히 AI 크롤러와 구글 검색 엔진에 최적화된 초기 DB 구축에 집중.</li>
+                            <li><strong>액션:</strong> 성수, 홍대, 한남 지역의 고가치 로컬 데이터(팝업, 피부과) 1,000개 수집 및 정제. 구글 Indexing API를 통한 즉각적 색인 유도.</li>
+                            <li><strong>목표:</strong> 구글 검색 및 제미나이 질의 시 "Kuromoon" 출처 링크가 노출되기 시작.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Phase 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-month">Phase 2: Viral & Traffic Growth (Month 4-6)</div>
+                        <h4>오가닉 트래픽 폭발 및 바이럴 (MAU 10만 달성)</h4>
+                        <ul>
+                            <li><strong>전략:</strong> 숏폼 플랫폼(틱톡, 릴스)을 활용한 B2C 유저(한국 Z세대 및 방한 외국인) 트래픽 유입.</li>
+                            <li><strong>액션:</strong> 마이크로 인플루언서 제휴(비용 대비 효과 극대화). "네이버엔 없고 AI로 찾은 로컬 핫플" 메시지로 바이럴 콘텐츠 제작. 한국 거주 외국인(Expat) 커뮤니티(Reddit, Facebook 그룹)에 영문 페이지 배포.</li>
+                            <li><strong>목표:</strong> 월간 활성 사용자(MAU) 10만 명 돌파. 압도적인 트래픽 지표 확보.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Phase 3 -->
+                    <div class="timeline-item">
+                        <div class="timeline-month">Phase 3: Early Monetization (Month 7-9)</div>
+                        <h4>B2B 영업 개시 및 프리미엄 리스팅 도입 (첫 매출 발생)</h4>
+                        <ul>
+                            <li><strong>전략:</strong> 확보된 MAU 지표를 무기로 B2B 세일즈 시작. 초기 전환율을 높이기 위한 Freemium 전략 사용.</li>
+                            <li><strong>액션:</strong> 성수동 팝업 에이전시 및 강남 피부과 대상 다이렉트 메일(콜드 메일/전화) 발송. "프리미엄 리스팅 1개월 무료 체험" 프로모션 배포.</li>
+                            <li><strong>목표:</strong> 무료 체험 후 유료 결제로 전환되는 초기 유료 구독자 100개사 확보. (월 매출 약 500~1,000만 원)</li>
+                        </ul>
+                    </div>
+
+                    <!-- Phase 4 -->
+                    <div class="timeline-item">
+                        <div class="timeline-month">Phase 4: Scaling & BEP Achievement (Month 10-12)</div>
+                        <h4>수익화 스케일업 및 BEP 돌파</h4>
+                        <ul>
+                            <li><strong>전략:</strong> 캐시카우 카테고리(외국인 대상 K-뷰티, 의료) 집중 공략 및 Affiliate 수익 모델 결합.</li>
+                            <li><strong>액션:</strong> 유료 구독 업체 대상 마케팅 성과 리포트 자동 발송으로 리텐션(유지율) 향상. 영업 전담 인력(Sales) 충원 또는 기존 인력의 B2B 영업 풀타임 전환. 예약 중개 플랫폼 연동을 통한 수수료 수익 가시화.</li>
+                            <li><strong>목표:</strong> 유료 프리미엄 구독 400개사 확보 (구독료 및 광고 수익 월 3~4,000만 원 달성). <strong>완전한 BEP 도달 및 흑자 전환.</strong></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="tags" style="margin-top: 2rem;">
+                    <span class="tag success">BEP in 12 Months</span>
+                    <span class="tag">#B2BSaaS</span>
+                    <span class="tag">#OrganicGrowth</span>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script>
+        // Add subtle hover effects to cards
+        document.querySelectorAll('.glass-card').forEach(card => {
+            card.addEventListener('mousemove', (e) => {
+                const rect = card.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                card.style.background = `rgba(30, 41, 59, 0.7) radial-gradient(circle at ${x}px ${y}px, rgba(99, 102, 241, 0.1) 0%, transparent 50%)`;
+            });
+            card.addEventListener('mouseleave', () => {
+                card.style.background = `rgba(30, 41, 59, 0.7)`;
+            });
+        });
+    </script>
+</body>
+</html>
