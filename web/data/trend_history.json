@@ -16183,5 +16183,565 @@
         ]
       }
     }
+  },
+  {
+    "timestamp": "2026-08-15T09:00:43.747Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "코르티스 팝업",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "빅뱅 20주년 팝업",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "뷰오리 드림니트 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "뉴트럴 하이볼 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "반리셀 팝업스토어",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "영도다리떡방 팝업",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "민음사 오늘의귀여움 팝업",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "왓어브레드 롯데월드몰 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "은혼 팝업 요시와라 대염상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "명탐정 코난 추리게임 팝업",
+            "trend_score": 30,
+            "data_points": 5
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "한강 웨이크 서핑",
+            "trend_score": 100,
+            "data_points": 2
+          },
+          {
+            "keyword": "홍대 액티브모드",
+            "trend_score": 39,
+            "data_points": 5
+          },
+          {
+            "keyword": "성수 반지공방 유니유",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "성수 향수공방 라오크",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "뇌측정 향수공방 레트르",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "성수 도예공방 크래프트프랙티스",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "암흑 체험 카페",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "CU 홍대 라면라이브러리",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "한복 대여 경복궁",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "드로잉 클래스 공방",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": [
+          {
+            "keyword": "성수동 헤드스파",
+            "trend_score": 100,
+            "data_points": 1
+          },
+          {
+            "keyword": "퍼스널컬러 진단 전문",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "강남 어스니스 스파",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "에버핏 다이어트 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "프리미엄 두피 케어",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "비건 뷰티 체험",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "맞춤형 화장품 제작",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "웰니스 요가 스튜디오",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "명상 사운드 테라피",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "이색 뷰티 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": [
+          {
+            "keyword": "JL 디저트바",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "미디어아트 다이닝 NOR",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "비언유주얼 미디어아트",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "카니랩 미디어아트",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "디저트 오마카세 문화시민서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "한옥 다이닝 코스",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "비주얼 오마카세",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "테마 레스토랑",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "오감 만족 다이닝",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "이색 콜라보 다이닝",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": [
+          {
+            "keyword": "갤러리 카페",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "북카페",
+            "trend_score": 76,
+            "data_points": 5
+          },
+          {
+            "keyword": "테마 카페",
+            "trend_score": 59,
+            "data_points": 5
+          },
+          {
+            "keyword": "미디어아트 카페 더아카이브",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "ARTE CAFE",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "LP 청음 카페",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "반응형 미디어아트 카페 이스티브",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "디저트 오마카세 카페",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "식물원 카페",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "이색 컨셉 가오픈 카페",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-08-15T09:00:50.750Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "TFT 와일드 팬페스트",
+            "trend_score": 100,
+            "data_points": 4
+          },
+          {
+            "keyword": "CORTIS TOUR 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "알파드라이브원 팝업",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "이누야샤 팝업 홍대",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "전지적 독자 시점 팝업",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "NANA 콜라보 카페",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "텐제로 오프뷰티 팝업",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "히얼 국내 첫 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "말랑페스타 서울",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "디에디트 몰입형 전시",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "뤼미에르 퍼퓸 연남",
+            "trend_score": 100,
+            "data_points": 4
+          },
+          {
+            "keyword": "칵테일 원데이 클래스",
+            "trend_score": 45,
+            "data_points": 3
+          },
+          {
+            "keyword": "비라이트 공방 향수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "자개소반 미니어처",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "남산골 다과 만들기",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "북촌 한옥마을 다도",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "성수동 팩토리 투어",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "규방공예 원데이",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "풀짚공예 원데이",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "활 만들기 원데이",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": [
+          {
+            "keyword": "웰니스하우스서울",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "헤드스파K",
+            "trend_score": 63,
+            "data_points": 5
+          },
+          {
+            "keyword": "홍대 퍼스널컬러 진단",
+            "trend_score": 42,
+            "data_points": 5
+          },
+          {
+            "keyword": "성수동 헤드스파",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "명동 박선생 헤드스파",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "홍대 컬러 오브 유",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "조선 팰리스 웰니스",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "뷰티플레이 K뷰티 체험",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "강남 고급 웰니스 스파",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "두피 스케일링 테라피",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": [
+          {
+            "keyword": "디저트 오마카세",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "미디어아트 다이닝",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "비주얼 오마카세",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "한옥 다이닝 코스",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "테마 다이닝 레스토랑",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "컨셉 다이닝 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "파인 다이닝 이색",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "오마카세 핫플 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "콜라보 다이닝 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "이색 와인 페어링",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": [
+          {
+            "keyword": "한옥 베이커리 카페",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "LP 청음 카페",
+            "trend_score": 69,
+            "data_points": 5
+          },
+          {
+            "keyword": "미디어아트 카페",
+            "trend_score": 31,
+            "data_points": 5
+          },
+          {
+            "keyword": "성수동 구멍 카페",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "디저트 오마카세 카페",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "테마 카페 핫플",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "루프탑 카페 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "이색 컨셉 카페",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "가오픈 카페 신상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "북카페 이색 공간",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      }
+    }
   }
 ]
