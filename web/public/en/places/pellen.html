@@ -4,9 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4YKCWHHXV9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-4YKCWHHXV9');
+
+    // Track place detail view
+    gtag('event', 'view_place_detail', {
+      'place_id': 'pellen',
+      'place_name': 'Pellen',
+      'place_category': 'cafe',
+      'place_keywords': '서울숲,위스키커피,디저트,성수동,감성카페'
+    });
+  </script>
+
   <!-- ─── Primary SEO ─── -->
   <title>Pellen — Kuromoon</title>
-  <meta name="description" content="Newly opened art/theme cafe located on Seoulsup-gil in Seongsu-dong.">
+  <meta name="description" content="A Seongsu cafe offering whiskey-scented coffee and dessert pairings.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://kuromoon.com/en/places/pellen.html">
 
@@ -19,7 +36,7 @@
   <meta property="og:type" content="place">
   <meta property="og:site_name" content="Kuromoon">
   <meta property="og:title" content="Pellen — Kuromoon">
-  <meta property="og:description" content="Newly opened art/theme cafe located on Seoulsup-gil in Seongsu-dong.">
+  <meta property="og:description" content="A Seongsu cafe offering whiskey-scented coffee and dessert pairings.">
   <meta property="og:url" content="https://kuromoon.com/en/places/pellen.html">
   <meta property="og:image" content="">
   <meta property="og:locale" content="en_US">
@@ -27,7 +44,7 @@
   <!-- ─── Twitter Card ─── -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Pellen">
-  <meta name="twitter:description" content="Newly opened art/theme cafe located on Seoulsup-gil in Seongsu-dong.">
+  <meta name="twitter:description" content="A Seongsu cafe offering whiskey-scented coffee and dessert pairings.">
   <meta name="twitter:image" content="">
 
   <!-- ─── Schema.org JSON-LD (AI Crawler Optimized) ─── -->
@@ -36,12 +53,19 @@
   "@context": "https://schema.org",
   "@type": "CafeOrCoffeeShop",
   "name": "Pellen",
-  "description": "Newly opened art/theme cafe located on Seoulsup-gil in Seongsu-dong.",
-  "image": "https://kuromoon.com/img/og-default.jpg",
+  "description": "A Seongsu cafe offering whiskey-scented coffee and dessert pairings.",
+  "image": "https://kuromoon.net/img/og-default.jpg",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "1F, 6, Seoulsup 2-gil, Seongdong-gu, Seoul, Republic of Korea",
+    "streetAddress": "1F, 6, Seoulsup 2-gil, Seongdong-gu, Seoul",
     "addressCountry": "KR"
+  },
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://naver.me/GowCRt7v"
+    }
   }
 }
   </script>
@@ -77,7 +101,7 @@
     </div>
   </header>
 
-  <main>
+  <main data-pagefind-body>
     <!-- ─── Hero Image ─── -->
     
 
@@ -86,8 +110,8 @@
 
       <div class="detail-header-row">
         <div>
-          <div class="detail-category">Art/Theme Cafe</div>
-          <h1 class="detail-title">Pellen</h1>
+          <div class="detail-category" data-pagefind-filter="category">Art/Theme Cafe</div>
+          <h1 class="detail-title" data-pagefind-meta="title">Pellen</h1>
           
         </div>
         <button class="like-btn" id="likeBtn" aria-label="Like this place">🤍</button>
@@ -96,33 +120,39 @@
       <!-- ─── Trust Badge ─── -->
       
         <div class="source-badge">
-          🔥 Over 802 Naver blog reviews
-          
+          🔥 Over 9 Naver blog reviews
+          <br/>✅ Recent status: 운영 중
         </div>
       
 
-      <p class="detail-summary">Newly opened art/theme cafe located on Seoulsup-gil in Seongsu-dong.</p>
+      <p class="detail-summary" data-pagefind-meta="summary">A Seongsu cafe offering whiskey-scented coffee and dessert pairings.</p>
 
       <!-- ─── AI Detailed Description ─── -->
       <div class="ai-description" style="margin-top: 1.5rem; line-height: 1.6; color: var(--text-secondary); background: rgba(255,255,255,0.03); border-left: 3px solid var(--accent); padding: 1rem; border-radius: 4px; font-size: 0.9rem;">
-        Pellen is a newly opened art/theme cafe on Seoulsup-gil in Seongsu-dong, offering visitors a unique experience by blending distinctive artistic sensibilities with a specific theme. Here, sensory interiors and artworks create visual delight, allowing guests to relax in an inspiring and comfortable atmosphere. Visitors can savor the cafe's signature beverages or desserts, further immersing themselves in the artistic theme of the space. This sophisticated and artistic venue is perfect for meeting friends, romantic dates, or even spending solo time to find inspiration. As it's in its soft opening phase, it's advisable to check operating details before visiting.
+        Pellen is a unique art/theme cafe specializing in whiskey-scented Dutch coffee and exquisite dessert pairings, boasting an unparalleled ambiance. Visitors can indulge in a distinctive coffee lineup and meticulously prepared desserts, offering a refined culinary experience. The whiskey-scented Dutch coffee paired with complementary desserts is a must-try signature offering at Pellen. Its distinctive and aesthetic interior creates a perfect setting for friends, couples, or solo visitors seeking a special weekend coffee experience. As it operates only on weekends, checking the opening hours before visiting is recommended, and parking is unavailable, requiring the use of nearby paid parking lots.
       </div>
 
       <!-- ─── Tags ─── -->
-      <div class="tags-row"><span class="tag">#성수카페</span><span class="tag">#서울숲카페</span><span class="tag">#신상카페</span><span class="tag">#아트카페</span></div>
+      <div class="tags-row"><span class="tag">#서울숲</span><span class="tag">#위스키커피</span><span class="tag">#디저트</span><span class="tag">#성수동</span><span class="tag">#감성카페</span></div>
 
       <!-- ─── Info ─── -->
       <div class="info-section">
-        <div class="info-row"><span class="info-icon">📍</span><span class="info-label">Address</span><span class="info-value">1F, 6, Seoulsup 2-gil, Seongdong-gu, Seoul, Republic of Korea</span></div>
+        <div class="info-row"><span class="info-icon">📍</span><span class="info-label">Address</span><span class="info-value">1F, 6, Seoulsup 2-gil, Seongdong-gu, Seoul</span></div><div class="info-row"><span class="info-icon">🕒</span><span class="info-label">Hours</span><span class="info-value">토, 일 12:00 - 19:00 (월~금 휴무)</span></div><div class="info-row"><span class="info-icon">💰</span><span class="info-label">Price</span><span class="info-value">₩6,000 ~ ₩38,000</span></div>
       </div>
 
       <!-- ─── Action Buttons ─── -->
+      
+        <div class="action-buttons" style="margin-bottom:0.75rem;">
+          <a href="https://naver.me/GowCRt7v" target="_blank" rel="noopener" class="btn btn-primary" style="display:block; width:100%;">📅 Book Now</a>
+        </div>
       
       <div class="action-buttons">
         <a href="https://www.google.com/maps/search/?api=1&query=Pellen" target="_blank" rel="noopener" class="btn btn-secondary" style="border-color:#4285F4; color:#4285F4;">🔵 Google Maps</a><a href="https://map.naver.com/v5/search/%ED%8E%A0%EB%A5%B8" target="_blank" rel="noopener" class="btn btn-secondary" style="border-color:#03c75a; color:#03c75a;">🟢 Naver Map</a>
       </div>
       <div class="action-buttons">
         
+        <a href="https://www.instagram.com/perlen_official/" target="_blank" rel="noopener" class="btn btn-secondary" style="border-color:#e1306c; color:#e1306c;">📸 Instagram</a>
+      
         <button onclick="shareKakao()" class="btn btn-secondary">💬 카카오</button>
         <button onclick="copyLink()" class="btn btn-secondary">🔗 링크</button>
       </div>

@@ -203,6 +203,9 @@ async function main() {
     // Step 4: AI Data Refinement
     runStep('AI Data Refinement (Gemini)', path.join(PIPELINE_DIR, 'refine.js'), 'refine');
 
+    // Step 4.2: Self-Verification (Post-Refine Date & Score Verification)
+    runStep('Self-Verification (Post-Refine)', path.join(PIPELINE_DIR, 'verify.js'), 'verify');
+
     // Step 4.5: Naver Place Metadata Enrichment
     runStep('Naver Place Metadata Enrichment', path.join(PIPELINE_DIR, 'enrich-places.js'), 'enrich-places');
 

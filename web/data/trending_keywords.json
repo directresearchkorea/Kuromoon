@@ -1,63 +1,63 @@
 {
-  "generated_at": "2026-08-16",
+  "generated_at": "2026-08-19",
   "mode": "live-dynamic",
   "period": {
-    "start": "2026-07-17",
-    "end": "2026-08-16"
+    "start": "2026-07-20",
+    "end": "2026-08-19"
   },
   "categories": {
     "popup": {
       "label": "팝업/전시",
       "trending_keywords": [
         {
-          "keyword": "알파드라이브원 이머시브 팝업",
+          "keyword": "빅뱅 2026 - 2027 월드투어 공식 서울 팝업",
+          "trend_score": 100,
+          "data_points": 1
+        },
+        {
+          "keyword": "틴더 패스포트 라운지",
+          "trend_score": 88,
+          "data_points": 3
+        },
+        {
+          "keyword": "판도라 팝업",
+          "trend_score": 54,
+          "data_points": 3
+        },
+        {
+          "keyword": "우주떡집 팝업",
+          "trend_score": 40,
+          "data_points": 5
+        },
+        {
+          "keyword": "펄 에이전트 팝업",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "히비키 테이스트 오브 하모니 팝업",
+          "keyword": "스트레이키즈 스키즈 팝업스토어 디스앤댓",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "뷰오리 드림니트 성수 팝업",
+          "keyword": "XYZ 슈글로우 팝업",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "아카이브 앱크 서촌 프리뷰 팝업",
+          "keyword": "t1 팝업 암행천문",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "롯데 빅뱅 20주년 팝업",
+          "keyword": "이토 준지 x 산리오 x 나이스고스트클럽 팝업",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "신세계 무민 데이드림 팝업",
+          "keyword": "해즈빈 호텔 팝업",
           "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "갤러리아 기어라운지 팝업",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "이마트24 뉴트럴 하이볼 팝업",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "더 룩 뷰티 팝업",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "사운즈굿 패션 팝업",
-          "trend_score": 30,
-          "data_points": 0
+          "data_points": 4
         }
       ]
     },
@@ -65,54 +65,54 @@
       "label": "이색 체험",
       "trending_keywords": [
         {
-          "keyword": "오키친 스튜디오 쿠킹 클래스",
+          "keyword": "빅뱅 2026 - 2027 월드투어 공식 서울 팝업",
           "trend_score": 100,
           "data_points": 1
         },
         {
-          "keyword": "성수 뤼미에르 향수 만들기",
+          "keyword": "틴더 패스포트 라운지",
+          "trend_score": 50,
+          "data_points": 3
+        },
+        {
+          "keyword": "펄 에이전트",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "서울 반지공방 왁스카빙",
+          "keyword": "판도라 팝업 미션",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "해리티나 커플링 만들기",
+          "keyword": "알파드라이브원 팝업스토어 미션",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "홍대 반지카페 반지만들기",
+          "keyword": "t1 팝업 암행천문",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "도자기 만들기 원데이 클래스",
+          "keyword": "글렌피딕 X 애스턴마틴 F1팀 팝업",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "플로앤 플라워 클래스",
+          "keyword": "이토 준지 x 산리오 x 나이스고스트클럽 팝업",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "한국 사찰 음식 쿠킹 클래스",
+          "keyword": "스트레이키즈 스키즈 팝업스토어 디스앤댓",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "서울 전통 김치 만들기 체험",
+          "keyword": "해즈빈 호텔 팝업",
           "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "연필 색연필 드로잉 클래스",
-          "trend_score": 30,
-          "data_points": 0
+          "data_points": 4
         }
       ]
     },
@@ -120,52 +120,52 @@
       "label": "뷰티/웰니스",
       "trending_keywords": [
         {
-          "keyword": "성수 헤드스파 어낵",
+          "keyword": "조말론 팝업",
+          "trend_score": 100,
+          "data_points": 5
+        },
+        {
+          "keyword": "해즈빈 호텔 팝업",
+          "trend_score": 52,
+          "data_points": 4
+        },
+        {
+          "keyword": "트오뷰 별별 문방구 뷰티팝업",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "성수 헤드스파 뷰티포스마일",
+          "keyword": "롬앤 팝업",
+          "trend_score": 30,
+          "data_points": 5
+        },
+        {
+          "keyword": "판도라 팝업",
+          "trend_score": 30,
+          "data_points": 3
+        },
+        {
+          "keyword": "스트레이키즈 스키즈 팝업스토어 디스앤댓",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "헤드스파K 두피 진단",
+          "keyword": "빅뱅 2026 - 2027 월드투어 공식 서울 팝업",
+          "trend_score": 30,
+          "data_points": 1
+        },
+        {
+          "keyword": "이토 준지 x 산리오 x 나이스고스트클럽 팝업",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "누메로원 헤드스파",
+          "keyword": "틴더 패스포트 라운지",
           "trend_score": 30,
-          "data_points": 0
+          "data_points": 3
         },
         {
-          "keyword": "JW스파 하이드로 테라피",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "비건 뷰티 체험 공간",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "프라이빗 웰니스 스파",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "향수 조향 원데이 클래스",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "두피 모발 맞춤 케어",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "고급 에스테틱 바디 관리",
+          "keyword": "XYZ 슈글로우 팝업",
           "trend_score": 30,
           "data_points": 0
         }
@@ -175,52 +175,52 @@
       "label": "컨셉 다이닝",
       "trending_keywords": [
         {
-          "keyword": "미디어아트 다이닝 서울",
+          "keyword": "오르노",
+          "trend_score": 100,
+          "data_points": 5
+        },
+        {
+          "keyword": "만장",
+          "trend_score": 30,
+          "data_points": 5
+        },
+        {
+          "keyword": "밍키",
+          "trend_score": 30,
+          "data_points": 5
+        },
+        {
+          "keyword": "베수비오 권성준 셰프",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "디저트 오마카세 코스",
+          "keyword": "마다옥",
           "trend_score": 30,
-          "data_points": 0
+          "data_points": 5
         },
         {
-          "keyword": "한옥 다도 체험 코스",
+          "keyword": "풍조미역",
           "trend_score": 30,
-          "data_points": 0
+          "data_points": 5
         },
         {
-          "keyword": "비주얼 오마카세 맛집",
+          "keyword": "바름정육식당",
           "trend_score": 30,
-          "data_points": 0
+          "data_points": 4
         },
         {
-          "keyword": "컨셉 파인 다이닝",
+          "keyword": "탄쇼히비키",
           "trend_score": 30,
-          "data_points": 0
+          "data_points": 5
         },
         {
-          "keyword": "이색 테마 레스토랑",
+          "keyword": "정곤",
           "trend_score": 30,
-          "data_points": 0
+          "data_points": 5
         },
         {
-          "keyword": "셰프 특선 페어링 디너",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "제철 식재료 코스 요리",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "와인 페어링 다이닝",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "프라이빗 룸 다이닝",
+          "keyword": "전포돼지",
           "trend_score": 30,
           "data_points": 0
         }
@@ -230,54 +230,54 @@
       "label": "아트/테마 카페",
       "trending_keywords": [
         {
-          "keyword": "하우스오브바이닐 성수",
+          "keyword": "텀 커피하우스",
           "trend_score": 100,
           "data_points": 5
         },
         {
-          "keyword": "LP 청음 카페",
+          "keyword": "꼬늘커피",
+          "trend_score": 38,
+          "data_points": 4
+        },
+        {
+          "keyword": "본지르르 베이커리",
+          "trend_score": 31,
+          "data_points": 3
+        },
+        {
+          "keyword": "리틀런치클럽",
+          "trend_score": 31,
+          "data_points": 5
+        },
+        {
+          "keyword": "이인 카페",
           "trend_score": 30,
           "data_points": 5
         },
         {
-          "keyword": "디저트 오마카세 카페",
+          "keyword": "느좋 카페 커피샾",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "미디어아트 테마 카페",
+          "keyword": "그랑부어크 카페",
+          "trend_score": 30,
+          "data_points": 1
+        },
+        {
+          "keyword": "래버린투하트 카페",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "이색 컨셉 북카페",
+          "keyword": "폴라스튜디오앤카페",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "애니메이션 테마 카페",
+          "keyword": "티 리추얼",
           "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "공원스크립트 청음실",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "힐즈앤유로파 LP 카페",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "트래픽 LP BAR",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "컴피 삼각지 LP",
-          "trend_score": 30,
-          "data_points": 0
+          "data_points": 5
         }
       ]
     }

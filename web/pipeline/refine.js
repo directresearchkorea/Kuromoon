@@ -99,8 +99,8 @@ function buildPrompt(sourceText, category, referenceDate) {
 
 ## 출력 JSON 형식:
 {
-  "name_ko": "상호명 (한국어)",
-  "name_en": "Business Name (English translation)",
+  "name_ko": "상호명 (한국어, 팝업/전시의 경우 전체 공식 행사명을 축약 없이 적되, 이름 맨 뒤에 임의로 지역명 괄호 '(성수)' 등을 붙이지 마세요)",
+  "name_en": "Business/Event Name (English translation)",
   "category": "${category}",
   "address_ko": "전체 주소 (한국어, 추출 가능하면 동/구 단위까지 명시)",
   "address_en": "Full address (English)",
@@ -294,7 +294,8 @@ async function main() {
             continue;
         }
 
-        log(`   Text preview: "${input.source_text.substring(0, 60)}..."`);
+        const sourceText = input.source_text || '';
+        log(`   Text preview: "${sourceText.substring(0, 60)}..."`);
 
         try {
             const refDate = input.created_at || new Date().toISOString().slice(0, 10);
@@ -311,6 +312,20 @@ async function main() {
             // Generate ID and set schema type
             const finalCat = sanitizeCategory(extracted.category || input.category, extracted.name_ko);
             const id = generateSlug(extracted.name_en || extracted.name_ko);
+            let initialStatus = extracted.operating_status || input.operating_status || '운영 중';
+            const startDateStr = extracted.startDate || input.startDate;
+            const endDateStr = extracted.endDate || input.endDate;
+            if (startDateStr && endDateStr) {
+                const todayStr = new Date(Date.now() + 9 * 60 * 60 * 1000).toISOString().slice(0, 10);
+                if (todayStr > endDateStr) {
+                    initialStatus = '행사 종료';
+                } else if (todayStr < startDateStr) {
+                    initialStatus = '행사 예정';
+                } else {
+                    initialStatus = '행사 중';
+                }
+            }
+
             const place = {
                 id: id,
                 type: getSchemaType(finalCat),
@@ -321,7 +336,7 @@ async function main() {
                 biweekly_review_count: input.biweekly_review_count || 0,
                 recent_snippets: input.recent_snippets || [],
                 confidence_score: input.confidence_score || 0,
-                operating_status: input.operating_status || '운영 중',
+                operating_status: initialStatus,
                 last_status_checked_at: new Date().toISOString().slice(0, 10),
                 created_at: input.created_at || new Date().toISOString().slice(0, 10),
                 updated_at: input.updated_at || new Date().toISOString().slice(0, 10)

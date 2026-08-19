@@ -99,7 +99,7 @@ function searchNaverLocal(query) {
         }
         const options = {
             hostname: 'openapi.naver.com',
-            path: `/v1/search/local.json?query=${encodeURIComponent(query)}&display=5&sort=comment`,
+            path: `/v1/search/local.json?query=${encodeURIComponent(query)}&display=15&sort=comment`,
             method: 'GET',
             headers: {
                 'X-Naver-Client-Id': NAVER_CLIENT_ID,
@@ -253,19 +253,18 @@ function getCleanMapSearchQuery(keyword) {
 ## 작업 가이드:
 1. 키워드에서 실질적인 상점/행사장/전시장 이름(상호명)을 추출하세요.
 2. 상호명 앞뒤에 붙은 불필요한 수식어 및 검색 키워드(예: "한옥 와인", "퓨전 일식", "동화 감성", "클래스", "체험 코스", "분위기 좋은", "맛집", "카페 추천", "추천")는 제거하세요.
-3. 키워드에 포함된 구체적인 지역명(예: "익선", "제기동", "서순라길", "연남동", "용산", "성수", "홍대")이 있다면 상호명 뒤에 붙여 최적화된 검색어를 만드세요. 네이버 지도 API는 "[상호명] [지역명]" 순서로 검색할 때 가장 높은 정확도로 매칭됩니다.
-4. 예시:
-   - "익선반주 한옥 다이닝" -> "익선반주 익선동" 또는 "익선반주"
-   - "제기동 라이아 한옥 와인" -> "라이아 제기동"
-   - "서순라길 이다 한식" -> "이다 서순라길"
-   - "용산 도토리 동화 감성" -> "도토리 용산"
-   - "연남동 연트럴다방" -> "연트럴다방 연남동"
+3. [매우 중요] 만약 키워드가 '팝업스토어'나 '전시' 등 대관 행사일 경우, 행사가 열리는 '실제 대관 장소명/건물명'(예: 일상비일상의틈, 더현대 서울, 에스팩토리, 스퀘어, 롯데월드몰 등)이 키워드나 문맥에 포함되어 있다면 이를 'host_venue'로 별도 추출하세요.
+4. 네이버 지도 API는 팝업스토어 이름을 모를 수 있습니다. 따라서 host_venue가 존재한다면 네이버 지도 검색어는 host_venue를 1순위로 사용합니다.
+5. 예시:
+   - "일상비일상의틈 story A 팝업" -> name: "story A", host_venue: "일상비일상의틈", search_query: "일상비일상의틈"
+   - "더현대 서울 디올 팝업" -> name: "디올", host_venue: "더현대 서울", search_query: "더현대 서울"
+   - "익선반주 한옥 다이닝" -> name: "익선반주", host_venue: "", search_query: "익선반주 익선동"
 
 출력 형식은 반드시 아래 JSON 형식으로만 답변하세요 (다른 설명이나 마크다운 백틱 없이 JSON 블록만 출력):
 {
-  "name": "상호명 (예: 이다)",
-  "location": "지역명 (예: 서순라길)",
-  "search_query": "네이버 지도 검색어 (예: 이다 서순라길)"
+  "name": "상호명",
+  "host_venue": "대관장소명 또는 빈 문자열",
+  "search_query": "네이버 지도 검색어"
 }
 `;
 
@@ -510,8 +509,23 @@ async function main() {
             }
 
             if (places.length > 0) {
-                const maxPlacesToProcess = Math.min(places.length, 2);
-                log(`   ✅ Discovered ${places.length} matching places on Naver Maps. (Processing top ${maxPlacesToProcess})`);
+                // Filter out generic businesses and franchises to not waste slots
+                places = places.filter(p => {
+                    const pName = cleanHtml(p.title);
+                    const isGeneric = /(한의원|병원|의원|치과|약국|필라테스|요가|헬스장|피트니스|어린이집|유치원|학원|부동산|세무사|변호사)/.test(pName);
+                    const isFranchiseBranch = /(지점|점)$/.test(pName.trim()) && !/본점$/.test(pName.trim());
+                    
+                    if (isGeneric) {
+                        return (catKey === 'beauty' || catKey === 'activity');
+                    }
+                    if (isFranchiseBranch) {
+                        return false; // Always drop franchise branches from map results
+                    }
+                    return true;
+                });
+
+                const maxPlacesToProcess = Math.min(places.length, 5);
+                log(`   ✅ Discovered ${places.length} matching places on Naver Maps after filtering. (Processing top ${maxPlacesToProcess})`);
 
                 for (let idx = 0; idx < maxPlacesToProcess; idx++) {
                     const place = places[idx];

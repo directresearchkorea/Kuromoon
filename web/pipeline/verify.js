@@ -393,9 +393,9 @@ async function main() {
         // Filter 6: Rising New Trend Bonus (Max 30 points)
         log('  📈 Filter 6: Rising New Trend Bonus');
         let trendBonus = 0;
-        if (reviewCount < 1000 && weeklyCount >= 3) {
+        if (reviewCount < 1000 && weeklyCount >= 2) {
             trendBonus = 30;
-            log('    → Score: +30 | Emerging hot trend bonus applied (review_count < 1000 and weekly_review_count >= 3)');
+            log('    → Score: +30 | Emerging hot trend bonus applied (review_count < 1000 and weekly_review_count >= 2)');
         } else {
             log('    → Score: +0 | No emerging trend bonus');
         }
@@ -405,21 +405,33 @@ async function main() {
         log('  🏢 Filter 7: Permanent Chain Store Penalty');
         let chainPenalty = 0;
         const nameK = place.name_ko || '';
-        const isChainSuffix = /(본점|지점|점)$/.test(nameK.trim());
+        const isChainSuffix = /(지점|점)$/.test(nameK.trim()) && !/본점$/.test(nameK.trim());
         const isDepartmentStore = /(백화점|더현대|스타필드|아울렛)/.test(nameK) || (place.address_ko && /(백화점|더현대|스타필드|아울렛)/.test(place.address_ko));
         const isPopupName = /(팝업|전시|쇼룸)/.test(nameK);
         
         if (!isPopupName && (isChainSuffix || isDepartmentStore)) {
-            if ((place.category === 'cafe' || place.category === 'dining' || place.category === 'activity') && weeklyCount >= 5) {
-                log('    → Score: -0 | Waived penalty for popular trending cafe/dining/activity');
-            } else {
-                chainPenalty = -20;
-                log(`    → Score: ${chainPenalty} | Applied penalty for permanent chain/department store without popup keyword`);
-            }
+            chainPenalty = -40; // Increased penalty from -20 to -40 for franchises
+            log(`    → Score: ${chainPenalty} | Applied strict penalty for permanent chain/department store`);
         } else {
             log('    → Score: -0 | No chain penalty');
         }
         totalScore += chainPenalty;
+
+        // Filter 8: Generic Business Penalty (Max -100 points)
+        log('  🚫 Filter 8: Generic Business Penalty');
+        let genericPenalty = 0;
+        const isGenericBusiness = /(한의원|병원|의원|치과|약국|필라테스|요가|헬스장|피트니스|어린이집|유치원|학원|부동산|세무사|변호사)/.test(nameK);
+        if (isGenericBusiness) {
+            if (place.category === 'beauty' || place.category === 'activity') {
+                log('    → Score: -0 | Waived generic penalty for beauty/wellness/activity categories');
+            } else {
+                genericPenalty = -100;
+                log(`    → Score: ${genericPenalty} | Applied penalty for generic business types (clinic/pilates/etc)`);
+            }
+        } else {
+            log('    → Score: -0 | No generic business penalty');
+        }
+        totalScore += genericPenalty;
 
         // Cap score at 100
         let finalScore = Math.min(Math.max(totalScore, 0), 100);

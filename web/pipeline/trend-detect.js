@@ -105,6 +105,37 @@ function fetchNaverAutocomplete(query) {
 }
 
 /**
+ * Call Naver Blog Search API to fetch real-time blog data
+ */
+function searchNaverBlog(query, clientId, clientSecret, display = 40, sort = 'date') {
+    return new Promise((resolve) => {
+        if (!clientId || !clientSecret) return resolve([]);
+        const options = {
+            hostname: 'openapi.naver.com',
+            path: `/v1/search/blog.json?query=${encodeURIComponent(query)}&display=${display}&sort=${sort}`,
+            method: 'GET',
+            headers: {
+                'X-Naver-Client-Id': clientId,
+                'X-Naver-Client-Secret': clientSecret
+            }
+        };
+        https.get(options, (res) => {
+            res.setEncoding('utf8');
+            let data = '';
+            res.on('data', chunk => data += chunk);
+            res.on('end', () => {
+                try {
+                    const parsed = JSON.parse(data);
+                    resolve(parsed.items || []);
+                } catch (e) {
+                    resolve([]);
+                }
+            });
+        }).on('error', () => resolve([]));
+    });
+}
+
+/**
  * Call Gemini API with Google Search Grounding to discover trending keywords
  */
 function makeGeminiRequest(prompt, apiKey) {
@@ -227,6 +258,36 @@ function makeGeminiRequest(prompt, apiKey) {
 }
 
 /**
+ * Call Ollama API (Local LLM) for generating JSON
+ */
+function callOllama(prompt, model = 'gemma2:9b') {
+    return new Promise((resolve, reject) => {
+        const http = require('http');
+        const data = JSON.stringify({ model, prompt, stream: false, format: 'json' });
+        const options = {
+            hostname: 'localhost', port: 11434, path: '/api/generate',
+            method: 'POST', headers: { 'Content-Type': 'application/json', 'Content-Length': Buffer.byteLength(data) }
+        };
+        const req = http.request(options, (res) => {
+            let body = '';
+            res.on('data', chunk => body += chunk);
+            res.on('end', () => {
+                try {
+                    const parsed = JSON.parse(body);
+                    const cleaned = parsed.response.replace(/```json\s*/g, '').replace(/```\s*/g, '').trim();
+                    resolve(JSON.parse(cleaned));
+                } catch (e) {
+                    reject(new Error(`Ollama parsing failed: ${e.message}`));
+                }
+            });
+        });
+        req.on('error', reject);
+        req.write(data);
+        req.end();
+    });
+}
+
+/**
  * Generate sample trending data for demo mode
  */
 function generateSampleTrending() {
@@ -318,63 +379,58 @@ async function main() {
     // 1. Fetch Dynamic Keywords via Gemini (Google Search Grounding)
     let dynamicKeywords = null;
     if (geminiApiKey) {
-        log('🤖 Fetching live trends from Gemini (with Google Search Grounding)...');
+        log('🤖 Fetching real-time blog data to feed Gemini...');
+        let recentBlogText = "";
+        if (clientId && clientSecret) {
+            try {
+                const queries = ['성수 팝업', '서울 신상 카페', '가오픈 식당', '더현대 팝업'];
+                for (const q of queries) {
+                    const blogs = await searchNaverBlog(q, clientId, clientSecret, 20, 'date');
+                    const titles = blogs.map(b => b.title.replace(/<[^>]*>?/gm, '')).join(' | ');
+                    recentBlogText += `[${q} 최신 블로그] ${titles}\n`;
+                }
+            } catch (e) {
+                log(`⚠️ Failed to fetch recent blogs: ${e.message}`);
+            }
+        }
+
+        log('🤖 Fetching live trends from LOCAL OLLAMA (gemma2:9b) with real-time blog data...');
         const prompt = `당신은 한국의 로컬 검색 및 SNS 소셜 미디어 트렌드 분석 전문가입니다.
-현재 한국(특히 서울)의 10대~30대 젊은층 사이에서 가장 반응이 뜨겁고 **새롭고 독특한 경험(New Experience)을 제공하는 최신 검색 트렌드 키워드**를 카테고리별로 10개씩 찾아주세요.
+현재 시간은 **2026년 8월**입니다.
+한국(특히 서울)의 10대~30대 젊은층 사이에서 **가장 최근에 오픈했거나 이번 주에 폭발적으로 바이럴되고 있는 초신상 핫플레이스 키워드**를 카테고리별로 10개씩 찾아주세요.
 
-## 중요 주의사항 (크리티컬):
-1. **SNS 숏폼 및 소셜 미디어 트렌드 포착 (매우 중요)**:
-   - 네이버 등 메이저 포털사이트에 아직 대대적으로 검색량이 오르기 전이더라도, **인스타그램 릴스, 틱톡, 스레드(Threads) 등 젊은 층 중심의 숏폼 SNS 채널에서 최근 1~2주 내 해시태그나 조회수가 급증하며 강하게 바이럴을 타고 있는 극초기 신상 핫플레이스, 가오픈 매장, 브랜드 쇼룸, 팝업스토어, 이색 체험 공방의 상호명이나 구체적인 행사명**을 적극적으로 발굴해야 합니다.
+## 최신 실시간 데이터 참고 (매우 중요):
+아래는 방금 네이버 블로그 최신순 검색을 통해 수집한 가장 따끈따끈한 실시간 블로그 포스팅 제목들입니다.
+이 제목들을 분석하여 **실제로 사람들이 방금 다녀오고 글을 쓴 '가장 최신의 팝업, 가오픈 식당, 신상 카페' 상호명**을 적극적으로 추출하여 반영하세요.
+${recentBlogText}
+
+## 중요 주의사항 (크리티컬 - 어길 시 실패):
+1. **철저한 최신성**:
+   - 과거부터 오랫동안 꾸준히 유명했던 장소(예: 카니랩, 어둠속의대화, 하우스오브바이닐, 롯데월드 교복 대여 등)는 **절대 포함하지 마세요**.
+   - 반드시 **최근 1달 이내(가급적 최근 1~2주) 가오픈했거나 새로 시작한 팝업스토어, 신상 카페, 신규 전시**만 발굴해야 합니다.
 2. **경험 및 구체성 중심**:
-   - 단순히 '성수 카페'나 '홍대 공방' 같은 뻔하고 넓은 지역 키워드는 제외하십시오.
-   - **일반 상설 매장 및 체인점 배제 (필수)**: '아더에러 플래그십', '나이키 강남', '하이디라오 홍대점'과 같은 상시 운영되는 유명 체인점, 일반 명품 매장, 정규 지점은 제외하세요.
-   - 브랜드 공간의 경우 **반드시 행사명에 '팝업'이나 '전시'가 포함된 한시적 기획 공간**만 포함하세요 (예: '디올 성수 팝업').
-   - 단, 카테고리가 cafe나 dining인 경우 '미디어아트 다이닝', '디저트 오마카세', '테마 카페' 등 **독보적인 체험형 요소를 갖춘 핫플레이스라면 상설 매장이라도 예외로 허용**합니다.
-   - 예시: 
-     - popup: '디올 성수 팝업스토어', '특정 브랜드 콜라보 전시명', '동대문 디자인플라자 이색 전시'
-     - activity: '성수동 향수공방 (특정 인기 상호)', '드로잉 카페', '반지 원데이 클래스'
-     - beauty: '퍼스널컬러 진단 전문', '성수동 헤드스파', '고급 웰니스 스파' (단순 치료 목적의 일반 피부과나 동네 미용실은 제외)
-     - dining: '미디어아트 다이닝', '한옥 다도체험 코스', '비주얼 오마카세' (일반 밥집, 고깃집, 체인점 식당 제외)
-     - cafe: 'LP 청음 카페', '디저트 오마카세', '해리포터 테마 카페' (일반 프랜차이즈나 평범한 동네 카페 제외)
-3. **검색 최적화 키워드 형식 (길이 제한 및 고유 상호명 지향)**:
-   - 검색어는 네이버 검색어 트렌드 분석 및 지도 검색에 최적화되도록 **2~4단어 내외(최대 15자 이내)의 짧고 명확한 검색어**로 작성하세요.
-   - 문장형이나 장황한 수식어 대신, 소비자들이 실제 포털 검색창에 입력하는 핵심 고유명사 위주(예: '비라이트 공방', '홍대 반지공방', '카니랩', '디올 성수 팝업')로만 리스트를 채우십시오.
-4. **한글 표기법 준수**:
-   - 검색어 키워드는 반드시 한글(한국어)로 작성하세요. 영어 브랜드나 상호명의 경우 반드시 실사용자들이 네이버 등에서 검색하는 한글 표기법을 사용해야 합니다.
-5. **각주 표시 절대 금지**:
-   - 출력되는 JSON 값 내부나 외부에 구글 검색 출처 각주 표시(예: [1], [2])를 절대 포함하지 마세요. 각주 표시 대괄호가 들어가면 JSON 파싱이 깨집니다.
+   - 팝업스토어나 전시의 경우, 블로그 제목에 적혀있는 행사의 **전체 공식 명칭**(예: 'STORY A 성수 : 뷰티 서바이벌 살인사건', '발베니 X 다니엘 아샴 팝업')을 온전하게 추출하되, **이름 뒤에 임의로 지역명이나 건물명을 괄호로 추가하지 마세요** (예: '팝업 이름 (성수)' -> X, '팝업 이름' -> O). 지역 정보는 주소에 들어가므로 상호명에는 순수 행사 이름만 적어야 합니다.
+   - 단순히 '성수 카페'나 '홍대 공방' 같은 뻔한 지역 키워드는 제외하십시오.
 
-## 수집 채널 및 분석 기준:
-1. 인스타그램 릴스/틱톡/스레드 등 숏폼 SNS 트렌드 해시태그 및 바이럴 핫플레이스 쿼리
-2. 네이버 블로그/카페 및 최근 급상승 로컬 장소, 신상 팝업, 카페 테마
-3. 네이버 쇼핑 베스트 인기 검색어
-
-## 대상 카테고리 (JSON의 Key 명칭은 반드시 아래의 영어 단어 5가지로 한정합니다):
-- popup: 팝업/전시
-- activity: 이색 체험
-- beauty: 뷰티/웰니스
-- dining: 컨셉 다이닝
-- cafe: 아트/테마 카페
-
-## 출력 규칙:
-- 각 카테고리별로 10개의 가장 트렌디하고 화제가 되는 '검색어 키워드'를 추천해야 합니다.
-- 검색어는 사용자가 네이버나 구글에 실제로 입력할 법한 명사 위주의 검색 쿼리 형태여야 합니다.
-- **반드시 아래 명시된 JSON 형식으로만** 응답하세요. 다른 설명이나 마크다운 기호는 절대 출력하지 마세요.
-
-## JSON Response Schema:
+## JSON Response Schema (오직 아래 포맷만 출력):
 {
-  "popup": ["키워드1", "키워드2", "키워드3", "키워드4", "키워드5", "키워드6", "키워드7", "키워드8", "키워드9", "키워드10"],
-  "activity": ["키워드1", "키워드2", "키워드3", "키워드4", "키워드5", "키워드6", "키워드7", "키워드8", "키워드9", "키워드10"],
-  "beauty": ["키워드1", "키워드2", "키워드3", "키워드4", "키워드5", "키워드6", "키워드7", "키워드8", "키워드9", "키워드10"],
-  "dining": ["키워드1", "키워드2", "키워드3", "키워드4", "키워드5", "키워드6", "키워드7", "키워드8", "키워드9", "키워드10"],
-  "cafe": ["키워드1", "키워드2", "키워드3", "키워드4", "키워드5", "키워드6", "키워드7", "키워드8", "키워드9", "키워드10"]
+  "popup": ["상호명 팝업", ... 10개],
+  "activity": ["상호명 공방", ... 10개],
+  "beauty": ["상호명 스파", ... 10개],
+  "dining": ["상호명 다이닝", ... 10개],
+  "cafe": ["상호명 카페", ... 10개]
 }
 `;
     try {
-            dynamicKeywords = await makeGeminiRequest(prompt, geminiApiKey);
-            log('✅ Dynamic trends fetched successfully.');
+            dynamicKeywords = await callOllama(prompt);
+            log('✅ Dynamic trends fetched successfully via Local Ollama.');
         } catch (e) {
-            log(`⚠️ Failed to fetch dynamic trends: ${e.message}. Using predefined fallbacks.`);
+            log(`⚠️ Failed to fetch dynamic trends via Ollama: ${e.message}. Falling back to Gemini...`);
+            try {
+                dynamicKeywords = await makeGeminiRequest(prompt, geminiApiKey);
+            } catch (err2) {
+                log(`⚠️ Gemini fallback also failed: ${err2.message}`);
+            }
         }
     } else {
         log('ℹ️ GEMINI_API_KEY not configured. Using predefined fallbacks.');
@@ -418,24 +474,7 @@ async function main() {
         let kwList = [];
         const seen = new Set();
 
-        // Fetch autocomplete suggestions for seeds
-        const autoKeywords = [];
-        const seeds = autocompleteSeeds[cat.name] || [];
-        for (const seed of seeds) {
-            try {
-                const suggestions = await fetchNaverAutocomplete(seed);
-                suggestions.forEach(kw => {
-                    const cleaned = kw.trim();
-                    if (cleaned && cleaned.length >= 3 && cleaned.length <= 20 && !cleaned.includes('지역') && !cleaned.includes('추천')) {
-                        autoKeywords.push(cleaned);
-                    }
-                });
-            } catch (e) {
-                // Ignore autocomplete error
-            }
-        }
-
-        // 1. Merge Gemini dynamic keywords
+        // 1. Add Gemini dynamic keywords
         if (dynamicKeywords && dynamicKeywords[cat.name]) {
             dynamicKeywords[cat.name].forEach(kw => {
                 const cleaned = kw.trim();
@@ -446,20 +485,9 @@ async function main() {
             });
         }
 
-        // 2. Merge Autocomplete keywords (up to 5 unique suggestions)
-        let addedAutoCount = 0;
-        for (const kw of autoKeywords) {
-            if (!seen.has(kw)) {
-                seen.add(kw);
-                kwList.push(kw);
-                addedAutoCount++;
-                if (addedAutoCount >= 5) break;
-            }
-        }
-
-        // 3. Fallbacks padding if we have less than 10 keywords
+        // 2. Fallbacks padding if we have less than 10 keywords
         if (kwList.length < 10) {
-            const fallbacks = predefinedFallbacks[cat.name];
+            const fallbacks = predefinedFallbacks[cat.name] || [];
             for (const fallback of fallbacks) {
                 if (!seen.has(fallback)) {
                     seen.add(fallback);
@@ -469,7 +497,7 @@ async function main() {
             }
         }
 
-        // 4. Cap validation pool to maximum 15 keywords
+        // 3. Cap validation pool to maximum 15 keywords
         kwList = kwList.slice(0, 15);
 
         log(`   → Keywords to validate: ${JSON.stringify(kwList)}`);

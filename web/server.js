@@ -157,6 +157,13 @@ const server = http.createServer((req, res) => {
 
     // Default route
     let urlPath = urlWithoutQuery === '/' ? '/public/dashboard.html' : urlWithoutQuery;
+
+    // Map frontend paths (ko, en, img, css, pagefind) to the 'public' directory
+    const publicDirs = ['/ko', '/en', '/img', '/css', '/pagefind'];
+    if (publicDirs.some(dir => urlPath.startsWith(dir))) {
+        urlPath = '/public' + urlPath;
+    }
+
     let filePath = path.join(WEB_DIR, urlPath);
 
     // Security check - prevent directory traversal
