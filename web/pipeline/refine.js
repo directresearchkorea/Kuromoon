@@ -354,8 +354,11 @@ async function main() {
         }
     }
 
-    // Save results
-    const combined = [...existingPlaces, ...results];
+    // Save results (deduplicate by id)
+    const combinedMap = new Map();
+    existingPlaces.forEach(p => combinedMap.set(p.id, p));
+    results.forEach(p => combinedMap.set(p.id, p)); // Results overwrite existing
+    const combined = Array.from(combinedMap.values());
     fs.writeFileSync(OUTPUT_FILE, JSON.stringify(combined, null, 2), 'utf8');
     log(`\n✅ Saved ${results.length} newly refined place(s) to places.json (Total published: ${combined.length})`);
     

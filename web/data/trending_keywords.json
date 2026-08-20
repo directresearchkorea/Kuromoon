@@ -1,63 +1,63 @@
 {
-  "generated_at": "2026-08-19",
+  "generated_at": "2026-08-20",
   "mode": "live-dynamic",
   "period": {
-    "start": "2026-07-20",
-    "end": "2026-08-19"
+    "start": "2026-07-21",
+    "end": "2026-08-20"
   },
   "categories": {
     "popup": {
       "label": "팝업/전시",
       "trending_keywords": [
         {
-          "keyword": "빅뱅 2026 - 2027 월드투어 공식 서울 팝업",
+          "keyword": "조말론 런던 성수 팝업",
           "trend_score": 100,
-          "data_points": 1
+          "data_points": 2
         },
         {
-          "keyword": "틴더 패스포트 라운지",
-          "trend_score": 88,
-          "data_points": 3
-        },
-        {
-          "keyword": "판도라 팝업",
-          "trend_score": 54,
-          "data_points": 3
-        },
-        {
-          "keyword": "우주떡집 팝업",
-          "trend_score": 40,
-          "data_points": 5
-        },
-        {
-          "keyword": "펄 에이전트 팝업",
+          "keyword": "틴더 패스포트 라운지 팝업스토어",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "스트레이키즈 스키즈 팝업스토어 디스앤댓",
+          "keyword": "투에이엔(2aN) 무뷰페 in 성수 팝업",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "XYZ 슈글로우 팝업",
+          "keyword": "아모레 성수 뷰티서바이벌 살인사건",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "t1 팝업 암행천문",
+          "keyword": "토이스토리X피스마이너스원 익스클루시브 성수 팝업스토어",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "이토 준지 x 산리오 x 나이스고스트클럽 팝업",
+          "keyword": "딥퍼랑스 무뷰페",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "해즈빈 호텔 팝업",
+          "keyword": "발베니 다니엘 아샴 협업 'DAWN OF OUR SPIRIT' 팝업",
           "trend_score": 30,
-          "data_points": 4
+          "data_points": 0
+        },
+        {
+          "keyword": "아리얼 타운 무뷰페 in 성수 팝업",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "메종 스본드 첫 한국 팝업",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "미피 팝업스토어",
+          "trend_score": 30,
+          "data_points": 0
         }
       ]
     },
@@ -65,54 +65,54 @@
       "label": "이색 체험",
       "trending_keywords": [
         {
-          "keyword": "빅뱅 2026 - 2027 월드투어 공식 서울 팝업",
+          "keyword": "성수 맨시티 팝업스토어",
           "trend_score": 100,
-          "data_points": 1
+          "data_points": 2
         },
         {
           "keyword": "틴더 패스포트 라운지",
-          "trend_score": 50,
+          "trend_score": 78,
           "data_points": 3
         },
         {
-          "keyword": "펄 에이전트",
+          "keyword": "아모레 성수 뷰티서바이벌 살인사건",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "판도라 팝업 미션",
+          "keyword": "롤토체스 TFT 와일드 팬페스트",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "알파드라이브원 팝업스토어 미션",
+          "keyword": "명탐정 코난 하이웨이의 타천사 윈드 페스티벌",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "t1 팝업 암행천문",
+          "keyword": "트루스오브뷰티 별별 문방구",
+          "trend_score": 30,
+          "data_points": 3
+        },
+        {
+          "keyword": "폴라스튜디오앤카페",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "글렌피딕 X 애스턴마틴 F1팀 팝업",
+          "keyword": "미피 팝업스토어",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "이토 준지 x 산리오 x 나이스고스트클럽 팝업",
+          "keyword": "발베니 다니엘 아샴 협업 'DAWN OF OUR SPIRIT'",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "스트레이키즈 스키즈 팝업스토어 디스앤댓",
+          "keyword": "토이스토리X피스마이너스원 익스클루시브 성수 팝업스토어",
           "trend_score": 30,
           "data_points": 0
-        },
-        {
-          "keyword": "해즈빈 호텔 팝업",
-          "trend_score": 30,
-          "data_points": 4
         }
       ]
     },
@@ -120,52 +120,52 @@
       "label": "뷰티/웰니스",
       "trending_keywords": [
         {
-          "keyword": "조말론 팝업",
+          "keyword": "조말론 런던 성수 팝업",
           "trend_score": 100,
-          "data_points": 5
+          "data_points": 2
         },
         {
-          "keyword": "해즈빈 호텔 팝업",
-          "trend_score": 52,
-          "data_points": 4
-        },
-        {
-          "keyword": "트오뷰 별별 문방구 뷰티팝업",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "롬앤 팝업",
-          "trend_score": 30,
-          "data_points": 5
-        },
-        {
-          "keyword": "판도라 팝업",
-          "trend_score": 30,
-          "data_points": 3
-        },
-        {
-          "keyword": "스트레이키즈 스키즈 팝업스토어 디스앤댓",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "빅뱅 2026 - 2027 월드투어 공식 서울 팝업",
-          "trend_score": 30,
+          "keyword": "밀앤모이 팝업",
+          "trend_score": 100,
           "data_points": 1
         },
         {
-          "keyword": "이토 준지 x 산리오 x 나이스고스트클럽 팝업",
+          "keyword": "투에이엔(2aN) 무뷰페",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "틴더 패스포트 라운지",
+          "keyword": "아모레 성수 뷰티서바이벌 살인사건",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "딥퍼랑스 무뷰페",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "아리얼 타운 무뷰페",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "트루스오브뷰티 별별 문방구",
           "trend_score": 30,
           "data_points": 3
         },
         {
-          "keyword": "XYZ 슈글로우 팝업",
+          "keyword": "누메 더현대 팝업",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "포포라보 팝업스토어",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "메종 스본드 첫 한국 팝업",
           "trend_score": 30,
           "data_points": 0
         }
@@ -175,34 +175,39 @@
       "label": "컨셉 다이닝",
       "trending_keywords": [
         {
-          "keyword": "오르노",
+          "keyword": "밍키",
           "trend_score": 100,
           "data_points": 5
         },
         {
+          "keyword": "탄쇼히비키",
+          "trend_score": 78,
+          "data_points": 5
+        },
+        {
+          "keyword": "바다가내손아귀",
+          "trend_score": 39,
+          "data_points": 5
+        },
+        {
           "keyword": "만장",
+          "trend_score": 33,
+          "data_points": 5
+        },
+        {
+          "keyword": "남영돈 성수점",
           "trend_score": 30,
           "data_points": 5
         },
         {
-          "keyword": "밍키",
+          "keyword": "영덕 송천강재첩국",
           "trend_score": 30,
           "data_points": 5
         },
         {
-          "keyword": "베수비오 권성준 셰프",
+          "keyword": "인시투 바이 파포 Insitu By Papo",
           "trend_score": 30,
           "data_points": 0
-        },
-        {
-          "keyword": "마다옥",
-          "trend_score": 30,
-          "data_points": 5
-        },
-        {
-          "keyword": "풍조미역",
-          "trend_score": 30,
-          "data_points": 5
         },
         {
           "keyword": "바름정육식당",
@@ -210,19 +215,14 @@
           "data_points": 4
         },
         {
-          "keyword": "탄쇼히비키",
+          "keyword": "전포돼지",
           "trend_score": 30,
-          "data_points": 5
+          "data_points": 0
         },
         {
           "keyword": "정곤",
           "trend_score": 30,
           "data_points": 5
-        },
-        {
-          "keyword": "전포돼지",
-          "trend_score": 30,
-          "data_points": 0
         }
       ]
     },
@@ -230,54 +230,54 @@
       "label": "아트/테마 카페",
       "trending_keywords": [
         {
-          "keyword": "텀 커피하우스",
+          "keyword": "그랑부어크",
           "trend_score": 100,
           "data_points": 5
         },
         {
-          "keyword": "꼬늘커피",
-          "trend_score": 38,
-          "data_points": 4
+          "keyword": "이파리",
+          "trend_score": 90,
+          "data_points": 5
         },
         {
-          "keyword": "본지르르 베이커리",
+          "keyword": "느좋 카페",
+          "trend_score": 59,
+          "data_points": 5
+        },
+        {
+          "keyword": "밀리스트",
           "trend_score": 31,
-          "data_points": 3
-        },
-        {
-          "keyword": "리틀런치클럽",
-          "trend_score": 31,
           "data_points": 5
         },
         {
-          "keyword": "이인 카페",
-          "trend_score": 30,
-          "data_points": 5
-        },
-        {
-          "keyword": "느좋 카페 커피샾",
+          "keyword": "오프투온(off to on)",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "그랑부어크 카페",
-          "trend_score": 30,
-          "data_points": 1
-        },
-        {
-          "keyword": "래버린투하트 카페",
+          "keyword": "카페 파트 투 (cafe part.2)",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "폴라스튜디오앤카페",
+          "keyword": "라넌커피(RANUN COFFEE)",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "티 리추얼",
+          "keyword": "콘웨이커피 안국점",
           "trend_score": 30,
-          "data_points": 5
+          "data_points": 0
+        },
+        {
+          "keyword": "도조커피(DOZO)",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "이인 (eiin)",
+          "trend_score": 30,
+          "data_points": 0
         }
       ]
     }
