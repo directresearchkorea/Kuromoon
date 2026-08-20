@@ -152,6 +152,55 @@ const server = http.createServer((req, res) => {
                 }
             });
             return;
+        } else if (urlWithoutQuery === '/api/delete-place') {
+            let body = '';
+            req.on('data', chunk => body += chunk);
+            req.on('end', async () => {
+                try {
+                    const payload = JSON.parse(body);
+                    const { id } = payload;
+                    if (!id) {
+                        res.writeHead(400, { 'Content-Type': 'application/json' });
+                        res.end(JSON.stringify({ error: 'Missing place ID' }));
+                        return;
+                    }
+
+                    const dataDir = path.join(WEB_DIR, 'data');
+                    const placesFile = path.join(dataDir, 'places.json');
+
+                    let places = [];
+                    if (fs.existsSync(placesFile)) {
+                        places = JSON.parse(fs.readFileSync(placesFile, 'utf8'));
+                    }
+
+                    const placeIndex = places.findIndex(p => p.id === id);
+                    if (placeIndex === -1) {
+                        res.writeHead(404, { 'Content-Type': 'application/json' });
+                        res.end(JSON.stringify({ error: 'Place not found' }));
+                        return;
+                    }
+
+                    places.splice(placeIndex, 1);
+                    fs.writeFileSync(placesFile, JSON.stringify(places, null, 2), 'utf8');
+
+                    // Rebuild site
+                    try {
+                        const { execSync } = require('child_process');
+                        execSync(`node "${path.join(WEB_DIR, 'build.js')}"`, { stdio: 'inherit' });
+                        execSync(`node "${path.join(WEB_DIR, 'pipeline', 'generate-seo.js')}"`, { stdio: 'inherit' });
+                        log(`[API] Rebuilt site successfully after deleting place: ${id}`);
+                    } catch (buildErr) {
+                        console.error(`[API] Error rebuilding site: ${buildErr.message}`);
+                    }
+
+                    res.writeHead(200, { 'Content-Type': 'application/json' });
+                    res.end(JSON.stringify({ success: true, message: 'Place deleted successfully' }));
+                } catch (parseErr) {
+                    res.writeHead(400, { 'Content-Type': 'application/json' });
+                    res.end(JSON.stringify({ error: 'Invalid JSON body' }));
+                }
+            });
+            return;
         }
     }
 
@@ -159,7 +208,7 @@ const server = http.createServer((req, res) => {
     let urlPath = urlWithoutQuery === '/' ? '/public/dashboard.html' : urlWithoutQuery;
 
     // Map frontend paths (ko, en, img, css, pagefind) to the 'public' directory
-    const publicDirs = ['/ko', '/en', '/img', '/css', '/pagefind'];
+    const publicDirs = ['/ko', '/en', '/img', '/css', '/pagefind', '/js'];
     if (publicDirs.some(dir => urlPath.startsWith(dir))) {
         urlPath = '/public' + urlPath;
     }

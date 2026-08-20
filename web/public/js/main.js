@@ -101,7 +101,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 element: card,
                 title: card.querySelector('.place-card-title')?.textContent || '',
                 desc: card.querySelector('.place-card-desc')?.textContent || '',
-                category: card.getAttribute('data-category') || ''
+                category: card.getAttribute('data-category') || '',
+                tags: card.getAttribute('data-tags') || '',
+                address: card.getAttribute('data-address') || ''
             };
         });
 
@@ -109,8 +111,8 @@ document.addEventListener('DOMContentLoaded', () => {
         let fuse = null;
         if (window.Fuse) {
             fuse = new Fuse(fuseData, {
-                keys: ['title', 'desc'],
-                threshold: 0.4, // Allows slight typos (Fuzzy matching)
+                keys: ['title', 'desc', 'address'],
+                threshold: 0.3, // Stricter matching (Fuzzy matching)
                 ignoreLocation: true
             });
         }
@@ -151,7 +153,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 cards.forEach(card => {
                     const title = card.querySelector('.place-card-title')?.textContent.toLowerCase() || '';
                     const desc = card.querySelector('.place-card-desc')?.textContent.toLowerCase() || '';
-                    card.style.display = (title.includes(q) || desc.includes(q)) ? 'flex' : 'none';
+                    const address = card.getAttribute('data-address')?.toLowerCase() || '';
+                    card.style.display = (title.includes(q) || desc.includes(q) || address.includes(q)) ? 'flex' : 'none';
                 });
             }
             

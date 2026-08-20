@@ -1,0 +1,1 @@
+const https = require('https'); https.get('https://m.place.naver.com/place/1438631381/home', (res) => { let body = ''; res.on('data', c => body += c); res.on('end', () => { const title = body.match(/"name":"([^"]+)"/); const addr = body.match(/"roadAddress":"([^"]+)"/); console.log(title, addr); }); });

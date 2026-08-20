@@ -36,6 +36,17 @@ function log(msg) {
     console.log(`[${ts}] ${msg}`);
 }
 
+function getShortKeyword(kw) {
+    let short = kw.replace(/\[.*?\]|\(.*?\)|<.*?>/g, '').trim();
+    short = short.split(':')[0].trim();
+    short = short.split('-')[0].trim();
+    const words = short.split(/\s+/);
+    if (words.length > 3) {
+        return words.slice(0, 3).join(' ');
+    }
+    return short;
+}
+
 /**
  * Call Naver DataLab Shopping Insight API
  */
@@ -411,6 +422,7 @@ ${recentBlogText}
 2. **경험 및 구체성 중심**:
    - 팝업스토어나 전시의 경우, 블로그 제목에 적혀있는 행사의 **전체 공식 명칭**(예: 'STORY A 성수 : 뷰티 서바이벌 살인사건', '발베니 X 다니엘 아샴 팝업')을 온전하게 추출하되, **이름 뒤에 임의로 지역명이나 건물명을 괄호로 추가하지 마세요** (예: '팝업 이름 (성수)' -> X, '팝업 이름' -> O). 지역 정보는 주소에 들어가므로 상호명에는 순수 행사 이름만 적어야 합니다.
    - 단순히 '성수 카페'나 '홍대 공방' 같은 뻔한 지역 키워드는 제외하십시오.
+   - **[매우 중요]** 일반적인 동네 밥집, 흔한 프랜차이즈, 평범한 고깃집이나 국밥집 등은 **절대 추출하지 마세요**. 인스타그래머블한 컨셉 다이닝, 특별한 웨이팅 맛집, 팝업 식당 등 **핫플레이스 성격이 강한 곳만** 엄선하세요.
 3. **카테고리 중복 금지**:
    - 동일한 키워드를 여러 카테고리에 중복해서 넣지 마세요. 가장 성격이 잘 맞는 **단 하나의 카테고리**에만 배정해야 합니다. (예: 뷰티 팝업은 'popup'이나 'beauty' 중 하나에만 넣음)
 
@@ -424,16 +436,71 @@ ${recentBlogText}
 }
 `;
     try {
-            dynamicKeywords = await callOllama(prompt);
-            log('✅ Dynamic trends fetched successfully via Local Ollama.');
-        } catch (e) {
-            log(`⚠️ Failed to fetch dynamic trends via Ollama: ${e.message}. Falling back to Gemini...`);
-            try {
-                dynamicKeywords = await makeGeminiRequest(prompt, geminiApiKey);
-            } catch (err2) {
-                log(`⚠️ Gemini fallback also failed: ${err2.message}`);
+        log('🧠 Fetching trends via BOTH Local Ollama and Cloud Gemini simultaneously...');
+        const [ollamaResult, geminiResult] = await Promise.allSettled([
+            callOllama(prompt),
+            geminiApiKey ? makeGeminiRequest(prompt, geminiApiKey) : Promise.reject(new Error("No Gemini Key"))
+        ]);
+
+        dynamicKeywords = { popup: [], activity: [], beauty: [], dining: [], cafe: [] };
+        let anySuccess = false;
+
+        if (ollamaResult.status === 'fulfilled' && ollamaResult.value) {
+            log('✅ Local Ollama extraction successful.');
+            anySuccess = true;
+            for (let k of Object.keys(dynamicKeywords)) {
+                if (ollamaResult.value[k]) dynamicKeywords[k].push(...ollamaResult.value[k]);
+            }
+        } else {
+            log(`⚠️ Ollama extraction failed: ${ollamaResult.reason?.message}`);
+        }
+
+        if (geminiResult.status === 'fulfilled' && geminiResult.value) {
+            log('✅ Cloud Gemini extraction successful.');
+            anySuccess = true;
+            for (let k of Object.keys(dynamicKeywords)) {
+                if (geminiResult.value[k]) dynamicKeywords[k].push(...geminiResult.value[k]);
+            }
+        } else {
+            log(`⚠️ Gemini extraction failed: ${geminiResult.reason?.message}`);
+        }
+
+        if (!anySuccess) {
+            dynamicKeywords = null;
+        } else {
+            // Deduplicate keywords within each category
+            for (let k of Object.keys(dynamicKeywords)) {
+                dynamicKeywords[k] = [...new Set(dynamicKeywords[k])];
+            }
+            
+            // AI Filtering Step: Ask Gemini to clean the merged list of generic places
+            if (geminiApiKey) {
+                log('🧠 Asking Gemini to filter out generic restaurants & boring places from the merged list...');
+                const filterPrompt = `아래는 로컬 핫플레이스 후보 키워드 목록(JSON)입니다.
+1. "일반 동네 밥집, 백반집, 평범한 국밥/삼겹살집, 흔한 도서관/마트/프랜차이즈" 등 핫플레이스가 아닌 장소는 모두 배열에서 삭제하세요.
+2. 각 팝업스토어나 핫플이 **어느 지역(예: 성수, 경주)** 혹은 **어느 건물(예: 더현대 서울, 롯데월드몰)**에서 열리는지 다음 블로그 원문을 참조하여 파악하세요.
+[블로그 원문]
+${recentBlogText}
+
+3. 남은 핫플들의 키워드를 "상호명 | 지역명(또는 건물명)" 포맷의 문자열로 변환하여 배열에 담으세요. 만약 지역을 알 수 없으면 "상호명 | 미상" 으로 적으세요.
+예시: "미피 팝업스토어 | 부산 영도", "스파이더맨 팝업 | 더현대 서울"
+원래의 JSON 구조(popup, activity, beauty, dining, cafe)를 유지한 순수 JSON만 반환하세요.
+
+${JSON.stringify(dynamicKeywords, null, 2)}`;
+                try {
+                    const filteredRes = await makeGeminiRequest(filterPrompt, geminiApiKey);
+                    if (filteredRes && Object.keys(filteredRes).length > 0) {
+                        dynamicKeywords = filteredRes;
+                        log('✅ Gemini successfully filtered out generic places.');
+                    }
+                } catch (filterErr) {
+                    log(`⚠️ Gemini filtering failed, using raw merged list: ${filterErr.message}`);
+                }
             }
         }
+    } catch (e) {
+        log(`⚠️ Combined extraction failed: ${e.message}`);
+    }
     } else {
         log('ℹ️ GEMINI_API_KEY not configured. Using predefined fallbacks.');
     }
@@ -524,10 +591,13 @@ ${recentBlogText}
                         startDate,
                         endDate,
                         timeUnit: 'week',
-                        keywordGroups: groupKeywords.map(kw => ({
-                            groupName: kw,
-                            keywords: [kw]
-                        })),
+                        keywordGroups: groupKeywords.map(kw => {
+                            const pureName = kw.split('|')[0].trim();
+                            return {
+                                groupName: kw,
+                                keywords: [...new Set([pureName, getShortKeyword(pureName)])]
+                            };
+                        }),
                         ages: ['2', '3', '4'] // 13~29세 필터
                     };
 

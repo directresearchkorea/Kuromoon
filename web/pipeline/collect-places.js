@@ -1,4 +1,4 @@
-const fs = require('fs');
+﻿const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
@@ -52,22 +52,22 @@ function cleanHtml(str) {
  */
 function getPreciseQuery(placeName, address, category) {
     const cleanName = placeName.trim();
-    if (cleanName.length >= 6 || cleanName.includes('점') || cleanName.includes('지점')) {
+    if (cleanName.length >= 6 || cleanName.includes('??) || cleanName.includes('지??)) {
         return cleanName;
     }
     
     let region = '';
     if (address) {
-        // Clean parentheses to extract inner Dong names like (성수동1가) -> 성수동1가
+        // Clean parentheses to extract inner Dong names like (?�수??가) -> ?�수??가
         const cleanAddr = address.replace(/[()]/g, ' ');
         const parts = cleanAddr.split(/\s+/);
-        // 1. Try to find a word ending with '동' (e.g., 성수동, 익선동)
-        let found = parts.find(p => p.endsWith('동'));
-        // 2. Try to find a word ending with '구' (e.g., 종로구, 강남구)
-        if (!found) found = parts.find(p => p.endsWith('구'));
-        // 3. Try to find a word ending with '시' (but exclude metropolitan cities like 서울특별시)
+        // 1. Try to find a word ending with '?? (e.g., ?�수?? ?�선??
+        let found = parts.find(p => p.endsWith('??));
+        // 2. Try to find a word ending with '�? (e.g., 종로�? 강남�?
+        if (!found) found = parts.find(p => p.endsWith('�?));
+        // 3. Try to find a word ending with '?? (but exclude metropolitan cities like ?�울?�별??
         if (!found) {
-            found = parts.find(p => p.endsWith('시') && !p.includes('특별') && !p.includes('광역'));
+            found = parts.find(p => p.endsWith('??) && !p.includes('?�별') && !p.includes('광역'));
         }
         if (found) {
             region = found + ' ';
@@ -77,9 +77,9 @@ function getPreciseQuery(placeName, address, category) {
     let suffix = '';
     if (cleanName.length <= 3) {
         const suffixMap = {
-            popup: '팝업',
+            popup: '?�업',
             activity: '공방',
-            beauty: '웰니스',
+            beauty: '?�니??,
             dining: '맛집',
             cafe: '카페'
         };
@@ -172,29 +172,29 @@ function searchNaverBlog(query, display = 4, sort = 'sim') {
 function extractVenueAndAddressWithAI(keyword, snippets) {
     return new Promise((resolve) => {
         if (!process.env.GEMINI_API_KEY) {
-            log('   ⚠️ GEMINI_API_KEY not configured — skipping AI venue resolution');
+            log('   ?�️ GEMINI_API_KEY not configured ??skipping AI venue resolution');
             return resolve({ success: false });
         }
         
-        const prompt = `당신은 블로그 글에서 행사/팝업스토어가 열리는 실제 장소명과 도로명 주소를 추출하는 데이터 전문가입니다.
-키워드: '${keyword}'
+        const prompt = `?�신?� 블로�?글?�서 ?�사/?�업?�토?��? ?�리???�제 ?�소명과 ?�로�?주소�?추출?�는 ?�이???�문가?�니??
+?�워?? '${keyword}'
 
-다음은 이 키워드에 대한 최근 블로그 리뷰 내용들입니다.
-글을 분석하여 이 팝업스토어/행사가 개최된 **실제 장소(건물명, 백화점 지점 등)**와 **도로명 주소**를 찾아주세요.
+?�음?� ???�워?�에 ?�??최근 블로�?리뷰 ?�용?�입?�다.
+글??분석?�여 ???�업?�토???�사가 개최??**?�제 ?�소(건물�? 백화??지????**?� **?�로�?주소**�?찾아주세??
 
-## 추출 기준:
-1. 도로명 주소(예: 서울특별시 영등포구 여의대로 108)가 명시되어 있거나, 개최 장소(예: 더현대 서울 5층)를 통해 주소를 명확히 유추할 수 있다면 해당 주소를 출력하세요.
-2. 만약 개최 장소만 나오고 주소가 직접 안 나온다면, 잘 알려진 장소(예: 더현대 서울, AK플라자 홍대, 무신사 스토어 성수 등)일 경우 해당 장소의 표준 주소를 적어주세요.
-3. 개최 장소나 주소를 전혀 알 수 없다면 null을 반환하세요.
+## 추출 기�?:
+1. ?�로�?주소(?? ?�울?�별???�등?�구 ?�의?��?108)가 명시?�어 ?�거?? 개최 ?�소(?? ?�현?� ?�울 5�?�??�해 주소�?명확???�추?????�다�??�당 주소�?출력?�세??
+2. 만약 개최 ?�소�??�오�?주소가 직접 ???�온?�면, ???�려�??�소(?? ?�현?� ?�울, AK?�라???��?, 무신???�토???�수 ????경우 ?�당 ?�소???��? 주소�??�어주세??
+3. 개최 ?�소??주소�??��? ?????�다�?null??반환?�세??
 
-출력 형식은 반드시 아래 JSON 형식으로만 답변하세요 (다른 설명이나 마크다운 백틱 없이 JSON 블록만 출력):
+출력 ?�식?� 반드???�래 JSON ?�식?�로�??��??�세??(?�른 ?�명?�나 마크?�운 백틱 ?�이 JSON 블록�?출력):
 {
-  "venue": "개최 장소명 (예: 더현대 서울 에픽 서울)",
-  "address": "도로명 주소 (예: 서울특별시 영등포구 여의대로 108)",
-  "success": true 또는 false
+  "venue": "개최 ?�소�?(?? ?�현?� ?�울 ?�픽 ?�울)",
+  "address": "?�로�?주소 (?? ?�울?�별???�등?�구 ?�의?��?108)",
+  "success": true ?�는 false
 }
 
-블로그 요약문:
+블로�??�약�?
 ${snippets.map((s, i) => `[글 ${i + 1}]\n${s}`).join('\n\n')}
 `;
 
@@ -248,28 +248,28 @@ function getCleanMapSearchQuery(keyword) {
             return resolve(keyword);
         }
         
-        const prompt = `당신은 사용자가 입력한 트렌드 복합 키워드에서 네이버 지도(Naver Maps Local Search)에 검색하기 가장 좋은 '실제 상호명 + 지역명' 검색어를 정제해내는 데이터 전문가입니다.
+        const prompt = `?�신?� ?�용?��? ?�력???�렌??복합 ?�워?�에???�이�?지??Naver Maps Local Search)??검?�하�?가??좋�? '?�제 ?�호�?+ 지??��' 검?�어�??�제?�내???�이???�문가?�니??
 
-## 작업 가이드:
-1. 키워드에서 실질적인 상점/행사장/전시장 이름(상호명)을 추출하세요.
-2. 상호명 앞뒤에 붙은 불필요한 수식어 및 검색 키워드(예: "한옥 와인", "퓨전 일식", "동화 감성", "클래스", "체험 코스", "분위기 좋은", "맛집", "카페 추천", "추천")는 제거하세요.
-3. [매우 중요] 만약 키워드가 '팝업스토어'나 '전시' 등 대관 행사일 경우, 행사가 열리는 '실제 대관 장소명/건물명'(예: 일상비일상의틈, 더현대 서울, 에스팩토리, 스퀘어, 롯데월드몰 등)이 키워드나 문맥에 포함되어 있다면 이를 'host_venue'로 별도 추출하세요.
-4. 네이버 지도 API는 팝업스토어 이름을 모를 수 있습니다. 따라서 host_venue가 존재한다면 네이버 지도 검색어는 host_venue를 1순위로 사용합니다.
-5. 예시:
-   - "일상비일상의틈 story A 팝업" -> name: "story A", host_venue: "일상비일상의틈", search_query: "일상비일상의틈"
-   - "더현대 서울 디올 팝업" -> name: "디올", host_venue: "더현대 서울", search_query: "더현대 서울"
-   - "익선반주 한옥 다이닝" -> name: "익선반주", host_venue: "", search_query: "익선반주 익선동"
+## ?�업 가?�드:
+1. ?�워?�에???�질?�인 ?�점/?�사???�시???�름(?�호�???추출?�세??
+2. ?�호�??�뒤??붙�? 불필?�한 ?�식??�?검???�워???? "?�옥 ?�??, "?�전 ?�식", "?�화 감성", "?�래??, "체험 코스", "분위�?좋�?", "맛집", "카페 추천", "추천")???�거?�세??
+3. [매우 중요] 만약 ?�워?��? '?�업?�토????'?�시' ???�관 ?�사??경우, ?�사가 ?�리??'?�제 ?�관 ?�소�?건물�?(?? ?�상비일?�의?? ?�현?� ?�울, ?�스?�토�? ?�퀘어, �?��?�드�??????�워?�나 문맥???�함?�어 ?�다�??��? 'host_venue'�?별도 추출?�세??
+4. ?�이�?지??API???�업?�토???�름??모�? ???�습?�다. ?�라??host_venue가 존재?�다�??�이�?지??검?�어??host_venue�?1?�위�??�용?�니??
+5. ?�시:
+   - "?�상비일?�의??story A ?�업" -> name: "story A", host_venue: "?�상비일?�의??, search_query: "?�상비일?�의??
+   - "?�현?� ?�울 ?�올 ?�업" -> name: "?�올", host_venue: "?�현?� ?�울", search_query: "?�현?� ?�울"
+   - "?�선반주 ?�옥 ?�이?? -> name: "?�선반주", host_venue: "", search_query: "?�선반주 ?�선??
 
-출력 형식은 반드시 아래 JSON 형식으로만 답변하세요 (다른 설명이나 마크다운 백틱 없이 JSON 블록만 출력):
+출력 ?�식?� 반드???�래 JSON ?�식?�로�??��??�세??(?�른 ?�명?�나 마크?�운 백틱 ?�이 JSON 블록�?출력):
 {
-  "name": "상호명",
-  "host_venue": "대관장소명 또는 빈 문자열",
-  "search_query": "네이버 지도 검색어"
+  "name": "?�호�?,
+  "host_venue": "?�관?�소�??�는 �?문자??,
+  "search_query": "?�이�?지??검?�어"
 }
 `;
 
         const requestBody = JSON.stringify({
-            contents: [{ parts: [{ text: prompt + `\n\n입력 키워드: "${keyword}"` }] }],
+            contents: [{ parts: [{ text: prompt + `\n\n?�력 ?�워?? "${keyword}"` }] }],
             generationConfig: {
                 temperature: 0.1,
                 maxOutputTokens: 1000
@@ -311,12 +311,12 @@ function getCleanMapSearchQuery(keyword) {
 
 
 async function main() {
-    log('═══════════════════════════════════════════');
+    log('?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═??);
     log('  Kuromoon Map-First & Custom Collector');
-    log('═══════════════════════════════════════════');
+    log('?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═??);
 
     if (!NAVER_CLIENT_ID || !NAVER_CLIENT_SECRET) {
-        log('❌ ERROR: NAVER_CLIENT_ID or NAVER_CLIENT_SECRET is not configured in .env');
+        log('??ERROR: NAVER_CLIENT_ID or NAVER_CLIENT_SECRET is not configured in .env');
         process.exit(1);
     }
 
@@ -326,7 +326,7 @@ async function main() {
         try {
             trendsData = JSON.parse(fs.readFileSync(TRENDS_FILE, 'utf8'));
         } catch (e) {
-            log(`⚠ Warning: Failed to parse trending_keywords.json: ${e.message}`);
+            log(`??Warning: Failed to parse trending_keywords.json: ${e.message}`);
         }
     }
 
@@ -352,7 +352,7 @@ async function main() {
     const targetKeywords = allKeywords.filter(kwObj => (kwObj.trend_score || 0) >= SCORE_THRESHOLD);
 
     if (targetKeywords.length === 0) {
-        log(`⚠ No keywords met the threshold score >= ${SCORE_THRESHOLD}. Falling back to top 5 keywords overall.`);
+        log(`??No keywords met the threshold score >= ${SCORE_THRESHOLD}. Falling back to top 5 keywords overall.`);
         targetKeywords.push(...allKeywords.slice(0, 5));
     }
 
@@ -367,28 +367,28 @@ async function main() {
                         customKeywords.push({
                             keyword: item.trim(),
                             category: 'popup', // default
-                            label: '팝업스토어/전시',
+                            label: '?�업?�토???�시',
                             trend_score: 100 // High priority
                         });
                     } else if (item && typeof item === 'object' && item.keyword) {
                         const catLabels = {
-                            popup: '팝업스토어/전시',
-                            beauty: 'K-뷰티/피부관리',
-                            dining: '니치 다이닝',
-                            cafe: '콘셉트 카페'
+                            popup: '?�업?�토???�시',
+                            beauty: 'K-뷰티/?��?관�?,
+                            dining: '?�치 ?�이??,
+                            cafe: '콘셉??카페'
                         };
                         customKeywords.push({
                             keyword: item.keyword.trim(),
                             category: item.category || 'popup',
-                            label: catLabels[item.category] || '팝업스토어/전시',
+                            label: catLabels[item.category] || '?�업?�토???�시',
                             trend_score: 100 // High priority
                         });
                     }
                 });
-                log(`📂 Loaded ${customKeywords.length} custom keyword(s) from custom_keywords.json`);
+                log(`?�� Loaded ${customKeywords.length} custom keyword(s) from custom_keywords.json`);
             }
         } catch (e) {
-            log(`⚠ Failed to parse custom_keywords.json: ${e.message}`);
+            log(`??Failed to parse custom_keywords.json: ${e.message}`);
         }
     }
 
@@ -403,7 +403,7 @@ async function main() {
         }
     });
 
-    log(`🚀 Total ${targetKeywords.length} keywords scheduled for map-first extraction.`);
+    log(`?? Total ${targetKeywords.length} keywords scheduled for map-first extraction.`);
 
     // Load existing databases
     let existingPlaces = [];
@@ -415,105 +415,153 @@ async function main() {
         try { reviewPlaces = JSON.parse(fs.readFileSync(REVIEW_FILE, 'utf8')); } catch (e) {}
     }
 
+    function getJaccard(s1, s2) {
+        if (!s1 || !s2) return 0;
+        const a = s1.replace(/\s+/g, '').toLowerCase();
+        const b = s2.replace(/\s+/g, '').toLowerCase();
+        const getBigrams = s => {
+            let bg = new Set();
+            for(let i=0; i<s.length-1; i++) bg.add(s.substring(i, i+2));
+            return bg;
+        };
+        const b1 = getBigrams(a), b2 = getBigrams(b);
+        let intersection = 0;
+        for (const x of b1) if (b2.has(x)) intersection++;
+        const union = b1.size + b2.size - intersection;
+        return union === 0 ? 0 : intersection / union;
+    }
+
+    function normAddr(addr) {
+        if (!addr) return '';
+        return addr.replace(/^(?�울?�별???�울???�울|부?�광??��|부?�시|부??\s+/, '')
+                   .replace(/\s+(\d+�?지??*|.*???�엠블루.*|?�업.*)$/, '')
+                   .replace(/\s+/g, '')
+                   .toLowerCase();
+    }
+
     function findExistingPlace(name, address) {
         const cleanN = name.replace(/\s+/g, '').toLowerCase();
         const cleanAddr = address ? address.replace(/\s+/g, '').toLowerCase() : '';
+        const nAddr = normAddr(address);
         
-        let found = existingPlaces.find(p => p.name_ko.replace(/\s+/g, '').toLowerCase() === cleanN);
-        if (!found) {
-            found = reviewPlaces.find(p => p.name_ko.replace(/\s+/g, '').toLowerCase() === cleanN);
+        const allPlaces = [...existingPlaces, ...reviewPlaces];
+
+        // 1. Exact name match
+        let found = allPlaces.find(p => p.name_ko.replace(/\s+/g, '').toLowerCase() === cleanN);
+        if (found) return found;
+
+        // 2. Exact address match for NON-popups
+        if (cleanAddr) {
+            found = allPlaces.find(p => p.category !== 'popup' && p.category !== 'exhibition' && p.address_ko && p.address_ko.replace(/\s+/g, '').toLowerCase() === cleanAddr);
+            if (found) return found;
         }
-        if (!found && cleanAddr) {
-            found = existingPlaces.find(p => p.category !== 'popup' && p.category !== 'exhibition' && p.address_ko && p.address_ko.replace(/\s+/g, '').toLowerCase() === cleanAddr);
-            if (!found) {
-                found = reviewPlaces.find(p => p.category !== 'popup' && p.category !== 'exhibition' && p.address_ko && p.address_ko.replace(/\s+/g, '').toLowerCase() === cleanAddr);
-            }
+
+        // 3. Smart similarity match for popups (Same normalized address + Name Similarity > 0.15)
+        if (nAddr) {
+            found = allPlaces.find(p => {
+                if (p.category !== 'popup' && p.category !== 'exhibition') return false;
+                if (!p.address_ko || normAddr(p.address_ko) !== nAddr) return false;
+                return getJaccard(name, p.name_ko) > 0.15;
+            });
+            if (found) return found;
         }
-        return found;
+
+        return null;
     }
 
     const rawInputs = [];
 
     // 3. Loop through keywords and perform Map-First Search
     for (const kwObj of targetKeywords) {
-        const kw = kwObj.keyword;
+        let kw = kwObj.keyword;
+        let pureName = kw;
+        let region = '';
+        
+        if (kw.includes('|')) {
+            const parts = kw.split('|');
+            pureName = parts[0].trim();
+            region = parts[1].trim();
+            if (region === '미상') region = '';
+        }
+
         const catKey = kwObj.category;
         const catLabel = kwObj.label;
 
-        log(`\n🔎 [Keyword] Processing: "${kw}" (Category: ${catLabel}, Score: ${kwObj.trend_score})`);
+        log(`\n?�� [Keyword] Processing: "${pureName}" (Region: ${region || 'None'}, Category: ${catLabel}, Score: ${kwObj.trend_score})`);
 
         try {
-            // Step A: Search Naver Maps (Local Search) for actual registered businesses
-            log(`   🗺️ Querying Naver Local Map for registered businesses...`);
-            const localResults = await searchNaverLocal(kw);
+            // Step A: Search Naver Maps (Local Search)
+            let searchQuery = region ? `${region} ${pureName}` : pureName;
+            log(`   ?���?Querying Naver Local Map with: "${searchQuery}"`);
+            let localResults = await searchNaverLocal(searchQuery);
             let places = localResults.items || [];
 
             if (places.length === 0) {
-                log(`   ℹ No map results with original query. Cleaning up keyword using AI...`);
-                const cleanQuery = await getCleanMapSearchQuery(kw);
-                if (cleanQuery && cleanQuery !== kw) {
-                    log(`   🎯 AI cleaned query: "${kw}" -> "${cleanQuery}"`);
-                    const fallbackLocalResults = await searchNaverLocal(cleanQuery);
+                log(`   ??No map results with targeted query. Falling back to pure name...`);
+                localResults = await searchNaverLocal(pureName);
+                places = localResults.items || [];
+            }
+
+            if (places.length === 0) {
+                log(`   ??Still no results. Cleaning up pure name using AI...`);
+                const cleanQuery = await getCleanMapSearchQuery(pureName);
+                if (cleanQuery && cleanQuery !== pureName) {
+                    log(`   ?�� AI cleaned query: "${pureName}" -> "${cleanQuery}"`);
+                    const fallbackLocalResults = await searchNaverLocal(region ? `${region} ${cleanQuery}` : cleanQuery);
                     places = fallbackLocalResults.items || [];
+                    
+                    if (places.length === 0) {
+                        const pureFallback = await searchNaverLocal(cleanQuery);
+                        places = pureFallback.items || [];
+                    }
+                }
+            }
+
+            // [NEW] Host Venue Fallback for Popups
+            if (places.length === 0 && region && (catKey === 'popup' || catKey === 'exhibition')) {
+                log(`   ?�� Popup not found on map! Falling back to map the Host Venue (Region): "${region}"`);
+                const venueResults = await searchNaverLocal(region);
+                if (venueResults.items && venueResults.items.length > 0) {
+                    places = [venueResults.items[0]]; // Map to the host venue!
+                    places[0].title = pureName; // Override title to be the popup name, but keep host address!
+                    log(`   ??Successfully mapped to Host Venue: ${venueResults.items[0].roadAddress}`);
                 }
             }
 
             if (places.length === 0) {
-                log(`   ℹ Still no map results. Hitting Naver Blog directly to resolve venue...`);
-                const blogSearch = await searchNaverBlog(kw, 4, 'sim');
-                const blogItems = blogSearch.items || [];
+                log(`   ?�️ No map results. Skipping AI address extraction to prevent phantom places.`);
                 
-                if (blogItems.length > 0) {
-                    const blogUrls = blogItems.map(item => item.link);
-                    const processedBlogsPath = path.join(DATA_DIR, 'processed_blogs.json');
-                    let processedBlogs = [];
-                    if (fs.existsSync(processedBlogsPath)) {
-                        try { processedBlogs = JSON.parse(fs.readFileSync(processedBlogsPath, 'utf8')); } catch (e) {}
-                    }
-                    
-                    const allProcessed = blogUrls.every(url => processedBlogs.includes(url));
-                    if (allProcessed) {
-                        log(`   ℹ Skipping AI venue resolution for "${kw}" — all blog URLs are already processed (cached).`);
-                        continue;
-                    }
+                const id = pureName.toLowerCase()
+                    .replace(/[^\w\s가-??]/g, '')
+                    .replace(/\s+/g, '-')
+                    .replace(/-+/g, '-')
+                    .replace(/^-|-$/g, '')
+                    .substring(0, 60);
 
-                    const snippets = blogItems.map(item => cleanHtml(item.description));
-                    log(`   🧠 Calling Gemini to extract venue & address...`);
-                    const aiResult = await extractVenueAndAddressWithAI(kw, snippets);
-                    
-                    // Save URLs to cache
-                    blogUrls.forEach(url => {
-                        if (!processedBlogs.includes(url)) {
-                            processedBlogs.push(url);
-                        }
-                    });
-                    try {
-                        fs.writeFileSync(processedBlogsPath, JSON.stringify(processedBlogs, null, 2), 'utf8');
-                    } catch (e) {
-                        log(`   ⚠️ Failed to save processed_blogs.json: ${e.message}`);
-                    }
-
-                    if (aiResult && aiResult.success && aiResult.address) {
-                        log(`   🎉 AI Resolved Venue: "${aiResult.venue}", Address: "${aiResult.address}"`);
-                        places = [{
-                            title: kw,
-                            roadAddress: aiResult.address,
-                            address: aiResult.address
-                        }];
-                    } else {
-                        log(`   ⚠️ AI could not resolve address from blogs.`);
-                    }
-                } else {
-                    log(`   ⚠️ No blogs found for keyword.`);
-                }
+                rawInputs.push({
+                    id: id,
+                    name_ko: pureName,
+                    address_ko: '',
+                    category: catKey,
+                    source_text: '',
+                    is_already_refined: false,
+                    existing_place_data: null,
+                    review_count: 0,
+                    weekly_review_count: 0,
+                    biweekly_review_count: 0,
+                    recent_snippets: [],
+                    confidence_score: Math.max(0, score - 50),
+                    operating_status: '보류'
+                });
+                continue;
             }
 
             if (places.length > 0) {
                 // Filter out generic businesses and franchises to not waste slots
                 places = places.filter(p => {
                     const pName = cleanHtml(p.title);
-                    const isGeneric = /(한의원|병원|의원|치과|약국|필라테스|요가|헬스장|피트니스|어린이집|유치원|학원|부동산|세무사|변호사)/.test(pName);
-                    const isFranchiseBranch = /(지점|점)$/.test(pName.trim()) && !/본점$/.test(pName.trim());
+                    const isGeneric = /(?�의??병원|?�원|치과|?�국|?�라?�스|?��?|?�스???�트?�스|?�린?�집|?�치???�원|부?�산|?�무??변?�사)/.test(pName);
+                    const isFranchiseBranch = /(지????$/.test(pName.trim()) && !/본점$/.test(pName.trim());
                     
                     if (isGeneric) {
                         return (catKey === 'beauty' || catKey === 'activity');
@@ -524,8 +572,8 @@ async function main() {
                     return true;
                 });
 
-                const maxPlacesToProcess = Math.min(places.length, 5);
-                log(`   ✅ Discovered ${places.length} matching places on Naver Maps after filtering. (Processing top ${maxPlacesToProcess})`);
+                const maxPlacesToProcess = Math.min(places.length, 1);
+                log(`   ??Discovered ${places.length} matching places on Naver Maps after filtering. (Processing top ${maxPlacesToProcess})`);
 
                 for (let idx = 0; idx < maxPlacesToProcess; idx++) {
                     const place = places[idx];
@@ -534,11 +582,11 @@ async function main() {
                     
                     if (!placeName) continue;
 
-                    log(`      📍 Place ${idx + 1}: "${placeName}" (${roadAddress})`);
+                    log(`      ?�� Place ${idx + 1}: "${placeName}" (${roadAddress})`);
 
                     // Step B: Search Naver Blogs for this specific place
                     const preciseQuery = getPreciseQuery(placeName, roadAddress, catKey);
-                    log(`         🔍 Searching reviews for "${placeName}" using precise query: "${preciseQuery}"...`);
+                    log(`         ?�� Searching reviews for "${placeName}" using precise query: "${preciseQuery}"...`);
                     
                     // Fetch both relevant and newest reviews
                     const blogSim = await searchNaverBlog(preciseQuery, 4, 'sim');
@@ -575,9 +623,9 @@ async function main() {
 
                     // Pre-filtering: skip if reviewCount === 0 (no blog posts at all)
                     // or if it has 0 recent velocity and no custom keyword.
-                    const isCustom = customKeywords.some(ckw => ckw.keyword.toLowerCase() === kw.toLowerCase());
+                    const isCustom = customKeywords.some(ckw => ckw.keyword.toLowerCase() === pureName.toLowerCase());
                     if (!isCustom && weeklyCount === 0 && biweeklyCount === 0 && reviewCount === 0) {
-                        log(`         ℹ Skipping "${placeName}" because it has 0 reviews.`);
+                        log(`         ??Skipping "${placeName}" because it has 0 reviews.`);
                         continue;
                     }
 
@@ -605,7 +653,7 @@ async function main() {
                     }
 
                     if (blogItems.length === 0) {
-                        log(`         ℹ No blog reviews found for this specific place.`);
+                        log(`         ??No blog reviews found for this specific place.`);
                         continue;
                     }
 
@@ -613,20 +661,20 @@ async function main() {
                     const reviewTexts = blogItems.map((item, bIdx) => {
                         const cleanTitle = cleanHtml(item.title);
                         const cleanDesc = cleanHtml(item.description);
-                        return `[리뷰 ${bIdx + 1}]\n제목: ${cleanTitle}\n내용: ${cleanDesc}`;
+                        return `[리뷰 ${bIdx + 1}]\n?�목: ${cleanTitle}\n?�용: ${cleanDesc}`;
                     }).join('\n\n');
 
                     // Inject Naver Map names & addresses directly so Gemini is guaranteed to output correct data
-                    const sourceText = `검색 키워드: ${kw}
-실제 지도 상호명: ${placeName}
-실제 지도 도로명 주소: ${roadAddress}
+                    const sourceText = `검???�워?? ${kw}
+?�제 지???�호�? ${placeName}
+?�제 지???�로�?주소: ${roadAddress}
 카테고리: ${catLabel || catKey}
 
 ${reviewTexts}`;
 
                     // Generate ID
                     const id = placeName.toLowerCase()
-                        .replace(/[^\w\s가-힣-]/g, '')
+                        .replace(/[^\w\s가-??]/g, '')
                         .replace(/\s+/g, '-')
                         .replace(/-+/g, '-')
                         .replace(/^-|-$/g, '')
@@ -635,7 +683,7 @@ ${reviewTexts}`;
                     // Check duplicate / existing
                     const existingPlace = findExistingPlace(placeName, roadAddress);
                     if (existingPlace) {
-                        log(`         ♻️  Already in database: "${existingPlace.name_ko}" — marked to skip refine.`);
+                        log(`         ?�️  Already in database: "${existingPlace.name_ko}" ??marked to skip refine.`);
                         rawInputs.push({
                             id: id,
                             name_ko: placeName,
@@ -667,23 +715,23 @@ ${reviewTexts}`;
                     await sleep(300); // Prevent local rate limit
                 }
             } else {
-                log(`   ℹ No map results. Skipping direct blog search to prevent phantom places.`);
+                log(`   ??No map results. Skipping direct blog search to prevent phantom places.`);
             }
         } catch (err) {
-            log(`   ❌ Failed to process keyword "${kw}": ${err.message}`);
+            log(`   ??Failed to process keyword "${kw}": ${err.message}`);
         }
 
         await sleep(500); // Rate limit between keywords
     }
 
     if (rawInputs.length === 0) {
-        log('\n⚠️ Warning: No raw inputs collected. Preserving existing raw_inputs.json if any.');
+        log('\n?�️ Warning: No raw inputs collected. Preserving existing raw_inputs.json if any.');
         return;
     }
 
     fs.writeFileSync(OUTPUT_FILE, JSON.stringify(rawInputs, null, 2), 'utf8');
-    log(`\n✅ Completed! Saved ${rawInputs.length} new raw inputs to raw_inputs.json`);
-    log('═══════════════════════════════════════════\n');
+    log(`\n??Completed! Saved ${rawInputs.length} new raw inputs to raw_inputs.json`);
+    log('?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═??n');
 }
 
 main().catch(err => {
