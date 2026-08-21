@@ -22063,5 +22063,565 @@
         ]
       }
     }
+  },
+  {
+    "timestamp": "2026-08-21T00:06:13.815Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "창억떡 팝업 | 더현대 서울",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "STORY A : 뷰티 서바이벌 살인사건 | 성수",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "발베니 X 다니엘 아샴 팝업 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "8월 4째주 팝업스토어 | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "포에토 팝업 | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "108pound 팝업 | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "호박인절미 팝업 스토어 | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "심야식당 ‘정곤’ 팝업 | 쌍암동",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "다크리스닝세션 흉담 | 성수",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "오프투온(off to on) 팝업 | 관악구 난곡",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "무신사 뷰티 페스타 2026 | 성수",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "무뷰페 | 성수",
+            "trend_score": 67,
+            "data_points": 5
+          },
+          {
+            "keyword": "향수 공방 | 성수",
+            "trend_score": 47,
+            "data_points": 5
+          },
+          {
+            "keyword": "성수율 뮤직 | 성수",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "토이스토리 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "조말론 런던 팝업스토어 | 성수",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "트오뷰 별별 문방구 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "무신사 뷰티페스타 x 일소 팝업 이벤트 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "일소X짱구 콜라보 무신사 뷰티 페스타 모공탕 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "다크리스닝세션 흉담 | 성수",
+            "trend_score": 30,
+            "data_points": 2
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": [
+          {
+            "keyword": "무신사 뷰티 페스타 2026 | 성수",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "무뷰페 | 성수",
+            "trend_score": 66,
+            "data_points": 5
+          },
+          {
+            "keyword": "트오뷰 별별 문방구 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "누메 톤업 선크림 | 더현대",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "누메 팝업 | 더현대",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "누메 신제품 | 더현대",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "오프투온(off to on) 팝업 | 관악구 난곡",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "무신사 뷰티페스타 x 일소 팝업 이벤트 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "일소X짱구 콜라보 무신사 뷰티 페스타 모공탕 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "2026 뷰티쁠 슈퍼 코스메틱 어워드 위크 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": [
+          {
+            "keyword": "베수비오 | 미상",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "바름정육식당 | 송천동",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "전포돼지갈비 | 전포",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "정곤 | 첨단",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "탄쇼히비키 | 대구 황금동",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "만장 | 신사/논현 (도산대로)",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "심야식당 ‘정곤’ | 쌍암동/첨단",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "밍키 | 효창공원역",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "희릿 | 성수",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "인시투 바이 파포 | 포항",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": [
+          {
+            "keyword": "무토 | 신당동",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "플라워플로우 | 마곡",
+            "trend_score": 82,
+            "data_points": 5
+          },
+          {
+            "keyword": "그라츠커피랩 | 뚝섬역 성수동",
+            "trend_score": 69,
+            "data_points": 5
+          },
+          {
+            "keyword": "온유 | 상봉역",
+            "trend_score": 69,
+            "data_points": 5
+          },
+          {
+            "keyword": "이파리 | 망원",
+            "trend_score": 63,
+            "data_points": 5
+          },
+          {
+            "keyword": "Simpac atelier (LA CABRA) 심팩 아틀리에 (라카브라커피) | 여의도",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "때때 | 연희동",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "콥 | 홍대",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "테이트하우스 | 홍대",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "리플린하우스 | 삼청동",
+            "trend_score": 30,
+            "data_points": 5
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-08-21T00:09:30.808Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "창억떡 팝업 | 더현대 서울",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "누메 팝업 | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "포에토 팝업 | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "108파운드 팝업 | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "발베니 X 다니엘 아샴 팝업 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "STORY A 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "콩콩아카데미 팝업 | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "콜랩코리아 팝업 | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "성수 토이스토리 팝업 지드래곤 더 퍼스트 팬 행사 | 성수",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "맥심 커피 트럭 투어 팝업 | 미상",
+            "trend_score": 30,
+            "data_points": 4
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "성수율 뮤직 | 성수",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "서울국제정원박람회 | 서울숲",
+            "trend_score": 92,
+            "data_points": 5
+          },
+          {
+            "keyword": "다크리스닝세션 흉담 | 성수",
+            "trend_score": 44,
+            "data_points": 2
+          },
+          {
+            "keyword": "도자기 원데이클래스",
+            "trend_score": 33,
+            "data_points": 5
+          },
+          {
+            "keyword": "히포캠퍼 향수 공방 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "지드래곤 더 퍼스트 팬 행사 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "카카오프렌즈페어리 | 서울숲",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "가죽공방 원데이클래스",
+            "trend_score": 10,
+            "data_points": 5
+          },
+          {
+            "keyword": "성수 향수공방 체험",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "홍대 이색 반지공방",
+            "trend_score": 0,
+            "data_points": 0
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": [
+          {
+            "keyword": "무신사 뷰티 페스타 | 성수",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "일소 x 짱구 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "뷰티쁠 슈퍼 코스메틱 어워드 위크 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "트오뷰 별별 문방구 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "누메 팝업 | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "콜랩코리아 팝업 | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "조말론 런던 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "퍼스널컬러 진단 전문",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "성수 프라이빗 헤드스파",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "홍대 퍼스널컬러 컨설팅",
+            "trend_score": 0,
+            "data_points": 0
+          }
+        ]
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": [
+          {
+            "keyword": "베수비오 | 미상",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "바름정육식당 | 송천동",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "인시투 바이 파포 | 포항",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "전포돼지갈비 | 전포",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "정곤 | 첨단",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "희릿 | 성수",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "탄쇼히비키 | 대구 황금동",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "만장 | 신사/논현 (도산대로)",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "밍키 | 효창공원역",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "희릿 라구페투치 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": [
+          {
+            "keyword": "온유 | 상봉역",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "무토 | 신당동",
+            "trend_score": 49,
+            "data_points": 5
+          },
+          {
+            "keyword": "플라워플로우 | 마곡",
+            "trend_score": 43,
+            "data_points": 5
+          },
+          {
+            "keyword": "그라츠커피랩 | 뚝섬역 성수동",
+            "trend_score": 34,
+            "data_points": 5
+          },
+          {
+            "keyword": "이파리 | 망원",
+            "trend_score": 31,
+            "data_points": 5
+          },
+          {
+            "keyword": "오프투온 | 관악구 난곡",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "에피하우스 | 용산 (용리단길)",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "라넌커피 | 합정동",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "Simpac atelier (LA CABRA) | 여의도",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "때때 | 연희동",
+            "trend_score": 30,
+            "data_points": 5
+          }
+        ]
+      }
+    }
   }
 ]
