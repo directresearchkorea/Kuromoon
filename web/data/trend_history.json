@@ -22623,5 +22623,565 @@
         ]
       }
     }
+  },
+  {
+    "timestamp": "2026-08-21T09:06:12.209Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "더현대 대구 팝업스토어 : 픽베이크",
+            "trend_score": 100,
+            "data_points": 1
+          },
+          {
+            "keyword": "조말론 성수 팝업",
+            "trend_score": 51,
+            "data_points": 3
+          },
+          {
+            "keyword": "아모레성수 뷰티서바이벌",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "박뚜기소금빵 더현대대구",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "더현대 서울 핫토이 썸머 쇼케이스",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "지나스 8월 팝업스토어",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "이자카야 정곤 쌍암동",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "원데이 팝업 '사이프러스'",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "2026 서울 챌린지 스토어",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "오늘도 귀여운 키보드",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "수제 비누 만들기",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "2026 로블록스 굿즈 제작",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "노브랜드버거 × 카스제로 '어메이징 버맥집'",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "미니 굿즈 전시",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "한복 만들기 체험",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "2026 서울 스터디 그룹 모임",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "성수 워크샵 '나만의 캔버스'",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "더현대 서울 발레 클로젯 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "시원한 여름 자전거 여행",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "성수 아카이브 ③ 브랜드들은 왜 성수동에 몰릴까?",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": [
+          {
+            "keyword": "무신사 뷰티페스타 2026",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "포인드 네일영양제",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "성수 카페 '테이큰커피'",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "SIMPAC atelier (LA CABRA)",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "더현대 서울 '젠야' 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "트루스오브뷰티 별별 문방구 팝업",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "더현대 서울 '여의도점 식물원김밥'",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "성수 스파 '스파월드'",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "더현대 대구 '톤업선크림 립앤치크'",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "더현대 서울 '피크네 과일산도'",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": [
+          {
+            "keyword": "송천동 신상 맛집 '바름정육식당'",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "전포돼지갈비 맛집",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "첨단 신상 이자카야 '정곤'",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "대구 황금동 '한우 숯불 한상차림'",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "쌍암동 심야식당 '정곤'",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "효창공원역 '밍키 중국 현지의 맛'",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "도산대로 숯불 장어구이 맛집 '만장'",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "부산가족외식 '갈비만 부산점'",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "포항 파인다이닝 맛집_인시투 바이 파포",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "창원 '식당단말기 렌탈'",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": [
+          {
+            "keyword": "카페 엔텐바흐",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "애견동반 카페 '콥'",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "상봉역 '온유'",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "노원 경춘마루 카페 '경춘선숲길'",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "뚝섬역 '그라츠커피랩'",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "성수카페 '그리드'",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "심팩 아틀리에 (라카브라커피)",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "때때 카페",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "홍대 테이트하우스",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "조용한 홍대신상카페 추천 '메리츠'",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-08-21T09:11:03.930Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "스토리 A 성수 뷰티서바이벌 살인사건",
+            "trend_score": 100,
+            "data_points": 3
+          },
+          {
+            "keyword": "조말론 성수 팝업",
+            "trend_score": 85,
+            "data_points": 3
+          },
+          {
+            "keyword": "모던스토리 성수 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "정곤 쌍암동 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "아모레 성수 뷰티서바이벌",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "박뚜기소금빵 더현대대구",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "에피하우스 삼청동 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "지금만 혜택 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "신사 만장 장어구이 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "2026 더현대 오픈 전 미리 먹어본",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "무신사 뷰티페스타 2026",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "더현대 창억떡 팝업",
+            "trend_score": 76,
+            "data_points": 3
+          },
+          {
+            "keyword": "더현대 대구 팝업쇼 스탬프 투어",
+            "trend_score": 60,
+            "data_points": 2
+          },
+          {
+            "keyword": "더현대 대구 팝업",
+            "trend_score": 38,
+            "data_points": 5
+          },
+          {
+            "keyword": "11차시 로블록스 굿즈 제작",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "로블록스 굿즈 제작",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "성수 카페 테이큰커피",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "성수 8월 팝업",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "더현대 서울 발레 클로젯 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "더현대 서울 핫토이 썸머 쇼케이스",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": [
+          {
+            "keyword": "포인드 네일영양제",
+            "trend_score": 100,
+            "data_points": 2
+          },
+          {
+            "keyword": "성수 신상 카페 테이큰커피",
+            "trend_score": 58,
+            "data_points": 5
+          },
+          {
+            "keyword": "피크네 과일산도 더현대 대구",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "누메 더현대 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "온유 상봉 찻집",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "젤네일 손톱 손상 깨짐",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "Simpac atelier (LA CABRA) 심팩 아틀리에",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "모신사 뷰티페스타 2026 총정리",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "오늘도 귀여운 키보드를 만들어요 ♡",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "Chanel Coco Madmoiselle Crush Absolu Pop-up",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": [
+          {
+            "keyword": "현대백화점 더현대 서울 포에토",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "송천동 신상 맛집 바름정육식당",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "전포 돼지갈비 오픈런 필수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "첨단 신상 이자카야 정곤",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "2026.8.12 대구 동부도서관 재개관 이용 시간",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "호랑이 숯불갈비 맛집",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "첨단 맛집 정곤",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "효창공원역 레트로 중식당 밍키",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "숨숨이자카야술집 쌍암동 신상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "미디어아트 다이닝",
+            "trend_score": 0,
+            "data_points": 0
+          }
+        ]
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": [
+          {
+            "keyword": "상봉역 찻집 온유 신상",
+            "trend_score": 100,
+            "data_points": 1
+          },
+          {
+            "keyword": "홍대 테이트하우스",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "Simpac atelier (LA CABRA) 심팩 아틀리에",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "홍대 카페 콥",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "그때에 다감한 우리의 때때",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "내돈내산 카페",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "노원 경춘마루 카페",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "충남 당진 신상 카페 버터풀앤크리멀러스",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "뚝섬역 성수동 신상 카페 그라츠커피랩",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "삼각지 감성카페 에피하우스",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      }
+    }
   }
 ]

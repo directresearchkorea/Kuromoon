@@ -158,9 +158,8 @@ function makeGeminiRequest(prompt, apiKey) {
             contents: [{
                 parts: [{ text: prompt }]
             }],
-            tools: [{
-                googleSearch: {} // Enable Google Search Grounding
-            }],
+            
+            tools: [{ googleSearch: {} }],
             generationConfig: {
                 temperature: 0.2
             }
@@ -208,7 +207,7 @@ function makeGeminiRequest(prompt, apiKey) {
                             candidateJson = candidateJson.substring(start, end + 1);
                         }
                         
-                        const cleaned = candidateJson.replace(/\[\d+\]/g, '').trim();
+                        const cleaned = candidateJson.replace(/\[\d+\]/g, '').replace(/\[|\]/g, '').trim();
                         resolve(JSON.parse(cleaned));
                     } catch (jsonErr) {
                         log(`⚠️ JSON parse failed (Finish Reason: ${finishReason}). Attempting plain-text parser fallback...`);
@@ -232,13 +231,13 @@ function makeGeminiRequest(prompt, apiKey) {
                             } else if (currentCat && line) {
                                 const match = line.match(/^(?:\d+[\.\)]|\-|\*)\s*(.*)$/);
                                 if (match) {
-                                    const kw = match[1].replace(/\[\d+\]/g, '').trim();
+                                    const kw = match[1].replace(/\[\d+\]/g, '').replace(/\[|\]/g, '').trim();
                                     if (kw && parsed[currentCat].length < 10) {
                                         parsed[currentCat].push(kw);
                                     }
                                 } else if (!line.startsWith('##') && line.length > 1 && line.length < 30) {
                                     // Raw list item without bullet
-                                    const kw = line.replace(/\[\d+\]/g, '').trim();
+                                    const kw = line.replace(/\[\d+\]/g, '').replace(/\[|\]/g, '').trim();
                                     if (parsed[currentCat].length < 10) {
                                         parsed[currentCat].push(kw);
                                     }
@@ -406,13 +405,30 @@ async function main() {
         }
 
         log('🤖 Fetching live trends from LOCAL OLLAMA (gemma2:9b) with real-time blog data...');
-        const prompt = `당신은 한국의 로컬 검색 및 SNS 소셜 미디어 트렌드 분석 전문가입니다.
+        
+        // Load Feedback Loop data
+        const feedbackFile = require('path').join(__dirname, '..', 'data', 'feedback_loop.json');
+        let feedbackText = '';
+        if (fs.existsSync(feedbackFile)) {
+            try {
+                const feedbacks = JSON.parse(fs.readFileSync(feedbackFile, 'utf8')).slice(-10); // get last 10
+                if (feedbacks.length > 0) {
+                    feedbackText = "\n\n## ⚠️ [매우 중요] 관리자 피드백 (오답 노트):\n과거에 당신이 추출한 핫플 이름 중 틀린 것을 관리자가 직접 수정한 내역입니다. 아래 실수를 절대 반복하지 마세요!\n";
+                    feedbacks.forEach(f => {
+                        feedbackText += `- 오답(당신이 추출했던 이름): "${f.original_name}" ➡️ 정답(관리자가 수정한 이름): "${f.corrected_name}"\n`;
+                    });
+                    feedbackText += "이 오답 노트를 분석하여, 앞으로는 반드시 '정답'과 같은 깔끔하고 직관적인 스타일로만 상호명을 추출하세요.\n";
+                }
+            } catch(e) {}
+        }
+
+        const prompt = `당신은 한국의 로컬 검색 및 SNS 소셜 미디어 트렌드 분석 전문가입니다.${feedbackText}
 현재 시간은 **2026년 8월**입니다.
 한국(특히 서울)의 10대~30대 젊은층 사이에서 **가장 최근에 오픈했거나 이번 주에 폭발적으로 바이럴되고 있는 초신상 핫플레이스 키워드**를 카테고리별로 10개씩 찾아주세요.
 
 ## 최신 실시간 데이터 참고 (매우 중요):
 아래는 방금 네이버 블로그 최신순 검색을 통해 수집한 가장 따끈따끈한 실시간 블로그 포스팅 제목들입니다.
-이 제목들을 분석하여 **실제로 사람들이 방금 다녀오고 글을 쓴 '가장 최신의 팝업, 가오픈 식당, 신상 카페' 상호명**을 적극적으로 추출하여 반영하세요.
+이 네이버 실시간 데이터에 등장하는 핫플을 최우선으로 반영하되, **반드시 당신의 구글 검색(Google Search Grounding) 능력도 함께 활용하여** 네이버 제목에는 없지만 현재 트위터/인스타 등에서 폭발적으로 유행 중인 최신 팝업과 핫플도 적극적으로 찾아내어 리스트를 보강하세요.
 ${recentBlogText}
 
 ## 중요 주의사항 (크리티컬 - 어길 시 실패):
@@ -420,7 +436,7 @@ ${recentBlogText}
    - 과거부터 오랫동안 꾸준히 유명했던 장소(예: 카니랩, 어둠속의대화, 하우스오브바이닐, 롯데월드 교복 대여 등)는 **절대 포함하지 마세요**.
    - 반드시 **최근 1달 이내(가급적 최근 1~2주) 가오픈했거나 새로 시작한 팝업스토어, 신상 카페, 신규 전시**만 발굴해야 합니다.
 2. **경험 및 구체성 중심**:
-   - 팝업스토어나 전시의 경우, 블로그 제목에 적혀있는 행사의 **전체 공식 명칭**(예: 'STORY A 성수 : 뷰티 서바이벌 살인사건', '발베니 X 다니엘 아샴 팝업')을 온전하게 추출하되, **이름 뒤에 임의로 지역명이나 건물명을 괄호로 추가하지 마세요** (예: '팝업 이름 (성수)' -> X, '팝업 이름' -> O). 지역 정보는 주소에 들어가므로 상호명에는 순수 행사 이름만 적어야 합니다.
+   - 팝업스토어나 전시의 경우, 행사의 길고 복잡한 공식 명칭 대신 **네이버/카카오 지도에서 사람들이 흔히 검색할 만한 가장 짧고 직관적인 핵심 상호명(핵심 브랜드명+지역 또는 팝업)**으로 요약해서 추출하세요. (예: 'STORY A 성수 : 뷰티서바이벌 살인사건' -> '아모레성수 뷰티서바이벌', '더현대 대구 팝업 : 박뚜기소금빵 , 픽베이크' -> '박뚜기소금빵 더현대대구', '[조말론] 씨솔트 앤 베르가못 팝업스토어' -> '조말론 성수 팝업'). 대괄호나 특수기호, 여러 브랜드 나열은 피하고 지도 검색에 최적화된 이름만 적으세요.
    - 단순히 '성수 카페'나 '홍대 공방' 같은 뻔한 지역 키워드는 제외하십시오.
    - **[매우 중요]** 일반적인 동네 밥집, 흔한 프랜차이즈, 평범한 고깃집이나 국밥집 등은 **절대 추출하지 마세요**. 인스타그래머블한 컨셉 다이닝, 특별한 웨이팅 맛집, 팝업 식당 등 **핫플레이스 성격이 강한 곳만** 엄선하세요.
 3. **카테고리 중복 금지**:

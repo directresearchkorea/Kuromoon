@@ -50,6 +50,38 @@ function sleep(ms) {
 /**
  * Generate URL-friendly slug from Korean or English name
  */
+
+/**
+ * Call Naver Local Search API to fetch official address
+ */
+function searchNaverLocal(query, clientId, clientSecret) {
+    return new Promise((resolve) => {
+        if (!clientId || !clientSecret || !query) return resolve([]);
+        const https = require('https');
+        const options = {
+            hostname: 'openapi.naver.com',
+            path: '/v1/search/local.json?query=' + encodeURIComponent(query) + '&display=1',
+            method: 'GET',
+            headers: {
+                'X-Naver-Client-Id': clientId,
+                'X-Naver-Client-Secret': clientSecret
+            }
+        };
+        https.get(options, (res) => {
+            let data = '';
+            res.on('data', chunk => data += chunk);
+            res.on('end', () => {
+                try {
+                    const parsed = JSON.parse(data);
+                    resolve(parsed.items || []);
+                } catch(e) {
+                    resolve([]);
+                }
+            });
+        }).on('error', () => resolve([]));
+    });
+}
+
 function generateSlug(name) {
     return name
         .toLowerCase()
@@ -99,7 +131,7 @@ function buildPrompt(sourceText, category, referenceDate) {
 
 ## 출력 JSON 형식:
 {
-  "name_ko": "상호명 (한국어, 팝업/전시의 경우 전체 공식 행사명을 축약 없이 적되, 이름 맨 뒤에 임의로 지역명 괄호 '(성수)' 등을 붙이지 마세요)",
+  "name_ko": "상호명 (한국어. 반드시 네이버/카카오 지도에서 검색이 잘 되도록 부제나 수식어를 모두 뺀 가장 직관적이고 짧은 핵심 이름만 적으세요. 예: 'STORY A 뷰티서바이벌' -> '아모레성수 뷰티서바이벌', '더현대 대구 팝업 : 박뚜기소금빵 , 픽베이크' -> '박뚜기소금빵 더현대대구')",
   "name_en": "Business/Event Name (English translation)",
   "category": "${category}",
   "address_ko": "전체 주소 (한국어, 추출 가능하면 동/구 단위까지 명시)",
@@ -310,6 +342,40 @@ async function main() {
             }
 
             // Generate ID and set schema type
+            
+            // [NEW] Call Naver Local API to standardize address
+            const clientId = process.env.NAVER_CLIENT_ID;
+            const clientSecret = process.env.NAVER_CLIENT_SECRET;
+            
+            if (clientId && clientSecret) {
+                let foundByName = true;
+                let localResults = await searchNaverLocal(extracted.name_ko, clientId, clientSecret);
+                
+                // Fallback: If not found by name, try searching by the AI-guessed address (often finds the building/venue)
+                if (localResults.length === 0 && extracted.address_ko) {
+                    foundByName = false;
+                    const shortAddr = extracted.address_ko.split(' ').slice(0, 3).join(' '); // e.g. "서울 성동구 연무장길"
+                    localResults = await searchNaverLocal(shortAddr, clientId, clientSecret);
+                }
+
+                if (localResults.length > 0) {
+                    const official = localResults[0];
+                    const officialAddress = official.roadAddress || official.address;
+                    if (officialAddress) {
+                        extracted.address_ko = officialAddress;
+                        log(`   📍 Naver Local API Match: Standardized address to "${officialAddress}"`);
+                    }
+                    // Overwrite the name with the official Naver Map title (only if we matched by name, to avoid overwriting a popup name with a department store name)
+                    if (foundByName && official.title) {
+                        const officialTitle = official.title.replace(/<[^>]+>/g, '').trim(); // Strip HTML tags like <b>
+                        log(`   🏷️ Naver Local API Match: Standardized name from "${extracted.name_ko}" to "${officialTitle}"`);
+                        extracted.name_ko = officialTitle;
+                    }
+                } else {
+                    log(`   ⚠️ Naver Local API No Match: Keeping AI generated address "${extracted.address_ko}"`);
+                }
+            }
+            
             const finalCat = sanitizeCategory(extracted.category || input.category, extracted.name_ko);
             const id = generateSlug(extracted.name_en || extracted.name_ko);
             let initialStatus = extracted.operating_status || input.operating_status || '운영 중';

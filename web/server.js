@@ -47,7 +47,7 @@ const server = http.createServer((req, res) => {
             req.on('end', async () => {
                 try {
                     const payload = JSON.parse(body);
-                    const { id } = payload;
+                    const { id, corrected_name } = payload;
                     if (!id) {
                         res.writeHead(400, { 'Content-Type': 'application/json' });
                         res.end(JSON.stringify({ error: 'Missing place ID' }));
@@ -85,6 +85,27 @@ const server = http.createServer((req, res) => {
                             res.writeHead(500, { 'Content-Type': 'application/json' });
                             res.end(JSON.stringify({ error: 'GEMINI_API_KEY not configured' }));
                             return;
+                        }
+
+                        
+                        if (corrected_name) {
+                            log(`[API] User corrected name: '${place.name_ko}' -> '${corrected_name}'. Saving to feedback loop.`);
+                            const feedbackFile = path.join(dataDir, 'feedback_loop.json');
+                            let feedbacks = [];
+                            if (fs.existsSync(feedbackFile)) {
+                                try { feedbacks = JSON.parse(fs.readFileSync(feedbackFile, 'utf8')); } catch(e) {}
+                            }
+                            feedbacks.push({
+                                timestamp: new Date().toISOString(),
+                                original_name: place.name_ko,
+                                corrected_name: corrected_name
+                            });
+                            // Keep only last 100 feedbacks to avoid bloat
+                            if (feedbacks.length > 100) feedbacks = feedbacks.slice(-100);
+                            fs.writeFileSync(feedbackFile, JSON.stringify(feedbacks, null, 2), 'utf8');
+                            
+                            // Update the place name before refinement
+                            place.name_ko = corrected_name;
                         }
 
                         log(`[API] Refining place '${place.name_ko}' with Gemini AI in real-time...`);

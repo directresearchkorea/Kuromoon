@@ -227,7 +227,7 @@ function buildDetailPages(lang, places, template) {
       const cleanAddress = address.replace(/\s+(\d+층|\d+호|\d+F|지하\s*\d+층|지상\s*\d+층).*$/i, '').trim();
       
       // Use place name for Naver/Kakao maps (requested for popups as well to avoid general location info overflow)
-      const naverKakaoQueryStr = place.name_ko;
+      const naverKakaoQueryStr = place.name_ko.replace(/[\[\]]/g, '').trim();
       const naverKakaoQuery = encodeURIComponent(naverKakaoQueryStr);
       
       // Use localized query for Google maps (which can be English or Korean)

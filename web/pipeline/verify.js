@@ -521,7 +521,7 @@ async function main() {
     const seenAddresses = new Set();
 
     verifiedPlaces.forEach(p => {
-        const cleanName = (p.name_ko || '').replace(/\s+/g, '').toLowerCase();
+        const cleanName = (p.name_ko || '').replace(/[\[\]\(\)\<\>]/g, '').replace(/\s+/g, '').toLowerCase();
         const cleanAddress = (p.address_ko || '')
             .replace(/\d+층|\d+F|지하\s*\d+층|지상\s*\d+층/g, '')
             .replace(/\s+/g, '')
@@ -541,11 +541,30 @@ async function main() {
                     .replace(/\d+층|\d+F|지하\s*\d+층|지상\s*\d+층/g, '')
                     .replace(/\s+/g, '')
                     .trim();
-                if (mCleanAddress !== cleanAddress) return false;
+                if (mCleanAddress !== cleanAddress && !mCleanAddress.includes(cleanAddress) && !cleanAddress.includes(mCleanAddress)) return false;
                 
                 const nameA = cleanName;
-                const nameB = (m.name_ko || '').replace(/\s+/g, '').toLowerCase();
-                return nameA.includes('harley') || nameB.includes('harley') || nameA.includes('할리') || nameB.includes('할리') || nameA.slice(0, 4) === nameB.slice(0, 4);
+                const nameB = (m.name_ko || '').replace(/[\[\]\(\)\<\>]/g, '').replace(/\s+/g, '').toLowerCase();
+                
+                // Longest Common Substring helper
+                function getLCS(a, b) {
+                    let maxLen = 0;
+                    for (let i = 0; i < a.length; i++) {
+                        for (let j = 0; j < b.length; j++) {
+                            let len = 0;
+                            while (i + len < a.length && j + len < b.length && a[i + len] === b[j + len]) {
+                                len++;
+                            }
+                            if (len > maxLen) maxLen = len;
+                        }
+                    }
+                    return maxLen;
+                }
+                const lcs = getLCS(nameA, nameB);
+                
+                // If they share 5+ consecutive characters (like '뷰티서바이벌') OR one includes another
+                return (lcs >= 5) || nameA.slice(0, 4) === nameB.slice(0, 4) || (nameA.length > 3 && nameB.includes(nameA)) || (nameB.length > 3 && nameA.includes(nameB));
+
             });
             if (duplicateEvent) return;
         }
