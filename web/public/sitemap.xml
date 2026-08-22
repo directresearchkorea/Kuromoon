@@ -10534,6 +10534,24 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/yeonhwacha.html" />
   </url>
 
+  <!-- miffy cafe -->
+  <url>
+    <loc>https://kuromoon.net/ko/places/miffy-cafe.html</loc>
+    <lastmod>2026-08-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/miffy-cafe.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/miffy-cafe.html" />
+  </url>
+  <url>
+    <loc>https://kuromoon.net/en/places/miffy-cafe.html</loc>
+    <lastmod>2026-08-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/miffy-cafe.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/miffy-cafe.html" />
+  </url>
+
   <!-- Roastery Cafe BCD -->
   <url>
     <loc>https://kuromoon.net/ko/places/roastery-cafe-bcd.html</loc>
@@ -10568,6 +10586,24 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/jungle-forest.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/jungle-forest.html" />
+  </url>
+
+  <!-- Cheonmasan Handmade Dumplings -->
+  <url>
+    <loc>https://kuromoon.net/ko/places/cheonmasan-handmade-dumplings.html</loc>
+    <lastmod>2026-08-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/cheonmasan-handmade-dumplings.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/cheonmasan-handmade-dumplings.html" />
+  </url>
+  <url>
+    <loc>https://kuromoon.net/en/places/cheonmasan-handmade-dumplings.html</loc>
+    <lastmod>2026-08-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/cheonmasan-handmade-dumplings.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/cheonmasan-handmade-dumplings.html" />
   </url>
 
   <!-- Cafe Airport -->
@@ -10912,40 +10948,22 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/sochang-experience-center.html" />
   </url>
 
-  <!-- miffy cafe -->
+  <!-- Cheonmasan Sonmandu -->
   <url>
-    <loc>https://kuromoon.net/ko/places/miffy-cafe.html</loc>
+    <loc>https://kuromoon.net/ko/places/cheonmasan-sonmandu.html</loc>
     <lastmod>2026-08-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/miffy-cafe.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/miffy-cafe.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/cheonmasan-sonmandu.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/cheonmasan-sonmandu.html" />
   </url>
   <url>
-    <loc>https://kuromoon.net/en/places/miffy-cafe.html</loc>
+    <loc>https://kuromoon.net/en/places/cheonmasan-sonmandu.html</loc>
     <lastmod>2026-08-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/miffy-cafe.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/miffy-cafe.html" />
-  </url>
-
-  <!-- Cheonmasan Handmade Dumplings -->
-  <url>
-    <loc>https://kuromoon.net/ko/places/cheonmasan-handmade-dumplings.html</loc>
-    <lastmod>2026-08-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/cheonmasan-handmade-dumplings.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/cheonmasan-handmade-dumplings.html" />
-  </url>
-  <url>
-    <loc>https://kuromoon.net/en/places/cheonmasan-handmade-dumplings.html</loc>
-    <lastmod>2026-08-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/cheonmasan-handmade-dumplings.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/cheonmasan-handmade-dumplings.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/cheonmasan-sonmandu.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/cheonmasan-sonmandu.html" />
   </url>
 
   <!-- Yeongwol Hanbando Camping Ground -->

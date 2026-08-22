@@ -23743,5 +23743,565 @@
         ]
       }
     }
+  },
+  {
+    "timestamp": "2026-08-22T09:05:23.197Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "조말론 성수 팝업",
+            "trend_score": 100,
+            "data_points": 3
+          },
+          {
+            "keyword": "더 현대 대구 타이니빌",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "TFT 팝업 판교",
+            "trend_score": 62,
+            "data_points": 3
+          },
+          {
+            "keyword": "아모레성수 뷰티서바이벌",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "박뚜기소금빵 더현대대구",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "만장 논현",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "지젤베이커리카페",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "정곤 쌍암동",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "스위트 메이커 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "더현대 서울 뉴발란스",
+            "trend_score": 30,
+            "data_points": 5
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "하우스오브바이닐 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "이상한나라 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "조달그린 시트러스 마켓 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "나인어코드 성수 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "에이솔루션 무빙팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "8월 토코보 무빙팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "애플 팝업 스토어 강남",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "밀키웨이 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "미니 까눌레 키킥",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "도넛카페 올드페리도넛 연남동",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": [
+          {
+            "keyword": "무신사 뷰티페스타 2026",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "무신사 뷰티 페스타 2026 성수",
+            "trend_score": 32,
+            "data_points": 5
+          },
+          {
+            "keyword": "틴더 패스포트 라운지",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "블럽 무신사 뷰티페스타",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "소담상회 AI 패션 분석",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "애이솔루션 무빙팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "에이솔루션 무빙팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "올리브영 썸머레시피",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "무신사 뷰티 페스타 성수",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "8월 토코보 무빙팝업",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": [
+          {
+            "keyword": "계곡 백숙",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "신상 맛집 바름정육식당",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "전포돼지갈비 전문점",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "모현 아귀찜 처인구",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "지젤베이커리카페",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "밍키 중국 현지의 맛",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "첨단 신상 이자카야 정곤",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "만장 논현",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "도산대로 숯불 장어구이",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "숨숨이자카야술집",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": [
+          {
+            "keyword": "치르 북성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "카페테리아 모 애견동반 가능",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "사유색 광릉수목원",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "희월록 안양유원지",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "바베큐장 수영장 모래놀이 냇카페",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "N서울타워 야경 보이는 신상 디저트카페 와인 데",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "동교동디저트카페",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "카페 엔텐바흐 홍대",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "상봉 카페 포유어무드",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "카다캐스 카페숙대입구",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-08-22T09:07:42.984Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "명탐정 코난 더현대 팝업",
+            "trend_score": 100,
+            "data_points": 2
+          },
+          {
+            "keyword": "조말론 성수 팝업",
+            "trend_score": 61,
+            "data_points": 3
+          },
+          {
+            "keyword": "아모레성수 뷰티서바이벌",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "박뚜기소금빵 더현대대구",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "TFT 판교 팝업",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "스파이더맨 더현대 팝업",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "픽베이크 더현대대구",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "콜라보 코리아 여의도 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "샤넬 더현대 서울 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "더현대 핫토이 썸머 쇼케이스",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "동탄 창억떡 오픈",
+            "trend_score": 100,
+            "data_points": 2
+          },
+          {
+            "keyword": "고급 체험 공방",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "AI 안경 공간 나인어코드",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "성수 귤메달 그린 시트러스",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "서울 무빙팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "서울 8월 챌린지 공방",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "서울 트렌드 LAB 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "아웃도어 아트 워크숍",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "소담상회 AI 패션 분석",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "에이솔루션 무빙팝업",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": [
+          {
+            "keyword": "무신사 뷰티 페스타",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "무신사 뷰티 페스타 x 틱톡 인플루언서",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "올리브영 썸머 레시피",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "블럽 뷰티 페스타",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "소담상회 AI 패션 분석",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "무뷰페 면도 굿즈",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "스킨케어 무뷰페",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "페이스 마스크 무뷰페",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "뷰티 페스타 헤어 스타일링",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "뷰티 페스타 메이크업",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": [
+          {
+            "keyword": "잠실 포켓몬 무릉도원 팝업",
+            "trend_score": 100,
+            "data_points": 4
+          },
+          {
+            "keyword": "갈비만 부산점",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "포항 파인다이닝",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "첨단 신상 이자카야 정곤",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "밍키 중국 현지의 맛",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "2026.8.12 대구 팝업 식당",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "신사 숯불 장어구이 만장",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "대구 황금동 한우 숯불 한상차림",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "전포돼지갈비 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "바다가 가까운 가성비 호텔 플럼바고 양양",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": [
+          {
+            "keyword": "카페 엔텐바흐 홍대",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "해방촌카페 트랍",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "사유색 숲속 미술관 카페",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "양평 신상 바베큐장 카페",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "희월록 안양유원지 카페",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "성수 카페 치르",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "서울구로공원 카페 페로어페로",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "상봉 카페 포유어무드",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "신당동 카페 아워쿠쿠",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "밤 12시까지 운영하는 사랑집 카페",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      }
+    }
   }
 ]
