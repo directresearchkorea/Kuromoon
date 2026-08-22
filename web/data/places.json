@@ -34,7 +34,7 @@
     "operating_status": "행사 종료",
     "created_at": "2026-08-05",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-08-22"
   },
   {
     "id": "texas-roadhouse-jamsil-main-branch",
@@ -70,7 +70,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -108,7 +108,7 @@
     "biweekly_review_count": 10,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -143,7 +143,7 @@
     "review_count": 225,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "weekly_review_count": 5,
     "biweekly_review_count": 8,
     "metadata_enriched": true
@@ -182,7 +182,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -220,7 +220,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -257,7 +257,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -295,7 +295,7 @@
     "biweekly_review_count": 30,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -333,7 +333,7 @@
     "biweekly_review_count": 30,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -371,7 +371,7 @@
     "biweekly_review_count": 30,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -410,7 +410,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -447,7 +447,7 @@
     "biweekly_review_count": 17,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -485,7 +485,7 @@
     "operating_status": "행사 중",
     "created_at": "2026-08-05",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-08-22"
   },
   {
     "id": "play-one-piece",
@@ -522,7 +522,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-08-05",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -559,7 +559,7 @@
     "biweekly_review_count": 30,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -594,7 +594,7 @@
     "review_count": 105864,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "weekly_review_count": 30,
     "biweekly_review_count": 30,
     "metadata_enriched": true
@@ -631,7 +631,7 @@
     "review_count": 40848,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "weekly_review_count": 30,
     "biweekly_review_count": 30,
     "metadata_enriched": true
@@ -668,7 +668,7 @@
     "review_count": 2275,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "weekly_review_count": 23,
     "biweekly_review_count": 30,
     "metadata_enriched": true
@@ -707,7 +707,7 @@
     "biweekly_review_count": 30,
     "operating_status": "운영 중",
     "created_at": "2026-08-05",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -745,7 +745,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -783,7 +783,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -821,7 +821,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -859,7 +859,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -897,7 +897,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -934,7 +934,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -972,7 +972,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -1009,7 +1009,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -1045,7 +1045,7 @@
     "review_count": 962,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "weekly_review_count": 3,
     "biweekly_review_count": 9,
     "metadata_enriched": true,
@@ -1086,7 +1086,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-08-05",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -1123,7 +1123,7 @@
     "biweekly_review_count": 11,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -1160,7 +1160,7 @@
     "biweekly_review_count": 30,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -1196,7 +1196,7 @@
     "review_count": 1451,
     "operating_status": "행사 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "weekly_review_count": 6,
     "biweekly_review_count": 21,
     "metadata_enriched": true
@@ -1235,7 +1235,7 @@
     "confidence_score": 100,
     "operating_status": "행사 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "needs_review": true
   },
@@ -1274,7 +1274,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-08-05",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -1311,7 +1311,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -1349,7 +1349,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -1387,7 +1387,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -1426,7 +1426,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -1464,7 +1464,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-15",
     "created_at": "2026-08-15",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -1502,7 +1502,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-15",
     "created_at": "2026-08-15",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "needs_review": true
   },
@@ -1541,7 +1541,7 @@
     "operating_status": "행사 중",
     "last_status_checked_at": "2026-08-15",
     "created_at": "2026-08-15",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -1579,7 +1579,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-15",
     "created_at": "2026-08-15",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -1616,7 +1616,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -1654,7 +1654,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -1692,7 +1692,7 @@
     "confidence_score": 100,
     "metadata_enriched": true,
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-13"
   },
@@ -1730,7 +1730,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -1767,7 +1767,7 @@
     "biweekly_review_count": 7,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -1805,7 +1805,7 @@
     "confidence_score": 100,
     "metadata_enriched": true,
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-13"
   },
@@ -1844,7 +1844,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-18",
     "created_at": "2026-08-18",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -1881,7 +1881,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-19",
     "created_at": "2026-08-19",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -1919,7 +1919,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-19",
     "created_at": "2026-08-19",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -1957,7 +1957,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-19",
     "created_at": "2026-08-19",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -1995,7 +1995,7 @@
     "operating_status": "행사 중",
     "last_status_checked_at": "2026-08-20",
     "created_at": "2026-08-20",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -2033,7 +2033,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-20",
     "created_at": "2026-08-20",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "needs_review": true
   },
@@ -2072,7 +2072,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-21",
     "created_at": "2026-08-21",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -2109,46 +2109,8 @@
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
-  },
-  {
-    "id": "miffy-store",
-    "type": "Event",
-    "name_ko": "미피스토어 서울",
-    "name_en": "Miffy Store",
-    "category": "popup",
-    "address_ko": "서울특별시 성동구 연무장13길 5 미피스토어 서울",
-    "address_en": "1046 Poseok-ro, Gyeongju-si, Gyeongsangbuk-do, South Korea",
-    "startDate": null,
-    "endDate": null,
-    "hours": "10:00 - 19:50 (월-금), 10:00 - 21:00 (토)",
-    "price_range": null,
-    "reservation_url": null,
-    "instagram": null,
-    "image": null,
-    "tags": [
-      "미피",
-      "황리단길",
-      "소품샵",
-      "굿즈",
-      "카페"
-    ],
-    "summary_ko": "경주 황리단길에 위치한 미피 테마 소품샵 겸 카페",
-    "summary_en": "Miffy-themed souvenir shop and cafe located in Gyeongju's Hwanglidan-gil.",
-    "description_ko": "경주 황리단길에 자리한 미피스토어는 귀여운 미피 캐릭터를 테마로 한 소품샵 겸 카페입니다. 이곳에서는 한정판 미피 굿즈를 구경하고 구매할 수 있으며, 특히 경주 석굴암 미피 에디션과 같은 특별한 아이템을 만나볼 수 있습니다. 다양한 미피 캐릭터 상품들 중에서도 경주 지역 특색을 담은 한정판 굿즈는 방문객들에게 특별한 기념품이 됩니다. 아기자기하고 사랑스러운 미피 캐릭터로 꾸며진 공간은 친구나 연인과 함께 방문하여 즐거운 시간을 보내기에 좋으며, 미피 팬들에게는 더욱 특별한 경험을 선사합니다. 황리단길 끝 지점에 위치해 있어 황남동 고분군 인근이나 황리단길 내 공영주차장을 이용하는 것이 편리합니다.",
-    "description_en": "Miffy Store, nestled in Gyeongju's Hwanglidan-gil, is a charming souvenir shop and cafe themed around the beloved Miffy character. Visitors can browse and purchase a variety of limited-edition Miffy merchandise, including special items like the Gyeongju Seokguram Miffy Edition. Among the diverse Miffy character products, the limited-edition goods reflecting Gyeongju's local characteristics make for unique souvenirs. The adorable space, decorated with Miffy characters, is perfect for friends or couples seeking a delightful time and offers a special experience for Miffy fans. Located at the end of Hwanglidan-gil, it's convenient to use public parking lots near Hwangnam-dong Ancient Tombs or within Hwanglidan-gil.",
-    "foreign_friendly": false,
-    "parking": false,
-    "review_count": 539,
-    "weekly_review_count": 7,
-    "biweekly_review_count": 11,
-    "recent_snippets": [],
-    "confidence_score": 100,
-    "operating_status": "운영 중",
-    "last_status_checked_at": "2026-08-21",
-    "created_at": "2026-08-21",
-    "updated_at": "2026-08-21"
   },
   {
     "id": "4233-mind-center",
@@ -2184,7 +2146,7 @@
     "biweekly_review_count": 20,
     "operating_status": "운영 중",
     "created_at": "2026-08-06",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -2222,7 +2184,7 @@
     "biweekly_review_count": 30,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -2261,7 +2223,7 @@
     "operating_status": "행사 종료",
     "created_at": "2026-08-05",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-08-22"
   },
   {
     "id": "otte-leather-workshop",
@@ -2297,7 +2259,7 @@
     "confidence_score": 90,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -2334,7 +2296,7 @@
     "confidence_score": 90,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -2372,7 +2334,7 @@
     "confidence_score": 90,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -2408,7 +2370,7 @@
     "review_count": 1445,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "weekly_review_count": 4,
     "biweekly_review_count": 4,
@@ -2449,7 +2411,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-20",
     "created_at": "2026-08-20",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -2485,7 +2447,7 @@
     "confidence_score": 88,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -2523,7 +2485,7 @@
     "confidence_score": 85,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -2560,7 +2522,7 @@
     "confidence_score": 85,
     "metadata_enriched": true,
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-13"
   },
@@ -2598,7 +2560,7 @@
     "confidence_score": 85,
     "operating_status": "행사 종료",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "needs_review": true
   },
@@ -2633,7 +2595,7 @@
     "review_count": 2746,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "weekly_review_count": 1,
     "biweekly_review_count": 3,
     "metadata_enriched": true,
@@ -2672,7 +2634,7 @@
     "biweekly_review_count": 3,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -2708,7 +2670,7 @@
     "review_count": 5581,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "weekly_review_count": 1,
     "biweekly_review_count": 5,
@@ -2748,7 +2710,7 @@
     "confidence_score": 80,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -2786,7 +2748,7 @@
     "biweekly_review_count": 6,
     "operating_status": "행사 중",
     "created_at": "2026-08-05",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -2823,7 +2785,7 @@
     "confidence_score": 78,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -2861,7 +2823,7 @@
     "confidence_score": 78,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -2899,7 +2861,7 @@
     "confidence_score": 78,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -2937,7 +2899,7 @@
     "confidence_score": 78,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -2975,7 +2937,7 @@
     "confidence_score": 78,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -3012,7 +2974,7 @@
     "confidence_score": 78,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -3050,7 +3012,7 @@
     "confidence_score": 78,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -3088,7 +3050,7 @@
     "confidence_score": 78,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -3126,7 +3088,7 @@
     "confidence_score": 78,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -3164,7 +3126,7 @@
     "confidence_score": 78,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -3203,7 +3165,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-15",
     "created_at": "2026-08-15",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -3241,7 +3203,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-18",
     "created_at": "2026-08-18",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -3279,7 +3241,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-19",
     "created_at": "2026-08-19",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -3317,7 +3279,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -3354,7 +3316,7 @@
     "biweekly_review_count": 3,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -3392,7 +3354,7 @@
     "confidence_score": 75,
     "metadata_enriched": true,
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-13"
   },
@@ -3430,7 +3392,7 @@
     "confidence_score": 75,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -3468,7 +3430,7 @@
     "confidence_score": 75,
     "metadata_enriched": true,
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "operating_status": "행사 중"
   },
   {
@@ -3505,7 +3467,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-19",
     "created_at": "2026-08-19",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -3543,7 +3505,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-19",
     "created_at": "2026-08-19",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -3580,7 +3542,7 @@
     "confidence_score": 75,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -3619,7 +3581,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -3655,7 +3617,7 @@
     "confidence_score": 70,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -3693,7 +3655,7 @@
     "confidence_score": 70,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -3732,7 +3694,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -3769,7 +3731,7 @@
     "confidence_score": 70,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -3806,7 +3768,7 @@
     "confidence_score": 70,
     "metadata_enriched": true,
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "operating_status": "행사 중"
   },
   {
@@ -3844,7 +3806,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-18",
     "created_at": "2026-08-18",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -3881,7 +3843,7 @@
     "biweekly_review_count": 4,
     "operating_status": "운영 중",
     "created_at": "2026-08-05",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -3919,7 +3881,7 @@
     "biweekly_review_count": 9,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -3957,7 +3919,7 @@
     "biweekly_review_count": 3,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -3995,7 +3957,7 @@
     "confidence_score": 68,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -4033,7 +3995,7 @@
     "confidence_score": 68,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -4071,7 +4033,7 @@
     "confidence_score": 68,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -4109,7 +4071,7 @@
     "confidence_score": 68,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -4147,7 +4109,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-19",
     "created_at": "2026-08-19",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -4185,7 +4147,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-20",
     "created_at": "2026-08-20",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -4222,7 +4184,7 @@
     "confidence_score": 65,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -4261,7 +4223,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-19",
     "created_at": "2026-08-19",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -4298,7 +4260,7 @@
     "confidence_score": 60,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -4335,7 +4297,7 @@
     "confidence_score": 60,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -4371,7 +4333,7 @@
     "review_count": 7382,
     "operating_status": "행사 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "weekly_review_count": 5,
     "biweekly_review_count": 17,
     "metadata_enriched": true
@@ -4409,7 +4371,7 @@
     "confidence_score": 60,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -4443,7 +4405,7 @@
     "review_count": 1502,
     "operating_status": "행사 중",
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "needs_review": true
   },
@@ -4476,7 +4438,7 @@
     "review_count": 2138,
     "operating_status": "운영 중",
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -4512,7 +4474,7 @@
     "review_count": 4264,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -4548,7 +4510,7 @@
     "review_count": 3107,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -4583,7 +4545,7 @@
     "review_count": 2993,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -4619,7 +4581,7 @@
     "review_count": 4910,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -4655,7 +4617,7 @@
     "review_count": 1567,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -4690,7 +4652,7 @@
     "review_count": 2019,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -4726,7 +4688,7 @@
     "review_count": 2314,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -4762,7 +4724,7 @@
     "review_count": 27449,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -4798,7 +4760,7 @@
     "review_count": 1799,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -4833,7 +4795,7 @@
     "review_count": 328,
     "operating_status": "행사 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -4866,7 +4828,7 @@
     "review_count": 511,
     "operating_status": "운영 중",
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -4904,7 +4866,7 @@
     "operating_status": "행사 종료",
     "last_status_checked_at": "2026-08-15",
     "created_at": "2026-08-15",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -4941,7 +4903,7 @@
     "confidence_score": 50,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -4979,7 +4941,7 @@
     "confidence_score": 50,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -5017,7 +4979,7 @@
     "biweekly_review_count": 5,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -5055,7 +5017,7 @@
     "biweekly_review_count": 1,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -5093,7 +5055,7 @@
     "confidence_score": 38,
     "metadata_enriched": true,
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-13"
   },
@@ -5131,7 +5093,7 @@
     "biweekly_review_count": 1,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -5168,7 +5130,7 @@
     "biweekly_review_count": 5,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -5206,7 +5168,7 @@
     "confidence_score": 38,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -5244,7 +5206,7 @@
     "confidence_score": 38,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -5282,7 +5244,7 @@
     "confidence_score": 35,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -5320,7 +5282,7 @@
     "confidence_score": 35,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -5358,7 +5320,7 @@
     "confidence_score": 33,
     "metadata_enriched": true,
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -5395,7 +5357,7 @@
     "confidence_score": 33,
     "metadata_enriched": true,
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -5432,7 +5394,7 @@
     "confidence_score": 28,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -5470,7 +5432,7 @@
     "confidence_score": 28,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -5508,7 +5470,7 @@
     "confidence_score": 28,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -5547,7 +5509,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-15",
     "created_at": "2026-08-15",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -5584,7 +5546,7 @@
     "biweekly_review_count": 1,
     "operating_status": "운영 중",
     "created_at": "2026-08-06",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -5618,7 +5580,7 @@
     "review_count": 1035,
     "operating_status": "운영 중",
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -5653,7 +5615,7 @@
     "review_count": 6497,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -5689,7 +5651,7 @@
     "review_count": 1028,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -5725,7 +5687,7 @@
     "review_count": 2897,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -5761,9 +5723,47 @@
     "review_count": 160377,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "miffy-store",
+    "type": "Event",
+    "name_ko": "미피스토어 서울",
+    "name_en": "Miffy Store",
+    "category": "popup",
+    "address_ko": "서울특별시 성동구 연무장13길 5 미피스토어 서울",
+    "address_en": "1046, Poseok-ro, Gyeongju-si, Gyeongsangbuk-do, Republic of Korea",
+    "startDate": null,
+    "endDate": null,
+    "hours": "10:00 - 19:50 (토요일 21:00까지)",
+    "price_range": null,
+    "reservation_url": null,
+    "instagram": "https://www.instagram.com/miffy_store_seoul_",
+    "image": null,
+    "tags": [
+      "황리단길",
+      "소품샵",
+      "미피",
+      "굿즈",
+      "카페"
+    ],
+    "summary_ko": "황리단길에 위치한 미피 테마 소품샵 겸 카페",
+    "summary_en": "Miffy-themed select shop and cafe located in Hwanglidan-gil.",
+    "description_ko": "경주 황리단길에 위치한 미피 테마의 소품샵 겸 카페입니다. 이곳에서는 다양한 미피 한정판 굿즈를 만나볼 수 있으며, 석굴암 미피 에디션 등 경주 특화 상품도 구매할 수 있습니다. 특히 석굴암 미피 에디션은 경주에서만 볼 수 있는 특별한 아이템으로 방문객에게 인기가 많습니다. 아기자기하고 귀여운 미피 캐릭터로 꾸며진 공간은 친구나 연인과 함께 방문하여 즐거운 시간을 보내기에 좋습니다. 주차는 황리단길 내 공영주차장 이용을 추천하며, 아트박스 황리단길점 맞은편에 위치해 접근성이 좋습니다.",
+    "description_en": "This Miffy-themed select shop and cafe is nestled in Gyeongju's charming Hwanglidan-gil. Visitors can discover a wide array of limited edition Miffy merchandise, including unique Gyeongju-specific items like the Seokguram Miffy Edition. The Seokguram Miffy Edition is a must-have exclusive item, highly popular among those seeking a special souvenir from Gyeongju. The adorable Miffy-decorated interior creates a delightful atmosphere, perfect for friends or couples looking for a fun and memorable outing. Parking is recommended at public parking lots within Hwanglidan-gil, and the store is conveniently located across from Artbox Hwanglidan-gil.",
+    "foreign_friendly": false,
+    "parking": false,
+    "review_count": 539,
+    "weekly_review_count": 7,
+    "biweekly_review_count": 11,
+    "confidence_score": 100,
+    "operating_status": "운영 중",
+    "last_status_checked_at": "2026-08-22",
+    "created_at": "2026-08-22",
+    "updated_at": "2026-08-22",
+    "metadata_enriched": true
   },
   {
     "id": "cheongdam-personal-color-7ar",
@@ -5799,7 +5799,7 @@
     "biweekly_review_count": 27,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -5835,7 +5835,7 @@
     "review_count": 14079,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "weekly_review_count": 30,
     "biweekly_review_count": 30,
     "metadata_enriched": true
@@ -5874,7 +5874,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -5912,7 +5912,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -5950,7 +5950,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -5988,7 +5988,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -6027,7 +6027,7 @@
     "operating_status": "행사 중",
     "last_status_checked_at": "2026-08-20",
     "created_at": "2026-08-20",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -6041,7 +6041,7 @@
     "startDate": "2026-07-10",
     "endDate": "2026-10-17",
     "hours": "~ 18:00",
-    "price_range": null,
+    "price_range": "₩16,000 ~ ₩119,000",
     "reservation_url": null,
     "instagram": null,
     "image": null,
@@ -6056,14 +6056,15 @@
     "description_ko": "예술의전당 서울서예박물관 제1전시실에서 개최되는 '자비 솔라 특별전 어느 한 해 - 완벽한 날들'은 스페인 작가 자비 솔라의 독창적인 예술 세계를 깊이 있게 탐구하는 특별한 기회를 제공합니다. 방문객들은 그의 작품을 통해 시각적인 아름다움과 함께 깊은 사색의 시간을 가질 수 있으며, 서예박물관의 차분한 공간에서 예술적 영감을 얻을 수 있습니다. 전시에 대한 구체적인 시그니처 작품이나 포토존은 언급되지 않았지만, 전시 자체의 예술적 가치가 주요 감상 포인트가 될 것입니다. 예술과 문화에 관심 있는 친구, 연인, 또는 혼자만의 시간을 통해 특별한 경험을 원하는 이들에게 이 전시는 훌륭한 선택이 될 것입니다. 전시는 2026년 7월 10일부터 10월 17일까지 진행되며, 마감 시간은 오후 6시이므로 방문 계획 시 참고하시기 바랍니다.",
     "description_en": "The 'Javier Solá Special Exhibition: A Year - Perfect Days,' held at Exhibition Hall 1 of the Seoul Calligraphy Art Museum within the Seoul Arts Center, offers a unique opportunity to deeply explore the distinctive artistic world of Spanish artist Javier Solá. Visitors can immerse themselves in his works, gaining visual pleasure and a chance for profound contemplation within the serene ambiance of the calligraphy museum, thereby drawing artistic inspiration. While specific signature pieces or photo zones are not mentioned, the inherent artistic value of the exhibition itself serves as the primary highlight for appreciation. This exhibition is an excellent choice for friends, couples, or individuals seeking a special cultural experience and artistic enrichment. The exhibition runs from July 10, 2026, to October 17, 2026, with a closing time of 6:00 PM, which visitors should note when planning their visit.",
     "foreign_friendly": false,
-    "parking": false,
+    "parking": true,
     "review_count": 13821505,
     "weekly_review_count": 30,
     "biweekly_review_count": 30,
     "confidence_score": 100,
     "operating_status": "행사 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-08-22",
+    "metadata_enriched": true
   },
   {
     "id": "sushi-oomoto",
@@ -6099,7 +6100,7 @@
     "confidence_score": 95,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -6137,7 +6138,7 @@
     "confidence_score": 90,
     "operating_status": "행사 종료",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "needs_review": true
   },
@@ -6176,7 +6177,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -6214,7 +6215,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-08-05",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -6251,7 +6252,7 @@
     "confidence_score": 80,
     "metadata_enriched": true,
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "operating_status": "행사 종료"
   },
   {
@@ -6287,7 +6288,7 @@
     "confidence_score": 78,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -6323,7 +6324,7 @@
     "review_count": 1473,
     "operating_status": "행사 종료",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "weekly_review_count": 5,
     "biweekly_review_count": 11
@@ -6362,7 +6363,7 @@
     "confidence_score": 75,
     "metadata_enriched": true,
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "operating_status": "행사 중"
   },
   {
@@ -6399,7 +6400,7 @@
     "confidence_score": 73,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -6437,7 +6438,7 @@
     "confidence_score": 73,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -6475,7 +6476,7 @@
     "confidence_score": 73,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -6513,7 +6514,7 @@
     "biweekly_review_count": 1,
     "operating_status": "운영 중",
     "created_at": "2026-08-05",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -6550,7 +6551,7 @@
     "confidence_score": 70,
     "operating_status": "행사 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -6588,7 +6589,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-19",
     "created_at": "2026-08-19",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -6625,7 +6626,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-20",
     "created_at": "2026-08-20",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -6662,7 +6663,7 @@
     "confidence_score": 63,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -6700,7 +6701,7 @@
     "confidence_score": 63,
     "operating_status": "행사 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -6736,7 +6737,7 @@
     "confidence_score": 63,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -6775,7 +6776,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-15",
     "created_at": "2026-08-15",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -6812,7 +6813,7 @@
     "confidence_score": 60,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -6850,7 +6851,7 @@
     "confidence_score": 50,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -6888,7 +6889,7 @@
     "biweekly_review_count": 3,
     "operating_status": "운영 중",
     "created_at": "2026-08-05",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -6926,7 +6927,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-15",
     "created_at": "2026-08-15",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -6962,7 +6963,7 @@
     "confidence_score": 25,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -6999,7 +7000,7 @@
     "confidence_score": 25,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -7037,7 +7038,7 @@
     "biweekly_review_count": 1,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -7075,7 +7076,7 @@
     "confidence_score": 20,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -7113,7 +7114,7 @@
     "biweekly_review_count": 30,
     "operating_status": "행사 종료",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "needs_review": true
   },
@@ -7151,7 +7152,7 @@
     "biweekly_review_count": 30,
     "operating_status": "행사 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "needs_review": true
   },
@@ -7189,7 +7190,7 @@
     "biweekly_review_count": 14,
     "operating_status": "행사 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -7226,7 +7227,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -7265,7 +7266,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-08-05",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-08-22"
   },
   {
     "id": "cloud-bonbon-resin-art-workshop",
@@ -7301,7 +7302,7 @@
     "biweekly_review_count": 10,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -7339,7 +7340,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-08-05",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -7376,7 +7377,7 @@
     "biweekly_review_count": 7,
     "operating_status": "행사 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -7414,7 +7415,7 @@
     "operating_status": "행사 중",
     "created_at": "2026-08-05",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-08-22"
   },
   {
     "id": "florr-young-bouquet-drying-gift-workshop",
@@ -7450,7 +7451,7 @@
     "biweekly_review_count": 30,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -7487,7 +7488,7 @@
     "biweekly_review_count": 30,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -7525,7 +7526,7 @@
     "biweekly_review_count": 30,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -7562,7 +7563,7 @@
     "biweekly_review_count": 30,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -7599,7 +7600,7 @@
     "biweekly_review_count": 30,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -7636,7 +7637,7 @@
     "biweekly_review_count": 30,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -7675,7 +7676,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-08-22"
   },
   {
     "id": "la-suisse-seochon",
@@ -7712,7 +7713,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-08-05",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -7750,7 +7751,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-08-05",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -7788,7 +7789,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -7826,7 +7827,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -7863,7 +7864,7 @@
     "biweekly_review_count": 7,
     "operating_status": "행사 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -7899,7 +7900,7 @@
     "biweekly_review_count": 30,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -7937,7 +7938,7 @@
     "biweekly_review_count": 30,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -7973,7 +7974,7 @@
     "review_count": 57746,
     "operating_status": "행사 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "weekly_review_count": 30,
     "biweekly_review_count": 30,
     "metadata_enriched": true
@@ -8012,7 +8013,7 @@
     "biweekly_review_count": 30,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13",
     "needs_review": true
@@ -8051,7 +8052,7 @@
     "confidence_score": 100,
     "operating_status": "행사 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -8088,7 +8089,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -8125,7 +8126,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -8162,7 +8163,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -8200,7 +8201,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -8238,7 +8239,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -8276,7 +8277,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -8314,7 +8315,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -8351,7 +8352,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -8388,7 +8389,7 @@
     "confidence_score": 100,
     "operating_status": "행사 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -8425,7 +8426,7 @@
     "confidence_score": 100,
     "operating_status": "행사 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -8461,7 +8462,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -8498,7 +8499,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -8536,7 +8537,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -8573,7 +8574,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -8611,7 +8612,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -8647,7 +8648,7 @@
     "review_count": 6031,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "weekly_review_count": 30,
     "biweekly_review_count": 30,
     "metadata_enriched": true,
@@ -8687,7 +8688,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -8725,7 +8726,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -8764,7 +8765,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-08-05",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -8801,7 +8802,7 @@
     "biweekly_review_count": 4,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -8838,7 +8839,7 @@
     "confidence_score": 100,
     "operating_status": "행사 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -8875,7 +8876,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -8914,7 +8915,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -8952,7 +8953,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -8990,7 +8991,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -9028,7 +9029,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -9065,7 +9066,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -9103,7 +9104,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -9140,7 +9141,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -9177,7 +9178,7 @@
     "biweekly_review_count": 11,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -9216,7 +9217,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-08-05",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -9253,7 +9254,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -9291,7 +9292,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -9329,7 +9330,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -9367,7 +9368,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -9405,7 +9406,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -9444,7 +9445,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -9482,7 +9483,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "needs_review": true
   },
   {
@@ -9518,7 +9519,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -9554,7 +9555,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -9591,7 +9592,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -9629,7 +9630,7 @@
     "confidence_score": 100,
     "operating_status": "행사 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "needs_review": true
   },
@@ -9667,7 +9668,7 @@
     "confidence_score": 100,
     "operating_status": "행사 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13",
     "needs_review": true
@@ -9705,7 +9706,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -9743,7 +9744,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -9781,7 +9782,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "needs_review": true
   },
@@ -9819,7 +9820,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -9857,7 +9858,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -9895,7 +9896,7 @@
     "confidence_score": 100,
     "metadata_enriched": true,
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-13"
   },
@@ -9933,7 +9934,7 @@
     "confidence_score": 100,
     "metadata_enriched": true,
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-13"
   },
@@ -9971,7 +9972,7 @@
     "confidence_score": 100,
     "metadata_enriched": true,
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-13"
   },
@@ -10009,7 +10010,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -10046,7 +10047,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -10084,7 +10085,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -10122,7 +10123,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -10160,7 +10161,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -10199,7 +10200,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-15",
     "created_at": "2026-08-15",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -10237,7 +10238,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-15",
     "created_at": "2026-08-15",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -10275,7 +10276,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-15",
     "created_at": "2026-08-15",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -10313,7 +10314,7 @@
     "operating_status": "행사 중",
     "last_status_checked_at": "2026-08-17",
     "created_at": "2026-08-17",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -10351,7 +10352,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-17",
     "created_at": "2026-08-17",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "needs_review": true
   },
@@ -10390,7 +10391,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-18",
     "created_at": "2026-08-18",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -10427,7 +10428,7 @@
     "biweekly_review_count": 3,
     "operating_status": "운영 중",
     "created_at": "2026-08-05",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -10465,7 +10466,7 @@
     "biweekly_review_count": 3,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -10503,7 +10504,7 @@
     "biweekly_review_count": 4,
     "operating_status": "운영 중",
     "created_at": "2026-08-05",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -10541,7 +10542,7 @@
     "biweekly_review_count": 4,
     "operating_status": "운영 중",
     "created_at": "2026-08-05",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -10579,7 +10580,7 @@
     "biweekly_review_count": 2,
     "operating_status": "운영 중",
     "created_at": "2026-08-05",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -10617,7 +10618,7 @@
     "biweekly_review_count": 3,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -10655,7 +10656,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -10692,7 +10693,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -10730,7 +10731,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -10768,7 +10769,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -10806,7 +10807,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -10844,7 +10845,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -10882,7 +10883,7 @@
     "confidence_score": 100,
     "metadata_enriched": true,
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-13"
   },
@@ -10921,7 +10922,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-18",
     "created_at": "2026-08-18",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -10958,7 +10959,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -10997,7 +10998,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-17",
     "created_at": "2026-08-17",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -11035,7 +11036,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-18",
     "created_at": "2026-08-18",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -11072,7 +11073,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-18",
     "created_at": "2026-08-18",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -11110,7 +11111,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-18",
     "created_at": "2026-08-18",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "needs_review": true
   },
@@ -11149,7 +11150,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-18",
     "created_at": "2026-08-18",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -11187,7 +11188,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -11225,7 +11226,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-19",
     "created_at": "2026-08-19",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -11263,7 +11264,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-19",
     "created_at": "2026-08-19",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -11301,7 +11302,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-19",
     "created_at": "2026-08-19",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "needs_review": true
   },
@@ -11340,7 +11341,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-19",
     "created_at": "2026-08-19",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -11378,7 +11379,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-19",
     "created_at": "2026-08-19",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -11416,7 +11417,7 @@
     "operating_status": "행사 중",
     "last_status_checked_at": "2026-08-19",
     "created_at": "2026-08-19",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "needs_review": true
   },
@@ -11454,7 +11455,7 @@
     "operating_status": "행사 중",
     "last_status_checked_at": "2026-08-19",
     "created_at": "2026-08-19",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "needs_review": true
   },
@@ -11493,7 +11494,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-19",
     "created_at": "2026-08-19",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -11530,7 +11531,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-19",
     "created_at": "2026-08-19",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -11568,7 +11569,7 @@
     "operating_status": "행사 중",
     "last_status_checked_at": "2026-08-19",
     "created_at": "2026-08-19",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "needs_review": true
   },
@@ -11606,7 +11607,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-19",
     "created_at": "2026-08-19",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -11644,7 +11645,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-19",
     "created_at": "2026-08-19",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -11681,46 +11682,8 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-20",
     "created_at": "2026-08-20",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
-  },
-  {
-    "id": "amore-seongsu-beauty-survival-murder-case",
-    "type": "BeautySalon",
-    "name_ko": "STORY A 성수 : 뷰티서바이벌 살인사건",
-    "name_en": "Amore Seongsu Beauty Survival Murder Case",
-    "category": "beauty",
-    "address_ko": "서울특별시 성동구 아차산로11길 7 아모레성수 2층 STORY A 성수",
-    "address_en": "7 Achasan-ro 11-gil, Seongdong-gu, Seoul",
-    "startDate": null,
-    "endDate": null,
-    "hours": null,
-    "price_range": null,
-    "reservation_url": null,
-    "instagram": null,
-    "image": null,
-    "tags": [
-      "크라임씬",
-      "뷰티서바이벌",
-      "성수팝업",
-      "방탈출",
-      "아모레성수"
-    ],
-    "summary_ko": "아모레성수에서 펼쳐지는 뷰티 서바이벌 크라임씬",
-    "summary_en": "A beauty survival crime scene game at Amore Seongsu.",
-    "description_ko": "아모레성수에서 7년의 여정을 마무리하는 특별한 뷰티 서바이벌 프로그램, '뷰티서바이벌 살인사건'이 펼쳐집니다. 파이널 매치 직후 발생한 우승자의 의문의 죽음을 파헤치는 몰입감 넘치는 크라임씬 방탈출 게임을 경험할 수 있습니다. 이곳은 독특한 테마와 흥미로운 스토리로 친구나 연인과 함께 이색적인 추억을 만들기에 완벽합니다. 특히 가성비 좋은 성수 팝업으로 알려져 있으며, 원활한 참여를 위해 네이버 플레이스를 통한 사전 예약이 필수입니다.",
-    "description_en": "Amore Seongsu presents a unique 'Beauty Survival Murder Case,' a special program concluding its seven-year journey. Visitors can immerse themselves in a thrilling crime scene escape game, unraveling the mysterious death of the winner right after the final match. This event offers a distinctive theme and an engaging storyline, making it perfect for creating unique memories with friends or partners. Known as a value-for-money pop-up in Seongsu, advance reservations via Naver Place are essential for smooth participation.",
-    "foreign_friendly": false,
-    "parking": false,
-    "review_count": 5087,
-    "weekly_review_count": 7,
-    "biweekly_review_count": 14,
-    "recent_snippets": [],
-    "confidence_score": 95,
-    "operating_status": "운영 중",
-    "last_status_checked_at": "2026-08-21",
-    "created_at": "2026-08-21",
-    "updated_at": "2026-08-21"
   },
   {
     "id": "the-hyundai-daegu-pop-up-bakttugi-salt-bread-pick-bake",
@@ -11757,7 +11720,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-21",
     "created_at": "2026-08-21",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "needs_review": true
   },
@@ -11795,7 +11758,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -11834,7 +11797,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -11871,7 +11834,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -11908,7 +11871,7 @@
     "confidence_score": 98,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -11946,7 +11909,7 @@
     "confidence_score": 98,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -11984,7 +11947,7 @@
     "confidence_score": 98,
     "metadata_enriched": true,
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-13"
   },
@@ -12022,7 +11985,7 @@
     "confidence_score": 95,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -12061,7 +12024,7 @@
     "operating_status": "행사 예정",
     "last_status_checked_at": "2026-08-19",
     "created_at": "2026-08-19",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "needs_review": true
   },
@@ -12099,7 +12062,7 @@
     "confidence_score": 90,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -12137,7 +12100,7 @@
     "confidence_score": 90,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -12175,7 +12138,7 @@
     "confidence_score": 90,
     "operating_status": "행사 예정",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -12210,7 +12173,7 @@
     "review_count": 2999,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "weekly_review_count": 4,
     "biweekly_review_count": 14,
     "metadata_enriched": true
@@ -12249,7 +12212,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-08-05",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -12285,7 +12248,7 @@
     "biweekly_review_count": 18,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -12323,7 +12286,7 @@
     "confidence_score": 90,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -12361,7 +12324,7 @@
     "confidence_score": 90,
     "metadata_enriched": true,
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "operating_status": "행사 중",
     "needs_review": true
   },
@@ -12399,7 +12362,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-18",
     "created_at": "2026-08-18",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -12437,7 +12400,7 @@
     "operating_status": "행사 종료",
     "last_status_checked_at": "2026-08-19",
     "created_at": "2026-08-19",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "needs_review": true
   },
@@ -12476,7 +12439,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -12512,7 +12475,7 @@
     "confidence_score": 88,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -12550,7 +12513,7 @@
     "biweekly_review_count": 5,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -12587,7 +12550,7 @@
     "confidence_score": 80,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -12625,7 +12588,7 @@
     "confidence_score": 80,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -12662,7 +12625,7 @@
     "confidence_score": 80,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -12700,7 +12663,7 @@
     "confidence_score": 80,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -12738,7 +12701,7 @@
     "confidence_score": 80,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -12776,7 +12739,7 @@
     "confidence_score": 80,
     "operating_status": "행사 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -12814,7 +12777,7 @@
     "confidence_score": 80,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -12852,7 +12815,7 @@
     "confidence_score": 80,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -12890,7 +12853,7 @@
     "confidence_score": 80,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -12928,7 +12891,7 @@
     "confidence_score": 80,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -12966,7 +12929,7 @@
     "confidence_score": 80,
     "metadata_enriched": true,
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "operating_status": "행사 중"
   },
   {
@@ -13004,7 +12967,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-18",
     "created_at": "2026-08-18",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -13041,7 +13004,7 @@
     "confidence_score": 78,
     "metadata_enriched": true,
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-13"
   },
@@ -13079,7 +13042,7 @@
     "confidence_score": 78,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -13117,7 +13080,7 @@
     "confidence_score": 78,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -13155,7 +13118,7 @@
     "biweekly_review_count": 1,
     "operating_status": "운영 중",
     "created_at": "2026-08-05",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -13192,7 +13155,7 @@
     "biweekly_review_count": 3,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -13228,7 +13191,7 @@
     "confidence_score": 78,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -13265,7 +13228,7 @@
     "confidence_score": 78,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -13303,7 +13266,7 @@
     "confidence_score": 78,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -13340,7 +13303,7 @@
     "confidence_score": 78,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -13377,7 +13340,7 @@
     "confidence_score": 78,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -13415,7 +13378,7 @@
     "confidence_score": 78,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -13452,7 +13415,7 @@
     "confidence_score": 78,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -13489,7 +13452,7 @@
     "confidence_score": 78,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -13526,7 +13489,7 @@
     "confidence_score": 78,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -13564,7 +13527,7 @@
     "confidence_score": 78,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -13601,7 +13564,7 @@
     "confidence_score": 78,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -13639,7 +13602,7 @@
     "confidence_score": 78,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -13677,7 +13640,7 @@
     "confidence_score": 78,
     "metadata_enriched": true,
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "operating_status": "행사 중"
   },
   {
@@ -13714,7 +13677,7 @@
     "confidence_score": 78,
     "metadata_enriched": true,
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "operating_status": "행사 중"
   },
   {
@@ -13732,7 +13695,7 @@
     "parking": false,
     "instagram": "http://www.instagram.com/studioeat",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "confidence_score": 78,
     "last_status_checked_at": "2026-08-13"
   },
@@ -13771,7 +13734,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-15",
     "created_at": "2026-08-15",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -13809,7 +13772,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-18",
     "created_at": "2026-08-18",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -13847,7 +13810,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-18",
     "created_at": "2026-08-18",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -13883,7 +13846,7 @@
     "biweekly_review_count": 2,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -13920,7 +13883,7 @@
     "confidence_score": 78,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -13958,7 +13921,7 @@
     "confidence_score": 78,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -13997,7 +13960,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-19",
     "created_at": "2026-08-19",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -14035,7 +13998,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-20",
     "created_at": "2026-08-20",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -14071,7 +14034,7 @@
     "confidence_score": 75,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -14107,7 +14070,7 @@
     "review_count": 71,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "weekly_review_count": 1,
     "biweekly_review_count": 1,
     "metadata_enriched": true,
@@ -14146,7 +14109,7 @@
     "confidence_score": 75,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -14184,7 +14147,7 @@
     "confidence_score": 75,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -14222,7 +14185,7 @@
     "confidence_score": 75,
     "metadata_enriched": true,
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-13"
   },
@@ -14260,7 +14223,7 @@
     "confidence_score": 75,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -14298,7 +14261,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-15",
     "created_at": "2026-08-15",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -14336,7 +14299,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-15",
     "created_at": "2026-08-15",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -14374,7 +14337,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-18",
     "created_at": "2026-08-18",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -14411,7 +14374,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-19",
     "created_at": "2026-08-19",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -14449,7 +14412,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-20",
     "created_at": "2026-08-20",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "needs_review": true
   },
@@ -14486,7 +14449,7 @@
     "biweekly_review_count": 5,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -14524,7 +14487,7 @@
     "biweekly_review_count": 3,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -14562,7 +14525,7 @@
     "confidence_score": 73,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -14600,7 +14563,7 @@
     "confidence_score": 73,
     "metadata_enriched": true,
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-13"
   },
@@ -14638,7 +14601,7 @@
     "confidence_score": 70,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -14675,7 +14638,7 @@
     "confidence_score": 70,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -14714,7 +14677,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-08-05",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -14752,7 +14715,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-08-05",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -14789,7 +14752,7 @@
     "confidence_score": 70,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -14827,9 +14790,47 @@
     "confidence_score": 70,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
+  },
+  {
+    "id": "bakttugi-salt-bread-the-hyundai-daegu",
+    "type": "Event",
+    "name_ko": "박뚜기 소금빵 더현대 대구점",
+    "name_en": "Bakttugi Salt Bread The Hyundai Daegu",
+    "category": "popup",
+    "address_ko": "대구광역시 중구 달구벌대로 2077 현대백화점 지하1층",
+    "address_en": "2077 Dalgubeol-daero, Jung-gu, Daegu, The Hyundai Daegu",
+    "startDate": null,
+    "endDate": null,
+    "hours": null,
+    "price_range": "₩3,500 ~ ₩8,900",
+    "reservation_url": null,
+    "instagram": "https://www.instagram.com/parkddugi.saltbread",
+    "image": null,
+    "tags": [
+      "소금빵맛집",
+      "에그타르트맛집",
+      "빵지순례",
+      "더현대대구",
+      "실내데이트"
+    ],
+    "summary_ko": "박뚜기소금빵과 픽베이크 팝업스토어",
+    "summary_en": "Bakttugi Salt Bread & Pick Bake popup store",
+    "description_ko": "박뚜기소금빵과 픽베이크는 더현대 대구에서 특별한 팝업스토어를 열어, 방문객들에게 다채로운 베이커리 경험을 선사합니다. 이곳에서는 소금빵과 에그타르트 등 다양한 종류의 빵을 맛볼 수 있으며, 특히 소화가 잘되는 우유와 함께 즐기기 좋습니다. 짭짤하면서도 고소한 박뚜기소금빵과 부드러운 픽베이크의 에그타르트는 반드시 맛봐야 할 시그니처 메뉴로 손꼽힙니다. 더현대 대구 지하 1층에서 진행되는 이 팝업은 깔끔하고 현대적인 분위기 속에서 빵지순례를 즐기려는 친구나 연인에게 완벽한 실내 데이트 코스입니다. 백화점 휴무일을 미리 확인하고 방문하면 더욱 쾌적하게 팝업을 즐길 수 있습니다.",
+    "description_en": "Bakttugi Salt Bread and Pick Bake are hosting a special pop-up store at The Hyundai Daegu, offering visitors a diverse bakery experience. Here, you can enjoy various types of bread, including salt bread and egg tarts, which pair wonderfully with easy-to-digest milk. The savory yet rich Bakttugi Salt Bread and Pick Bake's soft egg tarts are highly recommended as must-try signature items. Located on the B1 floor of The Hyundai Daegu, this pop-up provides a clean and modern atmosphere, perfect for friends or couples seeking a delightful indoor bakery tour. It is advisable to check the department store's closing days in advance for a more pleasant visit.",
+    "foreign_friendly": false,
+    "parking": false,
+    "review_count": 5629,
+    "weekly_review_count": 30,
+    "biweekly_review_count": 30,
+    "confidence_score": 70,
+    "operating_status": "운영 중",
+    "last_status_checked_at": "2026-08-21",
+    "created_at": "2026-08-21",
+    "updated_at": "2026-08-22",
+    "metadata_enriched": true
   },
   {
     "id": "house-of-vinyl-seongsu-branch",
@@ -14864,7 +14865,7 @@
     "biweekly_review_count": 3,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -14902,7 +14903,7 @@
     "confidence_score": 68,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -14940,7 +14941,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-08-05",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -14977,7 +14978,7 @@
     "biweekly_review_count": 1,
     "operating_status": "운영 중",
     "created_at": "2026-08-05",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -15015,7 +15016,7 @@
     "biweekly_review_count": 2,
     "operating_status": "운영 중",
     "created_at": "2026-08-05",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -15053,7 +15054,7 @@
     "confidence_score": 68,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -15091,7 +15092,7 @@
     "confidence_score": 68,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -15127,7 +15128,7 @@
     "confidence_score": 68,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -15165,7 +15166,7 @@
     "confidence_score": 68,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -15203,7 +15204,7 @@
     "confidence_score": 68,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -15241,7 +15242,7 @@
     "confidence_score": 68,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13",
     "needs_review": true
@@ -15281,7 +15282,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-15",
     "created_at": "2026-08-15",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -15318,7 +15319,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-18",
     "created_at": "2026-08-18",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -15355,7 +15356,7 @@
     "confidence_score": 68,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -15393,7 +15394,7 @@
     "confidence_score": 65,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -15431,7 +15432,7 @@
     "confidence_score": 65,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -15469,7 +15470,7 @@
     "biweekly_review_count": 2,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -15507,7 +15508,7 @@
     "confidence_score": 65,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -15544,7 +15545,7 @@
     "confidence_score": 65,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -15581,7 +15582,7 @@
     "confidence_score": 65,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -15620,7 +15621,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-18",
     "created_at": "2026-08-18",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -15658,7 +15659,7 @@
     "operating_status": "행사 중",
     "last_status_checked_at": "2026-08-21",
     "created_at": "2026-08-21",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -15695,7 +15696,7 @@
     "confidence_score": 60,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -15733,7 +15734,7 @@
     "confidence_score": 60,
     "metadata_enriched": true,
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-13"
   },
@@ -15769,7 +15770,7 @@
     "confidence_score": 60,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -15807,7 +15808,7 @@
     "confidence_score": 60,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -15841,7 +15842,7 @@
     "review_count": 6502,
     "operating_status": "운영 중",
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -15874,7 +15875,7 @@
     "review_count": 5021,
     "operating_status": "운영 중",
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -15909,7 +15910,7 @@
     "review_count": 9399,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -15945,7 +15946,7 @@
     "review_count": 1241,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -15978,7 +15979,7 @@
     "review_count": 1514,
     "operating_status": "운영 중",
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -16013,7 +16014,7 @@
     "review_count": 1447,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -16048,7 +16049,7 @@
     "review_count": 2229,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -16086,7 +16087,7 @@
     "confidence_score": 58,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -16124,7 +16125,7 @@
     "confidence_score": 58,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -16161,7 +16162,7 @@
     "confidence_score": 58,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -16198,7 +16199,7 @@
     "confidence_score": 55,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -16236,7 +16237,7 @@
     "biweekly_review_count": 0,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -16274,7 +16275,7 @@
     "confidence_score": 50,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -16312,7 +16313,7 @@
     "confidence_score": 50,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -16349,7 +16350,7 @@
     "confidence_score": 50,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -16387,7 +16388,7 @@
     "biweekly_review_count": 4,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -16425,7 +16426,7 @@
     "confidence_score": 40,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -16462,7 +16463,7 @@
     "confidence_score": 40,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -16499,7 +16500,7 @@
     "confidence_score": 40,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -16537,7 +16538,7 @@
     "confidence_score": 40,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -16574,7 +16575,7 @@
     "biweekly_review_count": 1,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -16611,7 +16612,7 @@
     "confidence_score": 38,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -16648,7 +16649,7 @@
     "biweekly_review_count": 3,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -16686,7 +16687,7 @@
     "confidence_score": 35,
     "operating_status": "행사 종료",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -16723,7 +16724,7 @@
     "confidence_score": 33,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -16761,7 +16762,7 @@
     "confidence_score": 33,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -16799,7 +16800,7 @@
     "confidence_score": 33,
     "metadata_enriched": true,
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-13"
   },
@@ -16837,7 +16838,7 @@
     "confidence_score": 33,
     "metadata_enriched": true,
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -16874,7 +16875,7 @@
     "confidence_score": 30,
     "metadata_enriched": true,
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -16911,7 +16912,7 @@
     "biweekly_review_count": 1,
     "operating_status": "운영 중",
     "created_at": "2026-08-05",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -16949,7 +16950,7 @@
     "confidence_score": 28,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -16986,7 +16987,7 @@
     "confidence_score": 28,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -17024,7 +17025,7 @@
     "confidence_score": 28,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -17062,7 +17063,7 @@
     "confidence_score": 28,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -17100,7 +17101,7 @@
     "confidence_score": 25,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -17138,7 +17139,7 @@
     "confidence_score": 25,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -17175,7 +17176,7 @@
     "biweekly_review_count": 0,
     "confidence_score": 23,
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -17213,7 +17214,7 @@
     "confidence_score": 20,
     "last_status_checked_at": "2026-08-18",
     "created_at": "2026-08-18",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -17250,7 +17251,7 @@
     "confidence_score": 0,
     "metadata_enriched": true,
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -17288,7 +17289,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-08-05",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-08-22"
   },
   {
     "id": "gallery-the-square",
@@ -17324,7 +17325,7 @@
     "biweekly_review_count": 30,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -17362,7 +17363,7 @@
     "biweekly_review_count": 30,
     "operating_status": "행사 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -17399,7 +17400,7 @@
     "biweekly_review_count": 30,
     "operating_status": "행사 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -17435,7 +17436,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -17473,7 +17474,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -17509,7 +17510,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -17547,7 +17548,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -17584,7 +17585,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -17622,7 +17623,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -17660,7 +17661,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -17697,7 +17698,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -17735,7 +17736,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -17772,7 +17773,7 @@
     "confidence_score": 100,
     "operating_status": "행사 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -17808,7 +17809,7 @@
     "confidence_score": 100,
     "metadata_enriched": true,
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-13"
   },
@@ -17846,7 +17847,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -17885,7 +17886,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-15",
     "created_at": "2026-08-15",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -17922,7 +17923,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -17961,7 +17962,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-17",
     "created_at": "2026-08-17",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -17999,7 +18000,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-15",
     "created_at": "2026-08-15",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -18036,7 +18037,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -18074,7 +18075,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -18113,7 +18114,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-19",
     "created_at": "2026-08-19",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "naver_map_url": "https://naver.me/5eD8RgJj"
   },
@@ -18152,7 +18153,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-19",
     "created_at": "2026-08-19",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -18190,7 +18191,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-20",
     "created_at": "2026-08-20",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -18228,7 +18229,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-20",
     "created_at": "2026-08-20",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -18265,7 +18266,45 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-15",
     "created_at": "2026-08-15",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
+    "metadata_enriched": true
+  },
+  {
+    "id": "amore-seongsu-beauty-survival-murder-case",
+    "type": "BeautySalon",
+    "name_ko": "STORY A 성수 : 뷰티서바이벌 살인사건",
+    "name_en": "Amore Seongsu Beauty Survival Murder Case",
+    "category": "beauty",
+    "address_ko": "서울특별시 성동구 아차산로11길 7 아모레성수 2층 STORY A 성수",
+    "address_en": "7, Achasan-ro 11-gil, Seongdong-gu, Seoul, Republic of Korea",
+    "startDate": null,
+    "endDate": null,
+    "hours": null,
+    "price_range": "₩15,000",
+    "reservation_url": null,
+    "instagram": "https://www.instagram.com/storya_official",
+    "image": null,
+    "tags": [
+      "성수크라임씬",
+      "뷰티서바이벌",
+      "성수팝업",
+      "방탈출",
+      "아모레성수"
+    ],
+    "summary_ko": "아모레성수 뷰티 서바이벌 테마 크라임씬",
+    "summary_en": "A crime scene escape room with a beauty survival theme at Amore Seongsu.",
+    "description_ko": "아모레성수에서 펼쳐지는 '뷰티서바이벌 살인사건'은 7년 여정을 마무리하는 마지막 프로그램으로, 파이널 매치 직후 우승자가 의문의 죽음을 맞이하는 크라임씬 테마를 선보입니다. 방문객들은 사건 현장에서 단서를 찾아 범인을 추리하며 몰입감 넘치는 방탈출 경험을 즐길 수 있습니다. 뷰티 서바이벌이라는 테마에 맞춰 다양한 뷰티 관련 소품들이 게임의 재미를 더할 것으로 기대됩니다. 가성비 좋은 성수 팝업으로 친구나 연인과 함께 스릴 넘치는 추리 게임을 즐기기에 완벽한 공간입니다. 이 크라임씬은 네이버 플레이스를 통한 사전 예약이 필수입니다.",
+    "description_en": "The 'Beauty Survival Murder Case' at Amore Seongsu is the final program concluding its 7-year journey, presenting a crime scene theme where the winner mysteriously dies right after the final match. Visitors can enjoy an immersive escape room experience, searching for clues at the crime scene to deduce the culprit. Various beauty-related props are expected to enhance the game's fun, aligning with the beauty survival theme. This pop-up is a great value in Seongsu, perfect for friends or couples looking for a thrilling deduction game. Reservations for this crime scene experience are essential and can be made via Naver Place.",
+    "foreign_friendly": false,
+    "parking": false,
+    "review_count": 5087,
+    "weekly_review_count": 7,
+    "biweekly_review_count": 14,
+    "confidence_score": 95,
+    "operating_status": "운영 중",
+    "last_status_checked_at": "2026-08-22",
+    "created_at": "2026-08-22",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -18302,7 +18341,7 @@
     "biweekly_review_count": 22,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -18340,7 +18379,7 @@
     "biweekly_review_count": 7,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -18377,7 +18416,7 @@
     "confidence_score": 95,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -18415,7 +18454,7 @@
     "confidence_score": 95,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -18453,7 +18492,7 @@
     "confidence_score": 95,
     "metadata_enriched": true,
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-13",
     "needs_review": true
@@ -18491,7 +18530,7 @@
     "biweekly_review_count": 6,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -18529,7 +18568,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-18",
     "created_at": "2026-08-18",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -18565,7 +18604,7 @@
     "biweekly_review_count": 14,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -18603,7 +18642,7 @@
     "confidence_score": 83,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13",
     "needs_review": true
@@ -18643,7 +18682,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -18680,7 +18719,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-17",
     "created_at": "2026-08-14",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -18717,7 +18756,7 @@
     "confidence_score": 75,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -18755,7 +18794,7 @@
     "confidence_score": 75,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -18793,7 +18832,7 @@
     "confidence_score": 73,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -18831,7 +18870,7 @@
     "confidence_score": 73,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -18868,7 +18907,7 @@
     "confidence_score": 73,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -18906,7 +18945,7 @@
     "confidence_score": 73,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -18944,7 +18983,7 @@
     "confidence_score": 73,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -18982,7 +19021,7 @@
     "confidence_score": 73,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -19019,7 +19058,7 @@
     "confidence_score": 73,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -19058,7 +19097,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-18",
     "created_at": "2026-08-18",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -19094,7 +19133,7 @@
     "confidence_score": 70,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -19131,7 +19170,7 @@
     "confidence_score": 70,
     "metadata_enriched": true,
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-13"
   },
@@ -19170,7 +19209,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-18",
     "created_at": "2026-08-18",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -19208,7 +19247,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-19",
     "created_at": "2026-08-19",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -19246,7 +19285,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-20",
     "created_at": "2026-08-20",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -19284,7 +19323,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-20",
     "created_at": "2026-08-20",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "needs_review": true
   },
@@ -19321,7 +19360,7 @@
     "confidence_score": 68,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -19360,7 +19399,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-17",
     "created_at": "2026-08-17",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -19397,7 +19436,7 @@
     "confidence_score": 65,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -19435,7 +19474,7 @@
     "biweekly_review_count": 30,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -19473,7 +19512,7 @@
     "confidence_score": 65,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -19509,7 +19548,7 @@
     "confidence_score": 65,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -19548,7 +19587,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-17",
     "created_at": "2026-08-17",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -19585,7 +19624,7 @@
     "biweekly_review_count": 5,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -19623,7 +19662,7 @@
     "biweekly_review_count": 4,
     "operating_status": "운영 중",
     "created_at": "2026-08-05",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -19661,7 +19700,7 @@
     "confidence_score": 63,
     "operating_status": "행사 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -19699,7 +19738,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-18",
     "created_at": "2026-08-18",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -19736,7 +19775,7 @@
     "confidence_score": 63,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -19774,7 +19813,7 @@
     "confidence_score": 60,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -19812,7 +19851,7 @@
     "confidence_score": 55,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -19850,7 +19889,7 @@
     "confidence_score": 35,
     "metadata_enriched": true,
     "created_at": "2026-07-29",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "operating_status": "행사 중"
   },
   {
@@ -19887,7 +19926,7 @@
     "confidence_score": 33,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -19925,7 +19964,7 @@
     "confidence_score": 33,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -19962,7 +20001,7 @@
     "confidence_score": 20,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -19999,7 +20038,7 @@
     "biweekly_review_count": 10,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -20037,7 +20076,7 @@
     "biweekly_review_count": 30,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -20075,7 +20114,7 @@
     "biweekly_review_count": 30,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13",
     "needs_review": true
@@ -20114,7 +20153,7 @@
     "biweekly_review_count": 30,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -20152,7 +20191,7 @@
     "biweekly_review_count": 30,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -20190,7 +20229,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -20228,7 +20267,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -20267,7 +20306,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -20302,7 +20341,7 @@
     "review_count": 2632,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "weekly_review_count": 9,
     "biweekly_review_count": 14,
     "metadata_enriched": true,
@@ -20342,7 +20381,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -20380,7 +20419,45 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-19",
     "created_at": "2026-08-19",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
+    "metadata_enriched": true
+  },
+  {
+    "id": "chilam-manjang-gijang-main-branch",
+    "type": "Restaurant",
+    "name_ko": "칠암만장 기장본점",
+    "name_en": "Chilam Manjang Gijang Main Branch",
+    "category": "dining",
+    "address_ko": "부산광역시 기장군 일광읍 일광로 648 1층 칠암만장 본점",
+    "address_en": "1st Floor, 648 Ilgwang-ro, Ilgwang-eup, Gijang-gun, Busan, Chilam Manjang Main Branch",
+    "startDate": null,
+    "endDate": null,
+    "hours": "11:00 - 20:00",
+    "price_range": "₩18,000 ~ ₩73,000",
+    "reservation_url": null,
+    "instagram": "https://www.instagram.com/chilam_manjang/",
+    "image": null,
+    "tags": [
+      "솥밥",
+      "기장맛집",
+      "가족외식",
+      "한식",
+      "컨셉다이닝"
+    ],
+    "summary_ko": "기장 본점에서 즐기는 솥밥 전문 컨셉 다이닝",
+    "summary_en": "Concept dining specializing in stone pot rice at Gijang main branch.",
+    "description_ko": "칠암만장 기장본점은 솥밥을 전문으로 하는 컨셉 다이닝으로, 신선한 재료와 정갈한 한 끼를 제공하며 방문객들에게 특별한 미식 경험을 선사합니다. 이곳에서는 따뜻하고 건강한 솥밥 요리를 맛보며 편안하고 만족스러운 식사를 즐길 수 있어 가족 단위 방문객에게 특히 인기가 많습니다. 솥밥은 반드시 맛봐야 할 시그니처 메뉴로, 정성 가득한 한 끼를 통해 깊은 만족감을 느낄 수 있습니다. 깔끔하고 정돈된 인테리어는 가족 나들이나 소중한 사람들과의 식사에 적합하며, 여유로운 시간을 보내기에 좋습니다. 매장 앞 전용 주차장이 마련되어 있어 편리하며, 만차 시 주변 골목 주차도 가능합니다.",
+    "description_en": "Chilam Manjang Gijang Main Branch is a concept dining restaurant specializing in stone pot rice, offering fresh ingredients and a neat meal, providing visitors with a special culinary experience. Here, guests can enjoy a comfortable and satisfying meal with warm and healthy stone pot rice dishes, making it particularly popular among family visitors. The stone pot rice is a must-try signature menu item, offering deep satisfaction through a meticulously prepared meal. Its clean and organized interior is suitable for family outings or meals with loved ones, perfect for spending leisurely time. Convenient dedicated parking is available in front of the store, with street parking also possible in nearby alleys if the lot is full.",
+    "foreign_friendly": false,
+    "parking": true,
+    "review_count": 334,
+    "weekly_review_count": 5,
+    "biweekly_review_count": 9,
+    "confidence_score": 100,
+    "operating_status": "운영 중",
+    "last_status_checked_at": "2026-08-19",
+    "created_at": "2026-08-19",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -20418,7 +20495,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-19",
     "created_at": "2026-08-19",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -20455,7 +20532,7 @@
     "biweekly_review_count": 8,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -20493,7 +20570,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-15",
     "created_at": "2026-08-15",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -20530,7 +20607,7 @@
     "confidence_score": 70,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -20568,7 +20645,7 @@
     "confidence_score": 65,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -20603,7 +20680,7 @@
     "review_count": 8114,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -20639,7 +20716,7 @@
     "review_count": 8863,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -20675,7 +20752,7 @@
     "review_count": 3354,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -20714,7 +20791,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-15",
     "created_at": "2026-08-15",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -20749,7 +20826,7 @@
     "review_count": 4621,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "weekly_review_count": 5,
     "biweekly_review_count": 19,
     "metadata_enriched": true,
@@ -20789,7 +20866,7 @@
     "biweekly_review_count": 2,
     "operating_status": "운영 중",
     "created_at": "2026-08-05",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -20827,7 +20904,7 @@
     "confidence_score": 75,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -20866,7 +20943,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-20",
     "created_at": "2026-08-20",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -20904,7 +20981,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-15",
     "created_at": "2026-08-15",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -20941,7 +21018,7 @@
     "biweekly_review_count": 12,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -20978,7 +21055,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -21016,7 +21093,7 @@
     "biweekly_review_count": 30,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -21054,7 +21131,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -21092,7 +21169,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -21130,7 +21207,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -21167,7 +21244,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -21205,7 +21282,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -21243,7 +21320,7 @@
     "biweekly_review_count": 15,
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -21281,7 +21358,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -21319,7 +21396,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -21357,7 +21434,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -21396,7 +21473,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-17",
     "created_at": "2026-08-17",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -21434,7 +21511,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-07-31",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -21471,7 +21548,7 @@
     "biweekly_review_count": 3,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -21510,7 +21587,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-20",
     "created_at": "2026-08-20",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -21547,7 +21624,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-20",
     "created_at": "2026-08-20",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -21585,7 +21662,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-20",
     "created_at": "2026-08-20",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -21622,7 +21699,7 @@
     "confidence_score": 90,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -21660,7 +21737,7 @@
     "confidence_score": 80,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -21698,7 +21775,7 @@
     "confidence_score": 80,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -21736,7 +21813,7 @@
     "confidence_score": 80,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -21774,7 +21851,7 @@
     "confidence_score": 78,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -21812,7 +21889,7 @@
     "confidence_score": 78,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -21850,7 +21927,7 @@
     "confidence_score": 78,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -21887,7 +21964,7 @@
     "confidence_score": 75,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -21925,7 +22002,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-15",
     "created_at": "2026-08-15",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -21962,7 +22039,7 @@
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
     "metadata_enriched": true,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "last_status_checked_at": "2026-08-13"
   },
   {
@@ -21999,7 +22076,7 @@
     "confidence_score": 73,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -22037,7 +22114,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-18",
     "created_at": "2026-08-18",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -22075,7 +22152,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-18",
     "created_at": "2026-08-18",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -22112,7 +22189,7 @@
     "confidence_score": 68,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -22150,7 +22227,7 @@
     "confidence_score": 68,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -22188,7 +22265,7 @@
     "confidence_score": 60,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -22223,7 +22300,7 @@
     "review_count": 36668,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -22259,7 +22336,7 @@
     "review_count": 2533,
     "operating_status": "운영 중",
     "created_at": "2026-07-30",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -22297,7 +22374,7 @@
     "confidence_score": 55,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -22335,7 +22412,7 @@
     "confidence_score": 28,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -22373,7 +22450,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -22410,7 +22487,7 @@
     "confidence_score": 100,
     "operating_status": "운영 중",
     "created_at": "2026-08-12",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -22449,7 +22526,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-20",
     "created_at": "2026-08-20",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -22485,7 +22562,7 @@
     "confidence_score": 95,
     "operating_status": "운영 중",
     "created_at": "2026-08-11",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -22524,7 +22601,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-20",
     "created_at": "2026-08-20",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -22560,7 +22637,7 @@
     "confidence_score": 85,
     "operating_status": "운영 중",
     "created_at": "2026-08-10",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -22598,7 +22675,7 @@
     "confidence_score": 75,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
@@ -22636,36 +22713,74 @@
     "confidence_score": 75,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
   },
   {
-    "id": "cheonmasan-handmade-dumplings",
-    "type": "CafeOrCoffeeShop",
-    "name_ko": "어랑손만두국",
-    "name_en": "Cheonmasan Handmade Dumplings",
-    "category": "cafe",
-    "address_ko": "경기도 남양주시 경춘로 1084-25 어랑손만두",
-    "address_en": "24-1 Palhyeon-ro 216beon-gil, Onam-eup, Namyangju-si, Gyeonggi-do, Masil Garden Masil Village",
+    "id": "miffy-cafe",
+    "type": "Event",
+    "name_ko": "miffy cafe",
+    "name_en": "miffy cafe",
+    "category": "popup",
+    "address_ko": "경상남도 거제시 남부면 다대5길 41 미피카페",
+    "address_en": "41, Dadae 5-gil, Nambu-myeon, Geoje-si, Gyeongsangnam-do",
     "startDate": null,
     "endDate": null,
     "hours": null,
-    "price_range": "₩10,000 ~ ₩30,000",
+    "price_range": "₩6,000 ~ ₩8,000",
     "reservation_url": null,
-    "instagram": null,
+    "instagram": "https://www.instagram.com/miffy_cafe_geoje/",
     "image": null,
     "tags": [
-      "만두전골",
-      "손만두",
-      "고기국수",
+      "미피",
+      "카페",
+      "거제도",
+      "오션뷰",
+      "한정판"
+    ],
+    "summary_ko": "거제도 오션뷰와 함께하는 미피 테마 카페",
+    "summary_en": "Miffy-themed cafe with ocean views in Geoje Island.",
+    "description_ko": "거제 남부면에 위치한 'miffy cafe'는 사랑스러운 미피 캐릭터를 테마로 한 독특한 컨셉의 공간입니다. 방문객들은 아름다운 거제도 오션뷰를 배경으로 미피 캐릭터와 함께 특별한 시간을 보내며, 이곳에서만 만날 수 있는 한정판 몽돌 미피 굿즈를 구경할 수 있습니다. 다양한 미피 테마 디저트와 음료는 물론, 귀여운 미피 포토존에서 인생샷을 남기는 즐거움도 놓칠 수 없습니다. 아기자기하고 따뜻한 인테리어는 친구, 연인, 가족 단위 방문객 모두에게 편안하고 즐거운 휴식을 제공합니다. 아름다운 바다를 바라보며 귀여운 미피와 함께 특별한 추억을 만들고 싶은 분들에게 강력히 추천하는 곳입니다.",
+    "description_en": "Located in Nambu-myeon, Geoje, 'miffy cafe' is a unique space themed around the beloved Miffy character. Visitors can enjoy a special time with Miffy characters against the backdrop of Geoje Island's beautiful ocean views, and discover limited edition Mongdol Miffy merchandise available only here. Beyond various Miffy-themed desserts and beverages, don't miss the joy of capturing memorable photos at the adorable Miffy photo zones. The charming and cozy interior provides a comfortable and enjoyable break for friends, couples, and families alike. This cafe is highly recommended for those looking to create special memories with cute Miffy while gazing at the beautiful sea.",
+    "foreign_friendly": false,
+    "parking": true,
+    "review_count": 760,
+    "weekly_review_count": 1,
+    "biweekly_review_count": 5,
+    "confidence_score": 73,
+    "operating_status": "운영 중",
+    "last_status_checked_at": "2026-08-22",
+    "created_at": "2026-08-22",
+    "updated_at": "2026-08-22",
+    "metadata_enriched": true
+  },
+  {
+    "id": "cheonmasan-handmade-dumplings",
+    "type": "Restaurant",
+    "name_ko": "어랑손만두국",
+    "name_en": "Cheonmasan Handmade Dumplings",
+    "category": "dining",
+    "address_ko": "경기도 남양주시 경춘로 1084-25 어랑손만두",
+    "address_en": "24-1 Palhyeon-ro 216beon-gil, Onam-eup, Namyangju-si, Gyeonggi-do, Republic of Korea (Masill Garden Masill Village)",
+    "startDate": null,
+    "endDate": null,
+    "hours": null,
+    "price_range": "₩10,000",
+    "reservation_url": null,
+    "instagram": "http://instagram.com/eorang_mandu",
+    "image": null,
+    "tags": [
       "남양주맛집",
+      "손만두",
+      "만두전골",
+      "고기국수",
       "한식"
     ],
-    "summary_ko": "남양주에서 맛있는 손만두와 만두전골을 즐길 수 있는 곳.",
-    "summary_en": "A Namyangju restaurant offering delicious handmade dumplings and dumpling hotpot.",
-    "description_ko": "천마산 손만두는 직접 만든 손만두와 푸짐한 만두전골로 유명한 남양주의 맛집입니다. 이곳에서는 큰 갈빗대와 양지고기가 듬뿍 들어간 만두전골을 맛볼 수 있으며, 정성껏 만든 다양한 반찬들도 함께 즐길 수 있습니다. 특히, 깊고 진한 국물의 만두전골과 쫄깃한 찐만두는 꼭 주문해야 할 시그니처 메뉴이며, 특이하게 고기국수도 별미로 인기가 많습니다. 사장님의 훌륭한 손맛이 느껴지는 따뜻하고 정겨운 분위기에서 가족, 친구들과 함께 든든한 한 끼 식사를 하기에 좋습니다. 만두는 따로 포장 판매도 하고 있어 집에서도 그 맛을 즐길 수 있습니다.",
-    "description_en": "Cheonmasan Handmade Dumplings is a renowned restaurant in Namyangju, famous for its homemade dumplings and generous dumpling hotpot. Visitors can savor a rich dumpling hotpot featuring large short ribs and plenty of beef brisket, complemented by various meticulously prepared side dishes. The deep and flavorful dumpling hotpot and chewy steamed dumplings are must-try signature items, and the unique meat noodles are also a popular specialty. With a warm and friendly atmosphere reflecting the owner's excellent culinary skills, it's an ideal spot for families and friends to enjoy a hearty meal together. Handmade dumplings are also available for takeout, allowing you to enjoy their delicious taste at home.",
+    "summary_ko": "남양주 천마산 손만두, 푸짐한 만두전골과 고기국수 맛집",
+    "summary_en": "Cheonmasan Handmade Dumplings in Namyangju, famous for hot pot and noodle soup.",
+    "description_ko": "천마산 손만두는 푸짐한 만두전골과 정성 가득한 손만두로 유명한 남양주의 한식 맛집입니다. 방문객들은 큰 갈빗대와 양지고기가 듬뿍 들어간 만두전골의 깊은 맛을 즐기거나, 사장님의 손맛이 돋보이는 고기국수와 찐만두를 맛볼 수 있습니다. 특히 만두전골은 갈비탕을 연상시킬 정도로 푸짐하며, 찐만두는 별도로 포장 구매도 가능하여 집에서도 그 맛을 즐길 수 있습니다. 직접 만드신 반찬들과 함께 따뜻하고 정겨운 분위기에서 식사를 할 수 있어 가족 외식이나 친구들과의 모임에 추천합니다. 만두는 포장 판매도 하고 있으니 참고하세요.",
+    "description_en": "Cheonmasan Handmade Dumplings is a renowned Korean restaurant in Namyangju, famous for its generous mandu-jeongol (dumpling hot pot) and meticulously prepared handmade dumplings. Visitors can savor the rich flavors of the mandu-jeongol, which comes with large galbi ribs and plenty of beef, or enjoy the delicious gogi-guksu (meat noodles) and steamed mandu, all showcasing the owner's excellent culinary skills. The mandu-jeongol is so hearty it could be mistaken for galbi-tang, and the steamed dumplings are available for takeout, allowing guests to enjoy them at home. With its warm and inviting atmosphere, complemented by homemade side dishes, this spot is perfect for family meals or gatherings with friends seeking an authentic Korean dining experience. Takeout options for dumplings are available.",
     "foreign_friendly": false,
     "parking": true,
     "review_count": 44,
@@ -22673,9 +22788,9 @@
     "biweekly_review_count": 2,
     "confidence_score": 70,
     "operating_status": "운영 중",
-    "last_status_checked_at": "2026-08-20",
-    "created_at": "2026-08-20",
-    "updated_at": "2026-08-21",
+    "last_status_checked_at": "2026-08-22",
+    "created_at": "2026-08-22",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -22713,7 +22828,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-20",
     "created_at": "2026-08-20",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -22751,7 +22866,7 @@
     "operating_status": "운영 중",
     "last_status_checked_at": "2026-08-20",
     "created_at": "2026-08-20",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true
   },
   {
@@ -22787,236 +22902,8 @@
     "confidence_score": 33,
     "operating_status": "운영 중",
     "created_at": "2026-08-13",
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "metadata_enriched": true,
     "last_status_checked_at": "2026-08-13"
-  },
-  {
-    "id": "jo-malone-sea-salt-bergamot-pop-up-store",
-    "type": "Event",
-    "name_ko": "조 말론 런던 팝업스토어 성수",
-    "name_en": "Jo Malone Sea Salt & Bergamot Pop-up Store",
-    "category": "popup",
-    "address_ko": "서울특별시 성동구 연무장길 96 1층",
-    "address_en": "96, Yeonmujang-gil, Seongdong-gu, Seoul, Republic of Korea (MM Blue)",
-    "startDate": "2026-08-14",
-    "endDate": "2026-08-23",
-    "hours": "11:00 - 19:00",
-    "price_range": null,
-    "reservation_url": null,
-    "instagram": null,
-    "image": null,
-    "tags": [
-      "조말론",
-      "팝업스토어",
-      "향수",
-      "성수동",
-      "씨솔트앤베르가못"
-    ],
-    "summary_ko": "조말론 씨솔트 앤 베르가못 팝업스토어",
-    "summary_en": "Jo Malone Sea Salt & Bergamot Pop-up Store",
-    "description_ko": "조말론 씨솔트 앤 베르가못 팝업스토어는 조말론의 유명 향조인 '씨솔트 앤 베르가못'을 테마로 한 특별한 공간입니다. 방문객들은 이곳에서 우드세이지 앤 씨솔트 향을 직접 시향하며 감각적인 경험을 즐길 수 있습니다. 특히 '우드세이지 앤 씨솔트'는 굳건한 유명 향조로, 이 팝업스토어의 시그니처 향을 대표합니다. 향수를 좋아하는 이들에게 새로운 향을 탐색하고 경험하기에 이상적인 분위기를 제공합니다. 방문을 위해서는 네이버 예약 또는 현장 대기를 이용할 수 있습니다.",
-    "description_en": "The Jo Malone Sea Salt & Bergamot Pop-up Store is a special space themed around Jo Malone's renowned 'Sea Salt & Bergamot' fragrance. Visitors can enjoy a sensory experience by directly sampling the Wood Sage & Sea Salt scent. The 'Wood Sage & Sea Salt' is a firmly established popular fragrance, representing the signature scent of this pop-up store. It offers an ideal atmosphere for fragrance enthusiasts to explore and experience new scents. For visits, reservations can be made through Naver or by utilizing on-site waiting.",
-    "foreign_friendly": false,
-    "parking": false,
-    "review_count": 3252,
-    "weekly_review_count": 8,
-    "biweekly_review_count": 13,
-    "recent_snippets": [],
-    "confidence_score": 95,
-    "operating_status": "행사 중",
-    "last_status_checked_at": "2026-08-21",
-    "created_at": "2026-08-21",
-    "updated_at": "2026-08-21"
-  },
-  {
-    "id": "spider-man-brand-new-day-friendly-neighbor-pop-up",
-    "type": "Event",
-    "name_ko": "&lt;스파이더맨: 브랜드 뉴 데이&gt; 친절한 이웃 팝업",
-    "name_en": "Spider-Man: Brand New Day Friendly Neighbor Pop-up",
-    "category": "popup",
-    "address_ko": "서울특별시 영등포구 여의대로 108 더 현대 서울, 5층 에픽 서울",
-    "address_en": "5F, Epic Seoul, The Hyundai Seoul, 108 Yeoui-daero, Yeongdeungpo-gu, Seoul",
-    "startDate": "2026-07-19",
-    "endDate": "2026-08-04",
-    "hours": null,
-    "price_range": null,
-    "reservation_url": null,
-    "instagram": null,
-    "image": null,
-    "tags": [
-      "스파이더맨",
-      "팝업스토어",
-      "더현대서울",
-      "마블",
-      "무료전시"
-    ],
-    "summary_ko": "더현대 서울에서 열리는 스파이더맨 팝업",
-    "summary_en": "Spider-Man themed pop-up store at The Hyundai Seoul.",
-    "description_ko": "스파이더맨: 브랜드 뉴 데이 친절한 이웃 팝업은 마블의 인기 히어로 스파이더맨을 테마로 한 특별한 공간입니다. 방문객들은 팝업에 들어서면 우편함을 먼저 확인하는 등 스파이더맨 세계관 속으로 몰입할 수 있는 다양한 시각적 요소를 즐길 수 있습니다. 팝업 내 친절한 이웃 직원들의 안내를 받으며 스파이더맨의 친근한 분위기를 만끽할 수 있습니다. 전체관람가로 누구나 방문하기 좋으며, 특히 스파이더맨을 좋아하는 친구나 연인, 가족 단위 방문객에게 즐거운 경험을 선사합니다. 더현대 서울 5층 에픽 서울에서 무료로 운영되어 부담 없이 방문할 수 있습니다.",
-    "description_en": "The Spider-Man: Brand New Day Friendly Neighbor Pop-up is a special space themed around Marvel's popular hero, Spider-Man. Visitors can immerse themselves in the Spider-Man universe by checking the mailbox upon entering the pop-up and enjoying various visual elements. Friendly staff members within the pop-up guide visitors, allowing them to fully experience Spider-Man's amiable atmosphere. Recommended for all ages, this pop-up offers an enjoyable experience, especially for friends, couples, or families who love Spider-Man. Located on the 5th floor of Epic Seoul at The Hyundai Seoul, it operates for free, making it an accessible visit for everyone.",
-    "foreign_friendly": false,
-    "parking": false,
-    "review_count": 87,
-    "weekly_review_count": 1,
-    "biweekly_review_count": 2,
-    "recent_snippets": [],
-    "confidence_score": 70,
-    "operating_status": "행사 종료",
-    "last_status_checked_at": "2026-08-21",
-    "created_at": "2026-08-21",
-    "updated_at": "2026-08-21"
-  },
-  {
-    "id": "bakttugi-salt-bread-the-hyundai-daegu",
-    "type": "Event",
-    "name_ko": "박뚜기 소금빵 더현대 대구점",
-    "name_en": "Bakttugi Salt Bread The Hyundai Daegu",
-    "category": "popup",
-    "address_ko": "대구광역시 중구 달구벌대로 2077 현대백화점 지하1층",
-    "address_en": "2077 Dalgubeol-daero, Jung-gu, Daegu, The Hyundai Daegu",
-    "startDate": null,
-    "endDate": null,
-    "hours": null,
-    "price_range": null,
-    "reservation_url": null,
-    "instagram": null,
-    "image": null,
-    "tags": [
-      "소금빵맛집",
-      "에그타르트맛집",
-      "빵지순례",
-      "더현대대구",
-      "실내데이트"
-    ],
-    "summary_ko": "박뚜기소금빵과 픽베이크 팝업스토어",
-    "summary_en": "Bakttugi Salt Bread & Pick Bake popup store",
-    "description_ko": "박뚜기소금빵과 픽베이크는 더현대 대구에서 특별한 팝업스토어를 열어, 방문객들에게 다채로운 베이커리 경험을 선사합니다. 이곳에서는 소금빵과 에그타르트 등 다양한 종류의 빵을 맛볼 수 있으며, 특히 소화가 잘되는 우유와 함께 즐기기 좋습니다. 짭짤하면서도 고소한 박뚜기소금빵과 부드러운 픽베이크의 에그타르트는 반드시 맛봐야 할 시그니처 메뉴로 손꼽힙니다. 더현대 대구 지하 1층에서 진행되는 이 팝업은 깔끔하고 현대적인 분위기 속에서 빵지순례를 즐기려는 친구나 연인에게 완벽한 실내 데이트 코스입니다. 백화점 휴무일을 미리 확인하고 방문하면 더욱 쾌적하게 팝업을 즐길 수 있습니다.",
-    "description_en": "Bakttugi Salt Bread and Pick Bake are hosting a special pop-up store at The Hyundai Daegu, offering visitors a diverse bakery experience. Here, you can enjoy various types of bread, including salt bread and egg tarts, which pair wonderfully with easy-to-digest milk. The savory yet rich Bakttugi Salt Bread and Pick Bake's soft egg tarts are highly recommended as must-try signature items. Located on the B1 floor of The Hyundai Daegu, this pop-up provides a clean and modern atmosphere, perfect for friends or couples seeking a delightful indoor bakery tour. It is advisable to check the department store's closing days in advance for a more pleasant visit.",
-    "foreign_friendly": false,
-    "parking": false,
-    "review_count": 5629,
-    "weekly_review_count": 30,
-    "biweekly_review_count": 30,
-    "recent_snippets": [],
-    "confidence_score": 65,
-    "operating_status": "운영 중",
-    "last_status_checked_at": "2026-08-21",
-    "created_at": "2026-08-21",
-    "updated_at": "2026-08-21"
-  },
-  {
-    "id": "chilam-manjang-gijang-main-branch",
-    "type": "Restaurant",
-    "name_ko": "칠암만장 기장본점",
-    "name_en": "Chilam Manjang Gijang Main Branch",
-    "category": "dining",
-    "address_ko": "부산광역시 기장군 일광읍 일광로 648 1층 칠암만장 본점",
-    "address_en": "1st Floor, 648 Ilgwang-ro, Ilgwang-eup, Gijang-gun, Busan, Chilam Manjang Main Branch",
-    "startDate": null,
-    "endDate": null,
-    "hours": "11:00 - 20:00",
-    "price_range": "₩18,000 ~ ₩73,000",
-    "reservation_url": null,
-    "instagram": "https://www.instagram.com/chilam_manjang/",
-    "image": null,
-    "tags": [
-      "솥밥",
-      "기장맛집",
-      "가족외식",
-      "한식",
-      "컨셉다이닝"
-    ],
-    "summary_ko": "기장 본점에서 즐기는 솥밥 전문 컨셉 다이닝",
-    "summary_en": "Concept dining specializing in stone pot rice at Gijang main branch.",
-    "description_ko": "칠암만장 기장본점은 솥밥을 전문으로 하는 컨셉 다이닝으로, 신선한 재료와 정갈한 한 끼를 제공하며 방문객들에게 특별한 미식 경험을 선사합니다. 이곳에서는 따뜻하고 건강한 솥밥 요리를 맛보며 편안하고 만족스러운 식사를 즐길 수 있어 가족 단위 방문객에게 특히 인기가 많습니다. 솥밥은 반드시 맛봐야 할 시그니처 메뉴로, 정성 가득한 한 끼를 통해 깊은 만족감을 느낄 수 있습니다. 깔끔하고 정돈된 인테리어는 가족 나들이나 소중한 사람들과의 식사에 적합하며, 여유로운 시간을 보내기에 좋습니다. 매장 앞 전용 주차장이 마련되어 있어 편리하며, 만차 시 주변 골목 주차도 가능합니다.",
-    "description_en": "Chilam Manjang Gijang Main Branch is a concept dining restaurant specializing in stone pot rice, offering fresh ingredients and a neat meal, providing visitors with a special culinary experience. Here, guests can enjoy a comfortable and satisfying meal with warm and healthy stone pot rice dishes, making it particularly popular among family visitors. The stone pot rice is a must-try signature menu item, offering deep satisfaction through a meticulously prepared meal. Its clean and organized interior is suitable for family outings or meals with loved ones, perfect for spending leisurely time. Convenient dedicated parking is available in front of the store, with street parking also possible in nearby alleys if the lot is full.",
-    "foreign_friendly": false,
-    "parking": true,
-    "review_count": 334,
-    "weekly_review_count": 5,
-    "biweekly_review_count": 9,
-    "confidence_score": 100,
-    "operating_status": "운영 중",
-    "last_status_checked_at": "2026-08-19",
-    "created_at": "2026-08-19",
-    "updated_at": "2026-08-19",
-    "metadata_enriched": true
-  },
-  {
-    "id": "miffy-cafe",
-    "type": "CafeOrCoffeeShop",
-    "name_ko": "미피카페 부산",
-    "name_en": "miffy cafe",
-    "category": "cafe",
-    "address_ko": "부산광역시 영도구 와치로51번길 2",
-    "address_en": "41, Dadae 5-gil, Nambu-myeon, Geoje-si, Gyeongsangnam-do, Republic of Korea",
-    "startDate": null,
-    "endDate": null,
-    "hours": null,
-    "price_range": null,
-    "reservation_url": null,
-    "instagram": null,
-    "image": null,
-    "tags": [
-      "미피카페",
-      "거제카페",
-      "오션뷰",
-      "디저트",
-      "캐릭터카페"
-    ],
-    "summary_ko": "거제 오션뷰와 한정판 몽돌 미피를 만나는 카페",
-    "summary_en": "Miffy Cafe in Geoje offering ocean views and limited edition Miffy goods.",
-    "description_ko": "미피카페는 귀여운 미피 캐릭터를 테마로 한 특별한 공간으로, 특히 거제점에서는 오직 이곳에서만 만날 수 있는 한정판 몽돌 미피 굿즈가 방문객들의 눈길을 사로잡습니다. 아름다운 오션뷰를 배경으로 미피와 함께하는 아늑한 분위기 속에서 달콤한 디저트와 음료를 즐기며 여유로운 시간을 보낼 수 있습니다. 이곳의 시그니처는 단연 한정판 몽돌 미피로, 소장 가치를 더하며 특별한 추억을 선사합니다. 핫한 신상 카페로, 아이와 함께하는 가족 단위 방문객이나 오션뷰를 선호하는 연인, 친구들에게 특히 추천하며 편안하고 즐거운 시간을 보낼 수 있습니다.",
-    "description_en": "Miffy Cafe is a special space themed around the beloved Miffy character, where visitors to the Geoje branch can discover exclusive limited edition Mongdol Miffy merchandise. Guests can relax in a cozy atmosphere with Miffy, enjoying sweet desserts and drinks against a beautiful ocean view. The must-have item here is undoubtedly the limited edition Mongdol Miffy, adding unique value and creating special memories. This trendy new cafe is highly recommended for families with children, couples, or friends who appreciate ocean views, offering a comfortable and delightful experience.",
-    "foreign_friendly": false,
-    "parking": false,
-    "review_count": 760,
-    "weekly_review_count": 1,
-    "biweekly_review_count": 5,
-    "recent_snippets": [],
-    "confidence_score": 73,
-    "operating_status": "운영 중",
-    "last_status_checked_at": "2026-08-21",
-    "created_at": "2026-08-21",
-    "updated_at": "2026-08-21"
-  },
-  {
-    "id": "cheonmasan-sonmandu",
-    "type": "Restaurant",
-    "name_ko": "어랑손만두국",
-    "name_en": "Cheonmasan Sonmandu",
-    "category": "dining",
-    "address_ko": "경기도 남양주시 경춘로 1084-25 어랑손만두",
-    "address_en": "24-1, Palhyeon-ro 216beon-gil, Onam-eup, Namyangju-si, Gyeonggi-do",
-    "startDate": null,
-    "endDate": null,
-    "hours": null,
-    "price_range": "₩10,000 ~ ₩15,000",
-    "reservation_url": null,
-    "instagram": null,
-    "image": null,
-    "tags": [
-      "손만두",
-      "만두전골",
-      "고기국수",
-      "한식",
-      "남양주맛집"
-    ],
-    "summary_ko": "남양주에서 푸짐한 만두전골과 손만두를 맛볼 수 있는 곳",
-    "summary_en": "A Namyangju restaurant offering hearty dumpling hotpot and handmade dumplings.",
-    "description_ko": "남양주 천마산 손만두는 정성 가득한 손맛으로 깊은 맛을 선사하는 만두전골 전문점입니다. 이곳에서는 큰 갈빗대와 양지고기가 듬뿍 올려진 푸짐한 만두전골을 맛볼 수 있으며, 보는 즐거움과 함께 든든한 한 끼를 제공합니다. 특히 직접 빚은 찐만두와 특이하게 메뉴에 있는 고기국수는 꼭 맛봐야 할 별미이며, 만두는 포장 판매도 가능하여 집에서도 즐길 수 있습니다. 사장님의 손맛이 돋보이는 정갈한 반찬들과 함께 따뜻하고 편안한 분위기에서 가족, 친구들과 함께 든든한 식사를 즐기기에 좋습니다.",
-    "description_en": "Cheonmasan Sonmandu in Namyangju is a specialty restaurant renowned for its handmade dumplings and hearty hotpot, offering deep flavors crafted with care. Visitors can enjoy a visually appealing and satisfying meal with the generous mandu jeongol, featuring large ribs and plenty of beef brisket. The must-try items include freshly steamed handmade dumplings and the unique gogi guksu (meat noodles), with dumplings also available for takeout to enjoy at home. With the owner's excellent homemade side dishes, the warm and comfortable atmosphere is perfect for enjoying a hearty meal with family and friends.",
-    "foreign_friendly": false,
-    "parking": false,
-    "review_count": 44,
-    "weekly_review_count": 1,
-    "biweekly_review_count": 2,
-    "recent_snippets": [],
-    "confidence_score": 70,
-    "operating_status": "운영 중",
-    "last_status_checked_at": "2026-08-21",
-    "created_at": "2026-08-21",
-    "updated_at": "2026-08-21"
   }
 ]
