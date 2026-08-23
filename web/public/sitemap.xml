@@ -5692,6 +5692,24 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/chemi.html" />
   </url>
 
+  <!-- Amore Seongsu Beauty Survival Murder Case -->
+  <url>
+    <loc>https://kuromoon.net/ko/places/amore-seongsu-beauty-survival-murder-case.html</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/amore-seongsu-beauty-survival-murder-case.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/amore-seongsu-beauty-survival-murder-case.html" />
+  </url>
+  <url>
+    <loc>https://kuromoon.net/en/places/amore-seongsu-beauty-survival-murder-case.html</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/amore-seongsu-beauty-survival-murder-case.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/amore-seongsu-beauty-survival-murder-case.html" />
+  </url>
+
   <!-- Flaby Hyehwa Branch -->
   <url>
     <loc>https://kuromoon.net/ko/places/flaby-hyehwa-branch.html</loc>
@@ -8786,24 +8804,6 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/munhwa-ssambap.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/munhwa-ssambap.html" />
-  </url>
-
-  <!-- Amore Seongsu Beauty Survival Murder Case -->
-  <url>
-    <loc>https://kuromoon.net/ko/places/amore-seongsu-beauty-survival-murder-case.html</loc>
-    <lastmod>2026-08-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/amore-seongsu-beauty-survival-murder-case.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/amore-seongsu-beauty-survival-murder-case.html" />
-  </url>
-  <url>
-    <loc>https://kuromoon.net/en/places/amore-seongsu-beauty-survival-murder-case.html</loc>
-    <lastmod>2026-08-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/amore-seongsu-beauty-survival-murder-case.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/amore-seongsu-beauty-survival-murder-case.html" />
   </url>
 
   <!-- Four Seasons Hotel Seoul The Spa -->

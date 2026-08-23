@@ -338,6 +338,7 @@ Updated: 2026-08-23
 - [마틸다](https://kuromoon.net/ko/places/matilda.html) — 제주 애월읍, LP 음악과 오션뷰의 아늑한 카페.
 - [석산전기](https://kuromoon.net/ko/places/suksan.html) — 유달산과 바다가 보이는 목포의 대형 베이커리 카페.
 - [케미파인주얼리](https://kuromoon.net/ko/places/chemi.html) — 아산의 컨셉 다이닝, 와인 페어링 코스 맛집
+- [STORY A 성수 : 뷰티서바이벌 살인사건](https://kuromoon.net/ko/places/amore-seongsu-beauty-survival-murder-case.html) — 아모레성수에서 펼쳐지는 뷰티 서바이벌 크라임씬
 - [플라비 혜화점](https://kuromoon.net/ko/places/flaby-hyehwa-branch.html) — 혜화역 근처에서 가죽공예 원데이 클래스를 즐길 수 있는 공방.
 - [버터앤쉘터 연남점](https://kuromoon.net/ko/places/butter-shelter-yeonnam-branch.html) — 연남동에 위치한 버터샌드와 두바이 쫀득쿠키 맛집 디저트 카페.
 - [닥터포헤어 송파잠실점](https://kuromoon.net/ko/places/dr-for-hair-songpa-jamsil-branch.html) — 잠실새내역 근처 17년 노하우의 두피/탈모 관리 전문점.
@@ -510,7 +511,6 @@ Updated: 2026-08-23
 - [밥이보약 65](https://kuromoon.net/ko/places/bapiboyak-65.html) — 집밥처럼 따뜻한 한 끼를 즐길 수 있는 서면 한식 맛집
 - [대구광역시립동부도서관](https://kuromoon.net/ko/places/daegu-metropolitan-dongbu-library.html) — 새롭게 단장한 대구 동부도서관에서 책과 휴식을 즐겨보세요.
 - [문화쌈밥](https://kuromoon.net/ko/places/munhwa-ssambap.html) — 부산문화회관 근처, 다양한 쌈채소와 불고기 쌈밥을 즐기는 한식 맛집.
-- [STORY A 성수 : 뷰티서바이벌 살인사건](https://kuromoon.net/ko/places/amore-seongsu-beauty-survival-murder-case.html) — 아모레 성수에서 펼쳐지는 뷰티 서바이벌 크라임씬
 - [포시즌스 호텔 서울 더 스파](https://kuromoon.net/ko/places/four-seasons-hotel-seoul-the-spa.html) — 포시즌스 호텔 서울 내 럭셔리 스파
 - [광안리 해린횟집](https://kuromoon.net/ko/places/gwangalli-haerin-hoejip.html) — 광안대교 뷰를 자랑하는 프라이빗 룸 횟집
 - [코노미스시 성수](https://kuromoon.net/ko/places/konomi-sushi-seongsu.html) — 성수동 프리미엄 회전초밥 전문점
@@ -788,7 +788,7 @@ Updated: 2026-08-23
 - [Cafe Gongmyeong Yeonnam Branch](https://kuromoon.net/en/places/cafe-gongmyeong-yeonnam-branch.html) — Spacious book cafe in Yeonnam-dong offering books, coffee, and delicious desserts.
 - [Forest Outings Songdo Branch](https://kuromoon.net/en/places/forest-outings-songdo-branch.html) — Large botanical garden concept bakery cafe
 - [Lee Sung Dang](https://kuromoon.net/en/places/lee-sung-dang.html) — Lee Sung Dang Main Branch, a famous hanok concept bakery cafe in Gunsan.
-- [Miffy Store](https://kuromoon.net/en/places/miffy-store.html) — Miffy-themed souvenir shop and cafe in Hwanglidan-gil, Gyeongju
+- [Miffy Store](https://kuromoon.net/en/places/miffy-store.html) — Miffy-themed souvenir shop and cafe located in Hwanglidan-gil, Gyeongju.
 - [Cheongdam Personal Color 7AR](https://kuromoon.net/en/places/cheongdam-personal-color-7ar.html) — Detailed and accurate personal color diagnosis service in Cheongdam, Gangnam.
 - [Groundseesaw Central](https://kuromoon.net/en/places/groundseesaw-central.html) — Max Siedentopf's solo exhibition at Groundseesaw Central.
 - [Grand Hyatt Seoul Gallery](https://kuromoon.net/en/places/grand-hyatt-seoul-gallery.html) — Luxury lounge cafe in the lobby of Grand Hyatt Seoul.
@@ -950,6 +950,7 @@ Updated: 2026-08-23
 - [Matilda](https://kuromoon.net/en/places/matilda.html) — Cozy cafe in Aewol-eup, Jeju, with LP music and ocean views.
 - [SUKSAN](https://kuromoon.net/en/places/suksan.html) — Large bakery cafe in Mokpo with views of Yudalsan Mountain and the sea.
 - [Chemi](https://kuromoon.net/en/places/chemi.html) — Concept dining restaurant in Asan, known for wine pairing courses.
+- [Amore Seongsu Beauty Survival Murder Case](https://kuromoon.net/en/places/amore-seongsu-beauty-survival-murder-case.html) — A beauty survival murder mystery crime scene game at Amore Seongsu.
 - [Flaby Hyehwa Branch](https://kuromoon.net/en/places/flaby-hyehwa-branch.html) — A craft workshop near Hyehwa Station offering one-day leather craft classes.
 - [Butter & Shelter Yeonnam Branch](https://kuromoon.net/en/places/butter-shelter-yeonnam-branch.html) — Dessert cafe in Yeonnam-dong known for butter sand and Dubai chewy cookies.
 - [Dr. For Hair Songpa Jamsil Branch](https://kuromoon.net/en/places/dr-for-hair-songpa-jamsil-branch.html) — Dr. For Hair Songpa Jamsil offers 17 years of expertise in scalp and hair loss management near Jamsil Saenae Station.
@@ -1122,7 +1123,6 @@ Updated: 2026-08-23
 - [Bapiboyak 65](https://kuromoon.net/en/places/bapiboyak-65.html) — A Seomyeon Korean restaurant offering warm, home-style meals.
 - [Daegu Metropolitan Dongbu Library](https://kuromoon.net/en/places/daegu-metropolitan-dongbu-library.html) — Enjoy books and relaxation at the newly renovated Daegu Dongbu Library.
 - [Munhwa Ssambap](https://kuromoon.net/en/places/munhwa-ssambap.html) — Korean restaurant near Busan Cultural Center, offering bulgogi ssam-bap with various fresh greens.
-- [Amore Seongsu Beauty Survival Murder Case](https://kuromoon.net/en/places/amore-seongsu-beauty-survival-murder-case.html) — Beauty survival crime scene event at Amore Seongsu.
 - [Four Seasons Hotel Seoul The Spa](https://kuromoon.net/en/places/four-seasons-hotel-seoul-the-spa.html) — Luxury spa located within the Four Seasons Hotel Seoul.
 - [Gwangalli Haerin Hoejip](https://kuromoon.net/en/places/gwangalli-haerin-hoejip.html) — Raw fish restaurant with Gwangandaegyo Bridge view and private rooms.
 - [Konomi Sushi Seongsu](https://kuromoon.net/en/places/konomi-sushi-seongsu.html) — Premium conveyor belt sushi restaurant in Seongsu-dong.

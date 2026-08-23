@@ -10,9 +10,14 @@
       "label": "팝업/전시",
       "trending_keywords": [
         {
-          "keyword": "틴더 패스포트 라운지 팝업",
+          "keyword": "코르티스 토리든 팝업",
           "trend_score": 100,
           "data_points": 3
+        },
+        {
+          "keyword": "판도라 팝업스토어",
+          "trend_score": 100,
+          "data_points": 1
         },
         {
           "keyword": "조말론 성수 팝업",
@@ -20,17 +25,7 @@
           "data_points": 3
         },
         {
-          "keyword": "하이텍 팝업",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "뷰티서바이벌 아모레성수",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "아모레 성수 뷰티서바이벌",
+          "keyword": "아모레성수 뷰티서바이벌",
           "trend_score": 30,
           "data_points": 0
         },
@@ -40,22 +35,27 @@
           "data_points": 0
         },
         {
-          "keyword": "스팀팝업 시나몬",
+          "keyword": "인싸기 팝업",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "픽배이크 더현대",
+          "keyword": "드래곤볼 히어로즈 라이브",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "인사이드 아웃2 더현대",
+          "keyword": "성수 쿠지샵 히든블라인드박스",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "나인어코드 성수 팝업",
+          "keyword": "휩드 피치 스파 팝업",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "성수 [다밍] 다녀온 후기",
           "trend_score": 30,
           "data_points": 0
         }
@@ -65,52 +65,52 @@
       "label": "이색 체험",
       "trending_keywords": [
         {
-          "keyword": "어텀내일 도자기 공방",
+          "keyword": "수제 비누 만들기 팝업",
+          "trend_score": 100,
+          "data_points": 5
+        },
+        {
+          "keyword": "포켓몬 팝팝 미드나이트 피규어",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "로봇공학 키즈워크숍",
+          "keyword": "성수 막걸리 팝업",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "비비오 팝업 스튜디오",
+          "keyword": "고기 쇼핑 팝업",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "메타버스 댄스 클래스",
+          "keyword": "강아지 뽑기 팝업",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "코드 챌린지 성수",
+          "keyword": "야스오카드 팝업",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "일렉트로닉 뮤직 워크샵",
+          "keyword": "이상한 이야기 팝업",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "도자기 공방 하우스 오브 바이닐",
+          "keyword": "전통놀이 체험 팝업",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "미래 도시 디자인 콘테스트",
+          "keyword": "클래식 튜브 게임 팝업",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "성수 드론 레이싱",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "사이버 아트 퍼포먼스",
+          "keyword": "K팝 댄스 워크샵 팝업",
           "trend_score": 30,
           "data_points": 0
         }
@@ -120,52 +120,52 @@
       "label": "뷰티/웰니스",
       "trending_keywords": [
         {
-          "keyword": "코스노리 성수 팝업",
-          "trend_score": 100,
-          "data_points": 1
-        },
-        {
-          "keyword": "코치 체리 퍼퓸 무빙팝업",
+          "keyword": "삐아 in 성수 뷰티 팝업",
           "trend_score": 100,
           "data_points": 2
         },
         {
-          "keyword": "스킨케어 팝업 에테르",
+          "keyword": "젠티 헬로키티 메탈시티 성수 팝업",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "스파 마운틴 힐링",
+          "keyword": "에이솔루션 핫플 성수 무빙팝업",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "헤어샵 릴레이",
+          "keyword": "성수 미용 팝업",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "메이크업 팝업 더현대",
+          "keyword": "마스크팩 팝업",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "조명 스튜디오 팝업",
+          "keyword": "헤어샵 팝업",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "전통 화장품 팝업 하우스",
+          "keyword": "뷰티 샘플링 팝업",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "뷰티 서바이벌 아모레",
+          "keyword": "메이크업 쇼 팝업",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "디지털 메이크업 워크샵",
+          "keyword": "성수 프리카 픽 &lt;귤메달x구달&gt;팝업스토어",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "뷰티 서클 팝업",
           "trend_score": 30,
           "data_points": 0
         }
@@ -175,32 +175,27 @@
       "label": "컨셉 다이닝",
       "trending_keywords": [
         {
-          "keyword": "수제 디저트 카페 픽베이크",
+          "keyword": "디저트 팝업",
           "trend_score": 100,
-          "data_points": 1
-        },
-        {
-          "keyword": "전주 돼지갈비 맛집 2026",
-          "trend_score": 62,
           "data_points": 5
         },
         {
-          "keyword": "돼지고기 맛집 갈비만",
+          "keyword": "마라맛 곤약젤리 팝업",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "첨단 이자카야 정곤",
+          "keyword": "맛집 탐방 푸드트럭",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "간단한 음식점 팝업",
+          "keyword": "인스타그램 핫플 식당",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "신상 한식 팝업",
+          "keyword": "성수 굴 맛집",
           "trend_score": 30,
           "data_points": 0
         },
@@ -210,17 +205,22 @@
           "data_points": 0
         },
         {
-          "keyword": "이자카야 정곤",
+          "keyword": "송천동 신상 맛집 '바름정육식당'",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "2026 핫플레이스 카페",
+          "keyword": "첨단 맛집 정곤",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "2026 대구 핫플레이스 바",
+          "keyword": "이자카야 팝업",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "신상 디저트 카페",
           "trend_score": 30,
           "data_points": 0
         }
@@ -230,52 +230,52 @@
       "label": "아트/테마 카페",
       "trending_keywords": [
         {
-          "keyword": "사유색 카페",
+          "keyword": "반려동물 동반 카페",
           "trend_score": 100,
-          "data_points": 2
+          "data_points": 5
         },
         {
-          "keyword": "강아지가 있는 카페",
-          "trend_score": 57,
-          "data_points": 4
+          "keyword": "서울 북촌 카페 [혜례커피 안국점]",
+          "trend_score": 95,
+          "data_points": 5
         },
         {
-          "keyword": "중국에서 먹던 밀크티",
+          "keyword": "차지 CHAGEE 종로점",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "북촌 혜례커피 안국점",
+          "keyword": "LP카페 롯데캐슬",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "사랑하는 카페",
+          "keyword": "성수 [다밍] 다녀온 후기",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "성수 카페 치르",
+          "keyword": "사랑이 가득한 카페",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "치르 북성수 카페",
+          "keyword": "비주얼 카페",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "오픈 웨이팅 브런치 카페",
+          "keyword": "데이트 카페",
           "trend_score": 30,
-          "data_points": 0
+          "data_points": 5
         },
         {
-          "keyword": "카페 테라리아 모 애견동반 가능",
+          "keyword": "수제 디저트 카페",
           "trend_score": 30,
-          "data_points": 0
+          "data_points": 1
         },
         {
-          "keyword": "성수 카페 밤새운",
+          "keyword": "숨은 명소 카페",
           "trend_score": 30,
           "data_points": 0
         }

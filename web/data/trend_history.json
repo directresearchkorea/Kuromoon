@@ -24863,5 +24863,565 @@
         ]
       }
     }
+  },
+  {
+    "timestamp": "2026-08-23T09:04:43.471Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "조말론 성수 팝업",
+            "trend_score": 100,
+            "data_points": 3
+          },
+          {
+            "keyword": "아모레 성수 뷰티서바이벌",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "박뚜기소금빵 더현대대구",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "몬스타엑스 팝업 더현대서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "피치 스파 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "원피스 팝업 코엑스",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "지오다노 성수 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "나만의 팝업 홍대",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "이번주 토요일, 서울숲 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "메이저 소프트 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "아기자기 공방",
+            "trend_score": 100,
+            "data_points": 2
+          },
+          {
+            "keyword": "수제 비누 만들기 공방",
+            "trend_score": 40,
+            "data_points": 5
+          },
+          {
+            "keyword": "오픈 앤드 하이킹 공방",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "서울숲 랜덤 무료 아티스트 공방",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "예술가 팝업 공방",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "드립커피 로스팅 공방",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "디자인 트레이닝 공방",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "클래스 팝업 홍대",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "인스타 챌린지 공방",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "손편지 팝업 공방",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": [
+          {
+            "keyword": "네일샵",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "뷰티서바이벌 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "핑크빛 미용실",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "뷰티 팝업 스토어",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "뷰티 챌린지 미용실",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "에너지 스파",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "디자인 스튜디오",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "메이크업 샵",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "헤어 샵",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "뷰티 팝업 챌린지",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": [
+          {
+            "keyword": "팝업 레스토랑",
+            "trend_score": 100,
+            "data_points": 1
+          },
+          {
+            "keyword": "꿀맛 인스타 떡볶이",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "떡볶이 스파 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "인스타 챌린지 냉면",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "디저트 팝업 스토어",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "아이스크림 파티",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "초코 스파 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "달콤한 팝업 뷔페",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "맛집 챌린지 식당",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "인스타 챌린지 식당",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": [
+          {
+            "keyword": "팝업 카페",
+            "trend_score": 100,
+            "data_points": 2
+          },
+          {
+            "keyword": "디저트 카페",
+            "trend_score": 78,
+            "data_points": 5
+          },
+          {
+            "keyword": "북카페",
+            "trend_score": 73,
+            "data_points": 5
+          },
+          {
+            "keyword": "동물 카페",
+            "trend_score": 49,
+            "data_points": 5
+          },
+          {
+            "keyword": "인스타 챌린지 카페",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "애니멀 카페",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "음악 카페",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "테마 카페",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "예술 카페",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "게임 카페",
+            "trend_score": 30,
+            "data_points": 5
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-08-23T09:07:10.491Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "코르티스 토리든 팝업",
+            "trend_score": 100,
+            "data_points": 3
+          },
+          {
+            "keyword": "판도라 팝업스토어",
+            "trend_score": 100,
+            "data_points": 1
+          },
+          {
+            "keyword": "조말론 성수 팝업",
+            "trend_score": 69,
+            "data_points": 3
+          },
+          {
+            "keyword": "아모레성수 뷰티서바이벌",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "박뚜기소금빵 더현대대구",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "인싸기 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "드래곤볼 히어로즈 라이브",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "성수 쿠지샵 히든블라인드박스",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "휩드 피치 스파 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "성수 [다밍] 다녀온 후기",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "수제 비누 만들기 팝업",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "포켓몬 팝팝 미드나이트 피규어",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "성수 막걸리 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "고기 쇼핑 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "강아지 뽑기 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "야스오카드 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "이상한 이야기 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "전통놀이 체험 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "클래식 튜브 게임 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "K팝 댄스 워크샵 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": [
+          {
+            "keyword": "삐아 in 성수 뷰티 팝업",
+            "trend_score": 100,
+            "data_points": 2
+          },
+          {
+            "keyword": "젠티 헬로키티 메탈시티 성수 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "에이솔루션 핫플 성수 무빙팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "성수 미용 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "마스크팩 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "헤어샵 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "뷰티 샘플링 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "메이크업 쇼 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "성수 프리카 픽 &lt;귤메달x구달&gt;팝업스토어",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "뷰티 서클 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": [
+          {
+            "keyword": "디저트 팝업",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "마라맛 곤약젤리 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "맛집 탐방 푸드트럭",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "인스타그램 핫플 식당",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "성수 굴 맛집",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "오픈런 필수 전포돼지갈비",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "송천동 신상 맛집 '바름정육식당'",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "첨단 맛집 정곤",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "이자카야 팝업",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "신상 디저트 카페",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": [
+          {
+            "keyword": "반려동물 동반 카페",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "서울 북촌 카페 [혜례커피 안국점]",
+            "trend_score": 95,
+            "data_points": 5
+          },
+          {
+            "keyword": "차지 CHAGEE 종로점",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "LP카페 롯데캐슬",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "성수 [다밍] 다녀온 후기",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "사랑이 가득한 카페",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "비주얼 카페",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "데이트 카페",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "수제 디저트 카페",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "숨은 명소 카페",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      }
+    }
   }
 ]
