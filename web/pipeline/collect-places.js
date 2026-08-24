@@ -52,22 +52,18 @@ function cleanHtml(str) {
  */
 function getPreciseQuery(placeName, address, category) {
     const cleanName = placeName.trim();
-    if (cleanName.length >= 6 || cleanName.includes('??) || cleanName.includes('지??)) {
+    if (cleanName.length >= 6 || cleanName.includes('팝업') || cleanName.includes('지점')) {
         return cleanName;
     }
     
     let region = '';
     if (address) {
-        // Clean parentheses to extract inner Dong names like (?�수??가) -> ?�수??가
         const cleanAddr = address.replace(/[()]/g, ' ');
         const parts = cleanAddr.split(/\s+/);
-        // 1. Try to find a word ending with '?? (e.g., ?�수?? ?�선??
-        let found = parts.find(p => p.endsWith('??));
-        // 2. Try to find a word ending with '�? (e.g., 종로�? 강남�?
-        if (!found) found = parts.find(p => p.endsWith('�?));
-        // 3. Try to find a word ending with '?? (but exclude metropolitan cities like ?�울?�별??
+        let found = parts.find(p => p.endsWith('동'));
+        if (!found) found = parts.find(p => p.endsWith('구'));
         if (!found) {
-            found = parts.find(p => p.endsWith('??) && !p.includes('?�별') && !p.includes('광역'));
+            found = parts.find(p => p.endsWith('시') && !p.includes('특별') && !p.includes('광역'));
         }
         if (found) {
             region = found + ' ';
@@ -77,246 +73,26 @@ function getPreciseQuery(placeName, address, category) {
     let suffix = '';
     if (cleanName.length <= 3) {
         const suffixMap = {
-            popup: '?�업',
+            popup: '팝업',
             activity: '공방',
-            beauty: '?�니??,
-            dining: '맛집',
+            beauty: '미용실',
+            medical: '피부과',
+            dining: '식당',
             cafe: '카페'
         };
-        suffix = ' ' + (suffixMap[category] || '');
+        if (suffixMap[category]) suffix = ' ' + suffixMap[category];
     }
     
-    return `${region}${cleanName}${suffix}`.trim();
+    return region + cleanName + suffix;
 }
-
-/**
- * Call Naver Local Search API to find registered businesses (Map-based)
- */
-function searchNaverLocal(query) {
-    return new Promise((resolve, reject) => {
-        if (!NAVER_CLIENT_ID || !NAVER_CLIENT_SECRET) {
-            return reject(new Error('Naver client keys not configured'));
-        }
-        const options = {
-            hostname: 'openapi.naver.com',
-            path: `/v1/search/local.json?query=${encodeURIComponent(query)}&display=15&sort=comment`,
-            method: 'GET',
-            headers: {
-                'X-Naver-Client-Id': NAVER_CLIENT_ID,
-                'X-Naver-Client-Secret': NAVER_CLIENT_SECRET
-            }
-        };
-
-        const req = https.request(options, (res) => {
-            res.setEncoding('utf8');
-            let data = '';
-            res.on('data', chunk => data += chunk);
-            res.on('end', () => {
-                if (res.statusCode !== 200) {
-                    return reject(new Error(`Local Search API returned ${res.statusCode}: ${data.substring(0, 200)}`));
-                }
-                try {
-                    resolve(JSON.parse(data));
-                } catch (e) {
-                    reject(e);
-                }
-            });
-        });
-        req.on('error', reject);
-        req.end();
-    });
-}
-
-/**
- * Call Naver Blog Search API
- */
-function searchNaverBlog(query, display = 4, sort = 'sim') {
-    return new Promise((resolve, reject) => {
-        if (!NAVER_CLIENT_ID || !NAVER_CLIENT_SECRET) {
-            return reject(new Error('Naver client keys not configured'));
-        }
-        const options = {
-            hostname: 'openapi.naver.com',
-            path: `/v1/search/blog.json?query=${encodeURIComponent(query)}&display=${display}&sort=${sort}`,
-            method: 'GET',
-            headers: {
-                'X-Naver-Client-Id': NAVER_CLIENT_ID,
-                'X-Naver-Client-Secret': NAVER_CLIENT_SECRET
-            }
-        };
-
-        const req = https.request(options, (res) => {
-            res.setEncoding('utf8');
-            let data = '';
-            res.on('data', chunk => data += chunk);
-            res.on('end', () => {
-                if (res.statusCode !== 200) {
-                    return reject(new Error(`Blog Search API returned ${res.statusCode}: ${data.substring(0, 200)}`));
-                }
-                try {
-                    resolve(JSON.parse(data));
-                } catch (e) {
-                    reject(e);
-                }
-            });
-        });
-        req.on('error', reject);
-        req.end();
-    });
-}
-
-
-/**
- * Call Gemini AI to extract venue and address from blog snippets
- */
-function extractVenueAndAddressWithAI(keyword, snippets) {
-    return new Promise((resolve) => {
-        if (!process.env.GEMINI_API_KEY) {
-            log('   ?�️ GEMINI_API_KEY not configured ??skipping AI venue resolution');
-            return resolve({ success: false });
-        }
-        
-        const prompt = `?�신?� 블로�?글?�서 ?�사/?�업?�토?��? ?�리???�제 ?�소명과 ?�로�?주소�?추출?�는 ?�이???�문가?�니??
-?�워?? '${keyword}'
-
-?�음?� ???�워?�에 ?�??최근 블로�?리뷰 ?�용?�입?�다.
-글??분석?�여 ???�업?�토???�사가 개최??**?�제 ?�소(건물�? 백화??지????**?� **?�로�?주소**�?찾아주세??
-
-## 추출 기�?:
-1. ?�로�?주소(?? ?�울?�별???�등?�구 ?�의?��?108)가 명시?�어 ?�거?? 개최 ?�소(?? ?�현?� ?�울 5�?�??�해 주소�?명확???�추?????�다�??�당 주소�?출력?�세??
-2. 만약 개최 ?�소�??�오�?주소가 직접 ???�온?�면, ???�려�??�소(?? ?�현?� ?�울, AK?�라???��?, 무신???�토???�수 ????경우 ?�당 ?�소???��? 주소�??�어주세??
-3. 개최 ?�소??주소�??��? ?????�다�?null??반환?�세??
-
-출력 ?�식?� 반드???�래 JSON ?�식?�로�??��??�세??(?�른 ?�명?�나 마크?�운 백틱 ?�이 JSON 블록�?출력):
-{
-  "venue": "개최 ?�소�?(?? ?�현?� ?�울 ?�픽 ?�울)",
-  "address": "?�로�?주소 (?? ?�울?�별???�등?�구 ?�의?��?108)",
-  "success": true ?�는 false
-}
-
-블로�??�약�?
-${snippets.map((s, i) => `[글 ${i + 1}]\n${s}`).join('\n\n')}
-`;
-
-        const requestBody = JSON.stringify({
-            contents: [{ parts: [{ text: prompt }] }],
-            generationConfig: {
-                temperature: 0.1,
-                maxOutputTokens: 1000
-            }
-        });
-
-        const options = {
-            hostname: 'generativelanguage.googleapis.com',
-            path: `/v1beta/models/gemini-2.5-flash:generateContent?key=${process.env.GEMINI_API_KEY}`,
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' }
-        };
-
-        const req = https.request(options, (res) => {
-            res.setEncoding('utf8');
-            let data = '';
-            res.on('data', chunk => data += chunk);
-            res.on('end', () => {
-                try {
-                    const parsed = JSON.parse(data);
-                    if (parsed.candidates && parsed.candidates.length > 0) {
-                        const text = parsed.candidates[0].content.parts[0].text.trim();
-                        const cleaned = text.replace(/```json\s*/g, '').replace(/```\s*/g, '').trim();
-                        resolve(JSON.parse(cleaned));
-                    } else {
-                        resolve({ success: false });
-                    }
-                } catch (e) {
-                    resolve({ success: false });
-                }
-            });
-        });
-        req.on('error', () => resolve({ success: false }));
-        req.write(requestBody);
-        req.end();
-    });
-}
-
-
-/**
- * Clean up a composite keyword using Gemini AI to extract a search-friendly query for Naver Maps Local Search.
- */
-function getCleanMapSearchQuery(keyword) {
-    return new Promise((resolve) => {
-        if (!process.env.GEMINI_API_KEY) {
-            return resolve(keyword);
-        }
-        
-        const prompt = `?�신?� ?�용?��? ?�력???�렌??복합 ?�워?�에???�이�?지??Naver Maps Local Search)??검?�하�?가??좋�? '?�제 ?�호�?+ 지??��' 검?�어�??�제?�내???�이???�문가?�니??
-
-## ?�업 가?�드:
-1. ?�워?�에???�질?�인 ?�점/?�사???�시???�름(?�호�???추출?�세??
-2. ?�호�??�뒤??붙�? 불필?�한 ?�식??�?검???�워???? "?�옥 ?�??, "?�전 ?�식", "?�화 감성", "?�래??, "체험 코스", "분위�?좋�?", "맛집", "카페 추천", "추천")???�거?�세??
-3. [매우 중요] 만약 ?�워?��? '?�업?�토????'?�시' ???�관 ?�사??경우, ?�사가 ?�리??'?�제 ?�관 ?�소�?건물�?(?? ?�상비일?�의?? ?�현?� ?�울, ?�스?�토�? ?�퀘어, �?��?�드�??????�워?�나 문맥???�함?�어 ?�다�??��? 'host_venue'�?별도 추출?�세??
-4. ?�이�?지??API???�업?�토???�름??모�? ???�습?�다. ?�라??host_venue가 존재?�다�??�이�?지??검?�어??host_venue�?1?�위�??�용?�니??
-5. ?�시:
-   - "?�상비일?�의??story A ?�업" -> name: "story A", host_venue: "?�상비일?�의??, search_query: "?�상비일?�의??
-   - "?�현?� ?�울 ?�올 ?�업" -> name: "?�올", host_venue: "?�현?� ?�울", search_query: "?�현?� ?�울"
-   - "?�선반주 ?�옥 ?�이?? -> name: "?�선반주", host_venue: "", search_query: "?�선반주 ?�선??
-
-출력 ?�식?� 반드???�래 JSON ?�식?�로�??��??�세??(?�른 ?�명?�나 마크?�운 백틱 ?�이 JSON 블록�?출력):
-{
-  "name": "?�호�?,
-  "host_venue": "?�관?�소�??�는 �?문자??,
-  "search_query": "?�이�?지??검?�어"
-}
-`;
-
-        const requestBody = JSON.stringify({
-            contents: [{ parts: [{ text: prompt + `\n\n?�력 ?�워?? "${keyword}"` }] }],
-            generationConfig: {
-                temperature: 0.1,
-                maxOutputTokens: 1000
-            }
-        });
-
-        const options = {
-            hostname: 'generativelanguage.googleapis.com',
-            path: `/v1beta/models/gemini-2.5-flash:generateContent?key=${process.env.GEMINI_API_KEY}`,
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' }
-        };
-
-        const req = https.request(options, (res) => {
-            res.setEncoding('utf8');
-            let data = '';
-            res.on('data', chunk => data += chunk);
-            res.on('end', () => {
-                try {
-                    const parsed = JSON.parse(data);
-                    if (parsed.candidates && parsed.candidates.length > 0) {
-                        const text = parsed.candidates[0].content.parts[0].text.trim();
-                        const cleaned = text.replace(/```json\s*/g, '').replace(/```\s*/g, '').trim();
-                        const parsedJson = JSON.parse(cleaned);
-                        resolve(parsedJson.search_query || keyword);
-                    } else {
-                        resolve(keyword);
-                    }
-                } catch (e) {
-                    resolve(keyword);
-                }
-            });
-        });
-        req.on('error', () => resolve(keyword));
-        req.write(requestBody);
-        req.end();
-    });
-}
-
 
 async function main() {
-    log('?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═??);
+    log('===========================================');
     log('  Kuromoon Map-First & Custom Collector');
-    log('?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═??);
+    log('===========================================');
 
     if (!NAVER_CLIENT_ID || !NAVER_CLIENT_SECRET) {
-        log('??ERROR: NAVER_CLIENT_ID or NAVER_CLIENT_SECRET is not configured in .env');
+    log('===========================================');
         process.exit(1);
     }
 
@@ -372,10 +148,11 @@ async function main() {
                         });
                     } else if (item && typeof item === 'object' && item.keyword) {
                         const catLabels = {
-                            popup: '?�업?�토???�시',
-                            beauty: 'K-뷰티/?��?관�?,
-                            dining: '?�치 ?�이??,
-                            cafe: '콘셉??카페'
+                            popup: '팝업스토어/전시',
+                            beauty: 'K-뷰티/체형관리',
+                            dining: '이색 다이닝',
+                            cafe: '콘셉트 카페',
+                            activity: '이색 체험'
                         };
                         customKeywords.push({
                             keyword: item.keyword.trim(),
@@ -433,18 +210,18 @@ async function main() {
 
     function normAddr(addr) {
         if (!addr) return '';
-        return addr.replace(/^(?�울?�별???�울???�울|부?�광??��|부?�시|부??\s+/, '')
-                   .replace(/\s+(\d+�?지??*|.*???�엠블루.*|?�업.*)$/, '')
+        return addr.replace(/^(서울특별시|서울시|서울|부산광역시|부산시|부산)\s+/, '')
                    .replace(/\s+/g, '')
                    .toLowerCase();
     }
+
 
     function findExistingPlace(name, address) {
         const cleanN = name.replace(/\s+/g, '').toLowerCase();
         const cleanAddr = address ? address.replace(/\s+/g, '').toLowerCase() : '';
         const nAddr = normAddr(address);
         
-        const allPlaces = [...existingPlaces, ...reviewPlaces];
+        const allPlaces = [...existingPlaces, ...reviewPlaces, ...discardedPlaces, ...refinePlaces];
 
         // 1. Exact name match
         let found = allPlaces.find(p => p.name_ko.replace(/\s+/g, '').toLowerCase() === cleanN);
@@ -532,7 +309,7 @@ async function main() {
                 log(`   ?�️ No map results. Skipping AI address extraction to prevent phantom places.`);
                 
                 const id = pureName.toLowerCase()
-                    .replace(/[^\w\s가-??]/g, '')
+                    .replace(/[^\w\s가-힣]/g, '')
                     .replace(/\s+/g, '-')
                     .replace(/-+/g, '-')
                     .replace(/^-|-$/g, '')
@@ -560,8 +337,8 @@ async function main() {
                 // Filter out generic businesses and franchises to not waste slots
                 places = places.filter(p => {
                     const pName = cleanHtml(p.title);
-                    const isGeneric = /(?�의??병원|?�원|치과|?�국|?�라?�스|?��?|?�스???�트?�스|?�린?�집|?�치???�원|부?�산|?�무??변?�사)/.test(pName);
-                    const isFranchiseBranch = /(지????$/.test(pName.trim()) && !/본점$/.test(pName.trim());
+                    const isGeneric = /(한의원|병원|의원|치과|약국|필라테스|요가|헬스장|피트니스|어린이집|유치원|학원|부동산|세무사|변호사)/.test(pName);
+                    const isFranchiseBranch = /(지점|점)$/.test(pName.trim()) && !/본점$/.test(pName.trim());
                     
                     if (isGeneric) {
                         return (catKey === 'beauty' || catKey === 'activity');
@@ -674,7 +451,7 @@ ${reviewTexts}`;
 
                     // Generate ID
                     const id = placeName.toLowerCase()
-                        .replace(/[^\w\s가-??]/g, '')
+                        .replace(/[^\w\s가-힣]/g, '')
                         .replace(/\s+/g, '-')
                         .replace(/-+/g, '-')
                         .replace(/^-|-$/g, '')
@@ -731,7 +508,7 @@ ${reviewTexts}`;
 
     fs.writeFileSync(OUTPUT_FILE, JSON.stringify(rawInputs, null, 2), 'utf8');
     log(`\n??Completed! Saved ${rawInputs.length} new raw inputs to raw_inputs.json`);
-    log('?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═??n');
+    log('===========================================');
 }
 
 main().catch(err => {

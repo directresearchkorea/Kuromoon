@@ -154,8 +154,26 @@ const server = http.createServer((req, res) => {
                         }
 
                         if (!discardedPlaces.some(p => p.id === id)) {
-                            place.discard_reason = 'Manual rejection via Dashboard';
+                            place.discard_reason = payload.discard_reason || 'Manual rejection via Dashboard';
                             discardedPlaces.push(place);
+                        }
+                        
+                        // Save to feedback_loop.json for AI to learn
+                        if (payload.discard_reason && payload.original_name) {
+                            const feedbackFile = path.join(dataDir, 'feedback_loop.json');
+                            let feedbacks = [];
+                            if (fs.existsSync(feedbackFile)) {
+                                try { feedbacks = JSON.parse(fs.readFileSync(feedbackFile, 'utf8')); } catch(e) {}
+                            }
+                            feedbacks.push({
+                                timestamp: new Date().toISOString(),
+                                original_name: payload.original_name,
+                                corrected_name: '[완전 폐기]',
+                                reason: payload.discard_reason
+                            });
+                            if (feedbacks.length > 100) feedbacks = feedbacks.slice(-100);
+                            fs.writeFileSync(feedbackFile, JSON.stringify(feedbacks, null, 2), 'utf8');
+                            log(`[API] Added discard reason to feedback loop: ${payload.original_name} - ${payload.discard_reason}`);
                         }
 
                         reviewPlaces.splice(placeIndex, 1);
@@ -179,7 +197,7 @@ const server = http.createServer((req, res) => {
             req.on('end', async () => {
                 try {
                     const payload = JSON.parse(body);
-                    const { id } = payload;
+                    const { id, original_name, discard_reason } = payload;
                     if (!id) {
                         res.writeHead(400, { 'Content-Type': 'application/json' });
                         res.end(JSON.stringify({ error: 'Missing place ID' }));
@@ -202,6 +220,24 @@ const server = http.createServer((req, res) => {
                     }
 
                     places.splice(placeIndex, 1);
+                        
+                        // Save to feedback_loop.json
+                        if (discard_reason && original_name) {
+                            const feedbackFile = path.join(dataDir, 'feedback_loop.json');
+                            let feedbacks = [];
+                            if (fs.existsSync(feedbackFile)) {
+                                try { feedbacks = JSON.parse(fs.readFileSync(feedbackFile, 'utf8')); } catch(e) {}
+                            }
+                            feedbacks.push({
+                                timestamp: new Date().toISOString(),
+                                original_name: original_name,
+                                corrected_name: '[완전 삭제]',
+                                reason: discard_reason
+                            });
+                            if (feedbacks.length > 100) feedbacks = feedbacks.slice(-100);
+                            fs.writeFileSync(feedbackFile, JSON.stringify(feedbacks, null, 2), 'utf8');
+                            log(`[API] Added delete reason to feedback loop: ${original_name} - ${discard_reason}`);
+                        }
                     fs.writeFileSync(placesFile, JSON.stringify(places, null, 2), 'utf8');
 
                     // Rebuild site

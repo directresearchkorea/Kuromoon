@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2026-08-24T07:48:56.206Z",
+    "original_name": "금호장어숯불구이",
+    "corrected_name": "[완전 폐기]",
+    "reason": "핫플레이스 아님"
+  },
+  {
+    "timestamp": "2026-08-24T08:13:27.951Z",
+    "original_name": "박뚜기소금빵 픽베이크 더현대대구",
+    "corrected_name": "[완전 삭제]",
+    "reason": "중복"
+  },
+  {
+    "timestamp": "2026-08-24T08:13:52.061Z",
+    "original_name": "폴 바셋 더현대 대구",
+    "corrected_name": "[완전 폐기]",
+    "reason": "그냥 체인점"
+  },
+  {
+    "timestamp": "2026-08-24T08:14:19.688Z",
+    "original_name": "금호장어숯불구이",
+    "corrected_name": "[완전 폐기]",
+    "reason": "유행 장소 아니고 일반 식당"
+  }
+]

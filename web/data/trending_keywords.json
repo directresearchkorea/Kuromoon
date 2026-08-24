@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-08-24",
-  "mode": "live-fallback",
+  "mode": "live-dynamic",
   "period": {
     "start": "2026-07-25",
     "end": "2026-08-24"
@@ -10,53 +10,53 @@
       "label": "팝업/전시",
       "trending_keywords": [
         {
-          "keyword": "더현대 서울 팝업",
+          "keyword": "서울숲 포켓몬 팝업",
           "trend_score": 100,
           "data_points": 5
         },
         {
-          "keyword": "성수 팝업스토어",
-          "trend_score": 90,
+          "keyword": "8월 성수 팝업 치이카와 스시",
+          "trend_score": 85,
           "data_points": 5
         },
         {
-          "keyword": "잠실 롯데월드몰 팝업",
-          "trend_score": 58,
-          "data_points": 5
+          "keyword": "조말론 성수 팝업",
+          "trend_score": 76,
+          "data_points": 3
         },
         {
-          "keyword": "무신사 성수 팝업",
-          "trend_score": 3,
-          "data_points": 5
-        },
-        {
-          "keyword": "서울 미디어아트 전시",
-          "trend_score": 3,
-          "data_points": 5
-        },
-        {
-          "keyword": "여의도 더현대 전시",
-          "trend_score": 1,
-          "data_points": 5
-        },
-        {
-          "keyword": "홍대 이색 팝업",
-          "trend_score": 0,
+          "keyword": "아모레성수 뷰티서바이벌",
+          "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "캐릭터 콜라보 팝업",
-          "trend_score": 0,
+          "keyword": "박뚜기소금빵 더현대대구",
+          "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "DDP 특별 전시",
-          "trend_score": 0,
+          "keyword": "이케아 고양점 팝업",
+          "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "성수 팝업 공간",
-          "trend_score": 0,
+          "keyword": "스키즈 성수 팝업",
+          "trend_score": 30,
+          "data_points": 3
+        },
+        {
+          "keyword": "무신사 로블록스 성수 팝업",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "성수 김정문알로에 팝업",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "더룩 성수 팝업",
+          "trend_score": 30,
           "data_points": 1
         }
       ]
@@ -65,53 +65,53 @@
       "label": "이색 체험",
       "trending_keywords": [
         {
-          "keyword": "도자기 원데이클래스",
+          "keyword": "8월 성수 팝업 신라면",
           "trend_score": 100,
           "data_points": 5
         },
         {
-          "keyword": "베이킹 원데이클래스",
-          "trend_score": 77,
+          "keyword": "성수 토이스토리 팝업",
+          "trend_score": 79,
           "data_points": 5
         },
         {
-          "keyword": "가죽공방 원데이클래스",
-          "trend_score": 33,
+          "keyword": "하우스 오브 토이스토리 성수 팝업",
+          "trend_score": 30,
           "data_points": 5
         },
         {
-          "keyword": "성수 향수공방 체험",
-          "trend_score": 0,
+          "keyword": "8월 성수 동묘 스파렉스 찜질방",
+          "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "홍대 이색 반지공방",
-          "trend_score": 0,
+          "keyword": "성수 팝업 롤 토체스 팝업",
+          "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "몰입형 드로잉카페",
-          "trend_score": 0,
+          "keyword": "성수 팝업 스트레이키즈 팝업",
+          "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "성수동 아트공방",
-          "trend_score": 0,
+          "keyword": "성수 팝업 사워도우 맛집",
+          "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "프리미엄 조향클래스",
-          "trend_score": 0,
+          "keyword": "성수 팝업 리카바이파프리카 브런치",
+          "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "터프팅 공방 체험",
-          "trend_score": 0,
-          "data_points": 0
+          "keyword": "성수 팝업 치이카와 스시",
+          "trend_score": 30,
+          "data_points": 2
         },
         {
-          "keyword": "홍대 테마 방탈출",
-          "trend_score": 0,
+          "keyword": "성수 팝업 더팩토리 팝업",
+          "trend_score": 30,
           "data_points": 0
         }
       ]
@@ -120,53 +120,53 @@
       "label": "뷰티/웰니스",
       "trending_keywords": [
         {
-          "keyword": "퍼스널컬러 진단 전문",
-          "trend_score": 0,
+          "keyword": "8월 성수 팝업 치이카와 스시",
+          "trend_score": 100,
+          "data_points": 5
+        },
+        {
+          "keyword": "성수 토이스토리 팝업",
+          "trend_score": 65,
+          "data_points": 5
+        },
+        {
+          "keyword": "조말론 성수 팝업",
+          "trend_score": 61,
+          "data_points": 3
+        },
+        {
+          "keyword": "아모레성수 뷰티서바이벌",
+          "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "성수 프라이빗 헤드스파",
-          "trend_score": 0,
+          "keyword": "더룩 성수 팝업",
+          "trend_score": 30,
+          "data_points": 1
+        },
+        {
+          "keyword": "성수 김정문알로에 팝업",
+          "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "홍대 퍼스널컬러 컨설팅",
-          "trend_score": 0,
+          "keyword": "무신사 로블록스 성수 팝업",
+          "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "프리미엄 웰니스 스파",
-          "trend_score": 0,
+          "keyword": "성수 팝업 스키즈 팝업",
+          "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "강남 프라이빗 헤어스파",
-          "trend_score": 0,
+          "keyword": "성수 팝업 스트레이키즈 팝업",
+          "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "두피 디톡스 헤드스파",
-          "trend_score": 0,
-          "data_points": 0
-        },
-        {
-          "keyword": "한방 웰니스 스파",
-          "trend_score": 0,
-          "data_points": 0
-        },
-        {
-          "keyword": "청담동 고급 뷰티스파",
-          "trend_score": 0,
-          "data_points": 0
-        },
-        {
-          "keyword": "성수동 향기 테라피",
-          "trend_score": 0,
-          "data_points": 0
-        },
-        {
-          "keyword": "호텔 럭셔리 스파",
-          "trend_score": 0,
+          "keyword": "성수 팝업 리카바이파프리카 브런치",
+          "trend_score": 30,
           "data_points": 0
         }
       ]
@@ -175,53 +175,53 @@
       "label": "컨셉 다이닝",
       "trending_keywords": [
         {
-          "keyword": "블라인드 레스토랑",
+          "keyword": "8월 성수 팝업 신라면",
           "trend_score": 100,
-          "data_points": 2
+          "data_points": 5
         },
         {
-          "keyword": "미디어아트 다이닝",
-          "trend_score": 0,
+          "keyword": "8월 성수 팝업 치이카와 스시",
+          "trend_score": 100,
+          "data_points": 5
+        },
+        {
+          "keyword": "성수 토이스토리 팝업",
+          "trend_score": 65,
+          "data_points": 5
+        },
+        {
+          "keyword": "박뚜기소금빵 더현대대구",
+          "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "한옥 다도체험 코스",
-          "trend_score": 0,
+          "keyword": "이케아 고양점 팝업",
+          "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "스토리텔링 오마카세",
-          "trend_score": 0,
+          "keyword": "성수 김정문알로에 팝업",
+          "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "이색 테마 파인다이닝",
-          "trend_score": 0,
+          "keyword": "무신사 로블록스 성수 팝업",
+          "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "프라이빗 티 하우스",
-          "trend_score": 0,
+          "keyword": "성수 팝업 스키즈 팝업",
+          "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "성수동 미디어아트 식당",
-          "trend_score": 0,
+          "keyword": "성수 팝업 스트레이키즈 팝업",
+          "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "몰입형 퓨전 다이닝",
-          "trend_score": 0,
-          "data_points": 0
-        },
-        {
-          "keyword": "컨셉 스토어 레스토랑",
-          "trend_score": 0,
-          "data_points": 0
-        },
-        {
-          "keyword": "전통 차회 코스",
-          "trend_score": 0,
+          "keyword": "성수 팝업 리카바이파프리카 브런치",
+          "trend_score": 30,
           "data_points": 0
         }
       ]
@@ -230,53 +230,53 @@
       "label": "아트/테마 카페",
       "trending_keywords": [
         {
-          "keyword": "바이닐 LP 청음 카페",
-          "trend_score": 0,
+          "keyword": "8월 성수 팝업 치이카와 스시",
+          "trend_score": 100,
+          "data_points": 5
+        },
+        {
+          "keyword": "8월 성수 팝업 신라면",
+          "trend_score": 100,
+          "data_points": 5
+        },
+        {
+          "keyword": "성수 토이스토리 팝업",
+          "trend_score": 65,
+          "data_points": 5
+        },
+        {
+          "keyword": "이케아 고양점 팝업",
+          "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "디저트 오마카세 코스",
-          "trend_score": 0,
+          "keyword": "성수 김정문알로에 팝업",
+          "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "성수동 컨셉 스토어 카페",
-          "trend_score": 0,
+          "keyword": "무신사 로블록스 성수 팝업",
+          "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "이머시브 갤러리 카페",
-          "trend_score": 0,
+          "keyword": "성수 팝업 스키즈 팝업",
+          "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "해리포터 테마 카페",
-          "trend_score": 0,
+          "keyword": "성수 팝업 스트레이키즈 팝업",
+          "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "레트로 감성 다방",
-          "trend_score": 0,
+          "keyword": "성수 팝업 리카바이파프리카 브런치",
+          "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "프라이빗 티 오마카세",
-          "trend_score": 0,
-          "data_points": 0
-        },
-        {
-          "keyword": "한옥 개조 디저트카페",
-          "trend_score": 0,
-          "data_points": 0
-        },
-        {
-          "keyword": "플랜테리어 식물원 카페",
-          "trend_score": 0,
-          "data_points": 0
-        },
-        {
-          "keyword": "빈티지 감성 북카페",
-          "trend_score": 0,
+          "keyword": "성수 팝업 더팩토리 팝업",
+          "trend_score": 30,
           "data_points": 0
         }
       ]

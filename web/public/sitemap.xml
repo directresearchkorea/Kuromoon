@@ -2776,24 +2776,6 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/lee-sung-dang.html" />
   </url>
 
-  <!-- Miffy Store -->
-  <url>
-    <loc>https://kuromoon.net/ko/places/miffy-store.html</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/miffy-store.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/miffy-store.html" />
-  </url>
-  <url>
-    <loc>https://kuromoon.net/en/places/miffy-store.html</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/miffy-store.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/miffy-store.html" />
-  </url>
-
   <!-- Cheongdam Personal Color 7AR -->
   <url>
     <loc>https://kuromoon.net/ko/places/cheongdam-personal-color-7ar.html</loc>
@@ -2936,6 +2918,24 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/javier-sol-special-exhibition-a-year-perfect-days.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/javier-sol-special-exhibition-a-year-perfect-days.html" />
+  </url>
+
+  <!-- Miffy Store -->
+  <url>
+    <loc>https://kuromoon.net/ko/places/miffy-store.html</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/miffy-store.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/miffy-store.html" />
+  </url>
+  <url>
+    <loc>https://kuromoon.net/en/places/miffy-store.html</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/miffy-store.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/miffy-store.html" />
   </url>
 
   <!-- Sushi Oomoto -->
@@ -5350,24 +5350,6 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/unique-wine-pairing.html" />
   </url>
 
-  <!-- Hallym University Sacred Heart Hospital -->
-  <url>
-    <loc>https://kuromoon.net/ko/places/hallym-university-sacred-heart-hospital.html</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/hallym-university-sacred-heart-hospital.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/hallym-university-sacred-heart-hospital.html" />
-  </url>
-  <url>
-    <loc>https://kuromoon.net/en/places/hallym-university-sacred-heart-hospital.html</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/hallym-university-sacred-heart-hospital.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/hallym-university-sacred-heart-hospital.html" />
-  </url>
-
   <!-- Colorholic Personal Color Diagnosis Gangnam Main Branch -->
   <url>
     <loc>https://kuromoon.net/ko/places/colorholic-personal-color-diagnosis-gangnam-main-branch.html</loc>
@@ -5618,24 +5600,6 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/cafe-part-two.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/cafe-part-two.html" />
-  </url>
-
-  <!-- The Hyundai Daegu Pop-up: Bakttugi Salt Bread, Pick Bake -->
-  <url>
-    <loc>https://kuromoon.net/ko/places/the-hyundai-daegu-pop-up-bakttugi-salt-bread-pick-bake.html</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/the-hyundai-daegu-pop-up-bakttugi-salt-bread-pick-bake.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/the-hyundai-daegu-pop-up-bakttugi-salt-bread-pick-bake.html" />
-  </url>
-  <url>
-    <loc>https://kuromoon.net/en/places/the-hyundai-daegu-pop-up-bakttugi-salt-bread-pick-bake.html</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/the-hyundai-daegu-pop-up-bakttugi-salt-bread-pick-bake.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/the-hyundai-daegu-pop-up-bakttugi-salt-bread-pick-bake.html" />
   </url>
 
   <!-- Matilda -->
@@ -7078,24 +7042,6 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/zoorung-zoorung-animal-park-yeongdeungpo-branch.html" />
   </url>
 
-  <!-- Hyundai Department Store The Hyundai Seoul -->
-  <url>
-    <loc>https://kuromoon.net/ko/places/hyundai-department-store-the-hyundai-seoul.html</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/hyundai-department-store-the-hyundai-seoul.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/hyundai-department-store-the-hyundai-seoul.html" />
-  </url>
-  <url>
-    <loc>https://kuromoon.net/en/places/hyundai-department-store-the-hyundai-seoul.html</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/hyundai-department-store-the-hyundai-seoul.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/hyundai-department-store-the-hyundai-seoul.html" />
-  </url>
-
   <!-- Texture Apgujeong Rodeo Branch -->
   <url>
     <loc>https://kuromoon.net/ko/places/texture-apgujeong-rodeo-branch.html</loc>
@@ -7112,24 +7058,6 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/texture-apgujeong-rodeo-branch.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/texture-apgujeong-rodeo-branch.html" />
-  </url>
-
-  <!-- Bakttugi Salt Bread The Hyundai Daegu -->
-  <url>
-    <loc>https://kuromoon.net/ko/places/bakttugi-salt-bread-the-hyundai-daegu.html</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/bakttugi-salt-bread-the-hyundai-daegu.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/bakttugi-salt-bread-the-hyundai-daegu.html" />
-  </url>
-  <url>
-    <loc>https://kuromoon.net/en/places/bakttugi-salt-bread-the-hyundai-daegu.html</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/bakttugi-salt-bread-the-hyundai-daegu.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/bakttugi-salt-bread-the-hyundai-daegu.html" />
   </url>
 
   <!-- House of Vinyl Seongsu Branch -->
@@ -8788,24 +8716,6 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/munhwa-ssambap.html" />
   </url>
 
-  <!-- Amore Seongsu Beauty Survival Murder Case -->
-  <url>
-    <loc>https://kuromoon.net/ko/places/amore-seongsu-beauty-survival-murder-case.html</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/amore-seongsu-beauty-survival-murder-case.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/amore-seongsu-beauty-survival-murder-case.html" />
-  </url>
-  <url>
-    <loc>https://kuromoon.net/en/places/amore-seongsu-beauty-survival-murder-case.html</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/amore-seongsu-beauty-survival-murder-case.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/amore-seongsu-beauty-survival-murder-case.html" />
-  </url>
-
   <!-- Four Seasons Hotel Seoul The Spa -->
   <url>
     <loc>https://kuromoon.net/ko/places/four-seasons-hotel-seoul-the-spa.html</loc>
@@ -8894,6 +8804,24 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/hongdae-harry-potter-cafe.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/hongdae-harry-potter-cafe.html" />
+  </url>
+
+  <!-- Amore Seongsu Beauty Survival Murder Case -->
+  <url>
+    <loc>https://kuromoon.net/ko/places/amore-seongsu-beauty-survival-murder-case.html</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/amore-seongsu-beauty-survival-murder-case.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/amore-seongsu-beauty-survival-murder-case.html" />
+  </url>
+  <url>
+    <loc>https://kuromoon.net/en/places/amore-seongsu-beauty-survival-murder-case.html</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/amore-seongsu-beauty-survival-murder-case.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/amore-seongsu-beauty-survival-murder-case.html" />
   </url>
 
   <!-- Changsimgwan -->
@@ -9416,6 +9344,24 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/healing-spa-foot-bath.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/healing-spa-foot-bath.html" />
+  </url>
+
+  <!-- Park Ttukki Salt Bread The Hyundai Daegu -->
+  <url>
+    <loc>https://kuromoon.net/ko/places/park-ttukki-salt-bread-the-hyundai-daegu.html</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/park-ttukki-salt-bread-the-hyundai-daegu.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/park-ttukki-salt-bread-the-hyundai-daegu.html" />
+  </url>
+  <url>
+    <loc>https://kuromoon.net/en/places/park-ttukki-salt-bread-the-hyundai-daegu.html</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/park-ttukki-salt-bread-the-hyundai-daegu.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/park-ttukki-salt-bread-the-hyundai-daegu.html" />
   </url>
 
   <!-- Hansangmin Bakery Geomdan New Town Branch -->

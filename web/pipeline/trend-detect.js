@@ -393,9 +393,9 @@ async function main() {
         let recentBlogText = "";
         if (clientId && clientSecret) {
             try {
-                const queries = ['성수 팝업', '서울 신상 카페', '가오픈 식당', '더현대 팝업'];
+                const queries = ['요즘 뜨는 팝업스토어', '서울 신상 카페 가오픈', '주말 데이트 추천', '더현대 팝업', '성수동 팝업 예약'];
                 for (const q of queries) {
-                    const blogs = await searchNaverBlog(q, clientId, clientSecret, 20, 'date');
+                    const blogs = await searchNaverBlog(q, clientId, clientSecret, 15, 'sim');
                     const titles = blogs.map(b => b.title.replace(/<[^>]*>?/gm, '')).join(' | ');
                     recentBlogText += `[${q} 최신 블로그] ${titles}\n`;
                 }
@@ -415,7 +415,7 @@ async function main() {
                 if (feedbacks.length > 0) {
                     feedbackText = "\n\n## ⚠️ [매우 중요] 관리자 피드백 (오답 노트):\n과거에 당신이 추출한 핫플 이름 중 틀린 것을 관리자가 직접 수정한 내역입니다. 아래 실수를 절대 반복하지 마세요!\n";
                     feedbacks.forEach(f => {
-                        feedbackText += `- 오답(당신이 추출했던 이름): "${f.original_name}" ➡️ 정답(관리자가 수정한 이름): "${f.corrected_name}"\n`;
+                        feedbackText += `- 오답(당신이 추출했던 이름): "${f.original_name}" ➡️ 정답(관리자가 수정한 이름): "${f.corrected_name}" ${f.reason ? "(사유: " + f.reason + ")" : ""}\n`;
                     });
                     feedbackText += "이 오답 노트를 분석하여, 앞으로는 반드시 '정답'과 같은 깔끔하고 직관적인 스타일로만 상호명을 추출하세요.\n";
                 }
@@ -428,7 +428,11 @@ async function main() {
 
 ## 최신 실시간 데이터 참고 (매우 중요):
 아래는 방금 네이버 블로그 최신순 검색을 통해 수집한 가장 따끈따끈한 실시간 블로그 포스팅 제목들입니다.
-이 네이버 실시간 데이터에 등장하는 핫플을 최우선으로 반영하되, **반드시 당신의 구글 검색(Google Search Grounding) 능력도 함께 활용하여** 네이버 제목에는 없지만 현재 트위터/인스타 등에서 폭발적으로 유행 중인 최신 팝업과 핫플도 적극적으로 찾아내어 리스트를 보강하세요.
+이 네이버 실시간 데이터에 등장하는 핫플을 최우선으로 반영하되,
+
+주의사항 1: 이미 너무 유명한 곳(아모레 성수, 더현대 서울, 런던베이글뮤지엄 등), 체인점, 혹은 이미 수십 번 뉴스에 나온 장소는 절대로 제외하세요.
+주의사항 2: 이번 주에 갓 오픈한 초신상 팝업, 가오픈 식당, 팔로워가 적은 사람들 사이에서 '방금' 뜨기 시작한 마이크로 트렌드 장소를 최우선으로 발굴하세요.
+, **반드시 당신의 구글 검색(Google Search Grounding) 능력도 함께 활용하여** 네이버 제목에는 없지만 현재 트위터/인스타 등에서 폭발적으로 유행 중인 최신 팝업과 핫플도 적극적으로 찾아내어 리스트를 보강하세요.
 ${recentBlogText}
 
 ## 중요 주의사항 (크리티컬 - 어길 시 실패):
