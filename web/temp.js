@@ -52,18 +52,22 @@ function cleanHtml(str) {
  */
 function getPreciseQuery(placeName, address, category) {
     const cleanName = placeName.trim();
-    if (cleanName.length >= 6 || cleanName.includes('본점') || cleanName.includes('지점')) {
+    if (cleanName.length >= 6 || cleanName.includes('??) || cleanName.includes('지??)) {
         return cleanName;
     }
     
     let region = '';
     if (address) {
+        // Clean parentheses to extract inner Dong names like (?�수??가) -> ?�수??가
         const cleanAddr = address.replace(/[()]/g, ' ');
         const parts = cleanAddr.split(/\s+/);
-        let found = parts.find(p => p.endsWith('동'));
-        if (!found) found = parts.find(p => p.endsWith('구'));
+        // 1. Try to find a word ending with '?? (e.g., ?�수?? ?�선??
+        let found = parts.find(p => p.endsWith('??));
+        // 2. Try to find a word ending with '�? (e.g., 종로�? 강남�?
+        if (!found) found = parts.find(p => p.endsWith('�?));
+        // 3. Try to find a word ending with '?? (but exclude metropolitan cities like ?�울?�별??
         if (!found) {
-            found = parts.find(p => p.endsWith('시') && !p.includes('특별') && !p.includes('광역'));
+            found = parts.find(p => p.endsWith('??) && !p.includes('?�별') && !p.includes('광역'));
         }
         if (found) {
             region = found + ' ';
@@ -73,9 +77,9 @@ function getPreciseQuery(placeName, address, category) {
     let suffix = '';
     if (cleanName.length <= 3) {
         const suffixMap = {
-            popup: '팝업',
+            popup: '?�업',
             activity: '공방',
-            beauty: '에스테틱',
+            beauty: '?�니??,
             dining: '맛집',
             cafe: '카페'
         };
@@ -307,9 +311,9 @@ function getCleanMapSearchQuery(keyword) {
 
 
 async function main() {
-    log('===========================================');
+    log('?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═??);
     log('  Kuromoon Map-First & Custom Collector');
-    log('===========================================');
+    log('?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═?�═??);
 
     if (!NAVER_CLIENT_ID || !NAVER_CLIENT_SECRET) {
         log('??ERROR: NAVER_CLIENT_ID or NAVER_CLIENT_SECRET is not configured in .env');
@@ -368,11 +372,10 @@ async function main() {
                         });
                     } else if (item && typeof item === 'object' && item.keyword) {
                         const catLabels = {
-                            popup: '팝업스토어/전시',
-                            beauty: 'K-뷰티/체형관리',
-                            dining: '이색 다이닝',
-                            cafe: '콘셉트 카페',
-                            activity: '이색 체험'
+                            popup: '?�업?�토???�시',
+                            beauty: 'K-뷰티/?��?관�?,
+                            dining: '?�치 ?�이??,
+                            cafe: '콘셉??카페'
                         };
                         customKeywords.push({
                             keyword: item.keyword.trim(),
@@ -411,16 +414,6 @@ async function main() {
     if (fs.existsSync(REVIEW_FILE)) {
         try { reviewPlaces = JSON.parse(fs.readFileSync(REVIEW_FILE, 'utf8')); } catch (e) {}
     }
-    let discardedPlaces = [];
-    if (fs.existsSync(path.join(DATA_DIR, 'discarded_places.json'))) {
-        try { discardedPlaces = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'discarded_places.json'), 'utf8')); } catch(e) {}
-    }
-    
-    let refinePlaces = [];
-    if (fs.existsSync(path.join(DATA_DIR, 'places_to_refine.json'))) {
-        try { refinePlaces = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'places_to_refine.json'), 'utf8')); } catch(e) {}
-    }
-
 
     function getJaccard(s1, s2) {
         if (!s1 || !s2) return 0;
@@ -440,7 +433,8 @@ async function main() {
 
     function normAddr(addr) {
         if (!addr) return '';
-        return addr.replace(/^(서울특별시|서울시|서울|부산광역시|부산시|부산)\s+/, '')
+        return addr.replace(/^(?�울?�별???�울???�울|부?�광??��|부?�시|부??\s+/, '')
+                   .replace(/\s+(\d+�?지??*|.*???�엠블루.*|?�업.*)$/, '')
                    .replace(/\s+/g, '')
                    .toLowerCase();
     }
@@ -450,7 +444,7 @@ async function main() {
         const cleanAddr = address ? address.replace(/\s+/g, '').toLowerCase() : '';
         const nAddr = normAddr(address);
         
-        const allPlaces = [...existingPlaces, ...reviewPlaces, ...discardedPlaces, ...refinePlaces];
+        const allPlaces = [...existingPlaces, ...reviewPlaces];
 
         // 1. Exact name match
         let found = allPlaces.find(p => p.name_ko.replace(/\s+/g, '').toLowerCase() === cleanN);
@@ -507,7 +501,7 @@ async function main() {
                 localResults = await searchNaverLocal(pureName);
                 places = localResults.items || [];
             }
-    log('===========================================');
+
             if (places.length === 0) {
                 log(`   ??Still no results. Cleaning up pure name using AI...`);
                 const cleanQuery = await getCleanMapSearchQuery(pureName);
@@ -538,7 +532,7 @@ async function main() {
                 log(`   ?�️ No map results. Skipping AI address extraction to prevent phantom places.`);
                 
                 const id = pureName.toLowerCase()
-                    .replace(/[^\w\s가-힣]/g, '')
+                    .replace(/[^\w\s가-??]/g, '')
                     .replace(/\s+/g, '-')
                     .replace(/-+/g, '-')
                     .replace(/^-|-$/g, '')
@@ -566,8 +560,8 @@ async function main() {
                 // Filter out generic businesses and franchises to not waste slots
                 places = places.filter(p => {
                     const pName = cleanHtml(p.title);
-                    const isGeneric = /(한의원|병원|의원|치과|약국|필라테스|요가|헬스장|피트니스|어린이집|유치원|학원|부동산|세무사|변호사)/.test(pName);
-                    const isFranchiseBranch = /(지점|점)$/.test(pName.trim()) && !/본점$/.test(pName.trim());
+                    const isGeneric = /(?�의??병원|?�원|치과|?�국|?�라?�스|?��?|?�스???�트?�스|?�린?�집|?�치???�원|부?�산|?�무??변?�사)/.test(pName);
+                    const isFranchiseBranch = /(지????$/.test(pName.trim()) && !/본점$/.test(pName.trim());
                     
                     if (isGeneric) {
                         return (catKey === 'beauty' || catKey === 'activity');
@@ -680,7 +674,7 @@ ${reviewTexts}`;
 
                     // Generate ID
                     const id = placeName.toLowerCase()
-                        .replace(/[^\w\s가-힣]/g, '')
+                        .replace(/[^\w\s가-??]/g, '')
                         .replace(/\s+/g, '-')
                         .replace(/-+/g, '-')
                         .replace(/^-|-$/g, '')

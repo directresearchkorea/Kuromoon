@@ -2776,24 +2776,6 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/lee-sung-dang.html" />
   </url>
 
-  <!-- Miffy Store -->
-  <url>
-    <loc>https://kuromoon.net/ko/places/miffy-store.html</loc>
-    <lastmod>2026-08-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/miffy-store.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/miffy-store.html" />
-  </url>
-  <url>
-    <loc>https://kuromoon.net/en/places/miffy-store.html</loc>
-    <lastmod>2026-08-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/miffy-store.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/miffy-store.html" />
-  </url>
-
   <!-- Cheongdam Personal Color 7AR -->
   <url>
     <loc>https://kuromoon.net/ko/places/cheongdam-personal-color-7ar.html</loc>
@@ -5674,24 +5656,6 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/alpha-drive-one-2nd-mini-album-unbreakable-beast-immersive-m.html" />
   </url>
 
-  <!-- Amore Seongsu Beauty Survival Murder Case -->
-  <url>
-    <loc>https://kuromoon.net/ko/places/amore-seongsu-beauty-survival-murder-case.html</loc>
-    <lastmod>2026-08-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/amore-seongsu-beauty-survival-murder-case.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/amore-seongsu-beauty-survival-murder-case.html" />
-  </url>
-  <url>
-    <loc>https://kuromoon.net/en/places/amore-seongsu-beauty-survival-murder-case.html</loc>
-    <lastmod>2026-08-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/amore-seongsu-beauty-survival-murder-case.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/amore-seongsu-beauty-survival-murder-case.html" />
-  </url>
-
   <!-- Flaby Hyehwa Branch -->
   <url>
     <loc>https://kuromoon.net/ko/places/flaby-hyehwa-branch.html</loc>
@@ -7078,22 +7042,22 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/texture-apgujeong-rodeo-branch.html" />
   </url>
 
-  <!-- Park Ttukki Salt Bread The Hyundai Daegu -->
+  <!-- Park Ttukki Salt Bread Pick Bake The Hyundai Daegu -->
   <url>
-    <loc>https://kuromoon.net/ko/places/park-ttukki-salt-bread-the-hyundai-daegu.html</loc>
+    <loc>https://kuromoon.net/ko/places/park-ttukki-salt-bread-pick-bake-the-hyundai-daegu.html</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/park-ttukki-salt-bread-the-hyundai-daegu.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/park-ttukki-salt-bread-the-hyundai-daegu.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/park-ttukki-salt-bread-pick-bake-the-hyundai-daegu.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/park-ttukki-salt-bread-pick-bake-the-hyundai-daegu.html" />
   </url>
   <url>
-    <loc>https://kuromoon.net/en/places/park-ttukki-salt-bread-the-hyundai-daegu.html</loc>
+    <loc>https://kuromoon.net/en/places/park-ttukki-salt-bread-pick-bake-the-hyundai-daegu.html</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/park-ttukki-salt-bread-the-hyundai-daegu.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/park-ttukki-salt-bread-the-hyundai-daegu.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/park-ttukki-salt-bread-pick-bake-the-hyundai-daegu.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/park-ttukki-salt-bread-pick-bake-the-hyundai-daegu.html" />
   </url>
 
   <!-- House of Vinyl Seongsu Branch -->
@@ -9238,6 +9202,24 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/toy-story-x-peaceminusone-exclusive-seongsu-pop-up-store.html" />
   </url>
 
+  <!-- <스파이더맨: 브랜드 뉴 데이> 친절한 이웃 팝업 -->
+  <url>
+    <loc>https://kuromoon.net/ko/places/스파이더맨-브랜드-뉴-데이-친절한-이웃-팝업.html</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/스파이더맨-브랜드-뉴-데이-친절한-이웃-팝업.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/스파이더맨-브랜드-뉴-데이-친절한-이웃-팝업.html" />
+  </url>
+  <url>
+    <loc>https://kuromoon.net/en/places/스파이더맨-브랜드-뉴-데이-친절한-이웃-팝업.html</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/스파이더맨-브랜드-뉴-데이-친절한-이웃-팝업.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/스파이더맨-브랜드-뉴-데이-친절한-이웃-팝업.html" />
+  </url>
+
   <!-- Pause Studio -->
   <url>
     <loc>https://kuromoon.net/ko/places/pause-studio.html</loc>
@@ -9362,24 +9344,6 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/healing-spa-foot-bath.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/healing-spa-foot-bath.html" />
-  </url>
-
-  <!-- Park Ttukki Salt Bread Pick Bake The Hyundai Daegu -->
-  <url>
-    <loc>https://kuromoon.net/ko/places/park-ttukki-salt-bread-pick-bake-the-hyundai-daegu.html</loc>
-    <lastmod>2026-08-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/park-ttukki-salt-bread-pick-bake-the-hyundai-daegu.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/park-ttukki-salt-bread-pick-bake-the-hyundai-daegu.html" />
-  </url>
-  <url>
-    <loc>https://kuromoon.net/en/places/park-ttukki-salt-bread-pick-bake-the-hyundai-daegu.html</loc>
-    <lastmod>2026-08-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/park-ttukki-salt-bread-pick-bake-the-hyundai-daegu.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/park-ttukki-salt-bread-pick-bake-the-hyundai-daegu.html" />
   </url>
 
   <!-- Hansangmin Bakery Geomdan New Town Branch -->

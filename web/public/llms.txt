@@ -11,14 +11,14 @@ Updated: 2026-08-25
 - URL: https://kuromoon.net
 - Languages: Korean (/ko/), English (/en/)
 - Categories: 5
-- Total Places: 608
+- Total Places: 606
 
 ## Categories
-- Pop-up Stores & Events (팝업스토어/이벤트): 107 places
+- Pop-up Stores & Events (팝업스토어/이벤트): 106 places
 - Niche Dining (니치 다이닝): 127 places
 - Concept Cafes (콘셉트 카페): 189 places
 - activity: 93 places
-- K-Beauty Clinics (K-뷰티/피부과): 92 places
+- K-Beauty Clinics (K-뷰티/피부과): 91 places
 
 ## All Places
 
@@ -176,7 +176,6 @@ Updated: 2026-08-25
 - [카페 공명 연남점](https://kuromoon.net/ko/places/cafe-gongmyeong-yeonnam-branch.html) — 책과 디저트를 즐길 수 있는 연남동 대형 북카페
 - [포레스트아웃팅스 송도점](https://kuromoon.net/ko/places/forest-outings-songdo-branch.html) — 식물원 콘셉트의 대형 베이커리 카페
 - [이성당 롯데백화점잠실점](https://kuromoon.net/ko/places/lee-sung-dang.html) — 군산 이성당 본점, 한옥 콘셉트의 유명 베이커리 카페.
-- [미피스토어 서울](https://kuromoon.net/ko/places/miffy-store.html) — 황리단길에 위치한 미피 캐릭터 소품샵 겸 카페
 - [청담퍼스널컬러세븐에이알](https://kuromoon.net/ko/places/cheongdam-personal-color-7ar.html) — 강남 청담동의 꼼꼼하고 정확한 퍼스널컬러 진단 전문점.
 - [그라운드시소 센트럴](https://kuromoon.net/ko/places/groundseesaw-central.html) — 그라운드시소 센트럴에서 열리는 맥스 시덴토프 개인전.
 - [그랜드 하얏트 서울 갤러리](https://kuromoon.net/ko/places/grand-hyatt-seoul-gallery.html) — 그랜드 하얏트 서울 로비의 고급 라운지 카페
@@ -337,7 +336,6 @@ Updated: 2026-08-25
 - [석산전기](https://kuromoon.net/ko/places/suksan.html) — 유달산과 바다가 보이는 목포의 대형 베이커리 카페.
 - [케미파인주얼리](https://kuromoon.net/ko/places/chemi.html) — 아산의 컨셉 다이닝, 와인 페어링 코스 맛집
 - [ALPHA DRIVE ONE 2ND MINI ALBUM 〈UNBREAKABLE : 少年BEAST〉 IMMERSIVE MISSION POP-UP](https://kuromoon.net/ko/places/alpha-drive-one-2nd-mini-album-unbreakable-beast-immersive-m.html) — 아이돌 앨리즈의 몰입형 미션 팝업스토어
-- [STORY A 성수 : 뷰티서바이벌 살인사건](https://kuromoon.net/ko/places/amore-seongsu-beauty-survival-murder-case.html) — 아모레성수에서 펼쳐지는 뷰티 서바이벌 살인사건 크라임씬
 - [플라비 혜화점](https://kuromoon.net/ko/places/flaby-hyehwa-branch.html) — 혜화역 근처에서 가죽공예 원데이 클래스를 즐길 수 있는 공방.
 - [버터앤쉘터 연남점](https://kuromoon.net/ko/places/butter-shelter-yeonnam-branch.html) — 연남동에 위치한 버터샌드와 두바이 쫀득쿠키 맛집 디저트 카페.
 - [닥터포헤어 송파잠실점](https://kuromoon.net/ko/places/dr-for-hair-songpa-jamsil-branch.html) — 잠실새내역 근처 17년 노하우의 두피/탈모 관리 전문점.
@@ -415,7 +413,7 @@ Updated: 2026-08-25
 - [애니메이트 카페 홍대점](https://kuromoon.net/ko/places/animate-cafe-hongdae-branch.html) — 디지몬 콜라보 굿즈를 만나는 테마 카페.
 - [주렁주렁 동물원 영등포점](https://kuromoon.net/ko/places/zoorung-zoorung-animal-park-yeongdeungpo-branch.html) — 영등포 타임스퀘어 실내 동물 테마파크.
 - [텍스처 압구정로데오점](https://kuromoon.net/ko/places/texture-apgujeong-rodeo-branch.html) — 압구정로데오에 위치한 감각적인 뷰티 살롱으로, 섬세한 헤어 스타일링과 퍼스널컬러 컨설팅을 제공합니다.
-- [박뚜기 소금빵 더현대 대구점](https://kuromoon.net/ko/places/park-ttukki-salt-bread-the-hyundai-daegu.html) — 더현대 대구에서 만나는 박뚜기소금빵 팝업
+- [박뚜기소금빵 픽베이크 더현대대구](https://kuromoon.net/ko/places/park-ttukki-salt-bread-pick-bake-the-hyundai-daegu.html) — 더현대 대구에서 만나는 박뚜기소금빵과 픽베이크 팝업
 - [하우스오브바이닐 성수점](https://kuromoon.net/ko/places/house-of-vinyl-seongsu-branch.html) — 성수동에서 LP 음악을 감상하며 데이트하기 좋은 조용한 카페.
 - [포유클레이세라믹스튜디오](https://kuromoon.net/ko/places/for-you-clay-ceramic-studio.html) — 서울 동작구에 위치한 도자기 원데이클래스 공방.
 - [스튜디오 씨 퍼스널컬러](https://kuromoon.net/ko/places/studio-c-personal-color.html) — 개인의 매력을 찾아주는 퍼스널컬러 컨설팅
@@ -535,6 +533,7 @@ Updated: 2026-08-25
 - [폴라스튜디오앤카페](https://kuromoon.net/ko/places/pola-studio-cafe.html) — 스튜디오와 카페가 결합된 무인 포토 스튜디오 카페
 - [발베니 팝업 : 한정판 컬렉션 x 다니엘 아샴](https://kuromoon.net/ko/places/balvenie-pop-up-limited-edition-collection-x-daniel-arsham.html) — 발베니와 다니엘 아샴의 한정판 위스키 팝업.
 - [토이스토리X피스마이너스원 익스클루시브 성수 팝업스토어](https://kuromoon.net/ko/places/toy-story-x-peaceminusone-exclusive-seongsu-pop-up-store.html) — 토이스토리와 피스마이너스원의 협업 팝업스토어
+- [<스파이더맨: 브랜드 뉴 데이> 친절한 이웃 팝업](https://kuromoon.net/ko/places/스파이더맨-브랜드-뉴-데이-친절한-이웃-팝업.html) — 
 - [퍼즈 스튜디오](https://kuromoon.net/ko/places/pause-studio.html) — 제주에 위치한 셀프 바디프로필 전문 스튜디오.
 - [더풋샵마사지 종로구청점](https://kuromoon.net/ko/places/foot-shop-massage.html) — 아로마 테라피와 마사지로 몸의 피로를 풀고 밸런스를 맞추는 뷰티/웰니스 샵.
 - [NC백화점 강서점](https://kuromoon.net/ko/places/nc-department-store-gangseo-branch.html) — NC백화점 강서점, 다이닝과 쇼핑을 한 곳에서.
@@ -542,7 +541,6 @@ Updated: 2026-08-25
 - [롯데하이마트 해운대점](https://kuromoon.net/ko/places/lotte-hi-mart-haeundae-branch.html) — 롯데하이마트 해운대점의 가전제품 특별 프로모션.
 - [우리동네사진관 홍대점](https://kuromoon.net/ko/places/our-neighborhood-photo-studio-hongdae-branch.html) — 프로필 사진 전문, 1:1 동반 수정
 - [힐링다해소 창신점](https://kuromoon.net/ko/places/healing-spa-foot-bath.html) — 제주에서 엄마와 함께 특별한 족욕 스파 경험을 할 수 있는 힐링 공간.
-- [박뚜기소금빵 픽베이크 더현대대구](https://kuromoon.net/ko/places/park-ttukki-salt-bread-pick-bake-the-hyundai-daegu.html) — 더현대 대구에서 만나는 박뚜기소금빵과 픽베이크 팝업
 - [한상민과자점 검단신도시점](https://kuromoon.net/ko/places/hansangmin-bakery-geomdan-new-town-branch.html) — 빵 맛이 좋고 친절한 검단신도시 베이커리 카페
 - [하파크리스틴 올리브영N 성수점](https://kuromoon.net/ko/places/hapakristin-olive-young-n-seongsu-branch.html) — 하파크리스틴 렌즈를 만나는 올리브영N 성수점
 - [교보문고 해운대 팝업스토어](https://kuromoon.net/ko/places/kyobo-bookstore-haeundae-pop-up-store.html) — 아이와 함께 즐기기 좋은 교보문고 팝업스토어
@@ -786,7 +784,6 @@ Updated: 2026-08-25
 - [Cafe Gongmyeong Yeonnam Branch](https://kuromoon.net/en/places/cafe-gongmyeong-yeonnam-branch.html) — Spacious book cafe in Yeonnam-dong offering books, coffee, and delicious desserts.
 - [Forest Outings Songdo Branch](https://kuromoon.net/en/places/forest-outings-songdo-branch.html) — Large botanical garden concept bakery cafe
 - [Lee Sung Dang](https://kuromoon.net/en/places/lee-sung-dang.html) — Lee Sung Dang Main Branch, a famous hanok concept bakery cafe in Gunsan.
-- [Miffy Store](https://kuromoon.net/en/places/miffy-store.html) — Miffy character goods shop and cafe in Hwanglidan-gil, Gyeongju.
 - [Cheongdam Personal Color 7AR](https://kuromoon.net/en/places/cheongdam-personal-color-7ar.html) — Detailed and accurate personal color diagnosis service in Cheongdam, Gangnam.
 - [Groundseesaw Central](https://kuromoon.net/en/places/groundseesaw-central.html) — Max Siedentopf's solo exhibition at Groundseesaw Central.
 - [Grand Hyatt Seoul Gallery](https://kuromoon.net/en/places/grand-hyatt-seoul-gallery.html) — Luxury lounge cafe in the lobby of Grand Hyatt Seoul.
@@ -947,7 +944,6 @@ Updated: 2026-08-25
 - [SUKSAN](https://kuromoon.net/en/places/suksan.html) — Large bakery cafe in Mokpo with views of Yudalsan Mountain and the sea.
 - [Chemi](https://kuromoon.net/en/places/chemi.html) — Concept dining restaurant in Asan, known for wine pairing courses.
 - [ALPHA DRIVE ONE 2ND MINI ALBUM 〈UNBREAKABLE : 少年BEAST〉 IMMERSIVE MISSION POP-UP](https://kuromoon.net/en/places/alpha-drive-one-2nd-mini-album-unbreakable-beast-immersive-m.html) — Immersive mission pop-up for idol group ALLYZ's 2nd mini album.
-- [Amore Seongsu Beauty Survival Murder Case](https://kuromoon.net/en/places/amore-seongsu-beauty-survival-murder-case.html) — Amore Seongsu hosts a beauty survival murder mystery crime scene.
 - [Flaby Hyehwa Branch](https://kuromoon.net/en/places/flaby-hyehwa-branch.html) — A craft workshop near Hyehwa Station offering one-day leather craft classes.
 - [Butter & Shelter Yeonnam Branch](https://kuromoon.net/en/places/butter-shelter-yeonnam-branch.html) — Dessert cafe in Yeonnam-dong known for butter sand and Dubai chewy cookies.
 - [Dr. For Hair Songpa Jamsil Branch](https://kuromoon.net/en/places/dr-for-hair-songpa-jamsil-branch.html) — Dr. For Hair Songpa Jamsil offers 17 years of expertise in scalp and hair loss management near Jamsil Saenae Station.
@@ -1025,7 +1021,7 @@ Updated: 2026-08-25
 - [Animate Cafe Hongdae Branch](https://kuromoon.net/en/places/animate-cafe-hongdae-branch.html) — A themed cafe to find Digimon collaboration merchandise.
 - [Zoorung Zoorung Animal Park Yeongdeungpo Branch](https://kuromoon.net/en/places/zoorung-zoorung-animal-park-yeongdeungpo-branch.html) — Indoor animal theme park in Times Square, Yeongdeungpo.
 - [Texture Apgujeong Rodeo Branch](https://kuromoon.net/en/places/texture-apgujeong-rodeo-branch.html) — A stylish beauty salon in Apgujeong Rodeo offering delicate hair styling and personal color consulting.
-- [Park Ttukki Salt Bread The Hyundai Daegu](https://kuromoon.net/en/places/park-ttukki-salt-bread-the-hyundai-daegu.html) — Park Ttukki Salt Bread pop-up at The Hyundai Daegu
+- [Park Ttukki Salt Bread Pick Bake The Hyundai Daegu](https://kuromoon.net/en/places/park-ttukki-salt-bread-pick-bake-the-hyundai-daegu.html) — Park Ttukki Salt Bread & Pick Bake pop-up at The Hyundai Daegu.
 - [House of Vinyl Seongsu Branch](https://kuromoon.net/en/places/house-of-vinyl-seongsu-branch.html) — A quiet LP cafe in Seongsu, perfect for music appreciation and dates.
 - [For You Clay Ceramic Studio](https://kuromoon.net/en/places/for-you-clay-ceramic-studio.html) — Ceramic one-day class studio located in Dongjak-gu, Seoul.
 - [Studio C Personal Color](https://kuromoon.net/en/places/studio-c-personal-color.html) — Personal color consulting to discover individual charm
@@ -1145,6 +1141,7 @@ Updated: 2026-08-25
 - [Pola Studio & Cafe](https://kuromoon.net/en/places/pola-studio-cafe.html) — A self-service photo studio and cafe combined, perfect for pet owners.
 - [Balvenie Pop-up: Limited Edition Collection x Daniel Arsham](https://kuromoon.net/en/places/balvenie-pop-up-limited-edition-collection-x-daniel-arsham.html) — Balvenie x Daniel Arsham limited edition whisky pop-up.
 - [Toy Story X PEACEMINUSONE Exclusive Seongsu Pop-up Store](https://kuromoon.net/en/places/toy-story-x-peaceminusone-exclusive-seongsu-pop-up-store.html) — Toy Story and PEACEMINUSONE collaboration pop-up store
+- [undefined](https://kuromoon.net/en/places/스파이더맨-브랜드-뉴-데이-친절한-이웃-팝업.html) — 
 - [Pause Studio](https://kuromoon.net/en/places/pause-studio.html) — Self-body profile studio located in Jeju.
 - [Foot Shop Massage](https://kuromoon.net/en/places/foot-shop-massage.html) — A beauty/wellness shop offering aroma therapy and massages to relieve fatigue and balance the body.
 - [NC Department Store Gangseo Branch](https://kuromoon.net/en/places/nc-department-store-gangseo-branch.html) — NC Department Store Gangseo Branch, a multi-purpose venue for dining and shopping.
@@ -1152,7 +1149,6 @@ Updated: 2026-08-25
 - [Lotte Hi-Mart Haeundae Branch](https://kuromoon.net/en/places/lotte-hi-mart-haeundae-branch.html) — Special home appliance promotions at Lotte Hi-Mart Haeundae Branch.
 - [Our Neighborhood Photo Studio Hongdae Branch](https://kuromoon.net/en/places/our-neighborhood-photo-studio-hongdae-branch.html) — Professional profile photo studio with 1:1 accompanying editing.
 - [Healing Spa Foot Bath](https://kuromoon.net/en/places/healing-spa-foot-bath.html) — A healing space in Jeju offering a special foot bath spa experience with your mom.
-- [Park Ttukki Salt Bread Pick Bake The Hyundai Daegu](https://kuromoon.net/en/places/park-ttukki-salt-bread-pick-bake-the-hyundai-daegu.html) — Park Ttukki Salt Bread & Pick Bake pop-up at The Hyundai Daegu.
 - [Hansangmin Bakery Geomdan New Town Branch](https://kuromoon.net/en/places/hansangmin-bakery-geomdan-new-town-branch.html) — A friendly bakery cafe in Geomdan New Town with delicious bread.
 - [Hapakristin Olive Young N Seongsu Branch](https://kuromoon.net/en/places/hapakristin-olive-young-n-seongsu-branch.html) — Olive Young N Seongsu branch featuring Hapakristin lenses.
 - [Kyobo Bookstore Haeundae Pop-up Store](https://kuromoon.net/en/places/kyobo-bookstore-haeundae-pop-up-store.html) — Kyobo Bookstore Haeundae pop-up, great for indoor dates with kids.
