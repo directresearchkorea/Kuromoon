@@ -1,63 +1,63 @@
 {
-  "generated_at": "2026-08-24",
+  "generated_at": "2026-08-25",
   "mode": "live-dynamic",
   "period": {
-    "start": "2026-07-25",
-    "end": "2026-08-24"
+    "start": "2026-07-26",
+    "end": "2026-08-25"
   },
   "categories": {
     "popup": {
       "label": "팝업/전시",
       "trending_keywords": [
         {
-          "keyword": "서울숲 포켓몬 팝업",
+          "keyword": "애견 동반 카페 꼬늘커피",
           "trend_score": 100,
-          "data_points": 5
+          "data_points": 6
         },
         {
-          "keyword": "8월 성수 팝업 치이카와 스시",
-          "trend_score": 85,
-          "data_points": 5
+          "keyword": "치이카와 스시 성수",
+          "trend_score": 30,
+          "data_points": 2
         },
         {
           "keyword": "조말론 성수 팝업",
-          "trend_score": 76,
-          "data_points": 3
+          "trend_score": 30,
+          "data_points": 4
         },
         {
-          "keyword": "아모레성수 뷰티서바이벌",
+          "keyword": "무신사 로블록스 성수",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "박뚜기소금빵 더현대대구",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "이케아 고양점 팝업",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "스키즈 성수 팝업",
-          "trend_score": 30,
-          "data_points": 3
-        },
-        {
-          "keyword": "무신사 로블록스 성수 팝업",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "성수 김정문알로에 팝업",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "더룩 성수 팝업",
+          "keyword": "더 룩 성수 팝업",
           "trend_score": 30,
           "data_points": 1
+        },
+        {
+          "keyword": "더현대 창억떡 서울",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "8월 성수 팝업 치이카와",
+          "trend_score": 30,
+          "data_points": 6
+        },
+        {
+          "keyword": "성수동 김정문알로에 팝업",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "신라면 팝업 성수",
+          "trend_score": 30,
+          "data_points": 1
+        },
+        {
+          "keyword": "푸른숲 성수 팝업",
+          "trend_score": 30,
+          "data_points": 0
         }
       ]
     },
@@ -65,53 +65,53 @@
       "label": "이색 체험",
       "trending_keywords": [
         {
-          "keyword": "8월 성수 팝업 신라면",
+          "keyword": "수원 효원공원 월화원",
           "trend_score": 100,
           "data_points": 5
         },
         {
-          "keyword": "성수 토이스토리 팝업",
-          "trend_score": 79,
-          "data_points": 5
+          "keyword": "인천 롤러스케이트장",
+          "trend_score": 100,
+          "data_points": 4
         },
         {
-          "keyword": "하우스 오브 토이스토리 성수 팝업",
-          "trend_score": 30,
-          "data_points": 5
-        },
-        {
-          "keyword": "8월 성수 동묘 스파렉스 찜질방",
+          "keyword": "성수 펍 펍",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "성수 팝업 롤 토체스 팝업",
+          "keyword": "성수 롤링게임",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "성수 팝업 스트레이키즈 팝업",
+          "keyword": "성수 스케이트장",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "성수 팝업 사워도우 맛집",
+          "keyword": "성수 핀볼",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "성수 팝업 리카바이파프리카 브런치",
+          "keyword": "한강진 리카바이파파",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "성수 팝업 치이카와 스시",
+          "keyword": "천안 쌍용 하이렉스파",
           "trend_score": 30,
-          "data_points": 2
+          "data_points": 0
         },
         {
-          "keyword": "성수 팝업 더팩토리 팝업",
+          "keyword": "경기광주 능평동 이색카페",
           "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "성수 향수공방 체험",
+          "trend_score": 0,
           "data_points": 0
         }
       ]
@@ -120,19 +120,9 @@
       "label": "뷰티/웰니스",
       "trending_keywords": [
         {
-          "keyword": "8월 성수 팝업 치이카와 스시",
+          "keyword": "성수동 메이크업샵",
           "trend_score": 100,
-          "data_points": 5
-        },
-        {
-          "keyword": "성수 토이스토리 팝업",
-          "trend_score": 65,
-          "data_points": 5
-        },
-        {
-          "keyword": "조말론 성수 팝업",
-          "trend_score": 61,
-          "data_points": 3
+          "data_points": 1
         },
         {
           "keyword": "아모레성수 뷰티서바이벌",
@@ -140,32 +130,42 @@
           "data_points": 0
         },
         {
-          "keyword": "더룩 성수 팝업",
-          "trend_score": 30,
-          "data_points": 1
-        },
-        {
-          "keyword": "성수 김정문알로에 팝업",
+          "keyword": "성수 미술관 팝업",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "무신사 로블록스 성수 팝업",
+          "keyword": "성수동 헤어샵",
+          "trend_score": 30,
+          "data_points": 5
+        },
+        {
+          "keyword": "성수동 유행하는 헤어샵",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "성수 팝업 스키즈 팝업",
+          "keyword": "성수동 네일샵",
+          "trend_score": 30,
+          "data_points": 6
+        },
+        {
+          "keyword": "성수동 뷰티샵",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "성수 팝업 스트레이키즈 팝업",
+          "keyword": "성수동 뷰티 카페",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "성수 팝업 리카바이파프리카 브런치",
+          "keyword": "성수동 뷰티 쇼룸",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "성수동 화장품매장",
           "trend_score": 30,
           "data_points": 0
         }
@@ -175,19 +175,14 @@
       "label": "컨셉 다이닝",
       "trending_keywords": [
         {
-          "keyword": "8월 성수 팝업 신라면",
+          "keyword": "이케아 고양점",
           "trend_score": 100,
-          "data_points": 5
+          "data_points": 6
         },
         {
-          "keyword": "8월 성수 팝업 치이카와 스시",
+          "keyword": "전주 자매갈비전골",
           "trend_score": 100,
-          "data_points": 5
-        },
-        {
-          "keyword": "성수 토이스토리 팝업",
-          "trend_score": 65,
-          "data_points": 5
+          "data_points": 6
         },
         {
           "keyword": "박뚜기소금빵 더현대대구",
@@ -195,32 +190,37 @@
           "data_points": 0
         },
         {
-          "keyword": "이케아 고양점 팝업",
+          "keyword": "강북 북한산장",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "성수 김정문알로에 팝업",
+          "keyword": "약수동 샘터",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "무신사 로블록스 성수 팝업",
+          "keyword": "동대문구 경동시장",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "성수 팝업 스키즈 팝업",
+          "keyword": "브릴 목공 스튜디오",
+          "trend_score": 30,
+          "data_points": 1
+        },
+        {
+          "keyword": "성남 분당 놀거리",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "성수 팝업 스트레이키즈 팝업",
+          "keyword": "탄천종합운동장 빙상장",
           "trend_score": 30,
-          "data_points": 0
+          "data_points": 6
         },
         {
-          "keyword": "성수 팝업 리카바이파프리카 브런치",
+          "keyword": "성북구 한성대입구역 한옥카페",
           "trend_score": 30,
           "data_points": 0
         }
@@ -230,52 +230,52 @@
       "label": "아트/테마 카페",
       "trending_keywords": [
         {
-          "keyword": "8월 성수 팝업 치이카와 스시",
+          "keyword": "8월 홍대 팝업 치이카와",
           "trend_score": 100,
           "data_points": 5
         },
         {
-          "keyword": "8월 성수 팝업 신라면",
-          "trend_score": 100,
+          "keyword": "상봉역 찻집온유",
+          "trend_score": 47,
+          "data_points": 1
+        },
+        {
+          "keyword": "성수동 테라스 카페",
+          "trend_score": 47,
+          "data_points": 1
+        },
+        {
+          "keyword": "성수 팝업 카페",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "성수동 핫플 카페",
+          "trend_score": 30,
           "data_points": 5
         },
         {
-          "keyword": "성수 토이스토리 팝업",
-          "trend_score": 65,
-          "data_points": 5
-        },
-        {
-          "keyword": "이케아 고양점 팝업",
+          "keyword": "성수 카페 전시",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "성수 김정문알로에 팝업",
+          "keyword": "성수동 레스토랑 카페",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "무신사 로블록스 성수 팝업",
+          "keyword": "성수동 야경 카페",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "성수 팝업 스키즈 팝업",
+          "keyword": "성수동 북폴카페",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "성수 팝업 스트레이키즈 팝업",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "성수 팝업 리카바이파프리카 브런치",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "성수 팝업 더팩토리 팝업",
+          "keyword": "성수동 암흑 카페",
           "trend_score": 30,
           "data_points": 0
         }
