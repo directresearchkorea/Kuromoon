@@ -267,35 +267,6 @@ function makeGeminiRequest(prompt, apiKey) {
     });
 }
 
-/**
- * Call Ollama API (Local LLM) for generating JSON
- */
-function callOllama(prompt, model = 'gemma2:9b') {
-    return new Promise((resolve, reject) => {
-        const http = require('http');
-        const data = JSON.stringify({ model, prompt, stream: false, format: 'json' });
-        const options = {
-            hostname: 'localhost', port: 11434, path: '/api/generate',
-            method: 'POST', headers: { 'Content-Type': 'application/json', 'Content-Length': Buffer.byteLength(data) }
-        };
-        const req = http.request(options, (res) => {
-            let body = '';
-            res.on('data', chunk => body += chunk);
-            res.on('end', () => {
-                try {
-                    const parsed = JSON.parse(body);
-                    const cleaned = parsed.response.replace(/```json\s*/g, '').replace(/```\s*/g, '').trim();
-                    resolve(JSON.parse(cleaned));
-                } catch (e) {
-                    reject(new Error(`Ollama parsing failed: ${e.message}`));
-                }
-            });
-        });
-        req.on('error', reject);
-        req.write(data);
-        req.end();
-    });
-}
 
 /**
  * Generate sample trending data for demo mode
@@ -404,7 +375,7 @@ async function main() {
             }
         }
 
-        log('🤖 Fetching live trends from LOCAL OLLAMA (gemma2:9b) with real-time blog data...');
+        log('🤖 Fetching live trends from Cloud Gemini (with Google Search Grounding)...');
         
         // Load Feedback Loop data
         const feedbackFile = require('path').join(__dirname, '..', 'data', 'feedback_loop.json');
@@ -456,33 +427,28 @@ ${recentBlogText}
 }
 `;
     try {
-        log('🧠 Fetching trends via BOTH Local Ollama and Cloud Gemini simultaneously...');
-        const [ollamaResult, geminiResult] = await Promise.allSettled([
-            callOllama(prompt),
-            geminiApiKey ? makeGeminiRequest(prompt, geminiApiKey) : Promise.reject(new Error("No Gemini Key"))
-        ]);
+        log('🧠 Fetching trends via Cloud Gemini (Google Search Grounding)...');
+        let geminiResult;
+        try {
+            if (geminiApiKey) {
+                geminiResult = await makeGeminiRequest(prompt, geminiApiKey);
+            } else {
+                throw new Error("No Gemini Key");
+            }
+        } catch (err) {
+            geminiResult = null;
+            log(`⚠️ Gemini extraction failed: ${err.message}`);
+        }
 
         dynamicKeywords = { popup: [], activity: [], beauty: [], dining: [], cafe: [] };
         let anySuccess = false;
 
-        if (ollamaResult.status === 'fulfilled' && ollamaResult.value) {
-            log('✅ Local Ollama extraction successful.');
-            anySuccess = true;
-            for (let k of Object.keys(dynamicKeywords)) {
-                if (ollamaResult.value[k]) dynamicKeywords[k].push(...ollamaResult.value[k]);
-            }
-        } else {
-            log(`⚠️ Ollama extraction failed: ${ollamaResult.reason?.message}`);
-        }
-
-        if (geminiResult.status === 'fulfilled' && geminiResult.value) {
+        if (geminiResult) {
             log('✅ Cloud Gemini extraction successful.');
             anySuccess = true;
             for (let k of Object.keys(dynamicKeywords)) {
-                if (geminiResult.value[k]) dynamicKeywords[k].push(...geminiResult.value[k]);
+                if (geminiResult[k]) dynamicKeywords[k].push(...geminiResult[k]);
             }
-        } else {
-            log(`⚠️ Gemini extraction failed: ${geminiResult.reason?.message}`);
         }
 
         if (!anySuccess) {
