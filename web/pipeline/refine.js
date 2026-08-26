@@ -377,7 +377,7 @@ async function main() {
             }
             
             const finalCat = sanitizeCategory(extracted.category || input.category, extracted.name_ko);
-            const id = generateSlug(extracted.name_en || extracted.name_ko);
+            const id = input.id || generateSlug(extracted.name_en || extracted.name_ko);
             let initialStatus = extracted.operating_status || input.operating_status || '운영 중';
             const startDateStr = extracted.startDate || input.startDate;
             const endDateStr = extracted.endDate || input.endDate;
@@ -396,6 +396,7 @@ async function main() {
                 id: id,
                 type: getSchemaType(finalCat),
                 ...extracted,
+                name_ko: (input.name_ko && input.name_ko.trim()) ? input.name_ko.trim() : extracted.name_ko,
                 category: finalCat,
                 review_count: input.review_count || 0,
                 weekly_review_count: input.weekly_review_count || 0,
@@ -404,8 +405,8 @@ async function main() {
                 confidence_score: input.confidence_score || 0,
                 operating_status: initialStatus,
                 last_status_checked_at: new Date().toISOString().slice(0, 10),
-                created_at: input.created_at || new Date().toISOString().slice(0, 10),
-                updated_at: input.updated_at || new Date().toISOString().slice(0, 10)
+                created_at: input.created_at || new Date(Date.now() + 9 * 60 * 60 * 1000).toISOString().slice(0, 10),
+                updated_at: input.updated_at || new Date(Date.now() + 9 * 60 * 60 * 1000).toISOString().slice(0, 10)
             };
 
             results.push(place);
@@ -579,18 +580,21 @@ ${reviewTexts}`;
         throw new Error(`Validation failed: ${validation.reason}`);
     }
     const finalCat = sanitizeCategory(extracted.category || input.category, extracted.name_ko);
-    const id = generateSlug(extracted.name_en || extracted.name_ko);
+    const id = input.id || generateSlug(extracted.name_en || extracted.name_ko);
     return {
         id: id,
         type: getSchemaType(finalCat),
         ...extracted,
+        name_ko: (input.name_ko && input.name_ko.trim()) ? input.name_ko.trim() : extracted.name_ko,
         category: finalCat,
         review_count: input.review_count || 0,
         weekly_review_count: input.weekly_review_count || 0,
         biweekly_review_count: input.biweekly_review_count || 0,
         recent_snippets: input.recent_snippets || [],
         confidence_score: input.confidence_score || 0,
-        last_status_checked_at: new Date().toISOString().slice(0, 10)
+        last_status_checked_at: new Date().toISOString().slice(0, 10),
+        created_at: input.created_at || new Date(Date.now() + 9 * 60 * 60 * 1000).toISOString().slice(0, 10),
+        updated_at: input.updated_at || new Date(Date.now() + 9 * 60 * 60 * 1000).toISOString().slice(0, 10)
     };
 }
 

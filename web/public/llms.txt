@@ -530,7 +530,7 @@ Updated: 2026-08-26
 - [광화문 미진숯불막창 야장](https://kuromoon.net/ko/places/gwanghwamun-mijin-charcoal-grilled-makchang-yajang.html) — 숯불 막창과 볶음밥을 즐기는 광화문 맛집.
 - [오리와 개구리](https://kuromoon.net/ko/places/duck-and-frog.html) — 이색적인 개구리 고기와 오리 요리를 맛볼 수 있는 컨셉 다이닝 와인바.
 - [힐즈앤유로파](https://kuromoon.net/ko/places/hills-europa.html) — 해방촌 LP 카페 겸 바, 음악과 칵테일, 푸딩을 즐기는 곳.
-- [홍대 이색 팝업](https://kuromoon.net/ko/places/hongdae-unique-pop-up.html) — 홍대에서 열리는 독특한 컨셉의 팝업스토어
+- [하이라이트](https://kuromoon.net/ko/places/하이라이트.html) — 홍대에서 열리는 독특한 컨셉의 팝업스토어
 - [이름없는 달밤](https://kuromoon.net/ko/places/nameless-moonlight-cafe.html) — 마곡에 위치한 보름달 간판이 인상적인 아트/테마 카페.
 - [블랙데이 식자재마트](https://kuromoon.net/ko/places/black-day-food-mart.html) — 클럽블랙 1층에 새롭게 오픈 예정인 식자재마트.
 - [도깨비코리아](https://kuromoon.net/ko/places/dokkaebi-korea.html) — 도깨비 테마의 독특한 아트 카페.
@@ -1147,7 +1147,7 @@ Updated: 2026-08-26
 - [Gwanghwamun Mijin Charcoal Grilled Makchang Yajang](https://kuromoon.net/en/places/gwanghwamun-mijin-charcoal-grilled-makchang-yajang.html) — Gwanghwamun restaurant for charcoal-grilled makchang and fried rice.
 - [Duck and Frog](https://kuromoon.net/en/places/duck-and-frog.html) — A unique concept dining wine bar offering exotic frog and duck dishes.
 - [Hills & Europa](https://kuromoon.net/en/places/hills-europa.html) — Hae-bangchon's LP cafe & bar, offering music, cocktails, and pudding.
-- [Hongdae Unique Pop-up](https://kuromoon.net/en/places/hongdae-unique-pop-up.html) — A unique concept pop-up store held in Hongdae.
+- [Hongdae Unique Pop-up](https://kuromoon.net/en/places/하이라이트.html) — A unique concept pop-up store held in Hongdae.
 - [Nameless Moonlight Cafe](https://kuromoon.net/en/places/nameless-moonlight-cafe.html) — An art/theme cafe in Magok with an impressive full moon sign.
 - [Black Day Food Mart](https://kuromoon.net/en/places/black-day-food-mart.html) — Black Day Food Mart is set to open on the 1st floor of Club Black.
 - [Dokkaebi Korea](https://kuromoon.net/en/places/dokkaebi-korea.html) — A unique Dokkaebi-themed art cafe.
