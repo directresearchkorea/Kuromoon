@@ -9148,24 +9148,6 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/hills-europa.html" />
   </url>
 
-  <!-- Hongdae Unique Pop-up -->
-  <url>
-    <loc>https://kuromoon.net/ko/places/하이라이트.html</loc>
-    <lastmod>2026-08-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/하이라이트.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/하이라이트.html" />
-  </url>
-  <url>
-    <loc>https://kuromoon.net/en/places/하이라이트.html</loc>
-    <lastmod>2026-08-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/하이라이트.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/하이라이트.html" />
-  </url>
-
   <!-- Nameless Moonlight Cafe -->
   <url>
     <loc>https://kuromoon.net/ko/places/nameless-moonlight-cafe.html</loc>
