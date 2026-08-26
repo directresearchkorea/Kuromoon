@@ -352,7 +352,7 @@ Updated: 2026-08-26
 - [아로마하우스](https://kuromoon.net/ko/places/aroma-house.html) — 몸과 마음의 균형을 위한 아로마테라피와 힐링 스파를 제공합니다.
 - [화전리제빵소 '구름의빵' 팝업](https://kuromoon.net/ko/places/hwajeonri-bakery-cloud-bread-pop-up.html) — 더현대 대구 지하 1층 구름의빵 팝업
 - [르데이헤어 성수점](https://kuromoon.net/ko/places/le-day-hair-seongsu-branch.html) — 성수역 1분 거리, 퍼스널 맞춤 헤어 컨설팅 전문 미용실
-- [나나로그 성수점](https://kuromoon.net/ko/places/nanalog-seongsu-branch.html) — 
+- [나나로그 성수점](https://kuromoon.net/ko/places/nanalog-seongsu-branch.html) — 성수동 뷰티샵, 지역화폐 사용 가능
 - [블루보틀 성수 카페](https://kuromoon.net/ko/places/blue-bottle-seongsu-cafe.html) — 성수동에 위치한 유명한 블루보틀 카페
 - [쏘옥 성수](https://kuromoon.net/ko/places/ssook-seongsu.html) — 성수동의 독특한 컨셉 다이닝 공간
 - [끄적끄적 미술공방](https://kuromoon.net/ko/places/kkeujeok-kkeujeok-art-workshop.html) — 혜화에서 베어브릭 페인팅 등 이색 미술 체험을 즐길 수 있는 공방.
@@ -385,7 +385,7 @@ Updated: 2026-08-26
 - [무드서울](https://kuromoon.net/ko/places/mood-seoul.html) — 반포 세빛섬에 위치한 한강뷰 루프탑 다이닝 레스토랑.
 - [아더에러 성수 스페이스](https://kuromoon.net/ko/places/ader-error-seongsu-space.html) — 아더에러의 독특한 패션 세계를 경험할 수 있는 성수동 플래그십 스토어.
 - [라인프렌즈 스퀘어 명동](https://kuromoon.net/ko/places/line-friends-square-myeongdong.html) — 명동에 위치한 라인프렌즈 캐릭터샵으로, 실바니안 패밀리 등 다양한 볼거리를 제공합니다.
-- [studio eat](https://kuromoon.net/ko/places/studio-eat.html) — 
+- [studio eat](https://kuromoon.net/ko/places/studio-eat.html) — 종로에 위치한 이색 쿠킹 스튜디오
 - [와이모어 크래프트 연구소](https://kuromoon.net/ko/places/waimore-craft-lab.html) — 서울 잠실에서 즐기는 수제 맥주 양조 원데이 클래스
 - [소란한작업실](https://kuromoon.net/ko/places/soranhan-workshop.html) — 성수동에서 유리공예를 체험할 수 있는 원데이 클래스 공방.
 - [뭉작가의 미술집 학원](https://kuromoon.net/ko/places/moong-artists-art-studio-academy.html) — 홍대에서 아이패드로 배우는 디지털 드로잉 클래스
@@ -530,7 +530,7 @@ Updated: 2026-08-26
 - [광화문 미진숯불막창 야장](https://kuromoon.net/ko/places/gwanghwamun-mijin-charcoal-grilled-makchang-yajang.html) — 숯불 막창과 볶음밥을 즐기는 광화문 맛집.
 - [오리와 개구리](https://kuromoon.net/ko/places/duck-and-frog.html) — 이색적인 개구리 고기와 오리 요리를 맛볼 수 있는 컨셉 다이닝 와인바.
 - [힐즈앤유로파](https://kuromoon.net/ko/places/hills-europa.html) — 해방촌 LP 카페 겸 바, 음악과 칵테일, 푸딩을 즐기는 곳.
-- [하이라이트](https://kuromoon.net/ko/places/하이라이트.html) — 
+- [홍대 이색 팝업](https://kuromoon.net/ko/places/hongdae-unique-pop-up.html) — 홍대에서 열리는 독특한 컨셉의 팝업스토어
 - [이름없는 달밤](https://kuromoon.net/ko/places/nameless-moonlight-cafe.html) — 마곡에 위치한 보름달 간판이 인상적인 아트/테마 카페.
 - [블랙데이 식자재마트](https://kuromoon.net/ko/places/black-day-food-mart.html) — 클럽블랙 1층에 새롭게 오픈 예정인 식자재마트.
 - [도깨비코리아](https://kuromoon.net/ko/places/dokkaebi-korea.html) — 도깨비 테마의 독특한 아트 카페.
@@ -538,7 +538,7 @@ Updated: 2026-08-26
 - [폴라스튜디오앤카페](https://kuromoon.net/ko/places/pola-studio-cafe.html) — 스튜디오와 카페가 결합된 무인 포토 스튜디오 카페
 - [발베니 팝업 : 한정판 컬렉션 x 다니엘 아샴](https://kuromoon.net/ko/places/balvenie-pop-up-limited-edition-collection-x-daniel-arsham.html) — 발베니와 다니엘 아샴의 한정판 위스키 팝업.
 - [토이스토리X피스마이너스원 익스클루시브 성수 팝업스토어](https://kuromoon.net/ko/places/toy-story-x-peaceminusone-exclusive-seongsu-pop-up-store.html) — 토이스토리와 피스마이너스원의 협업 팝업스토어
-- [<스파이더맨: 브랜드 뉴 데이> 친절한 이웃 팝업](https://kuromoon.net/ko/places/스파이더맨-브랜드-뉴-데이-친절한-이웃-팝업.html) — 
+- [스파이더맨: 브랜드 뉴 데이 친절한 이웃 팝업](https://kuromoon.net/ko/places/spider-man-brand-new-day-friendly-neighbor-pop-up.html) — 더현대 서울에서 열리는 스파이더맨 팝업
 - [퍼즈 스튜디오](https://kuromoon.net/ko/places/pause-studio.html) — 제주에 위치한 셀프 바디프로필 전문 스튜디오.
 - [더풋샵마사지 종로구청점](https://kuromoon.net/ko/places/foot-shop-massage.html) — 아로마 테라피와 마사지로 몸의 피로를 풀고 밸런스를 맞추는 뷰티/웰니스 샵.
 - [NC백화점 강서점](https://kuromoon.net/ko/places/nc-department-store-gangseo-branch.html) — NC백화점 강서점, 다이닝과 쇼핑을 한 곳에서.
@@ -969,7 +969,7 @@ Updated: 2026-08-26
 - [Aroma House](https://kuromoon.net/en/places/aroma-house.html) — Offers aromatherapy and healing spa for mind-body balance.
 - [Hwajeonri Bakery 'Cloud Bread' Pop-up](https://kuromoon.net/en/places/hwajeonri-bakery-cloud-bread-pop-up.html) — Hwajeonri Bakery's 'Cloud Bread' pop-up at The Hyundai Daegu B1.
 - [Le Day Hair Seongsu Branch](https://kuromoon.net/en/places/le-day-hair-seongsu-branch.html) — Personalized hair consulting salon located 1 minute from Seongsu Station.
-- [Nanalog Seongsu Branch](https://kuromoon.net/en/places/nanalog-seongsu-branch.html) — 
+- [Nanalog Seongsu Branch](https://kuromoon.net/en/places/nanalog-seongsu-branch.html) — Beauty shop in Seongsu-dong, regional currency accepted
 - [Blue Bottle Seongsu Cafe](https://kuromoon.net/en/places/blue-bottle-seongsu-cafe.html) — Famous Blue Bottle cafe located in Seongsu-dong, Seoul.
 - [Ssook Seongsu](https://kuromoon.net/en/places/ssook-seongsu.html) — Unique concept dining space in Seongsu-dong
 - [Kkeujeok Kkeujeok Art Workshop](https://kuromoon.net/en/places/kkeujeok-kkeujeok-art-workshop.html) — An art workshop in Hyehwa offering unique experiences like Bearbrick painting.
@@ -1002,7 +1002,7 @@ Updated: 2026-08-26
 - [Mood Seoul](https://kuromoon.net/en/places/mood-seoul.html) — Han River view rooftop dining restaurant located on Banpo Sebitseom.
 - [Ader Error Seongsu Space](https://kuromoon.net/en/places/ader-error-seongsu-space.html) — Ader Error's Seongsu flagship store, offering a unique fashion experience.
 - [LINE FRIENDS Square Myeongdong](https://kuromoon.net/en/places/line-friends-square-myeongdong.html) — LINE FRIENDS character shop in Myeongdong, offering various attractions including Sylvanian Families.
-- [undefined](https://kuromoon.net/en/places/studio-eat.html) — 
+- [studio eat](https://kuromoon.net/en/places/studio-eat.html) — Unique cooking studio located in Jongno, Seoul
 - [Waimore Craft Lab](https://kuromoon.net/en/places/waimore-craft-lab.html) — Craft beer brewing one-day class in Jamsil, Seoul.
 - [Soranhan Workshop](https://kuromoon.net/en/places/soranhan-workshop.html) — One-day glass craft workshop in Seongsu-dong.
 - [Moong Artist's Art Studio Academy](https://kuromoon.net/en/places/moong-artists-art-studio-academy.html) — Digital drawing classes on iPad in Hongdae.
@@ -1147,7 +1147,7 @@ Updated: 2026-08-26
 - [Gwanghwamun Mijin Charcoal Grilled Makchang Yajang](https://kuromoon.net/en/places/gwanghwamun-mijin-charcoal-grilled-makchang-yajang.html) — Gwanghwamun restaurant for charcoal-grilled makchang and fried rice.
 - [Duck and Frog](https://kuromoon.net/en/places/duck-and-frog.html) — A unique concept dining wine bar offering exotic frog and duck dishes.
 - [Hills & Europa](https://kuromoon.net/en/places/hills-europa.html) — Hae-bangchon's LP cafe & bar, offering music, cocktails, and pudding.
-- [undefined](https://kuromoon.net/en/places/하이라이트.html) — 
+- [Hongdae Unique Pop-up](https://kuromoon.net/en/places/hongdae-unique-pop-up.html) — A unique concept pop-up store held in Hongdae.
 - [Nameless Moonlight Cafe](https://kuromoon.net/en/places/nameless-moonlight-cafe.html) — An art/theme cafe in Magok with an impressive full moon sign.
 - [Black Day Food Mart](https://kuromoon.net/en/places/black-day-food-mart.html) — Black Day Food Mart is set to open on the 1st floor of Club Black.
 - [Dokkaebi Korea](https://kuromoon.net/en/places/dokkaebi-korea.html) — A unique Dokkaebi-themed art cafe.
@@ -1155,7 +1155,7 @@ Updated: 2026-08-26
 - [Pola Studio & Cafe](https://kuromoon.net/en/places/pola-studio-cafe.html) — A self-service photo studio and cafe combined, perfect for pet owners.
 - [Balvenie Pop-up: Limited Edition Collection x Daniel Arsham](https://kuromoon.net/en/places/balvenie-pop-up-limited-edition-collection-x-daniel-arsham.html) — Balvenie x Daniel Arsham limited edition whisky pop-up.
 - [Toy Story X PEACEMINUSONE Exclusive Seongsu Pop-up Store](https://kuromoon.net/en/places/toy-story-x-peaceminusone-exclusive-seongsu-pop-up-store.html) — Toy Story and PEACEMINUSONE collaboration pop-up store
-- [undefined](https://kuromoon.net/en/places/스파이더맨-브랜드-뉴-데이-친절한-이웃-팝업.html) — 
+- [Spider-Man: Brand New Day Friendly Neighbor Pop-up](https://kuromoon.net/en/places/spider-man-brand-new-day-friendly-neighbor-pop-up.html) — Spider-Man: Brand New Day pop-up at The Hyundai Seoul
 - [Pause Studio](https://kuromoon.net/en/places/pause-studio.html) — Self-body profile studio located in Jeju.
 - [Foot Shop Massage](https://kuromoon.net/en/places/foot-shop-massage.html) — A beauty/wellness shop offering aroma therapy and massages to relieve fatigue and balance the body.
 - [NC Department Store Gangseo Branch](https://kuromoon.net/en/places/nc-department-store-gangseo-branch.html) — NC Department Store Gangseo Branch, a multi-purpose venue for dining and shopping.

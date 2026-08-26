@@ -291,6 +291,16 @@ async function main() {
             if (p.instagram && !existing.instagram) existing.instagram = p.instagram;
             if (p.reservation_url && !existing.reservation_url) existing.reservation_url = p.reservation_url;
             if (p.image && !existing.image) existing.image = p.image;
+
+            // Merge AI refined summary/description fields if present in refined input
+            if (p.summary_ko) existing.summary_ko = p.summary_ko;
+            if (p.summary_en) existing.summary_en = p.summary_en;
+            if (p.description_ko) existing.description_ko = p.description_ko;
+            if (p.description_en) existing.description_en = p.description_en;
+            if (p.tags && p.tags.length > 0) existing.tags = p.tags;
+            if (p.name_en) existing.name_en = p.name_en;
+            if (p.name_ko && (!existing.name_ko || existing.name_ko.length < p.name_ko.length)) existing.name_ko = p.name_ko;
+            if (p.is_already_refined) existing.is_already_refined = true;
         }
     });
 

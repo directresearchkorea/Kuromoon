@@ -122,8 +122,11 @@ const server = http.createServer((req, res) => {
                         }
 
                         // Move to places.json (avoid duplicates)
-                        if (!places.some(p => p.id === refinedPlace.id)) {
-                            const todayStr = new Date(Date.now() + 9 * 60 * 60 * 1000).toISOString().slice(0, 10);
+                        const existingIdx = places.findIndex(p => p.id === refinedPlace.id);
+                        const todayStr = new Date(Date.now() + 9 * 60 * 60 * 1000).toISOString().slice(0, 10);
+                        if (existingIdx !== -1) {
+                            places[existingIdx] = { ...places[existingIdx], ...refinedPlace, updated_at: todayStr };
+                        } else {
                             if (!refinedPlace.created_at) refinedPlace.created_at = todayStr;
                             refinedPlace.updated_at = todayStr;
                             places.push(refinedPlace);
