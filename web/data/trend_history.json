@@ -27943,5 +27943,285 @@
         ]
       }
     }
+  },
+  {
+    "timestamp": "2026-08-27T00:01:16.196Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "더현대 서울 팝업",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "성수 팝업스토어",
+            "trend_score": 88,
+            "data_points": 5
+          },
+          {
+            "keyword": "잠실 롯데월드몰 팝업",
+            "trend_score": 50,
+            "data_points": 5
+          },
+          {
+            "keyword": "서울 미디어아트 전시",
+            "trend_score": 4,
+            "data_points": 5
+          },
+          {
+            "keyword": "여의도 더현대 전시",
+            "trend_score": 4,
+            "data_points": 5
+          },
+          {
+            "keyword": "무신사 성수 팝업",
+            "trend_score": 0,
+            "data_points": 5
+          },
+          {
+            "keyword": "홍대 이색 팝업",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "캐릭터 콜라보 팝업",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "DDP 특별 전시",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "성수 팝업 공간",
+            "trend_score": 0,
+            "data_points": 0
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "도자기 원데이클래스",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "베이킹 원데이클래스",
+            "trend_score": 84,
+            "data_points": 5
+          },
+          {
+            "keyword": "가죽공방 원데이클래스",
+            "trend_score": 20,
+            "data_points": 5
+          },
+          {
+            "keyword": "성수 향수공방 체험",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "홍대 이색 반지공방",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "몰입형 드로잉카페",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "성수동 아트공방",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "프리미엄 조향클래스",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "터프팅 공방 체험",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "홍대 테마 방탈출",
+            "trend_score": 0,
+            "data_points": 0
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": [
+          {
+            "keyword": "퍼스널컬러 진단 전문",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "성수 프라이빗 헤드스파",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "홍대 퍼스널컬러 컨설팅",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "프리미엄 웰니스 스파",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "강남 프라이빗 헤어스파",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "두피 디톡스 헤드스파",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "한방 웰니스 스파",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "청담동 고급 뷰티스파",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "성수동 향기 테라피",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "호텔 럭셔리 스파",
+            "trend_score": 0,
+            "data_points": 0
+          }
+        ]
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": [
+          {
+            "keyword": "블라인드 레스토랑",
+            "trend_score": 100,
+            "data_points": 1
+          },
+          {
+            "keyword": "미디어아트 다이닝",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "한옥 다도체험 코스",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "스토리텔링 오마카세",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "이색 테마 파인다이닝",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "프라이빗 티 하우스",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "성수동 미디어아트 식당",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "몰입형 퓨전 다이닝",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "컨셉 스토어 레스토랑",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "전통 차회 코스",
+            "trend_score": 0,
+            "data_points": 0
+          }
+        ]
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": [
+          {
+            "keyword": "바이닐 LP 청음 카페",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "디저트 오마카세 코스",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "성수동 컨셉 스토어 카페",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "이머시브 갤러리 카페",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "해리포터 테마 카페",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "레트로 감성 다방",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "프라이빗 티 오마카세",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "한옥 개조 디저트카페",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "플랜테리어 식물원 카페",
+            "trend_score": 0,
+            "data_points": 0
+          },
+          {
+            "keyword": "빈티지 감성 북카페",
+            "trend_score": 0,
+            "data_points": 0
+          }
+        ]
+      }
+    }
   }
 ]
