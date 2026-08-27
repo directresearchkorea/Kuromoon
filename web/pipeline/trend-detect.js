@@ -158,8 +158,6 @@ function makeGeminiRequest(prompt, apiKey) {
             contents: [{
                 parts: [{ text: prompt }]
             }],
-            
-            tools: [{ googleSearch: {} }],
             generationConfig: {
                 temperature: 0.2
             }
@@ -169,6 +167,7 @@ function makeGeminiRequest(prompt, apiKey) {
             hostname: GEMINI_API_URL,
             path: `/v1beta/models/${GEMINI_MODEL}:generateContent?key=${apiKey}`,
             method: 'POST',
+            timeout: 120000,
             headers: {
                 'Content-Type': 'application/json',
                 'Content-Length': Buffer.byteLength(requestBody)
@@ -207,7 +206,7 @@ function makeGeminiRequest(prompt, apiKey) {
                             candidateJson = candidateJson.substring(start, end + 1);
                         }
                         
-                        const cleaned = candidateJson.replace(/\[\d+\]/g, '').replace(/\[|\]/g, '').trim();
+                        const cleaned = candidateJson.replace(/\[\d+\]/g, '').trim();
                         resolve(JSON.parse(cleaned));
                     } catch (jsonErr) {
                         log(`⚠️ JSON parse failed (Finish Reason: ${finishReason}). Attempting plain-text parser fallback...`);
@@ -231,13 +230,13 @@ function makeGeminiRequest(prompt, apiKey) {
                             } else if (currentCat && line) {
                                 const match = line.match(/^(?:\d+[\.\)]|\-|\*)\s*(.*)$/);
                                 if (match) {
-                                    const kw = match[1].replace(/\[\d+\]/g, '').replace(/\[|\]/g, '').trim();
+                                    const kw = match[1].replace(/\[\d+\]/g, '').trim();
                                     if (kw && parsed[currentCat].length < 10) {
                                         parsed[currentCat].push(kw);
                                     }
                                 } else if (!line.startsWith('##') && line.length > 1 && line.length < 30) {
                                     // Raw list item without bullet
-                                    const kw = line.replace(/\[\d+\]/g, '').replace(/\[|\]/g, '').trim();
+                                    const kw = line.replace(/\[\d+\]/g, '').trim();
                                     if (parsed[currentCat].length < 10) {
                                         parsed[currentCat].push(kw);
                                     }
@@ -262,6 +261,10 @@ function makeGeminiRequest(prompt, apiKey) {
         });
 
         req.on('error', reject);
+        req.on('timeout', () => {
+            req.destroy();
+            reject(new Error('Gemini API request timed out after 120s'));
+        });
         req.write(requestBody);
         req.end();
     });
@@ -339,13 +342,14 @@ async function main() {
     const endDate = today.toISOString().split('T')[0];
     const startDate = new Date(today.getTime() - 30 * 24 * 60 * 60 * 1000).toISOString().split('T')[0];
 
-    // Predefined generic fallback keywords (used if Gemini fails, making up 10 keywords total)
+    // Predefined generic fallback keywords removed to prevent scraping generic places.
+    // If Gemini fails, we will not inject junk keywords.
     const predefinedFallbacks = {
-        popup: ['성수 팝업스토어', '더현대 서울 팝업', '무신사 성수 팝업', '서울 미디어아트 전시', '홍대 이색 팝업', '캐릭터 콜라보 팝업', '잠실 롯데월드몰 팝업', 'DDP 특별 전시', '성수 팝업 공간', '여의도 더현대 전시'],
-        activity: ['성수 향수공방 체험', '홍대 이색 반지공방', '가죽공방 원데이클래스', '도자기 원데이클래스', '몰입형 드로잉카페', '성수동 아트공방', '프리미엄 조향클래스', '터프팅 공방 체험', '베이킹 원데이클래스', '홍대 테마 방탈출'],
-        beauty: ['퍼스널컬러 진단 전문', '성수 프라이빗 헤드스파', '홍대 퍼스널컬러 컨설팅', '프리미엄 웰니스 스파', '강남 프라이빗 헤어스파', '두피 디톡스 헤드스파', '한방 웰니스 스파', '청담동 고급 뷰티스파', '성수동 향기 테라피', '호텔 럭셔리 스파'],
-        dining: ['미디어아트 다이닝', '한옥 다도체험 코스', '스토리텔링 오마카세', '이색 테마 파인다이닝', '블라인드 레스토랑', '프라이빗 티 하우스', '성수동 미디어아트 식당', '몰입형 퓨전 다이닝', '컨셉 스토어 레스토랑', '전통 차회 코스'],
-        cafe: ['바이닐 LP 청음 카페', '디저트 오마카세 코스', '성수동 컨셉 스토어 카페', '이머시브 갤러리 카페', '해리포터 테마 카페', '레트로 감성 다방', '프라이빗 티 오마카세', '한옥 개조 디저트카페', '플랜테리어 식물원 카페', '빈티지 감성 북카페']
+        popup: [],
+        activity: [],
+        beauty: [],
+        dining: [],
+        cafe: []
     };
 
     // Category definitions mapping internal names, labels, and Naver Shopping categories
@@ -411,8 +415,8 @@ ${recentBlogText}
    - 과거부터 오랫동안 꾸준히 유명했던 장소(예: 카니랩, 어둠속의대화, 하우스오브바이닐, 롯데월드 교복 대여 등)는 **절대 포함하지 마세요**.
    - 반드시 **최근 1달 이내(가급적 최근 1~2주) 가오픈했거나 새로 시작한 팝업스토어, 신상 카페, 신규 전시**만 발굴해야 합니다.
 2. **경험 및 구체성 중심**:
-   - 팝업스토어나 전시의 경우, 행사의 길고 복잡한 공식 명칭 대신 **네이버/카카오 지도에서 사람들이 흔히 검색할 만한 가장 짧고 직관적인 핵심 상호명(핵심 브랜드명+지역 또는 팝업)**으로 요약해서 추출하세요. (예: 'STORY A 성수 : 뷰티서바이벌 살인사건' -> '아모레성수 뷰티서바이벌', '더현대 대구 팝업 : 박뚜기소금빵 , 픽베이크' -> '박뚜기소금빵 더현대대구', '[조말론] 씨솔트 앤 베르가못 팝업스토어' -> '조말론 성수 팝업'). 대괄호나 특수기호, 여러 브랜드 나열은 피하고 지도 검색에 최적화된 이름만 적으세요.
-   - 단순히 '성수 카페'나 '홍대 공방' 같은 뻔한 지역 키워드는 제외하십시오.
+   - 팝업스토어나 전시의 경우, 행사의 길고 복잡한 공식 명칭 대신 **네이버/카카오 지도에서 사람들이 흔히 검색할 만한 가장 짧고 직관적인 핵심 상호명(핵심 브랜드명+지역 또는 팝업)**으로 요약해서 추출하세요. (예: 'STORY A 성수 : 뷰티서바이벌 살인사건' -> '아모레성수 뷰티서바이벌', '더현대 대구 팝업 : 박뚜기소금빵 , 픽베이크' -> '박뚜기소금빵 더현대대구', '[조말론] 씨솔트 앤 베르가못 팝업스토어' -> '조말론 성수 팝업').
+   - **[핵심 주의사항]** '성수 팝업스토어', '스토리텔링 오마카세', '홍대 공방' 처럼 특정 상호명이 없는 모호한 일반 명사는 절대 출력하지 마세요. 반드시 구체적인 고유 브랜드명/상호명이 포함되어야 합니다.
    - **[매우 중요]** 일반적인 동네 밥집, 흔한 프랜차이즈, 평범한 고깃집이나 국밥집 등은 **절대 추출하지 마세요**. 인스타그래머블한 컨셉 다이닝, 특별한 웨이팅 맛집, 팝업 식당 등 **핫플레이스 성격이 강한 곳만** 엄선하세요.
 3. **카테고리 중복 금지**:
    - 동일한 키워드를 여러 카테고리에 중복해서 넣지 마세요. 가장 성격이 잘 맞는 **단 하나의 카테고리**에만 배정해야 합니다. (예: 뷰티 팝업은 'popup'이나 'beauty' 중 하나에만 넣음)

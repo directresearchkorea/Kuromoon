@@ -15,9 +15,9 @@ Updated: 2026-08-27
 
 ## Categories
 - Pop-up Stores & Events (팝업스토어/이벤트): 110 places
-- Niche Dining (니치 다이닝): 129 places
+- Niche Dining (니치 다이닝): 128 places
 - Concept Cafes (콘셉트 카페): 196 places
-- activity: 95 places
+- activity: 96 places
 - K-Beauty Clinics (K-뷰티/피부과): 95 places
 
 ## All Places
@@ -341,6 +341,7 @@ Updated: 2026-08-27
 - [케미파인주얼리](https://kuromoon.net/ko/places/chemi.html) — 아산의 컨셉 다이닝, 와인 페어링 코스 맛집
 - [ALPHA DRIVE ONE 2ND MINI ALBUM 〈UNBREAKABLE : 少年BEAST〉 IMMERSIVE MISSION POP-UP](https://kuromoon.net/ko/places/alpha-drive-one-2nd-mini-album-unbreakable-beast-immersive-m.html) — 아이돌 앨리즈의 몰입형 미션 팝업스토어
 - [STORY A 성수 : 뷰티서바이벌 살인사건](https://kuromoon.net/ko/places/amore-seongsu-beauty-survival-murder-case.html) — 아모레성수에서 펼쳐지는 추리 역할극 뷰티 서바이벌 살인사건.
+- [미술관이야기](https://kuromoon.net/ko/places/미술관이야기.html) — 미술관 컨셉의 스토리텔링 오마카세 다이닝
 - [플라비 혜화점](https://kuromoon.net/ko/places/flaby-hyehwa-branch.html) — 혜화역 근처에서 가죽공예 원데이 클래스를 즐길 수 있는 공방.
 - [버터앤쉘터 연남점](https://kuromoon.net/ko/places/butter-shelter-yeonnam-branch.html) — 연남동에 위치한 버터샌드와 두바이 쫀득쿠키 맛집 디저트 카페.
 - [닥터포헤어 송파잠실점](https://kuromoon.net/ko/places/dr-for-hair-songpa-jamsil-branch.html) — 잠실새내역 근처 17년 노하우의 두피/탈모 관리 전문점.
@@ -369,6 +370,7 @@ Updated: 2026-08-27
 - [베어스덴베이커리](https://kuromoon.net/ko/places/bearsden-bakery.html) — 연남동의 아름다운 외관과 맛있는 빵으로 유명한 베이커리 카페.
 - [청담프라그랑스](https://kuromoon.net/ko/places/chungdam-fragrance.html) — BTS 뷔가 선택한 향기를 만나는 향기샵.
 - [아로마뷰티솝](https://kuromoon.net/ko/places/aroma-beauty-soap.html) — 서울대입구 아로마테라피 및 비누공방 원데이 클래스.
+- [에이엠톤 본점](https://kuromoon.net/ko/places/에이엠톤-본점.html) — 합정 에이엠톤 본점에서 전문적인 헤어 시술을 경험하세요.
 - [시그니초네일 홍대점](https://kuromoon.net/ko/places/signicho-nail-hongdae-branch.html) — 홍대 상상마당 근처에 위치한 가성비 좋은 네일샵
 - [홍대반지공방 반지캠퍼스](https://kuromoon.net/ko/places/hongdae-ring-workshop-ring-campus.html) — 홍대에서 커플링, 우정링을 직접 만드는 이색 체험 공방.
 - [차차티클럽 창신한옥](https://kuromoon.net/ko/places/chacha-tea-club-changsin-hanok.html) — 동대문 한옥에서 즐기는 고즈넉한 다도체험 카페.
@@ -521,7 +523,6 @@ Updated: 2026-08-27
 - [코노미스시 성수](https://kuromoon.net/ko/places/konomi-sushi-seongsu.html) — 성수동 프리미엄 회전초밥 전문점
 - [드로잉공화국](https://kuromoon.net/ko/places/drawing-republic.html) — 성수동에서 아이패드로 나만의 그림을 그릴 수 있는 이색 드로잉 카페.
 - [홍대 해리포터 카페](https://kuromoon.net/ko/places/hongdae-harry-potter-cafe.html) — 영화 속 판타지 세계를 구현한 해리포터 테마 카페
-- [미술관이야기](https://kuromoon.net/ko/places/미술관이야기.html) — 미술관 컨셉의 스토리텔링 오마카세 다이닝
 - [창심관](https://kuromoon.net/ko/places/changsimgwan.html) — 동탄 프라이빗 룸 컨셉 다이닝 레스토랑
 - [새마을운동 테마공원](https://kuromoon.net/ko/places/saemaul-undong-theme-park.html) — 새마을운동 테마공원 내 쾌적한 북카페
 - [나나로그 성수점](https://kuromoon.net/ko/places/nanalog-seongsu-branch.html) — 성수동 뷰티샵, 지역화폐 사용 가능
@@ -531,7 +532,6 @@ Updated: 2026-08-27
 - [엠지에프두피탈모 전문센터 분당야탑점](https://kuromoon.net/ko/places/mgf-scalp-hair-loss-specialty-center-bundang-yatap-branch.html) — 분당 야탑역 두피/탈모 전문 케어 센터
 - [콩지POT지](https://kuromoon.net/ko/places/kongji-potji.html) — 북촌 한옥뷰 이탈리안 코스요리 레스토랑.
 - [이디야커피랩](https://kuromoon.net/ko/places/ediya-coffee-lab.html) — 강남 논현동에 위치한 대형 베이커리 카페.
-- [에이엠톤 본점](https://kuromoon.net/ko/places/에이엠톤-본점.html) — 합정 에이엠톤 본점에서 전문적인 헤어 시술을 경험하세요.
 - [studio eat](https://kuromoon.net/ko/places/studio-eat.html) — 종로에 위치한 이색 쿠킹 스튜디오
 - [런닝맨 인사동점](https://kuromoon.net/ko/places/running-man-insadong-branch.html) — 인사동에서 직접 뛰고 미션을 해결하는 실내 체험 테마파크
 - [Jellycat Space Pop-up Store](https://kuromoon.net/ko/places/jellycat-space-pop-up-store.html) — 성수동 젤리캣 팝업 스토어, 귀여운 캐릭터와 함께하는 특별한 공간.
@@ -968,6 +968,7 @@ Updated: 2026-08-27
 - [Chemi](https://kuromoon.net/en/places/chemi.html) — Concept dining restaurant in Asan, known for wine pairing courses.
 - [ALPHA DRIVE ONE 2ND MINI ALBUM 〈UNBREAKABLE : 少年BEAST〉 IMMERSIVE MISSION POP-UP](https://kuromoon.net/en/places/alpha-drive-one-2nd-mini-album-unbreakable-beast-immersive-m.html) — Immersive mission pop-up for idol group ALLYZ's 2nd mini album.
 - [Amore Seongsu Beauty Survival Murder Case](https://kuromoon.net/en/places/amore-seongsu-beauty-survival-murder-case.html) — A beauty survival murder mystery game with role-playing at Amore Seongsu.
+- [Museum Story](https://kuromoon.net/en/places/미술관이야기.html) — Storytelling omakase dining with an art museum concept.
 - [Flaby Hyehwa Branch](https://kuromoon.net/en/places/flaby-hyehwa-branch.html) — A craft workshop near Hyehwa Station offering one-day leather craft classes.
 - [Butter & Shelter Yeonnam Branch](https://kuromoon.net/en/places/butter-shelter-yeonnam-branch.html) — Dessert cafe in Yeonnam-dong known for butter sand and Dubai chewy cookies.
 - [Dr. For Hair Songpa Jamsil Branch](https://kuromoon.net/en/places/dr-for-hair-songpa-jamsil-branch.html) — Dr. For Hair Songpa Jamsil offers 17 years of expertise in scalp and hair loss management near Jamsil Saenae Station.
@@ -996,6 +997,7 @@ Updated: 2026-08-27
 - [Bearsden Bakery](https://kuromoon.net/en/places/bearsden-bakery.html) — A popular bakery cafe in Yeonnam-dong known for its beautiful exterior and delicious bread.
 - [Chungdam Fragrance](https://kuromoon.net/en/places/chungdam-fragrance.html) — A fragrance shop to discover scents chosen by BTS V.
 - [Aroma Beauty Soap](https://kuromoon.net/en/places/aroma-beauty-soap.html) — Aromatherapy and soap-making one-day classes in Seoul National University Station area.
+- [AMTON Main Branch](https://kuromoon.net/en/places/에이엠톤-본점.html) — Experience professional hair treatments at AMTON Main Branch in Hapjeong.
 - [Signicho Nail Hongdae Branch](https://kuromoon.net/en/places/signicho-nail-hongdae-branch.html) — Affordable nail salon near Hongdae Sangsangmadang, offering great value.
 - [Hongdae Ring Workshop Ring Campus](https://kuromoon.net/en/places/hongdae-ring-workshop-ring-campus.html) — A unique ring-making workshop in Hongdae, perfect for couples and friends.
 - [Chacha Tea Club Changsin Hanok](https://kuromoon.net/en/places/chacha-tea-club-changsin-hanok.html) — A tranquil Hanok cafe in Dongdaemun offering a tea ceremony experience.
@@ -1148,7 +1150,6 @@ Updated: 2026-08-27
 - [Konomi Sushi Seongsu](https://kuromoon.net/en/places/konomi-sushi-seongsu.html) — Premium conveyor belt sushi restaurant in Seongsu-dong.
 - [Drawing Republic](https://kuromoon.net/en/places/drawing-republic.html) — A unique drawing cafe in Seongsu-dong where you can create your own art with an iPad.
 - [Hongdae Harry Potter Cafe](https://kuromoon.net/en/places/hongdae-harry-potter-cafe.html) — A Harry Potter themed cafe recreating a fantasy world from the movies.
-- [Museum Story](https://kuromoon.net/en/places/미술관이야기.html) — Storytelling omakase dining with an art museum concept.
 - [Changsimgwan](https://kuromoon.net/en/places/changsimgwan.html) — Dongtan private room concept dining restaurant
 - [Saemaul Undong Theme Park](https://kuromoon.net/en/places/saemaul-undong-theme-park.html) — A pleasant book cafe within Saemaul Undong Theme Park.
 - [Nanalog Seongsu Branch](https://kuromoon.net/en/places/nanalog-seongsu-branch.html) — Beauty shop in Seongsu-dong, regional currency accepted
@@ -1158,7 +1159,6 @@ Updated: 2026-08-27
 - [MGF Scalp & Hair Loss Specialty Center Bundang Yatap Branch](https://kuromoon.net/en/places/mgf-scalp-hair-loss-specialty-center-bundang-yatap-branch.html) — Specialized scalp and hair loss care center near Yatap Station, Bundang.
 - [Kongji POTji](https://kuromoon.net/en/places/kongji-potji.html) — Italian course dining restaurant with a hanok view in Bukchon.
 - [EDIYA COFFEE LAB](https://kuromoon.net/en/places/ediya-coffee-lab.html) — Large bakery cafe in Nonhyeon-dong, Gangnam, offering diverse coffee and pastries.
-- [AMTON Main Branch](https://kuromoon.net/en/places/에이엠톤-본점.html) — Experience professional hair treatments at AMTON Main Branch in Hapjeong.
 - [studio eat](https://kuromoon.net/en/places/studio-eat.html) — Unique cooking studio located in Jongno, Seoul
 - [Running Man Insadong Branch](https://kuromoon.net/en/places/running-man-insadong-branch.html) — An indoor experiential theme park in Insadong where visitors run and solve missions.
 - [Jellycat Space Pop-up Store](https://kuromoon.net/en/places/jellycat-space-pop-up-store.html) — Jellycat Space Pop-up Store in Seongsu, a special place with cute characters.

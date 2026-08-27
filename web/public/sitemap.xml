@@ -5746,6 +5746,24 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/amore-seongsu-beauty-survival-murder-case.html" />
   </url>
 
+  <!-- Museum Story -->
+  <url>
+    <loc>https://kuromoon.net/ko/places/미술관이야기.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/미술관이야기.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/미술관이야기.html" />
+  </url>
+  <url>
+    <loc>https://kuromoon.net/en/places/미술관이야기.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/미술관이야기.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/미술관이야기.html" />
+  </url>
+
   <!-- Flaby Hyehwa Branch -->
   <url>
     <loc>https://kuromoon.net/ko/places/flaby-hyehwa-branch.html</loc>
@@ -6248,6 +6266,24 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/aroma-beauty-soap.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/aroma-beauty-soap.html" />
+  </url>
+
+  <!-- AMTON Main Branch -->
+  <url>
+    <loc>https://kuromoon.net/ko/places/에이엠톤-본점.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/에이엠톤-본점.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/에이엠톤-본점.html" />
+  </url>
+  <url>
+    <loc>https://kuromoon.net/en/places/에이엠톤-본점.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/에이엠톤-본점.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/에이엠톤-본점.html" />
   </url>
 
   <!-- Signicho Nail Hongdae Branch -->
@@ -8986,24 +9022,6 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/hongdae-harry-potter-cafe.html" />
   </url>
 
-  <!-- Museum Story -->
-  <url>
-    <loc>https://kuromoon.net/ko/places/미술관이야기.html</loc>
-    <lastmod>2026-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/미술관이야기.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/미술관이야기.html" />
-  </url>
-  <url>
-    <loc>https://kuromoon.net/en/places/미술관이야기.html</loc>
-    <lastmod>2026-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/미술관이야기.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/미술관이야기.html" />
-  </url>
-
   <!-- Changsimgwan -->
   <url>
     <loc>https://kuromoon.net/ko/places/changsimgwan.html</loc>
@@ -9164,24 +9182,6 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/ediya-coffee-lab.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/ediya-coffee-lab.html" />
-  </url>
-
-  <!-- AMTON Main Branch -->
-  <url>
-    <loc>https://kuromoon.net/ko/places/에이엠톤-본점.html</loc>
-    <lastmod>2026-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/에이엠톤-본점.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/에이엠톤-본점.html" />
-  </url>
-  <url>
-    <loc>https://kuromoon.net/en/places/에이엠톤-본점.html</loc>
-    <lastmod>2026-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/에이엠톤-본점.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/에이엠톤-본점.html" />
   </url>
 
   <!-- studio eat -->
