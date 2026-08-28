@@ -84,50 +84,52 @@
   </header>
 
   <main data-pagefind-body>
-    <!-- ─── Hero Image ─── -->
-    {{HERO_IMAGE_BLOCK}}
+    <div class="container">
+      <!-- ─── Hero Image ─── -->
+      {{HERO_IMAGE_BLOCK}}
 
-    <!-- ─── Content ─── -->
-    <div class="detail-content">
+      <!-- ─── Content ─── -->
+      <div class="detail-content">
 
-      <div class="detail-header-row">
-        <div>
-          <div class="detail-category" data-pagefind-filter="category">{{PLACE_CATEGORY_LABEL}}</div>
-          <h1 class="detail-title" data-pagefind-meta="title">{{PLACE_NAME}}</h1>
-          {{EVENT_DATES}}
+        <div class="detail-header-row">
+          <div>
+            <div class="detail-category" data-pagefind-filter="category">{{PLACE_CATEGORY_LABEL}}</div>
+            <h1 class="detail-title" data-pagefind-meta="title">{{PLACE_NAME}}</h1>
+            {{EVENT_DATES}}
+          </div>
+          <button class="like-btn" id="likeBtn" aria-label="Like this place">🤍</button>
         </div>
-        <button class="like-btn" id="likeBtn" aria-label="Like this place">🤍</button>
+
+        <!-- ─── Trust Badge ─── -->
+        {{STATUS_BADGE_BLOCK}}
+
+        <p class="detail-summary" data-pagefind-meta="summary">{{PLACE_SUMMARY}}</p>
+
+        <!-- ─── AI Detailed Description ─── -->
+        <div class="ai-description" style="margin-top: 1.5rem; line-height: 1.6; color: var(--text-secondary); background: rgba(255,255,255,0.03); border-left: 3px solid var(--accent); padding: 1rem; border-radius: 4px; font-size: 0.9rem;">
+          {{PLACE_DESCRIPTION}}
+        </div>
+
+        <!-- ─── Tags ─── -->
+        <div class="tags-row">{{TAGS}}</div>
+
+        <!-- ─── Info ─── -->
+        <div class="info-section">
+          {{INFO_ROWS}}
+        </div>
+
+        <!-- ─── Action Buttons ─── -->
+        {{RESERVATION_BTN_BLOCK}}
+        <div class="action-buttons">
+          {{MAP_BUTTONS}}
+        </div>
+        <div class="action-buttons">
+          {{INSTAGRAM_BTN_BLOCK}}
+          <button onclick="shareKakao()" class="btn btn-secondary">💬 카카오</button>
+          <button onclick="copyLink()" class="btn btn-secondary">🔗 링크</button>
+        </div>
+
       </div>
-
-      <!-- ─── Trust Badge ─── -->
-      {{STATUS_BADGE_BLOCK}}
-
-      <p class="detail-summary" data-pagefind-meta="summary">{{PLACE_SUMMARY}}</p>
-
-      <!-- ─── AI Detailed Description ─── -->
-      <div class="ai-description" style="margin-top: 1.5rem; line-height: 1.6; color: var(--text-secondary); background: rgba(255,255,255,0.03); border-left: 3px solid var(--accent); padding: 1rem; border-radius: 4px; font-size: 0.9rem;">
-        {{PLACE_DESCRIPTION}}
-      </div>
-
-      <!-- ─── Tags ─── -->
-      <div class="tags-row">{{TAGS}}</div>
-
-      <!-- ─── Info ─── -->
-      <div class="info-section">
-        {{INFO_ROWS}}
-      </div>
-
-      <!-- ─── Action Buttons ─── -->
-      {{RESERVATION_BTN_BLOCK}}
-      <div class="action-buttons">
-        {{MAP_BUTTONS}}
-      </div>
-      <div class="action-buttons">
-        {{INSTAGRAM_BTN_BLOCK}}
-        <button onclick="shareKakao()" class="btn btn-secondary">💬 카카오</button>
-        <button onclick="copyLink()" class="btn btn-secondary">🔗 링크</button>
-      </div>
-
     </div>
   </main>
 

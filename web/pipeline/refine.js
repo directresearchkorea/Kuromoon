@@ -146,8 +146,8 @@ function buildPrompt(sourceText, category, referenceDate) {
   "tags": ["관련태그1", "관련태그2", "관련태그3"],
   "summary_ko": "한 줄 요약 (한국어, 30자 이내)",
   "summary_en": "One-line summary (English, under 80 chars)",
-  "description_ko": "정확히 4~5개의 문장(줄바꿈 없이 하나의 단락)으로 구성된 상세한 한국어 AI 설명 요약글. 블로그 리뷰 내용을 바탕으로 다음 5가지 사항을 차례대로 포함해 정중하고 알찬 문장으로 구성하세요: (1) 이 장소/행사의 고유한 컨셉과 정체성 테마, (2) 방문객이 즐길 수 있는 구체적인 시각적/감각적 경험 및 콘텐츠 활동, (3) 반드시 주문해야 할 시그니처 메뉴나 시그니처 소품/포토존, (4) 공간의 인테리어 분위기와 이 경험을 추천하는 대상(친구/연인/혼자만의 시간 등), (5) 예약 팁이나 웨이팅 정보(있을 경우).",
-  "description_en": "A detailed English experience summary of exactly 4-5 sentences as a single paragraph. Consecutively cover: (1) the place's unique concept and theme, (2) specific visual/sensory experiences or activities visitors can do, (3) must-try signature menu items, props, or key photo zones, (4) overall interior vibe and who this experience is recommended for (friends/couples/solo), and (5) reservation or waiting tips (if any).",
+  "description_ko": "블로그 리뷰 내용을 바탕으로 작성된 1~4문장의 한국어 설명글. 정보가 충분할 경우 컨셉, 경험, 메뉴, 분위기 등을 서술하세요. 단, [매우 중요] 수집된 정보가 극도로 부족하여 상호명 외에 유의미한 설명을 작성할 수 없다면 절대 소설을 쓰지 말고 null을 반환하세요.",
+  "description_en": "English experience summary of 1-4 sentences based on facts. If information is extremely insufficient, do not invent details and simply return null.",
   "foreign_friendly": true 또는 false,
   "parking": true 또는 false
 }
@@ -158,6 +158,7 @@ function buildPrompt(sourceText, category, referenceDate) {
 - tags는 최소 2개, 최대 5개
 - foreign_friendly는 외국인 관련 언급이 있으면 true
 - parking은 주차 관련 언급이 있으면 해당 값, 없으면 false
+- [중요] 장소의 이름만 보고 컨셉을 상상하거나 지어내지 마세요(예: '다크앤라이트'라는 이름만 보고 다크 다이닝으로 추측 금지). 반드시 제공된 블로그 텍스트(문맥)에 기반하여 실제 업종(예: 이탈리안 레스토랑, 팝업스토어 등)을 정확히 요약하세요.
 - 설명글(description_ko, description_en) 및 요약글 작성 시, '정보가 명시되어 있지 않습니다', '확인할 수 없습니다', '언급되지 않았습니다' 등 정보의 부재를 설명하거나 변명하는 메타 해설 문장이나 괄호 처리를 절대로 포함하지 마세요. 오직 원문에 드러난 사실관계와 매력적인 정보로만 자연스러운 단락을 채우세요.
 - 팝업스토어(popup), 축제(festival), 전시회(exhibition), 페어(fair) 등 기간이 정해진 행사인 경우 원문에서 진행 기간을 반드시 찾아서 startDate와 endDate에 YYYY-MM-DD 형식으로 기록하세요. (상시 영업인 경우만 null)
 - 카테고리(category)는 반드시 다음 5가지 영문 키 중 하나만 지정하세요: popup, activity, beauty, dining, cafe. (전시회/축제/페어는 popup으로 지정하고, 원본 입력 카테고리가 유효하면 가급적 원본 카테고리를 유지하세요.)
@@ -365,11 +366,44 @@ async function main() {
                         extracted.address_ko = officialAddress;
                         log(`   📍 Naver Local API Match: Standardized address to "${officialAddress}"`);
                     }
-                    // Overwrite the name with the official Naver Map title (only if we matched by name, to avoid overwriting a popup name with a department store name)
                     if (foundByName && official.title) {
                         const officialTitle = official.title.replace(/<[^>]+>/g, '').trim(); // Strip HTML tags like <b>
                         log(`   🏷️ Naver Local API Match: Standardized name from "${extracted.name_ko}" to "${officialTitle}"`);
                         extracted.name_ko = officialTitle;
+                    }
+
+                    // [NEW] API Cross-Validation for Category Hallucination
+                    if (foundByName && official.category) {
+                        const navCat = official.category; // e.g., "음식점>이탈리아음식"
+                        const aiCat = extracted.category || input.category;
+                        
+                        log(`   🔎 Naver Official Category: "${navCat}" | AI Category: "${aiCat}"`);
+                        
+                        let hallucinationDetected = false;
+                        
+                        if (aiCat === 'dining' && (navCat.includes('학원') || navCat.includes('교육') || navCat.includes('미술') || navCat.includes('전시') || navCat.includes('미용') || navCat.includes('숙박'))) {
+                            log(`   ❌ [Hallucination Detected] AI guessed 'dining' but API says '${navCat}'. Reverting to 'activity'.`);
+                            extracted.category = 'activity';
+                            hallucinationDetected = true;
+                        }
+                        else if (aiCat === 'beauty' && (navCat.includes('음식점') || navCat.includes('카페') || navCat.includes('제과'))) {
+                            log(`   ❌ [Hallucination Detected] AI guessed 'beauty' but API says '${navCat}'. Reverting to 'dining'.`);
+                            extracted.category = 'dining';
+                            hallucinationDetected = true;
+                        }
+                        else if (aiCat === 'cafe' && !(navCat.includes('음식점') || navCat.includes('카페') || navCat.includes('제과'))) {
+                            log(`   ❌ [Hallucination Detected] AI guessed 'cafe' but API says '${navCat}'. Reverting to 'activity'.`);
+                            extracted.category = 'activity';
+                            hallucinationDetected = true;
+                        }
+
+                        if (hallucinationDetected) {
+                            extracted.summary_ko = null;
+                            extracted.summary_en = null;
+                            extracted.description_ko = null;
+                            extracted.description_en = null;
+                            extracted.confidence_score = Math.max(10, (input.confidence_score || 100) - 50);
+                        }
                     }
                 } else {
                     log(`   ⚠️ Naver Local API No Match: Keeping AI generated address "${extracted.address_ko}"`);
@@ -561,17 +595,18 @@ ${reviewTexts}`;
   "instagram": ${input.instagram ? `"${input.instagram}"` : 'null'},
   "image": null,
   "tags": ${JSON.stringify(cleanTags)},
-  "summary_ko": "${input.summary_ko || '로컬 핫플레이스 소개'}",
-  "summary_en": "${input.summary_en || 'Introduction to local hot place'}",
-  "description_ko": "정확히 4~5개의 문장(줄바꿈 없이 하나의 단락)으로 구성된 상세한 한국어 AI 설명 요약글. 주어진 정보와 해당 장소의 이미지를 바탕으로 매력적이고 자연스러운 소개글을 정중하고 알차게 구성하세요.",
-  "description_en": "A detailed English experience summary of exactly 4-5 sentences as a single paragraph. Formulate a polite and appealing introduction based on the provided local business name, category, and context.",
+  "summary_ko": "${input.summary_ko || ''}",
+  "summary_en": "${input.summary_en || ''}",
+  "description_ko": "블로그 리뷰 내용을 바탕으로 작성된 1~4문장의 한국어 설명글. 정보가 극도로 부족하다면 상상해서 쓰지 말고 null을 반환하세요.",
+  "description_en": "English experience summary of 1-4 sentences based on facts. If information is extremely insufficient, return null.",
   "foreign_friendly": ${input.foreign_friendly || false},
   "parking": ${input.parking || false}
 }
 
 ## 규칙:
-- description_ko, description_en 및 name_en, address_en 필드는 반드시 채워야 하며 null로 두지 마세요.
-- 설명글 작성 시 '정보가 명시되어 있지 않습니다', '확인할 수 없습니다' 등의 메타적 해설을 절대 포함하지 마세요.`;
+- name_en, address_en 필드는 가급적 채우되, description_ko, description_en, summary_ko, summary_en은 정보가 극도로 부족할 경우 소설을 쓰지 말고 null로 두세요.
+- 설명글 작성 시 '정보가 명시되어 있지 않습니다', '확인할 수 없습니다' 등의 메타적 해설을 절대 포함하지 마세요.
+- [중요] 장소의 상호명만 보고 임의로 컨셉을 지어내거나 추측하지 마세요(예: '다크앤라이트'라는 이름만 보고 다크 다이닝으로 추측 금지). 주어진 태그, 카테고리, 이미 알려진 사실 기반으로만 정확하게 묘사하세요.`;
     }
 
     const extracted = await callGeminiAPI(prompt, apiKey);
