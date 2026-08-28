@@ -149,25 +149,31 @@ function searchNaverBlog(query, clientId, clientSecret, display = 40, sort = 'da
 /**
  * Call Gemini API with Google Search Grounding to discover trending keywords
  */
-function makeGeminiRequest(prompt, apiKey) {
+function makeGeminiRequest(prompt, apiKey, useGrounding = false) {
     return new Promise((resolve, reject) => {
         const GEMINI_API_URL = 'generativelanguage.googleapis.com';
         const GEMINI_MODEL = 'gemini-2.5-flash';
         
-        const requestBody = JSON.stringify({
+        const requestBodyObj = {
             contents: [{
                 parts: [{ text: prompt }]
             }],
             generationConfig: {
                 temperature: 0.2
             }
-        });
+        };
+        
+        if (useGrounding) {
+            requestBodyObj.tools = [{ googleSearch: {} }];
+        }
+        
+        const requestBody = JSON.stringify(requestBodyObj);
 
         const options = {
             hostname: GEMINI_API_URL,
             path: `/v1beta/models/${GEMINI_MODEL}:generateContent?key=${apiKey}`,
             method: 'POST',
-            timeout: 120000,
+            timeout: 240000,
             headers: {
                 'Content-Type': 'application/json',
                 'Content-Length': Buffer.byteLength(requestBody)
@@ -263,7 +269,7 @@ function makeGeminiRequest(prompt, apiKey) {
         req.on('error', reject);
         req.on('timeout', () => {
             req.destroy();
-            reject(new Error('Gemini API request timed out after 120s'));
+            reject(new Error('Gemini API request timed out after 240s'));
         });
         req.write(requestBody);
         req.end();
@@ -401,27 +407,24 @@ async function main() {
 현재 시간은 **2026년 8월**입니다.
 한국(특히 서울)의 10대~30대 젊은층 사이에서 **가장 최근에 오픈했거나 이번 주에 폭발적으로 바이럴되고 있는 초신상 핫플레이스 키워드**를 카테고리별로 10개씩 찾아주세요.
 
-## 최신 실시간 데이터 참고 (매우 중요):
-아래는 방금 네이버 블로그 최신순 검색을 통해 수집한 가장 따끈따끈한 실시간 블로그 포스팅 제목들입니다.
-이 네이버 실시간 데이터에 등장하는 핫플을 최우선으로 반영하되,
-
+## 최신 실시간 검색 (매우 중요):
 주의사항 1: 이미 너무 유명한 곳(아모레 성수, 더현대 서울, 런던베이글뮤지엄 등), 체인점, 혹은 이미 수십 번 뉴스에 나온 장소는 절대로 제외하세요.
 주의사항 2: 이번 주에 갓 오픈한 초신상 팝업, 가오픈 식당, 팔로워가 적은 사람들 사이에서 '방금' 뜨기 시작한 마이크로 트렌드 장소를 최우선으로 발굴하세요.
-, **반드시 당신의 구글 검색(Google Search Grounding) 능력도 함께 활용하여** 네이버 제목에는 없지만 현재 트위터/인스타 등에서 폭발적으로 유행 중인 최신 팝업과 핫플도 적극적으로 찾아내어 리스트를 보강하세요.
-${recentBlogText}
+**반드시 당신의 구글 검색(Google Search Grounding) 능력을 적극적으로 활용하여** 현재 트위터/인스타/블로그 등에서 폭발적으로 유행 중인 최신 팝업과 핫플을 찾아내어 리스트를 구성하세요.
 
 ## 중요 주의사항 (크리티컬 - 어길 시 실패):
 1. **철저한 최신성**:
-   - 과거부터 오랫동안 꾸준히 유명했던 장소(예: 카니랩, 어둠속의대화, 하우스오브바이닐, 롯데월드 교복 대여 등)는 **절대 포함하지 마세요**.
+   - 과거부터 오랫동안 꾸준히 유명했던 장소(예: 카니랩, 어둠속의대화, 롯데월드 교복 대여 등)는 **절대 포함하지 마세요**.
    - 반드시 **최근 1달 이내(가급적 최근 1~2주) 가오픈했거나 새로 시작한 팝업스토어, 신상 카페, 신규 전시**만 발굴해야 합니다.
 2. **경험 및 구체성 중심**:
-   - 팝업스토어나 전시의 경우, 행사의 길고 복잡한 공식 명칭 대신 **네이버/카카오 지도에서 사람들이 흔히 검색할 만한 가장 짧고 직관적인 핵심 상호명(핵심 브랜드명+지역 또는 팝업)**으로 요약해서 추출하세요. (예: 'STORY A 성수 : 뷰티서바이벌 살인사건' -> '아모레성수 뷰티서바이벌', '더현대 대구 팝업 : 박뚜기소금빵 , 픽베이크' -> '박뚜기소금빵 더현대대구', '[조말론] 씨솔트 앤 베르가못 팝업스토어' -> '조말론 성수 팝업').
+   - 팝업스토어나 전시의 경우, 행사의 길고 복잡한 공식 명칭 대신 **네이버/카카오 지도에서 사람들이 흔히 검색할 만한 가장 짧고 직관적인 핵심 상호명(핵심 브랜드명+지역 또는 팝업)**으로 요약해서 추출하세요. (예: 'STORY A 성수 : 뷰티서바이벌 살인사건' -> '아모레성수 뷰티서바이벌', '더현대 대구 팝업 : 박뚜기소금빵' -> '박뚜기소금빵 더현대대구').
    - **[핵심 주의사항]** '성수 팝업스토어', '스토리텔링 오마카세', '홍대 공방' 처럼 특정 상호명이 없는 모호한 일반 명사는 절대 출력하지 마세요. 반드시 구체적인 고유 브랜드명/상호명이 포함되어야 합니다.
    - **[매우 중요]** 일반적인 동네 밥집, 흔한 프랜차이즈, 평범한 고깃집이나 국밥집 등은 **절대 추출하지 마세요**. 인스타그래머블한 컨셉 다이닝, 특별한 웨이팅 맛집, 팝업 식당 등 **핫플레이스 성격이 강한 곳만** 엄선하세요.
 3. **카테고리 중복 금지**:
-   - 동일한 키워드를 여러 카테고리에 중복해서 넣지 마세요. 가장 성격이 잘 맞는 **단 하나의 카테고리**에만 배정해야 합니다. (예: 뷰티 팝업은 'popup'이나 'beauty' 중 하나에만 넣음)
+   - 동일한 키워드를 여러 카테고리에 중복해서 넣지 마세요. 가장 성격이 잘 맞는 **단 하나의 카테고리**에만 배정해야 합니다.
 
-## JSON Response Schema (오직 아래 포맷만 출력):
+## JSON Response Schema (반드시 아래 포맷의 순수 JSON 텍스트만 출력하세요. 다른 설명은 일절 추가하지 마세요):
+\`\`\`json
 {
   "popup": ["상호명 팝업", ... 10개],
   "activity": ["상호명 공방", ... 10개],
@@ -429,13 +432,14 @@ ${recentBlogText}
   "dining": ["상호명 다이닝", ... 10개],
   "cafe": ["상호명 카페", ... 10개]
 }
+\`\`\`
 `;
     try {
         log('🧠 Fetching trends via Cloud Gemini (Google Search Grounding)...');
         let geminiResult;
         try {
             if (geminiApiKey) {
-                geminiResult = await makeGeminiRequest(prompt, geminiApiKey);
+                geminiResult = await makeGeminiRequest(prompt, geminiApiKey, true);
             } else {
                 throw new Error("No Gemini Key");
             }
