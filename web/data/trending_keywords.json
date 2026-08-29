@@ -1,250 +1,30 @@
 {
-  "generated_at": "2026-08-28",
-  "mode": "live-dynamic",
+  "generated_at": "2026-08-29",
+  "mode": "live-fallback",
   "period": {
-    "start": "2026-07-29",
-    "end": "2026-08-28"
+    "start": "2026-07-30",
+    "end": "2026-08-29"
   },
   "categories": {
     "popup": {
       "label": "팝업/전시",
-      "trending_keywords": [
-        {
-          "keyword": "NCT 127 팝업 BLINGY | 성수",
-          "trend_score": 100,
-          "data_points": 2
-        },
-        {
-          "keyword": "에이티즈 X 애니티즈 팝업 | 여의도",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "아임도넛 X 키스오브라이프 팝업 | 성수",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "개구리 중사 케로로 팝업 | 신촌",
-          "trend_score": 30,
-          "data_points": 5
-        },
-        {
-          "keyword": "디즈니스토어 팝업 | 중구",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "에카사 팝업 스토어 | 강동구",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "올리브영 시티 로그 팝업 | 성수",
-          "trend_score": 30,
-          "data_points": 1
-        },
-        {
-          "keyword": "이토 준지 X 산리오 캐릭터즈 X 나이스고스트클럽 팝업 | 성수",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "티켓투더문 팝업 | 양재",
-          "trend_score": 30,
-          "data_points": 5
-        },
-        {
-          "keyword": "알파드라이브원 팝업 | 성수",
-          "trend_score": 30,
-          "data_points": 3
-        }
-      ]
+      "trending_keywords": []
     },
     "activity": {
       "label": "이색 체험",
-      "trending_keywords": [
-        {
-          "keyword": "덕수궁 밤의 석조전 | 덕수궁",
-          "trend_score": 100,
-          "data_points": 5
-        },
-        {
-          "keyword": "가우디: 서울에서 다시 태어나다 | Sinsa House",
-          "trend_score": 49,
-          "data_points": 5
-        },
-        {
-          "keyword": "서울아트위크 더 소소 《Level 2 ; 지나간 날들에》 전시 | 미상",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "서울아트위크 더 소소 《솔개와 메피트》 전시 | 미상",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "국립현대미술관 서도호 개인전 | 서울",
-          "trend_score": 30,
-          "data_points": 2
-        },
-        {
-          "keyword": "서울시여성가족재단 '함께 그리는 내일, 미래 동행 캔버스' 전시 | 미상",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "쿠이료코전&던전밥 미궁탐색전 | 에스팩토리",
-          "trend_score": 30,
-          "data_points": 3
-        },
-        {
-          "keyword": "팬게이머 썸머 게임 클럽 팝업 | 홍대",
-          "trend_score": 30,
-          "data_points": 1
-        },
-        {
-          "keyword": "원신 Cafe 폰타인 & 리넷 테마 | 서울",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "서울숲 정원 극장 야외 영화제 | 서울숲",
-          "trend_score": 30,
-          "data_points": 5
-        }
-      ]
+      "trending_keywords": []
     },
     "beauty": {
       "label": "뷰티/웰니스",
-      "trending_keywords": [
-        {
-          "keyword": "퓨리영 팝업 | 성수",
-          "trend_score": 100,
-          "data_points": 1
-        },
-        {
-          "keyword": "박준뷰티랩 X 무신사 뷰티 스페이스1 팝업 | 성수",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "코스모폴리탄 X 바이오더마 무빙 팝업 | 성수",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "라라레서피 X MeME 작가 팝업 | DDP",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "텐제로 X 오프뷰티 팝업 | 성수",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "2026 뷰티쁠 슈퍼 코스메틱 어워드 팝업 | 성수",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "허그유어스킨 VIP 팝업 | 성수",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "더 룩 팝업 | 성수",
-          "trend_score": 30,
-          "data_points": 3
-        },
-        {
-          "keyword": "트래브픽 클럽 | 성수",
-          "trend_score": 30,
-          "data_points": 1
-        }
-      ]
+      "trending_keywords": []
     },
     "dining": {
       "label": "컨셉 다이닝",
-      "trending_keywords": [
-        {
-          "keyword": "모던 샤브 하우스 | 공덕",
-          "trend_score": 100,
-          "data_points": 5
-        },
-        {
-          "keyword": "파작 | 63빌딩",
-          "trend_score": 79,
-          "data_points": 5
-        },
-        {
-          "keyword": "서령 | 63빌딩",
-          "trend_score": 43,
-          "data_points": 5
-        },
-        {
-          "keyword": "까품 | 63빌딩",
-          "trend_score": 30,
-          "data_points": 5
-        },
-        {
-          "keyword": "마다옥 | 용산",
-          "trend_score": 30,
-          "data_points": 5
-        },
-        {
-          "keyword": "묵사랑 | 망원",
-          "trend_score": 30,
-          "data_points": 5
-        },
-        {
-          "keyword": "서울촌닭 | 서초",
-          "trend_score": 30,
-          "data_points": 5
-        },
-        {
-          "keyword": "버거킹 플레임그라운드 | 성수",
-          "trend_score": 30,
-          "data_points": 3
-        },
-        {
-          "keyword": "신라면 분식 | 성수",
-          "trend_score": 30,
-          "data_points": 5
-        },
-        {
-          "keyword": "르 카페 루이 비통 메종 | 서울",
-          "trend_score": 30,
-          "data_points": 0
-        }
-      ]
+      "trending_keywords": []
     },
     "cafe": {
       "label": "아트/테마 카페",
-      "trending_keywords": [
-        {
-          "keyword": "피에르 에르메 파리 | 63빌딩",
-          "trend_score": 100,
-          "data_points": 5
-        },
-        {
-          "keyword": "헬카페 | 대흥역",
-          "trend_score": 93,
-          "data_points": 5
-        },
-        {
-          "keyword": "마먕갸또 팝업 | 신세계 타임스퀘어",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "5알 땅콩빵 팝업 | 강남구",
-          "trend_score": 30,
-          "data_points": 0
-        }
-      ]
+      "trending_keywords": []
     }
   }
 }
