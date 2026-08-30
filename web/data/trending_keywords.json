@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-08-30",
-  "mode": "live-dynamic",
+  "mode": "live-fallback",
   "period": {
     "start": "2026-07-31",
     "end": "2026-08-30"
@@ -8,278 +8,23 @@
   "categories": {
     "popup": {
       "label": "팝업/전시",
-      "trending_keywords": [
-        {
-          "keyword": "포에토 팝업 | 미상",
-          "trend_score": 100,
-          "data_points": 3
-        },
-        {
-          "keyword": "아툭 팝업 | 미상",
-          "trend_score": 30,
-          "data_points": 1
-        },
-        {
-          "keyword": "티켓투더문 팝업 | 미상",
-          "trend_score": 30,
-          "data_points": 5
-        },
-        {
-          "keyword": "멜리언스 팝업 | 잠실",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "일리고 X 애즈유아 팝업 | 성수",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "첵스초코 팝업 체키♥첵순 결혼식 | 성수",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "이토 준지 X 산리오 캐릭터즈 X 나이스고스트클럽 팝업 | 성수",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "네이버웹툰 시든 꽃에 눈물을 팝업 | 용산",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "한스킨 무신사 뷰티 페스타 | 성수",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "시스템 파리 팝업스토어 | 성수",
-          "trend_score": 30,
-          "data_points": 0
-        }
-      ]
+      "trending_keywords": []
     },
     "activity": {
       "label": "이색 체험",
-      "trending_keywords": [
-        {
-          "keyword": "가우디: 서울에서 다시 태어나다 | 신사하우스",
-          "trend_score": 100,
-          "data_points": 5
-        },
-        {
-          "keyword": "코닥 도산 스튜디오 | 도산",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "민음사 오늘의귀여움 몰입의 바다 팝업 | 미상",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "AK플라자 수원 팝토피아 | AK플라자 수원",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "CMG제약 차바이오건강 ODF 테이스팅 바 | DDP",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "룰루랩 AI 피부 분석 | DDP",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "《큐비스트: 시각의 혁신가들》 전시 | 미상",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "다른 공간 안으로: 여성 작가들의 공감각적 환경 | 리움미술관",
-          "trend_score": 30,
-          "data_points": 5
-        },
-        {
-          "keyword": "정성준 Jeong Seongjoon 다음 역은 내일입니다 | 갤러리아포레",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "쿠이료코전&던전밥 미궁탐색전 IN SEOUL | 에스팩토리",
-          "trend_score": 30,
-          "data_points": 0
-        }
-      ]
+      "trending_keywords": []
     },
     "beauty": {
       "label": "뷰티/웰니스",
-      "trending_keywords": [
-        {
-          "keyword": "홍대 향수 공방 나만의 향 | 홍대",
-          "trend_score": 100,
-          "data_points": 5
-        },
-        {
-          "keyword": "성수 퍼스널 컬러 스튜디오 색감 | 성수",
-          "trend_score": 88,
-          "data_points": 5
-        },
-        {
-          "keyword": "ahro 팝업스토어 | 홍대",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "차바이오건강 PDRN 액티브 체험 | DDP",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "룰루랩 AI 피부 분석 | DDP",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "강남 비건 뷰티 편집샵 그린 에비뉴 | 강남",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "압구정 헤어 스파 더 헤리티지 | 압구정",
-          "trend_score": 30,
-          "data_points": 2
-        },
-        {
-          "keyword": "연남동 젤네일 아트 스튜디오 블링블링 | 연남동",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "이태원 남성 그루밍 바버샵 젠틀맨스 클럽 | 이태원",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "명동 K-뷰티 체험존 글로우업 서울 | 명동",
-          "trend_score": 30,
-          "data_points": 0
-        }
-      ]
+      "trending_keywords": []
     },
     "dining": {
       "label": "컨셉 다이닝",
-      "trending_keywords": [
-        {
-          "keyword": "모던 샤브 하우스 | 공덕",
-          "trend_score": 100,
-          "data_points": 5
-        },
-        {
-          "keyword": "피에르 에르메 | 여의도",
-          "trend_score": 43,
-          "data_points": 5
-        },
-        {
-          "keyword": "마다옥 | 용산",
-          "trend_score": 30,
-          "data_points": 5
-        },
-        {
-          "keyword": "묵사랑 | 망원",
-          "trend_score": 30,
-          "data_points": 5
-        },
-        {
-          "keyword": "서울촌닭 | 서초",
-          "trend_score": 30,
-          "data_points": 5
-        },
-        {
-          "keyword": "하쿠시 | 청담동",
-          "trend_score": 30,
-          "data_points": 5
-        },
-        {
-          "keyword": "성수 컨템포러리 한식 미식의 숲 | 성수",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "한남동 스토리텔링 오마카세 시간의 맛 | 한남동",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "압구정 비건 파인 다이닝 초록 부엌 | 압구정",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "연남동 퓨전 일식 모던 이자카야 류 | 연남동",
-          "trend_score": 30,
-          "data_points": 0
-        }
-      ]
+      "trending_keywords": []
     },
     "cafe": {
       "label": "아트/테마 카페",
-      "trending_keywords": [
-        {
-          "keyword": "헬카페 | 대흥역",
-          "trend_score": 100,
-          "data_points": 5
-        },
-        {
-          "keyword": "치플레 팝업 | 롯데백화점 김포공항점",
-          "trend_score": 61,
-          "data_points": 5
-        },
-        {
-          "keyword": "이태원 루프탑 카페 스카이 라운지 | 이태원",
-          "trend_score": 48,
-          "data_points": 5
-        },
-        {
-          "keyword": "마먕갸또 팝업 | 신세계 타임스퀘어점",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "성수 로스터리 카페 블랙 드롭 | 성수",
-          "trend_score": 30,
-          "data_points": 5
-        },
-        {
-          "keyword": "연남동 빈티지 컨셉 카페 시간의 흔적 | 연남동",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "홍대 북카페 페이지 앤 커피 | 홍대",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "압구정 플랜트 카페 그린 스페이스 | 압구정",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "망원동 디저트 카페 달콤한 순간 | 망원동",
-          "trend_score": 30,
-          "data_points": 2
-        },
-        {
-          "keyword": "종로 한옥 베이커리 카페 고즈넉한 뜰 | 종로",
-          "trend_score": 30,
-          "data_points": 0
-        }
-      ]
+      "trending_keywords": []
     }
   }
 }

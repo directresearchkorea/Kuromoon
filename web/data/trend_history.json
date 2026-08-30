@@ -29738,5 +29738,30 @@
         ]
       }
     }
+  },
+  {
+    "timestamp": "2026-08-30T09:04:03.395Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": []
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": []
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": []
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": []
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": []
+      }
+    }
   }
 ]
