@@ -5,7 +5,7 @@
 ## About
 Kuromoon is a lightweight, static directory website providing structured data about Korean local businesses.
 All data is formatted with Schema.org JSON-LD for optimal AI crawler parsing.
-Updated: 2026-08-30
+Updated: 2026-08-31
 
 ## Website
 - URL: https://kuromoon.net
@@ -62,7 +62,6 @@ Updated: 2026-08-30
 - [943 킹스크로스](https://kuromoon.net/ko/places/943-kings-cross.html) — 영화 속 판타지 세계를 재현한 해리포터 테마 카페.
 - [겨울이 머무는 집](https://kuromoon.net/ko/places/house-where-winter-stays.html) — 홍대에서 귀여운 사모예드와 힐링하는 이색 카페
 - [왓어브레드 롯데월드몰 팝업](https://kuromoon.net/ko/places/what-a-bread-lotte-world-mall-pop-up.html) — 빅뱅 20주년 기념 왓어브레드 콜라보 팝업.
-- [은혼 팝업 - 요시와라 대염상 @홍대](https://kuromoon.net/ko/places/gintama-pop-up-yoshiwara-in-flames.html) — 은혼 요시와라 대염상 팝업스토어 수원점
 - [광진문화예술회관](https://kuromoon.net/ko/places/gwangjin-culture-arts-center.html) — 광진문화예술회관의 수영장 이용 정보와 물품기부 캠페인.
 - [리브르 티 하우스 성수](https://kuromoon.net/ko/places/livre-tea-house-seongsu.html) — 성수동에서 나만의 차를 만드는 이색 원데이클래스.
 - [드링킹드로잉 미술공방](https://kuromoon.net/ko/places/drinking-drawing-art-studio.html) — 잠실 드로잉 미술공방에서 즐기는 이색 원데이 클래스.
@@ -81,6 +80,7 @@ Updated: 2026-08-30
 - [시든 꽃에 눈물을 팝업스토어](https://kuromoon.net/ko/places/시든-꽃에-눈물을-팝업스토어.html) — 네이버웹툰 '시든 꽃에 눈물을' 팝업스토어
 - [4233마음센터 안국점](https://kuromoon.net/ko/places/4233-mind-center.html) — 연남동 커플 관계 심리 체험 테마 공간
 - [공원스크립트 가로수길점](https://kuromoon.net/ko/places/gongwon-script-garosu-gil-branch.html) — LP 청음과 디저트를 즐길 수 있는 가로수길 대형 카페.
+- [은혼 팝업 - 요시와라 대염상 @홍대](https://kuromoon.net/ko/places/gintama-pop-up-yoshiwara-in-flames.html) — 은혼 요시와라 대염상 팝업스토어 수원점
 - [메종 스본드 팝업](https://kuromoon.net/ko/places/maison-sbond-popup.html) — 메종 스본드의 첫 한국 팝업, 성수 LCDC Seoul에서 지갑과 가방을 만나보세요.
 - [우리길드아이돌 팝업스토어](https://kuromoon.net/ko/places/our-guild-idol-pop-up-store.html) — 네이버웹툰 '우리 길드 아이돌' 팝업스토어
 - [무민팝업스토어](https://kuromoon.net/ko/places/moomin-pop-up-store.html) — 핀란드 힐링 캐릭터 무민 팝업스토어.
@@ -202,7 +202,6 @@ Updated: 2026-08-30
 - [리버시티수상스키장](https://kuromoon.net/ko/places/river-city-waterskiing-center.html) — 한강에서 다양한 수상 스포츠를 즐길 수 있는 이색 수상 레저 시설.
 - [카페이마](https://kuromoon.net/ko/places/cafe-ima.html) — 광화문 일민미술관의 아트 카페, 함박스테이크와 와플 맛집.
 - [그린홀](https://kuromoon.net/ko/places/green-hall.html) — 서울숲 산책 후 들르기 좋은 성수동 루프탑 아트 카페
-- [뷰오리 드림니트 @성수 팝업](https://kuromoon.net/ko/places/vuori-dream-knit-seongsu-pop-up.html) — 뷰오리 드림니트 성수 팝업스토어, 혜택과 클래스 제공.
 - [그랑부어크](https://kuromoon.net/ko/places/le-grand-buuk.html) — 부암동에 위치한 유럽 감성의 아트/테마 브런치 카페
 - [서초갈비](https://kuromoon.net/ko/places/seocho-galbi.html) — 전포동 노포 감성 숯불 돼지갈비 맛집
 - [일리고 X 애즈유아 팝업](https://kuromoon.net/ko/places/일리고-x-애즈유아-팝업.html) — 무신사 성수 일리고 X 애즈유아 팝업
@@ -211,6 +210,7 @@ Updated: 2026-08-30
 - [마망젤라또 성수점](https://kuromoon.net/ko/places/maman-gelato-seongsu-branch.html) — 성수동에 위치한 젤라또 전문점입니다.
 - [서울로미디어캔버스](https://kuromoon.net/ko/places/seoullo-media-canvas.html) — 서울 주요 명소에서 즐기는 무료 미디어아트 전시.
 - [엉금책방](https://kuromoon.net/ko/places/eongeum-chaekbang.html) — 책과 예술을 즐길 수 있는 감성 독립 서점 북카페.
+- [뷰오리 드림니트 @성수 팝업](https://kuromoon.net/ko/places/vuori-dream-knit-seongsu-pop-up.html) — 뷰오리 드림니트 성수 팝업스토어, 혜택과 클래스 제공.
 - [명천재](https://kuromoon.net/ko/places/myeongcheonjae.html) — 전주 한옥마을 인근의 감성적인 한옥 컨셉 다이닝 카페.
 - [마실한정식 발산점](https://kuromoon.net/ko/places/masill-hanjeongsik.html) — 청주 성화동 상견례 및 가족모임 룸 한정식 맛집.
 - [바지락왕창칼국수 시민공원역점](https://kuromoon.net/ko/places/simin-kalguksu.html) — 대전 중구 대흥동의 유명한 칼국수와 돈가스 맛집.
@@ -714,7 +714,6 @@ Updated: 2026-08-30
 - [943 King's Cross](https://kuromoon.net/en/places/943-kings-cross.html) — Harry Potter themed cafe recreating a fantasy world.
 - [House Where Winter Stays](https://kuromoon.net/en/places/house-where-winter-stays.html) — A unique cafe in Hongdae for healing with cute Samoyeds
 - [What a Bread Lotte World Mall Pop-up](https://kuromoon.net/en/places/what-a-bread-lotte-world-mall-pop-up.html) — BIGBANG 20th anniversary What a Bread pop-up.
-- [Gintama Pop-up - Yoshiwara in Flames](https://kuromoon.net/en/places/gintama-pop-up-yoshiwara-in-flames.html) — Gintama Yoshiwara in Flames pop-up store in Suwon
 - [Gwangjin Culture & Arts Center](https://kuromoon.net/en/places/gwangjin-culture-arts-center.html) — Gwangjin Culture & Arts Center's swimming pool info and donation campaign.
 - [Livre Tea House Seongsu](https://kuromoon.net/en/places/livre-tea-house-seongsu.html) — Unique one-day class in Seongsu to create your own tea.
 - [Drinking Drawing Art Studio](https://kuromoon.net/en/places/drinking-drawing-art-studio.html) — Unique one-day drawing classes at an art studio in Jamsil.
@@ -733,6 +732,7 @@ Updated: 2026-08-30
 - [Tears to the Wilted Flower Pop-up Store](https://kuromoon.net/en/places/시든-꽃에-눈물을-팝업스토어.html) — Naver Webtoon 'Tears to the Wilted Flower' pop-up store
 - [4233 Mind Center](https://kuromoon.net/en/places/4233-mind-center.html) — Experiential couple relationship psychology center in Yeonnam-dong.
 - [Gongwon Script Garosu-gil Branch](https://kuromoon.net/en/places/gongwon-script-garosu-gil-branch.html) — A large cafe in Garosu-gil where you can enjoy LP music and desserts.
+- [Gintama Pop-up - Yoshiwara in Flames](https://kuromoon.net/en/places/gintama-pop-up-yoshiwara-in-flames.html) — Gintama Yoshiwara in Flames pop-up store in Suwon
 - [Maison Sbond Popup](https://kuromoon.net/en/places/maison-sbond-popup.html) — Maison Sbond's first Korean popup at LCDC Seoul, featuring wallets and bags.
 - [Our Guild Idol Pop-up Store](https://kuromoon.net/en/places/our-guild-idol-pop-up-store.html) — Naver Webtoon 'Our Guild Idol' pop-up store
 - [Moomin Pop-up Store](https://kuromoon.net/en/places/moomin-pop-up-store.html) — Moomin pop-up store featuring Finnish healing characters.
@@ -854,7 +854,6 @@ Updated: 2026-08-30
 - [River City Waterskiing Center](https://kuromoon.net/en/places/river-city-waterskiing-center.html) — A unique water leisure facility on the Han River where you can enjoy various water sports.
 - [Cafe IMA](https://kuromoon.net/en/places/cafe-ima.html) — Art cafe in Gwanghwamun's Ilmin Museum, famous for hamburg steak and waffles.
 - [Green Hall](https://kuromoon.net/en/places/green-hall.html) — Rooftop art cafe in Seongsu, perfect after a walk in Seoul Forest.
-- [Vuori Dream Knit @Seongsu Pop-up](https://kuromoon.net/en/places/vuori-dream-knit-seongsu-pop-up.html) — Vuori Dream Knit Seongsu pop-up store offering benefits and classes.
 - [Le Grand Buuk](https://kuromoon.net/en/places/le-grand-buuk.html) — European-inspired art/theme brunch cafe in Buam-dong.
 - [Seocho Galbi](https://kuromoon.net/en/places/seocho-galbi.html) — Seocho Galbi: Retro-style charcoal grilled pork ribs in Jeonpo-dong.
 - [Illigo X As You Are Pop-up](https://kuromoon.net/en/places/일리고-x-애즈유아-팝업.html) — Illigo X As You Are pop-up at Musinsa Seongsu.
@@ -863,6 +862,7 @@ Updated: 2026-08-30
 - [Maman Gelato Seongsu Branch](https://kuromoon.net/en/places/maman-gelato-seongsu-branch.html) — A gelato specialty shop located in Seongsu-dong.
 - [Seoullo Media Canvas](https://kuromoon.net/en/places/seoullo-media-canvas.html) — Free media art exhibition at Seoul's major landmarks.
 - [Eongeum Chaekbang](https://kuromoon.net/en/places/eongeum-chaekbang.html) — An emotional independent bookstore cafe where you can enjoy books and art.
+- [Vuori Dream Knit @Seongsu Pop-up](https://kuromoon.net/en/places/vuori-dream-knit-seongsu-pop-up.html) — Vuori Dream Knit Seongsu pop-up store offering benefits and classes.
 - [Myeongcheonjae](https://kuromoon.net/en/places/myeongcheonjae.html) — A charming hanok-themed dining cafe near Jeonju Hanok Village.
 - [Masill Hanjeongsik](https://kuromoon.net/en/places/masill-hanjeongsik.html) — Masill Hanjeongsik in Cheongju, a Korean dining restaurant perfect for family gatherings and formal meetings.
 - [Simin Kalguksu](https://kuromoon.net/en/places/simin-kalguksu.html) — Famous Kalguksu and Donkatsu restaurant in Daeheung-dong, Daejeon.
