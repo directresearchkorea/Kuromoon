@@ -11,12 +11,12 @@ Updated: 2026-08-31
 - URL: https://kuromoon.net
 - Languages: Korean (/ko/), English (/en/)
 - Categories: 5
-- Total Places: 650
+- Total Places: 658
 
 ## Categories
-- Pop-up Stores & Events (팝업스토어/이벤트): 117 places
-- Niche Dining (니치 다이닝): 135 places
-- Concept Cafes (콘셉트 카페): 200 places
+- Pop-up Stores & Events (팝업스토어/이벤트): 118 places
+- Niche Dining (니치 다이닝): 139 places
+- Concept Cafes (콘셉트 카페): 203 places
 - activity: 100 places
 - K-Beauty Clinics (K-뷰티/피부과): 98 places
 
@@ -205,6 +205,7 @@ Updated: 2026-08-31
 - [그랑부어크](https://kuromoon.net/ko/places/le-grand-buuk.html) — 부암동에 위치한 유럽 감성의 아트/테마 브런치 카페
 - [서초갈비](https://kuromoon.net/ko/places/seocho-galbi.html) — 전포동 노포 감성 숯불 돼지갈비 맛집
 - [일리고 X 애즈유아 팝업](https://kuromoon.net/ko/places/일리고-x-애즈유아-팝업.html) — 무신사 성수 일리고 X 애즈유아 팝업
+- [갓포이찌](https://kuromoon.net/ko/places/갓포이찌.html) — 울산 남구에 위치한 컨셉 다이닝 갓포이찌
 - [한국의맛장수촌 영등포문래역점](https://kuromoon.net/ko/places/hanguk-ui-mat-jangsuchon.html) — 건강하고 든든한 한방 누룽지 닭백숙 전문점
 - [언디파인 파티룸 홍대1호점](https://kuromoon.net/ko/places/undefined-party-room-hongdae-branch-1.html) — 홍대에서 숙박과 바베큐까지 가능한 24시간 파티룸.
 - [마망젤라또 성수점](https://kuromoon.net/ko/places/maman-gelato-seongsu-branch.html) — 성수동에 위치한 젤라또 전문점입니다.
@@ -541,6 +542,7 @@ Updated: 2026-08-31
 - [촌닭닭한마리칼국수 사당역본점](https://kuromoon.net/ko/places/촌닭닭한마리칼국수-사당역본점.html) — 사당역 닭한마리 칼국수 전문점
 - [르 카페 루이 비통, 메종 서울](https://kuromoon.net/ko/places/르-카페-루이-비통-메종-서울.html) — 루이 비통 메종 서울 4층의 컨셉 다이닝 카페.
 - [AK플라자 수원](https://kuromoon.net/ko/places/ak플라자-수원.html) — AK플라자 수원에 새로 생긴 팝마트 매장
+- [그린베이커리](https://kuromoon.net/ko/places/그린베이커리.html) — 대전 유성구의 비건 레스토랑 겸 베이커리
 - [포시즌스 호텔 서울 더 스파](https://kuromoon.net/ko/places/four-seasons-hotel-seoul-the-spa.html) — 포시즌스 호텔 서울 내 럭셔리 스파
 - [광안리 해린횟집](https://kuromoon.net/ko/places/gwangalli-haerin-hoejip.html) — 광안대교 뷰를 자랑하는 프라이빗 룸 횟집
 - [코노미스시 성수](https://kuromoon.net/ko/places/konomi-sushi-seongsu.html) — 성수동 프리미엄 회전초밥 전문점
@@ -549,6 +551,7 @@ Updated: 2026-08-31
 - [알파드라이브원 팝업](https://kuromoon.net/ko/places/알파드라이브원-팝업.html) — 성수에서 열리는 알파드라이브원 팝업 스토어
 - [창심관](https://kuromoon.net/ko/places/changsimgwan.html) — 동탄 프라이빗 룸 컨셉 다이닝 레스토랑
 - [새마을운동 테마공원](https://kuromoon.net/ko/places/saemaul-undong-theme-park.html) — 새마을운동 테마공원 내 쾌적한 북카페
+- [Our Hours](https://kuromoon.net/ko/places/our-hours.html) — 대구 동구에 위치한 아트/테마 카페
 - [나나로그 성수점](https://kuromoon.net/ko/places/nanalog-seongsu-branch.html) — 성수동 뷰티샵, 지역화폐 사용 가능
 - [멜커피 안산중앙점](https://kuromoon.net/ko/places/mel-coffee-ansan-jungang-branch.html) — 안산 단원구에 위치한 이색 드로잉 카페
 - [놀숲 수유점](https://kuromoon.net/ko/places/nolsoop-suyu-branch.html) — 이색적인 분위기의 아트/테마 북카페
@@ -571,6 +574,7 @@ Updated: 2026-08-31
 - [폴라스튜디오앤카페](https://kuromoon.net/ko/places/pola-studio-cafe.html) — 스튜디오와 카페가 결합된 무인 포토 스튜디오 카페
 - [발베니 팝업 : 한정판 컬렉션 x 다니엘 아샴](https://kuromoon.net/ko/places/balvenie-pop-up-limited-edition-collection-x-daniel-arsham.html) — 발베니와 다니엘 아샴의 한정판 위스키 팝업.
 - [토이스토리X피스마이너스원 익스클루시브 성수 팝업스토어](https://kuromoon.net/ko/places/toy-story-x-peaceminusone-exclusive-seongsu-pop-up-store.html) — 토이스토리와 피스마이너스원의 협업 팝업스토어
+- [사운드스케이프 팝업](https://kuromoon.net/ko/places/사운드스케이프-팝업.html) — 한남동에 위치한 베리시 사운드스케이프 팝업
 - [퍼즈 스튜디오](https://kuromoon.net/ko/places/pause-studio.html) — 제주에 위치한 셀프 바디프로필 전문 스튜디오.
 - [더풋샵마사지 종로구청점](https://kuromoon.net/ko/places/foot-shop-massage.html) — 아로마 테라피와 마사지로 몸의 피로를 풀고 밸런스를 맞추는 뷰티/웰니스 샵.
 - [NC백화점 강서점](https://kuromoon.net/ko/places/nc-department-store-gangseo-branch.html) — NC백화점 강서점, 다이닝과 쇼핑을 한 곳에서.
@@ -663,6 +667,8 @@ Updated: 2026-08-31
 - [의정부 실내빙상장](https://kuromoon.net/ko/places/uijeongbu-indoor-ice-rink.html) — 의정부 실내빙상장에서 열린 어린이날 행사 및 빙상 강습.
 - [파인40](https://kuromoon.net/ko/places/pine40.html) — 반려동물 동반이 가능한 화순의 아트/테마 카페
 - [송천강재첩국](https://kuromoon.net/ko/places/songcheongang-jaecheopguk.html) — 영덕 송천강변에서 즐기는 현지인 추천 재첩국 맛집
+- [여수게장 낭만별식](https://kuromoon.net/ko/places/여수게장-낭만별식.html) — 여수 게장정식과 갈치조림 전문점
+- [모이핀 스카이](https://kuromoon.net/ko/places/모이핀-스카이.html) — 여수 돌산읍에 위치한 바다 전망의 테라스 카페
 - [Barber's Salon](https://kuromoon.net/ko/places/barbers-salon.html) — 남성 전문 헤어 스타일링과 그루밍 서비스를 제공하는 바버샵.
 - [간판없는삼겹살](https://kuromoon.net/ko/places/signless-samgyeopsal.html) — 간판 없는 삼겹살 맛집으로 현지인들이 즐겨 찾는 곳.
 - [티라시아 리조트](https://kuromoon.net/ko/places/tirasia-resort.html) — 럭셔리 스파를 즐길 수 있는 추천 리조트 숙소.
@@ -672,6 +678,8 @@ Updated: 2026-08-31
 - [천마산 손만두](https://kuromoon.net/ko/places/cheonmasan-handmade-dumplings.html) — 남양주에서 맛볼 수 있는 푸짐한 손만두전골 전문점
 - [영월한반도캠핑장](https://kuromoon.net/ko/places/yeongwol-hanbando-camping-ground.html) — 영월 한반도면에 위치한 캠핑장으로, 주변 마트에서 장보기가 편리합니다.
 - [작은영토](https://kuromoon.net/ko/places/jageun-yeongto.html) — 계곡 옆에서 백숙과 닭볶음탕을 즐기는 애견동반 식당
+- [수라간 박상선](https://kuromoon.net/ko/places/수라간-박상선.html) — 정성껏 차려내는 화덕 생선구이 한정식 전문점
+- [볼타커피](https://kuromoon.net/ko/places/볼타커피.html) — 원주 단구동의 맛있는 로스터리 카페
 - [카페드아쿠아스타필드하남](https://kuromoon.net/ko/places/cafe-de-aqua-starfield-hanam.html) — 스타필드 하남의 수족관 카페로, 닥터피쉬 체험이 가능한 아이와 가기 좋은 곳.
 
 ### English
@@ -857,6 +865,7 @@ Updated: 2026-08-31
 - [Le Grand Buuk](https://kuromoon.net/en/places/le-grand-buuk.html) — European-inspired art/theme brunch cafe in Buam-dong.
 - [Seocho Galbi](https://kuromoon.net/en/places/seocho-galbi.html) — Seocho Galbi: Retro-style charcoal grilled pork ribs in Jeonpo-dong.
 - [Illigo X As You Are Pop-up](https://kuromoon.net/en/places/일리고-x-애즈유아-팝업.html) — Illigo X As You Are pop-up at Musinsa Seongsu.
+- [Gappoichi](https://kuromoon.net/en/places/갓포이찌.html) — Gappoichi, a concept dining restaurant in Nam-gu, Ulsan.
 - [Hanguk-ui Mat Jangsuchon](https://kuromoon.net/en/places/hanguk-ui-mat-jangsuchon.html) — A restaurant specializing in healthy and hearty herbal scorched-rice chicken soup.
 - [Undefined Party Room Hongdae Branch 1](https://kuromoon.net/en/places/undefined-party-room-hongdae-branch-1.html) — 24-hour party room in Hongdae with accommodation and BBQ facilities.
 - [Maman Gelato Seongsu Branch](https://kuromoon.net/en/places/maman-gelato-seongsu-branch.html) — A gelato specialty shop located in Seongsu-dong.
@@ -1193,6 +1202,7 @@ Updated: 2026-08-31
 - [Chondak Dakhanmari Kalguksu Sadang Station Main Branch](https://kuromoon.net/en/places/촌닭닭한마리칼국수-사당역본점.html) — Sadang Station restaurant specializing in Dakhanmari Kalguksu.
 - [Le Café Louis Vuitton Maison Seoul](https://kuromoon.net/en/places/르-카페-루이-비통-메종-서울.html) — Concept dining cafe on the 4th floor of Louis Vuitton Maison Seoul.
 - [Pop Mart AK Plaza Suwon Branch](https://kuromoon.net/en/places/ak플라자-수원.html) — New Pop Mart store/booth at AK Plaza Suwon.
+- [Green Bakery](https://kuromoon.net/en/places/그린베이커리.html) — Vegan restaurant and bakery in Yuseong-gu, Daejeon.
 - [Four Seasons Hotel Seoul The Spa](https://kuromoon.net/en/places/four-seasons-hotel-seoul-the-spa.html) — Luxury spa located within the Four Seasons Hotel Seoul.
 - [Gwangalli Haerin Hoejip](https://kuromoon.net/en/places/gwangalli-haerin-hoejip.html) — Raw fish restaurant with Gwangandaegyo Bridge view and private rooms.
 - [Konomi Sushi Seongsu](https://kuromoon.net/en/places/konomi-sushi-seongsu.html) — Premium conveyor belt sushi restaurant in Seongsu-dong.
@@ -1201,6 +1211,7 @@ Updated: 2026-08-31
 - [Alphadrive One Pop-up](https://kuromoon.net/en/places/알파드라이브원-팝업.html) — Alphadrive One pop-up store in Seongsu.
 - [Changsimgwan](https://kuromoon.net/en/places/changsimgwan.html) — Dongtan private room concept dining restaurant
 - [Saemaul Undong Theme Park](https://kuromoon.net/en/places/saemaul-undong-theme-park.html) — A pleasant book cafe within Saemaul Undong Theme Park.
+- [Our Hours](https://kuromoon.net/en/places/our-hours.html) — Art/theme cafe located in Dong-gu, Daegu.
 - [Nanalog Seongsu Branch](https://kuromoon.net/en/places/nanalog-seongsu-branch.html) — Beauty shop in Seongsu-dong, regional currency accepted
 - [Mel Coffee Ansan Jungang Branch](https://kuromoon.net/en/places/mel-coffee-ansan-jungang-branch.html) — Unique drawing cafe located in Danwon-gu, Ansan
 - [Nolsoop Suyu Branch](https://kuromoon.net/en/places/nolsoop-suyu-branch.html) — A unique art/theme book cafe with a distinctive atmosphere.
@@ -1223,6 +1234,7 @@ Updated: 2026-08-31
 - [Pola Studio & Cafe](https://kuromoon.net/en/places/pola-studio-cafe.html) — A self-service photo studio and cafe combined, perfect for pet owners.
 - [Balvenie Pop-up: Limited Edition Collection x Daniel Arsham](https://kuromoon.net/en/places/balvenie-pop-up-limited-edition-collection-x-daniel-arsham.html) — Balvenie x Daniel Arsham limited edition whisky pop-up.
 - [Toy Story X PEACEMINUSONE Exclusive Seongsu Pop-up Store](https://kuromoon.net/en/places/toy-story-x-peaceminusone-exclusive-seongsu-pop-up-store.html) — Toy Story and PEACEMINUSONE collaboration pop-up store
+- [Verish Soundscape](https://kuromoon.net/en/places/사운드스케이프-팝업.html) — Verish Soundscape popup located in Hannam-dong.
 - [Pause Studio](https://kuromoon.net/en/places/pause-studio.html) — Self-body profile studio located in Jeju.
 - [Foot Shop Massage](https://kuromoon.net/en/places/foot-shop-massage.html) — A beauty/wellness shop offering aroma therapy and massages to relieve fatigue and balance the body.
 - [NC Department Store Gangseo Branch](https://kuromoon.net/en/places/nc-department-store-gangseo-branch.html) — NC Department Store Gangseo Branch, a multi-purpose venue for dining and shopping.
@@ -1315,6 +1327,8 @@ Updated: 2026-08-31
 - [Uijeongbu Indoor Ice Rink](https://kuromoon.net/en/places/uijeongbu-indoor-ice-rink.html) — Uijeongbu Indoor Ice Rink hosted Children's Day event and ice skating lessons.
 - [Pine40](https://kuromoon.net/en/places/pine40.html) — Pet-friendly art/theme cafe located in Hwasun.
 - [Songcheongang Jaecheopguk](https://kuromoon.net/en/places/songcheongang-jaecheopguk.html) — Local's favorite clam soup restaurant by Songcheongang River in Yeongdeok.
+- [Yeosu Ganjang Gejang Nangman Byeolsik](https://kuromoon.net/en/places/여수게장-낭만별식.html) — Specialty restaurant for Yeosu crab stew and braised cutlassfish.
+- [Moifin Sky](https://kuromoon.net/en/places/모이핀-스카이.html) — Terrace cafe with ocean views in Dolsan-eup, Yeosu.
 - [Barber's Salon](https://kuromoon.net/en/places/barbers-salon.html) — A barbershop specializing in men's hair styling and grooming services.
 - [Signless Samgyeopsal](https://kuromoon.net/en/places/signless-samgyeopsal.html) — A local favorite for delicious no-signboard samgyeopsal.
 - [Tirasia Resort](https://kuromoon.net/en/places/tirasia-resort.html) — A recommended resort accommodation for luxury spa experiences.
@@ -1324,6 +1338,8 @@ Updated: 2026-08-31
 - [Cheonmasan Handmade Dumplings](https://kuromoon.net/en/places/cheonmasan-handmade-dumplings.html) — A restaurant in Namyangju specializing in hearty handmade dumpling hotpot.
 - [Yeongwol Hanbando Camping Ground](https://kuromoon.net/en/places/yeongwol-hanbando-camping-ground.html) — A camping ground in Yeongwol's Hanbando-myeon, convenient for grocery shopping nearby.
 - [Jageun Yeongto](https://kuromoon.net/en/places/jageun-yeongto.html) — Pet-friendly restaurant serving Baeksuk and Dakbokkeumtang by a stream.
+- [Suragan Baksangseon](https://kuromoon.net/en/places/수라간-박상선.html) — A Korean traditional set meal restaurant specializing in oven-baked grilled fish.
+- [Volta Coffee](https://kuromoon.net/en/places/볼타커피.html) — A delicious roastery cafe in Dan-gu-dong, Wonju.
 - [Cafe de Aqua Starfield Hanam](https://kuromoon.net/en/places/cafe-de-aqua-starfield-hanam.html) — Aquarium cafe in Starfield Hanam, offering doctor fish experience, great for kids.
 
 ## Data Format

@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-08-31",
-  "mode": "live-fallback",
+  "mode": "live-dynamic",
   "period": {
     "start": "2026-08-01",
     "end": "2026-08-31"
@@ -8,23 +8,278 @@
   "categories": {
     "popup": {
       "label": "팝업/전시",
-      "trending_keywords": []
+      "trending_keywords": [
+        {
+          "keyword": "오브젝트랩 팝업 | 성수",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "필름클럽 팝업 | 미상",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "사운드스케이프 팝업 | 한남",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "그래픽노블 팝업 | 미상",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "빈티지마켓 팝업 | 미상",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "퓨처웨어 팝업 | 미상",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "아트콜렉티브 팝업 | 미상",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "레트로게임 팝업 | 미상",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "웰니스랩 팝업 | 강남",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "플랜트아트 팝업 | 서울숲",
+          "trend_score": 30,
+          "data_points": 0
+        }
+      ]
     },
     "activity": {
       "label": "이색 체험",
-      "trending_keywords": []
+      "trending_keywords": [
+        {
+          "keyword": "도예공방 흙손 | 성수",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "향수공방 아로마랩 | 미상",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "플라워클래스 꽃피움 | 한남",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "베이킹스튜디오 오븐데이 | 미상",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "가죽공방 헤리티지 | 미상",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "원데이클래스 아트블룸 | 강남",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "유리공예 글라스모먼트 | 익선동",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "목공방 나무이야기 | 망원동",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "연극체험 극장골목 | 미상",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "드로잉클래스 컬러팔레트 | 잠실",
+          "trend_score": 30,
+          "data_points": 0
+        }
+      ]
     },
     "beauty": {
       "label": "뷰티/웰니스",
-      "trending_keywords": []
+      "trending_keywords": [
+        {
+          "keyword": "비건뷰티 스튜디오 맑음 | 성수",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "퍼스널컬러 진단소 톤온톤 | 한남",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "두피케어랩 헤어숨 | 강남",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "뷰티클래스 룩앤스타일 | 미상",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "에스테틱 라온 | 미상",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "아로마테라피 쉼표 | 미상",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "네일아트 살롱 블링 | 미상",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "바디프로필 스튜디오 포즈 | 미상",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "뷰티체험관 코스메틱플레이 | 미상",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "메이크업 스튜디오 채움 | 미상",
+          "trend_score": 30,
+          "data_points": 0
+        }
+      ]
     },
     "dining": {
       "label": "컨셉 다이닝",
-      "trending_keywords": []
+      "trending_keywords": [
+        {
+          "keyword": "컨셉다이닝 비밀의정원 | 성수",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "오마카세 스시이치 | 한남",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "파인다이닝 라피네 | 미상",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "비건레스토랑 그린테이블 | 미상",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "퓨전한식 주점 소반 | 미상",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "내추럴와인바 떼루아 | 미상",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "뉴트로 식당 골목집 | 미상",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "웨이팅맛집 솥밥연구소 | 미상",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "브런치 레스토랑 데이즈 | 미상",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "캐주얼다이닝 플레이버 | 잠실",
+          "trend_score": 30,
+          "data_points": 0
+        }
+      ]
     },
     "cafe": {
       "label": "아트/테마 카페",
-      "trending_keywords": []
+      "trending_keywords": [
+        {
+          "keyword": "가오픈 카페 아워스 | 성수",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "디저트 카페 스위트모먼트 | 미상",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "로스터리 카페 블렌드 | 한남",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "한옥 카페 담소 | 익선동",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "북카페 책갈피 | 망원동",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "레트로 카페 시간여행 | 미상",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "컨셉 카페 꿈꾸는하루 | 미상",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "갤러리 카페 화이트큐브 | 미상",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "테라스 카페 스카이뷰 | 미상",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "플랜트 카페 포레스트 | 강남",
+          "trend_score": 30,
+          "data_points": 0
+        }
+      ]
     }
   }
 }
