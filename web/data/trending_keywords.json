@@ -1,30 +1,285 @@
 {
-  "generated_at": "2026-09-01",
-  "mode": "live-fallback",
+  "generated_at": "2026-09-02",
+  "mode": "live-dynamic",
   "period": {
-    "start": "2026-08-02",
-    "end": "2026-09-01"
+    "start": "2026-08-03",
+    "end": "2026-09-02"
   },
   "categories": {
     "popup": {
       "label": "팝업/전시",
-      "trending_keywords": []
+      "trending_keywords": [
+        {
+          "keyword": "판도라 팝업 | 성수",
+          "trend_score": 100,
+          "data_points": 5
+        },
+        {
+          "keyword": "틴더 패스포트 라운지 | 성수",
+          "trend_score": 83,
+          "data_points": 3
+        },
+        {
+          "keyword": "귤메달 X 구달 마켓 | 성수",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "리드볼트 팝업 | 성수",
+          "trend_score": 30,
+          "data_points": 5
+        },
+        {
+          "keyword": "올랑말랑슬랑 | 성수",
+          "trend_score": 30,
+          "data_points": 5
+        },
+        {
+          "keyword": "감탄로드 | 성수",
+          "trend_score": 30,
+          "data_points": 4
+        },
+        {
+          "keyword": "트루스오브뷰티 | 성수",
+          "trend_score": 30,
+          "data_points": 4
+        },
+        {
+          "keyword": "센텔라모어 | 성수",
+          "trend_score": 30,
+          "data_points": 4
+        },
+        {
+          "keyword": "삐아 X 이글립스 생일파티 | 성수",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "카카오페이 오래오래 함께가게 | 성수",
+          "trend_score": 30,
+          "data_points": 1
+        }
+      ]
     },
     "activity": {
       "label": "이색 체험",
-      "trending_keywords": []
+      "trending_keywords": [
+        {
+          "keyword": "ENHYPEN House of Vampire | 광화문",
+          "trend_score": 100,
+          "data_points": 4
+        },
+        {
+          "keyword": "2026 서울아트위크 | 서울",
+          "trend_score": 94,
+          "data_points": 3
+        },
+        {
+          "keyword": "서도호 국립현대미술관 | 서울",
+          "trend_score": 61,
+          "data_points": 4
+        },
+        {
+          "keyword": "KBL X 라인프렌즈 팝업 | 미상",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "라이엇 게임즈 K.O. 콜로세움 팝업 | 미상",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "미디어아트 서울 X 키아프 전시 | 서울",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "뮤지엄한미 제리 율스만 프리뷰 | 미상",
+          "trend_score": 30,
+          "data_points": 1
+        },
+        {
+          "keyword": "코리아보드게임즈 롯데백화점 팝업 | 미상",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "스웨그키 커스텀 키보드 팝업 | 미상",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "TOMORROW X TOGETHER VR 콘서트 | 강남",
+          "trend_score": 30,
+          "data_points": 4
+        }
+      ]
     },
     "beauty": {
       "label": "뷰티/웰니스",
-      "trending_keywords": []
+      "trending_keywords": [
+        {
+          "keyword": "조말론 런던 팝업 | 성수",
+          "trend_score": 100,
+          "data_points": 3
+        },
+        {
+          "keyword": "LV BnF 신세계 팝업 | 강남",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "라카 성수 플래그십 | 성수",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "비누보 서울뷰티위크 | 서울",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "스프링어게인 서울뷰티위크 | 서울",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "앙티브 서울뷰티위크 | 서울",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "더프라임에스 서울뷰티위크 | 서울",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "새니닥 서울뷰티위크 | 서울",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "SYSO 서울뷰티위크 | 서울",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "어셈블릭 서울뷰티위크 | 서울",
+          "trend_score": 30,
+          "data_points": 0
+        }
+      ]
     },
     "dining": {
       "label": "컨셉 다이닝",
-      "trending_keywords": []
+      "trending_keywords": [
+        {
+          "keyword": "모던 샤브 하우스 | 공덕",
+          "trend_score": 100,
+          "data_points": 5
+        },
+        {
+          "keyword": "모헤지 | 종로3가",
+          "trend_score": 100,
+          "data_points": 5
+        },
+        {
+          "keyword": "마다옥 | 용산",
+          "trend_score": 30,
+          "data_points": 5
+        },
+        {
+          "keyword": "묵사랑 | 망원",
+          "trend_score": 30,
+          "data_points": 5
+        },
+        {
+          "keyword": "서울촌닭 | 서초",
+          "trend_score": 30,
+          "data_points": 5
+        },
+        {
+          "keyword": "오프레 | 중구",
+          "trend_score": 30,
+          "data_points": 5
+        },
+        {
+          "keyword": "오일제 | 용산",
+          "trend_score": 30,
+          "data_points": 5
+        },
+        {
+          "keyword": "소넷 | 강남",
+          "trend_score": 30,
+          "data_points": 5
+        },
+        {
+          "keyword": "묵정 | 강남",
+          "trend_score": 30,
+          "data_points": 5
+        },
+        {
+          "keyword": "샤콘느 | 강남",
+          "trend_score": 30,
+          "data_points": 5
+        }
+      ]
     },
     "cafe": {
       "label": "아트/테마 카페",
-      "trending_keywords": []
+      "trending_keywords": [
+        {
+          "keyword": "전지적 독자 시점 X 애니메이트 카페 | 마포",
+          "trend_score": 100,
+          "data_points": 5
+        },
+        {
+          "keyword": "피에르 에르메 | 여의도",
+          "trend_score": 34,
+          "data_points": 5
+        },
+        {
+          "keyword": "헬카페 | 대흥역",
+          "trend_score": 30,
+          "data_points": 5
+        },
+        {
+          "keyword": "오사카 오지상 치즈케이크 팝업 | 미상",
+          "trend_score": 30,
+          "data_points": 5
+        },
+        {
+          "keyword": "필앳홈 팝업 | 미상",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "도겐져스 X 피규어프레소 카페 | 홍대",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "원룸조교님 X 애니플러스 카페 | 홍대",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "물가의 밤 X 애니플러스 카페 | 합정",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "윈드 브레이커 X Gratte 카페 | 홍대",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "하츠네 미쿠 콜라보 카페 | 홍대",
+          "trend_score": 30,
+          "data_points": 1
+        }
+      ]
     }
   }
 }
