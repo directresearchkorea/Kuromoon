@@ -30653,5 +30653,194 @@
         ]
       }
     }
+  },
+  {
+    "timestamp": "2026-09-02T09:01:34.565Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "오피셜히게단디즘 팝업 | 성수",
+            "trend_score": 100,
+            "data_points": 2
+          },
+          {
+            "keyword": "올리브영 시티 로그 팝업 | 미상",
+            "trend_score": 100,
+            "data_points": 2
+          },
+          {
+            "keyword": "아리아나 그란데 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "키키 와이키키 듀티 프리 팝업 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "아틀레티코 마드리드 까사 알레띠 팝업 | 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "아디다스 오리지널스 by 제니 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "시스템 파리 키스서울 팝업 | 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "롯데웰푸드 K스낵 하우스 팝업 | 명동",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "핫토이 서머 쇼케이스 팝업 | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "조선미녀 팝업 | 신세계면세점",
+            "trend_score": 30,
+            "data_points": 2
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "서도호 전시 | 국립현대미술관 서울",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "투모로우바이투게더 레이어스 오브 어스 전시 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "막스 시덴톱 전시 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "쿠이료코전 던전밥 미궁탐색전 | 미상",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "가우디 다시 태어나다 전시 | 서울",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "신당 연당 오픈 스튜디오 | 신당",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "공박위크 체크인 공방 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "서서울호수공원 가을 꽃 작업실 | 서서울호수공원",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "서서울호수공원 초록 연구소 | 서서울호수공원",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "4.16연대 리본공방 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": [
+          {
+            "keyword": "2026 서울뷰티위크 | DDP",
+            "trend_score": 100,
+            "data_points": 4
+          },
+          {
+            "keyword": "SK-II 뷰티 팝업 | 성수",
+            "trend_score": 51,
+            "data_points": 5
+          },
+          {
+            "keyword": "무신사 오프라인 뷰티 페스타 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "한스킨 PDRN세럼 팝업 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "퓨리영 팝업 | 미상",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "더 룩 팝업 | 미상",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "바세린 글루타히야 팝업 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "올리브영 시티 로그 팝업 | 미상",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "조선미녀 팝업 | 신세계면세점",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "구달 뷰티 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": []
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": [
+          {
+            "keyword": "밀도 시그니처 | 롯데백화점 본점",
+            "trend_score": 100,
+            "data_points": 2
+          },
+          {
+            "keyword": "소보심 베이커리 카페 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      }
+    }
   }
 ]
