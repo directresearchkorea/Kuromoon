@@ -31122,5 +31122,92 @@
         ]
       }
     }
+  },
+  {
+    "timestamp": "2026-09-03T09:01:23.752Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "치이카와 스시 팝업 | 무신사 스토어 성수",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "오피셜히게단디즘 성수 팝업 | 성수동",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "아리아나 그란데 성수 팝업 | 성수동",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "키키 와이키키 듀티 프리 팝업 | 펍지 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "아틀레티코 마드리드 까사 알레띠 서울 팝업 | 성수동",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "무신사 뷰티 페스타 성수 | 무신사 메가스토어 성수",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "다이노탱 쿼카 홈런 팝업 | 이구홈 서울숲",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "나인어코드 성수 팝업 | 성수동",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "2026 짱구 팝업스토어 떡잎마을 주민 대축제 | 충북 청주 커넥트현대",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "29CM X LOFT 성수 팝업 | 성수동",
+            "trend_score": 30,
+            "data_points": 1
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "투모로우바이투게더 레이어스 오브 어스 전시 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "막스 시덴톱 세상에서 가장 큰 직소 퍼즐 전시 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": []
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": []
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": []
+      }
+    }
   }
 ]
