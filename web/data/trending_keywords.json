@@ -1,63 +1,63 @@
 {
-  "generated_at": "2026-09-02",
+  "generated_at": "2026-09-03",
   "mode": "live-dynamic",
   "period": {
-    "start": "2026-08-03",
-    "end": "2026-09-02"
+    "start": "2026-08-04",
+    "end": "2026-09-03"
   },
   "categories": {
     "popup": {
       "label": "팝업/전시",
       "trending_keywords": [
         {
-          "keyword": "오피셜히게단디즘 팝업 | 성수",
+          "keyword": "아디다스 제니 | 성수",
           "trend_score": 100,
-          "data_points": 2
+          "data_points": 5
         },
         {
-          "keyword": "올리브영 시티 로그 팝업 | 미상",
-          "trend_score": 100,
-          "data_points": 2
-        },
-        {
-          "keyword": "아리아나 그란데 팝업 | 성수",
+          "keyword": "시든꽃에눈물을 태하의방 | 용산",
           "trend_score": 30,
-          "data_points": 2
+          "data_points": 1
         },
         {
-          "keyword": "키키 와이키키 듀티 프리 팝업 | 미상",
+          "keyword": "개구리중사 케로로 | 신촌",
           "trend_score": 30,
-          "data_points": 0
+          "data_points": 5
         },
         {
-          "keyword": "아틀레티코 마드리드 까사 알레띠 팝업 | 서울",
+          "keyword": "언더아머 런 | 서울숲",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "아디다스 오리지널스 by 제니 팝업 | 성수",
+          "keyword": "치플레 | 김포공항",
+          "trend_score": 30,
+          "data_points": 5
+        },
+        {
+          "keyword": "GREENWAYCOURT fifteen° | 송리단길",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "시스템 파리 키스서울 팝업 | 서울",
+          "keyword": "huug CAMERA | 홍대",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "롯데웰푸드 K스낵 하우스 팝업 | 명동",
+          "keyword": "에트오소메 | 성수",
+          "trend_score": 30,
+          "data_points": 5
+        },
+        {
+          "keyword": "홀로라이브 콜라보 카페 | 홍대",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "핫토이 서머 쇼케이스 팝업 | 더현대 서울",
+          "keyword": "약사의혼잣말 특별전 | 홍대",
           "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "조선미녀 팝업 | 신세계면세점",
-          "trend_score": 30,
-          "data_points": 2
+          "data_points": 5
         }
       ]
     },
@@ -65,52 +65,52 @@
       "label": "이색 체험",
       "trending_keywords": [
         {
-          "keyword": "서도호 전시 | 국립현대미술관 서울",
+          "keyword": "레진아트 공방 | 연남",
           "trend_score": 100,
           "data_points": 5
         },
         {
-          "keyword": "투모로우바이투게더 레이어스 오브 어스 전시 | 미상",
+          "keyword": "닷노트 향수공방 | 홍대",
+          "trend_score": 30,
+          "data_points": 2
+        },
+        {
+          "keyword": "메종릴리앙 향수공방 | 성수",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "막스 시덴톱 전시 | 미상",
+          "keyword": "새로중앙박물관 팝업 | 성수",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "쿠이료코전 던전밥 미궁탐색전 | 미상",
-          "trend_score": 30,
-          "data_points": 4
-        },
-        {
-          "keyword": "가우디 다시 태어나다 전시 | 서울",
-          "trend_score": 30,
-          "data_points": 1
-        },
-        {
-          "keyword": "신당 연당 오픈 스튜디오 | 신당",
+          "keyword": "티팩토리 갤럭시마켓 | 성수",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "공박위크 체크인 공방 | 미상",
+          "keyword": "두산베어스 스너글 팝업 | 성수",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "서서울호수공원 가을 꽃 작업실 | 서서울호수공원",
+          "keyword": "유리도자 송인범 김태희 코너갤러리 | 미상",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "서서울호수공원 초록 연구소 | 서서울호수공원",
+          "keyword": "더모먼트 미디어아트 | 성수",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "4.16연대 리본공방 | 미상",
+          "keyword": "컬러랩 퍼스널진단 | 강남",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "쿠킹스튜디오 이색요리 | 한남",
           "trend_score": 30,
           "data_points": 0
         }
@@ -120,52 +120,52 @@
       "label": "뷰티/웰니스",
       "trending_keywords": [
         {
-          "keyword": "2026 서울뷰티위크 | DDP",
+          "keyword": "토코보 | 성수",
           "trend_score": 100,
-          "data_points": 4
-        },
-        {
-          "keyword": "SK-II 뷰티 팝업 | 성수",
-          "trend_score": 51,
           "data_points": 5
         },
         {
-          "keyword": "무신사 오프라인 뷰티 페스타 | 성수",
+          "keyword": "어노브 파워퍼프걸 | 홍대",
+          "trend_score": 43,
+          "data_points": 3
+        },
+        {
+          "keyword": "라로슈포제 UV 스타디움 | 성수",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "한스킨 PDRN세럼 팝업 | 미상",
+          "keyword": "러븀 무신사 | 성수",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "퓨리영 팝업 | 미상",
-          "trend_score": 30,
-          "data_points": 2
-        },
-        {
-          "keyword": "더 룩 팝업 | 미상",
-          "trend_score": 30,
-          "data_points": 4
-        },
-        {
-          "keyword": "바세린 글루타히야 팝업 | 미상",
+          "keyword": "뮤드 Angel Hug Delivery | 성수",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "올리브영 시티 로그 팝업 | 미상",
+          "keyword": "아이소이 흔적세럼 | 성수",
           "trend_score": 30,
-          "data_points": 2
+          "data_points": 5
         },
         {
-          "keyword": "조선미녀 팝업 | 신세계면세점",
+          "keyword": "아이깨끗해 헬로키티 올리브영 | 미상",
           "trend_score": 30,
-          "data_points": 2
+          "data_points": 1
         },
         {
-          "keyword": "구달 뷰티 팝업 | 성수",
+          "keyword": "글로우트리 뷰티디바이스 체험 | 분당",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "피부진단 랩 | 성수",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "네일아트 스튜디오 | 홍대",
           "trend_score": 30,
           "data_points": 0
         }
@@ -173,18 +173,109 @@
     },
     "dining": {
       "label": "컨셉 다이닝",
-      "trending_keywords": []
+      "trending_keywords": [
+        {
+          "keyword": "예빈당 | 여의도",
+          "trend_score": 100,
+          "data_points": 5
+        },
+        {
+          "keyword": "미식의숲 팝업레스토랑 | 성수",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "시크릿키친 오마카세 | 한남",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "퓨전한식 다이닝 | 연남",
+          "trend_score": 30,
+          "data_points": 1
+        },
+        {
+          "keyword": "테마레스토랑 미스터리 | 홍대",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "브런치클럽 | 가로수길",
+          "trend_score": 30,
+          "data_points": 5
+        },
+        {
+          "keyword": "트러플오일 전문점 | 압구정",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "쉐프의정원 팝업키친 | 용산",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "루프탑바 | 이태원",
+          "trend_score": 30,
+          "data_points": 5
+        },
+        {
+          "keyword": "제철해산물 비스트로 | 망원",
+          "trend_score": 30,
+          "data_points": 0
+        }
+      ]
     },
     "cafe": {
       "label": "아트/테마 카페",
       "trending_keywords": [
         {
-          "keyword": "밀도 시그니처 | 롯데백화점 본점",
+          "keyword": "리제로 | 종로",
           "trend_score": 100,
-          "data_points": 2
+          "data_points": 5
         },
         {
-          "keyword": "소보심 베이커리 카페 | 미상",
+          "keyword": "희작 | 종로",
+          "trend_score": 30,
+          "data_points": 5
+        },
+        {
+          "keyword": "이도림 블로트커피 | 서촌",
+          "trend_score": 30,
+          "data_points": 1
+        },
+        {
+          "keyword": "갑에도 | 노량진",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "플라워플로우 | 마곡",
+          "trend_score": 30,
+          "data_points": 5
+        },
+        {
+          "keyword": "수요제 일본 다담이 카페 | 미상",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "트래버틴 세그먼트 | 동대문",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "커피 한약방 | 청량리",
+          "trend_score": 30,
+          "data_points": 5
+        },
+        {
+          "keyword": "필름로그 | 성수",
+          "trend_score": 30,
+          "data_points": 5
+        },
+        {
+          "keyword": "북카페 비밀의정원 | 연남",
           "trend_score": 30,
           "data_points": 0
         }
