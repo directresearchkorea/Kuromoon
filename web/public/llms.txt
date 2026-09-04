@@ -5,7 +5,7 @@
 ## About
 Kuromoon is a lightweight, static directory website providing structured data about Korean local businesses.
 All data is formatted with Schema.org JSON-LD for optimal AI crawler parsing.
-Updated: 2026-09-03
+Updated: 2026-09-04
 
 ## Website
 - URL: https://kuromoon.net
@@ -451,6 +451,7 @@ Updated: 2026-09-03
 - [SK-II Lock in Youth 팝업스토어](https://kuromoon.net/ko/places/skii-lock-in-youth-팝업스토어.html) — SK-II 락인유스 팝업, 성수에서 아름다움을 경험하세요.
 - [huug CAMERA](https://kuromoon.net/ko/places/huug-camera.html) — 휴그 카메라 홍대 팝업, 레트로 디지털 카메라 체험
 - [약사의 혼잣말 특별전](https://kuromoon.net/ko/places/약사의-혼잣말-특별전.html) — 애니메이션 약사의 혼잣말 홍대 특별전
+- [하츠네 미쿠 X 애니메이트 카페 콜라보 카페](https://kuromoon.net/ko/places/하츠네-미쿠-x-애니메이트-카페-콜라보-카페.html) — 애니메이트 잠실롯데점 하츠네 미쿠 콜라보 카페
 - [드로잉카페 헨젤](https://kuromoon.net/ko/places/drawing-cafe-hansel.html) — 광주 충장로의 그림 그리기 체험 카페.
 - [라라가야금스튜디오](https://kuromoon.net/ko/places/lala-gayageum-studio.html) — 가야금 원데이 클래스로 아리랑 완곡을 배울 수 있는 영등포 스튜디오.
 - [디엠빈티지](https://kuromoon.net/ko/places/dm-vintage.html) — 동묘에 위치한 독특한 빈티지 가구와 소품 쇼핑 공간.
@@ -509,7 +510,6 @@ Updated: 2026-09-03
 - [정원속화실담다 미술공방](https://kuromoon.net/ko/places/garden-studio-damda-art-workshop.html) — 홍대에서 즐기는 이색 드로잉 체험 미술공방
 - [송송공작소](https://kuromoon.net/ko/places/songsong-workshop.html) — 전주에서 즐기는 가죽 공예 원데이 클래스.
 - [컬러시그널 퍼스널컬러진단 본점](https://kuromoon.net/ko/places/color-signal-personal-color-diagnosis-main-branch.html) — 강남에서 전문적인 퍼스널컬러 진단을 받을 수 있는 곳.
-- [하츠네 미쿠 X 애니메이트 카페 콜라보 카페](https://kuromoon.net/ko/places/하츠네-미쿠-x-애니메이트-카페-콜라보-카페.html) — 애니메이트 잠실롯데점 하츠네 미쿠 콜라보 카페
 - [퓨얼리영플라워 시청점](https://kuromoon.net/ko/places/purely-young-flower.html) — 플라워 클래스와 꽃 배달을 제공하는 꽃집
 - [꿈결 성수점](https://kuromoon.net/ko/places/kkumgyeol-seongsu-branch.html) — 뚝도시장 근처 보석같은 분위기의 성수동 와인바.
 - [박승철헤어스투디오 신림점](https://kuromoon.net/ko/places/park-seung-chul-hair-studio-sillim-branch.html) — 신림 박승철헤어스투디오의 두피/헤어케어
@@ -1143,6 +1143,7 @@ Updated: 2026-09-03
 - [SK-II Lock in Youth Seongsu](https://kuromoon.net/en/places/skii-lock-in-youth-팝업스토어.html) — Experience timeless beauty at the SK-II Lock in Youth popup in Seongsu.
 - [HUUG Camera Hongdae](https://kuromoon.net/en/places/huug-camera.html) — HUUG Camera Hongdae popup, retro digital camera experience
 - [The Apothecary Diaries Special Exhibition Hongdae](https://kuromoon.net/en/places/약사의-혼잣말-특별전.html) — The Apothecary Diaries special exhibition in Hongdae.
+- [Hatsune Miku Collaboration Cafe Animate Jamsil Lotte Store](https://kuromoon.net/en/places/하츠네-미쿠-x-애니메이트-카페-콜라보-카페.html) — Hatsune Miku collaboration cafe at Animate Jamsil Lotte Store.
 - [Drawing Cafe Hansel](https://kuromoon.net/en/places/drawing-cafe-hansel.html) — A drawing cafe in Gwangju's Chungjang-ro.
 - [Lala Gayageum Studio](https://kuromoon.net/en/places/lala-gayageum-studio.html) — Lala Gayageum Studio in Yeongdeungpo offers a one-day gayageum class to learn Arirang.
 - [DM Vintage](https://kuromoon.net/en/places/dm-vintage.html) — A unique vintage furniture and prop shopping space located in Dongmyo.
@@ -1201,7 +1202,6 @@ Updated: 2026-09-03
 - [Garden Studio Damda Art Workshop](https://kuromoon.net/en/places/garden-studio-damda-art-workshop.html) — Unique drawing experience art workshop in Hongdae.
 - [Songsong Workshop](https://kuromoon.net/en/places/songsong-workshop.html) — Enjoy a unique leather craft one-day class in Jeonju.
 - [Color Signal Personal Color Diagnosis Main Branch](https://kuromoon.net/en/places/color-signal-personal-color-diagnosis-main-branch.html) — Professional personal color diagnosis service in Gangnam.
-- [Hatsune Miku Collaboration Cafe Animate Jamsil Lotte Store](https://kuromoon.net/en/places/하츠네-미쿠-x-애니메이트-카페-콜라보-카페.html) — Hatsune Miku collaboration cafe at Animate Jamsil Lotte Store.
 - [Purely Young Flower](https://kuromoon.net/en/places/purely-young-flower.html) — A flower shop offering flower classes and delivery services.
 - [Kkumgyeol Seongsu Branch](https://kuromoon.net/en/places/kkumgyeol-seongsu-branch.html) — A hidden gem wine bar with a great atmosphere near Ttukdo Market in Seongsu.
 - [Park Seung Chul Hair Studio Sillim Branch](https://kuromoon.net/en/places/park-seung-chul-hair-studio-sillim-branch.html) — Scalp and hair care at Park Seung Chul Hair Studio Sillim Branch.
