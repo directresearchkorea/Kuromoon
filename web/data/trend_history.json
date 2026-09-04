@@ -31234,5 +31234,520 @@
         "trending_keywords": []
       }
     }
+  },
+  {
+    "timestamp": "2026-09-04T02:55:50.692Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "포켓몬 팝업 | 미상",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "슈카 빵 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "무직타이거 팝업 | 판교 현대백화점",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "에델바이스 맥주 팝업 | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "가비지 타임 팝업 | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "마시마로 팝업 | 판교 현대백화점",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "선업튀 팝업 | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "아바타 슈 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "맥라렌 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "불티나마켓 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "짱오락실 강남대로점 | 강남",
+            "trend_score": 100,
+            "data_points": 4
+          },
+          {
+            "keyword": "성수미술관 동백점 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "영화공장 덕계 | 양산 덕계",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "KAWAii SEOUL 전시 | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "로터스 엘레트라 전시 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "이색 공방 체험 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "방탈출 카페 | 신촌",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "미디어아트 갤러리 | 홍대",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "보드게임 카페 | 강남",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "인터랙티브 전시 팝업 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": [
+          {
+            "keyword": "퍼스널 컬러 진단 스튜디오 | 미상",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "산타 마리아 노벨라 팝업 | 성수",
+            "trend_score": 75,
+            "data_points": 5
+          },
+          {
+            "keyword": "샤넬 코드 컬러 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "발렌티노 뷰티 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "질 샌더 팝업 | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "데일리위클리 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "미니어처 뷰티랩 팝업 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "비건 스킨케어 팝업 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "향수 공방 | 성수",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "젠더리스 뷰티 편집샵 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": [
+          {
+            "keyword": "기러기둥지 | 익선동",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "살라댕템플 | 성수",
+            "trend_score": 59,
+            "data_points": 5
+          },
+          {
+            "keyword": "울루울루 | 성수",
+            "trend_score": 59,
+            "data_points": 5
+          },
+          {
+            "keyword": "대왕 카스테라 팝업 | 판교 현대백화점",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "에키노마에 팝업 | 용산 아이파크몰",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "한돈 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "잎테 | 초읍 연지동",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "연남동 미식 주점 | 연남동",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "이색 한옥 다이닝 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "압구정 퓨전 일식 | 압구정",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": [
+          {
+            "keyword": "바이닐 한강 | 뚝섬유원지",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "라쿠나 | 청평호",
+            "trend_score": 60,
+            "data_points": 5
+          },
+          {
+            "keyword": "퇼커피 | 남가좌동",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "로스톤 | 대림",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "성수장테라 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "볼베르 | 망원 합정",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "선운각 한옥카페 | 강북",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "서울수퍼 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "테디스오븐 | 서울숲",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "알로하녹 | 선화동",
+            "trend_score": 30,
+            "data_points": 5
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-04T02:56:40.932Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": []
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": []
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": []
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": []
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": []
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-04T02:59:10.134Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "가비지 타임 팝업 | 더현대 서울",
+            "trend_score": 100,
+            "data_points": 1
+          },
+          {
+            "keyword": "슈카 빵 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "챌린저스 팝업 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "대왕 카스테라 팝업 | 판교 현대백화점",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "일본식 계란말이 팝업 | 삼성 현대백화점",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "무직타이거 팝업 | 판교 현대백화점",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "에델바이스 맥주 팝업 | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "마시마로 팝업 | 판교 현대백화점",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "선업튀 팝업 | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "GS25 맥라렌 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "영화공장 | 양산 덕계",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "성수미술관 동백점 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "짱오락실 강남대로점 | 강남",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "KAWAii SEOUL 전시 | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "로터스 엘레트라 전시 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "마블 굿즈 스피커 전시 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": [
+          {
+            "keyword": "발렌티노 뷰티 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "샤넬 코드 컬러 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "데일리위클리 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": [
+          {
+            "keyword": "살라댕템플 | 성수",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "울루울루 | 성수",
+            "trend_score": 100,
+            "data_points": 5
+          }
+        ]
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": [
+          {
+            "keyword": "로스톤 | 대림",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "볼베르 | 망원 합정",
+            "trend_score": 65,
+            "data_points": 5
+          },
+          {
+            "keyword": "버버리 라운지 카페 토마스 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "바이닐 한강 LP카페 | 뚝섬",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "퇼커피 | 남가좌동",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "성수장테라 티바 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "잎테 브런치 카페 | 초읍 연지동",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "선운각 한옥카페 | 강북",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "서울수퍼 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "테디스오븐 베이커리 카페 | 서울숲",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-04T09:04:02.796Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": []
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": []
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": []
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": []
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": []
+      }
+    }
   }
 ]
