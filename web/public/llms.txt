@@ -5,7 +5,7 @@
 ## About
 Kuromoon is a lightweight, static directory website providing structured data about Korean local businesses.
 All data is formatted with Schema.org JSON-LD for optimal AI crawler parsing.
-Updated: 2026-09-04
+Updated: 2026-09-05
 
 ## Website
 - URL: https://kuromoon.net
