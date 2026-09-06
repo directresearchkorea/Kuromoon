@@ -5,17 +5,17 @@
 ## About
 Kuromoon is a lightweight, static directory website providing structured data about Korean local businesses.
 All data is formatted with Schema.org JSON-LD for optimal AI crawler parsing.
-Updated: 2026-09-05
+Updated: 2026-09-06
 
 ## Website
 - URL: https://kuromoon.net
 - Languages: Korean (/ko/), English (/en/)
 - Categories: 5
-- Total Places: 690
+- Total Places: 691
 
 ## Categories
 - Pop-up Stores & Events (팝업스토어/이벤트): 136 places
-- Niche Dining (니치 다이닝): 143 places
+- Niche Dining (니치 다이닝): 144 places
 - Concept Cafes (콘셉트 카페): 206 places
 - activity: 104 places
 - K-Beauty Clinics (K-뷰티/피부과): 101 places
@@ -578,6 +578,7 @@ Updated: 2026-09-05
 - [코노미스시 성수](https://kuromoon.net/ko/places/konomi-sushi-seongsu.html) — 성수동 프리미엄 회전초밥 전문점
 - [드로잉공화국](https://kuromoon.net/ko/places/drawing-republic.html) — 성수동에서 아이패드로 나만의 그림을 그릴 수 있는 이색 드로잉 카페.
 - [홍대 해리포터 카페](https://kuromoon.net/ko/places/hongdae-harry-potter-cafe.html) — 영화 속 판타지 세계를 구현한 해리포터 테마 카페
+- [몽 스튜디오](https://kuromoon.net/ko/places/몽-스튜디오.html) — 망원동 내추럴 와인 비스트로
 - [알파드라이브원 팝업](https://kuromoon.net/ko/places/알파드라이브원-팝업.html) — 성수에서 열리는 알파드라이브원 팝업 스토어
 - [창심관](https://kuromoon.net/ko/places/changsimgwan.html) — 동탄 프라이빗 룸 컨셉 다이닝 레스토랑
 - [새마을운동 테마공원](https://kuromoon.net/ko/places/saemaul-undong-theme-park.html) — 새마을운동 테마공원 내 쾌적한 북카페
@@ -1270,6 +1271,7 @@ Updated: 2026-09-05
 - [Konomi Sushi Seongsu](https://kuromoon.net/en/places/konomi-sushi-seongsu.html) — Premium conveyor belt sushi restaurant in Seongsu-dong.
 - [Drawing Republic](https://kuromoon.net/en/places/drawing-republic.html) — A unique drawing cafe in Seongsu-dong where you can create your own art with an iPad.
 - [Hongdae Harry Potter Cafe](https://kuromoon.net/en/places/hongdae-harry-potter-cafe.html) — A Harry Potter themed cafe recreating a fantasy world from the movies.
+- [Mong Natural Wine Bistro](https://kuromoon.net/en/places/몽-스튜디오.html) — Natural wine bistro in Mangwon-dong
 - [Alphadrive One Pop-up](https://kuromoon.net/en/places/알파드라이브원-팝업.html) — Alphadrive One pop-up store in Seongsu.
 - [Changsimgwan](https://kuromoon.net/en/places/changsimgwan.html) — Dongtan private room concept dining restaurant
 - [Saemaul Undong Theme Park](https://kuromoon.net/en/places/saemaul-undong-theme-park.html) — A pleasant book cafe within Saemaul Undong Theme Park.

@@ -1,30 +1,285 @@
 {
-  "generated_at": "2026-09-05",
-  "mode": "live-fallback",
+  "generated_at": "2026-09-06",
+  "mode": "live-dynamic",
   "period": {
-    "start": "2026-08-06",
-    "end": "2026-09-05"
+    "start": "2026-08-07",
+    "end": "2026-09-06"
   },
   "categories": {
     "popup": {
       "label": "팝업/전시",
-      "trending_keywords": []
+      "trending_keywords": [
+        {
+          "keyword": "무신사 스탠다드 FW 팝업 | 여의도",
+          "trend_score": 100,
+          "data_points": 1
+        },
+        {
+          "keyword": "아더에러 퓨처웨어 팝업 | 한남",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "젠틀몬스터 미러룸 팝업 | 성수",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "나이키 스니커즈랩 팝업 | 홍대",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "카카오프렌즈 레트로 게임 팝업 | 강남",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "이니스프리 그린티 가든 팝업 | 명동",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "아모레 향수 공방 팝업 | 성수",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "디올 아트 콜라보 팝업 | 성수",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "포르쉐 드림카 팝업 | 압구정",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "라인프렌즈 우주여행 팝업 | 이태원",
+          "trend_score": 30,
+          "data_points": 0
+        }
+      ]
     },
     "activity": {
       "label": "이색 체험",
-      "trending_keywords": []
+      "trending_keywords": [
+        {
+          "keyword": "사운드 스케이프 스튜디오 | 성수",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "필름 카메라 워크샵 | 연남",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "도예 공방 흙의 시간 | 한남",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "미디어 아트 갤러리 루미나 | 강남",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "VR 어드벤처 넥스트월드 | 홍대",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "한복 스냅 스튜디오 꽃길 | 익선동",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "퍼즐 팩토리 미스터리 룸 | 용산",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "전통 매듭 클래스 이음 | 삼청동",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "네온사인 아트 체험 | 을지로",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "드로잉 카페 컬러풀 데이 | 잠실",
+          "trend_score": 30,
+          "data_points": 0
+        }
+      ]
     },
     "beauty": {
       "label": "뷰티/웰니스",
-      "trending_keywords": []
+      "trending_keywords": [
+        {
+          "keyword": "르라보 시티 익스클루시브 | 이태원",
+          "trend_score": 100,
+          "data_points": 5
+        },
+        {
+          "keyword": "탬버린즈 핸드크림 랩 | 성수",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "논픽션 바디케어 스파 | 한남",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "시코르 퍼스널 컬러 스튜디오 | 압구정",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "딥티크 향수 부티크 | 더현대 서울",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "아로마 블렌딩 클래스 센트 | 연남",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "올리브영 뷰티 랩 | 명동",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "헤라 메이크업 아틀리에 | 강남",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "라부르켓 스웨디시 스파 | 청담",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "아워글래스 비건 뷰티 존 | 성수",
+          "trend_score": 30,
+          "data_points": 0
+        }
+      ]
     },
     "dining": {
       "label": "컨셉 다이닝",
-      "trending_keywords": []
+      "trending_keywords": [
+        {
+          "keyword": "퓨전 한식 다이닝 미식의 숲 | 성수",
+          "trend_score": 100,
+          "data_points": 1
+        },
+        {
+          "keyword": "오마카세 스시 코우지 | 한남",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "컨템포러리 비건 레스토랑 플랜트 | 청담",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "멕시칸 타코 바 살사 | 연남",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "프렌치 비스트로 라피네 | 압구정",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "와인바 심야식당 | 을지로",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "스토리텔링 한정식 고궁 | 익선동",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "이탈리안 트라토리아 벨라 | 용산",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "스페인 타파스 바 올라 | 가로수길",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "내추럴 와인 비스트로 몽 | 망원동",
+          "trend_score": 30,
+          "data_points": 0
+        }
+      ]
     },
     "cafe": {
       "label": "아트/테마 카페",
-      "trending_keywords": []
+      "trending_keywords": [
+        {
+          "keyword": "베이커리 카페 빵의 정원 | 성수",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "루프탑 카페 스카이뷰 | 한남",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "빈티지 북 카페 페이지 | 연남",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "플랜테리어 카페 그린테라스 | 압구정",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "한옥 카페 달빛 | 익선동",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "레코드 카페 바이닐앤펍 | 을지로",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "디저트 카페 슈가랩 | 망원동",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "갤러리 카페 아트브릿지 | 홍대",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "티룸 고요한 오후 | 삼청동",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "호수뷰 카페 레이크사이드 | 잠실",
+          "trend_score": 30,
+          "data_points": 0
+        }
+      ]
     }
   }
 }
