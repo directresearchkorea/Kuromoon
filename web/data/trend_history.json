@@ -32079,5 +32079,285 @@
         ]
       }
     }
+  },
+  {
+    "timestamp": "2026-09-06T09:01:35.537Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "발베니 팝업 | 성수",
+            "trend_score": 100,
+            "data_points": 4
+          },
+          {
+            "keyword": "푸투라 | 서울",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "모모리 팝업 | 강남",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "에이엔 팝업 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "OKT SOAP 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "퍼퓨라운지 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "29CM LOFT 문구 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "힐스테이트 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "레스트앤레크리에이션 뷰티 팝업 | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "시몬스 뷰티레스트 블랙 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 5
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "프리즈 | 별마당도서관",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "푸투라 | 서울",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "디자인마이애미 | DDP",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "자개 테라리움 클래스 | 신촌",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "우리술 칵테일 클래스 | 연남",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "에그타르트 클래스 | 연남",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "네컷사진 아크릴화 | 홍대",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "언커무드 향수 만들기 | 홍대",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "스포티파이 하우스 | 성수",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "정진운 사진전 | 성수",
+            "trend_score": 30,
+            "data_points": 4
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": [
+          {
+            "keyword": "퍼퓨라운지 팝업 | 성수",
+            "trend_score": 100,
+            "data_points": 1
+          },
+          {
+            "keyword": "레스트앤레크리에이션 뷰티 팝업 | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "조선미녀 팝업 | 명동",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "바세린 글루타히야 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "더 룩 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "앤더슨씨 뷰티 팝업 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "비건 코스메틱 스튜디오 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "퍼스널 컬러 진단소 | 한남",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "두피 케어 랩 | 압구정",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "향수 공방 신상 | 가로수길",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": [
+          {
+            "keyword": "함반 | 망원",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "스시 미즈테이 | 약수역",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "사모님 돈가스 | 연희동",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "회현카페 경양식 | 남대문",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "미식공간 다이닝 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "오마카세 키친 | 한남",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "프라이빗 룸 다이닝 | 청담",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "비건테이블 퓨전 | 연남",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "심야식당 모던 | 을지로",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "와인앤다인 비스트로 | 압구정",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": [
+          {
+            "keyword": "스카이라운지 카페 | 잠실",
+            "trend_score": 100,
+            "data_points": 3
+          },
+          {
+            "keyword": "로스터리 팩토리 카페 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "베이커리 가든 카페 | 연남",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "갤러리원 카페 | 한남",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "레트로 무드 카페 | 을지로",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "북스테이 카페 | 홍대",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "디저트 부티크 카페 | 압구정",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "한옥마당 카페 | 익선동",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "비건스위츠 카페 | 망원",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "테마플레이 카페 | 혜화",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      }
+    }
   }
 ]
