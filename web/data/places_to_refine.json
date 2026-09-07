@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "id": "롬앤-산리오-팝업",
+    "name_ko": "롬앤 산리오 팝업",
+    "address_ko": "서울특별시 성동구 왕십리로10길 10 1층",
+    "category": "popup",
+    "source_text": "검???�워?? 롬앤 산리오 팝업 | 성수\n?�제 지???�호�? 롬앤 산리오 팝업\n?�제 지???�로�?주소: 서울특별시 성동구 왕십리로10길 10 1층\n카테고리: 팝업/전시\n\n[리뷰 1]\n?�목: 11월 3,4주차 성수동 팝업스토어 모음(엔믹스, YIDP, 롬앤X조앤프렌즈, ....\n?�용: 랜덤증정 < > < > 롬앤 X 조앤프렌즈 팝업스토어 기간 : 11.14.(금) ~ 11.27.(목) / 11.15.~11.26. 11:00 ~20:00... 남기기 산리오캐릭터즈 크리스마스 하우스 팝업 기간 : 25.11.29.(토) ~ 25.12.28.(일) / 10:00 ~ 20:00 장소... \n\n[리뷰 2]\n?�목: 성수 올리브영 롬앤 팝업 산리오 콜라보 9월30일까지 틴트 무료증정\n?�용: 평소 화장품이라면 하나씩 쟁여두는 찐 코덕인 저는 이번 롬앤 산리오 팝업도 그냥 지나칠 수 없었는데요. 귀여운 산리오 캐릭터와 롬앤 제품을 한자리에서 만날 수 있는 데다 간단한 미션에 참여하면 롬앤... ",
+    "is_already_refined": true,
+    "existing_place_data": {
+      "id": "taco-tuesday-seongsu-main-branch",
+      "type": "Restaurant",
+      "name_ko": "타코튜즈데이 성수 본점",
+      "name_en": "Taco Tuesday Seongsu Main Branch",
+      "category": "dining",
+      "address_ko": "서울특별시 성동구 왕십리로10길 10 1층",
+      "address_en": "1st Floor, 10, Wangsimni-ro 10-gil, Seongdong-gu, Seoul",
+      "startDate": null,
+      "endDate": null,
+      "hours": "11:00 - 22:00",
+      "price_range": "₩3,000 ~ ₩56,800",
+      "reservation_url": null,
+      "instagram": "https://www.instagram.com/tacotuesday_seongsu",
+      "image": null,
+      "tags": [
+        "성수동 맛집",
+        "타코",
+        "파히타",
+        "치미창가",
+        "멕시칸"
+      ],
+      "summary_ko": "성수동의 인기 멕시칸 맛집, 타코와 파히타가 유명.",
+      "summary_en": "Popular Mexican restaurant in Seongsu, famous for tacos and fajitas.",
+      "description_ko": "타코튜즈데이 성수 본점은 성수동에 위치한 인기 멕시칸 다이닝으로, 현지의 맛을 살린 다양한 멕시칸 요리를 선보입니다. 특히 웨이팅을 뚫고 먹을 만큼 인기가 많으며, 신선한 재료로 만든 타코와 클래식 파히타가 일품입니다. 뚝섬역 근처에 위치해 접근성이 좋고, 친구나 연인과 함께 이국적인 분위기에서 맛있는 식사를 즐기기에 최적의 장소입니다. 방문객들이 강력 추천하는 클래식 파히타와 치미창가는 꼭 맛봐야 할 대표 메뉴이며, 든든하고 만족스러운 식사를 경험할 수 있습니다.",
+      "description_en": "Taco Tuesday Seongsu Main Branch is a popular Mexican dining spot in Seongsu-dong, offering a variety of authentic Mexican dishes. It's so popular that people often wait in line, and its tacos and classic fajitas, made with fresh ingredients, are exceptional. Located near Ttukseom Station, it offers great accessibility and is an ideal place to enjoy a delicious meal in an exotic atmosphere with friends or loved ones. The Classic Fajita and Chimichanga are highly recommended signature dishes by visitors, promising a hearty and satisfying dining experience.",
+      "foreign_friendly": false,
+      "parking": true,
+      "confidence_score": 100,
+      "review_count": 243,
+      "operating_status": "운영 중",
+      "created_at": "2026-07-30",
+      "updated_at": "2026-09-07",
+      "metadata_enriched": true,
+      "weekly_review_count": 10,
+      "biweekly_review_count": 13,
+      "last_status_checked_at": "2026-08-13"
+    },
+    "review_count": 75,
+    "weekly_review_count": 17,
+    "biweekly_review_count": 22,
+    "operating_status": "운영 중",
+    "last_status_checked_at": "2026-09-07",
+    "created_at": "2026-09-07",
+    "updated_at": "2026-09-07",
+    "confidence_score": 100
+  }
+]
