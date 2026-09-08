@@ -1,250 +1,30 @@
 {
-  "generated_at": "2026-09-07",
-  "mode": "live-dynamic",
+  "generated_at": "2026-09-08",
+  "mode": "live-fallback",
   "period": {
-    "start": "2026-08-08",
-    "end": "2026-09-07"
+    "start": "2026-08-09",
+    "end": "2026-09-08"
   },
   "categories": {
     "popup": {
       "label": "팝업/전시",
-      "trending_keywords": [
-        {
-          "keyword": "해리포터 팝업 | 용산",
-          "trend_score": 100,
-          "data_points": 5
-        },
-        {
-          "keyword": "롬앤 산리오 팝업 | 성수",
-          "trend_score": 73,
-          "data_points": 2
-        },
-        {
-          "keyword": "포켓몬 포코피아 컨셉스토어 | 성수",
-          "trend_score": 43,
-          "data_points": 1
-        },
-        {
-          "keyword": "전독시 애니메이트 카페 | 홍대",
-          "trend_score": 30,
-          "data_points": 2
-        },
-        {
-          "keyword": "어노브 파워퍼프걸 팝업 | 홍대",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "하겐다즈 크루즈 팝업 | 성수",
-          "trend_score": 30,
-          "data_points": 1
-        },
-        {
-          "keyword": "넥스지 SAUCIN 팝업 | 명동",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "조선미녀 팝업 | 명동",
-          "trend_score": 30,
-          "data_points": 2
-        },
-        {
-          "keyword": "2026 레봄 도서전 | 성수",
-          "trend_score": 30,
-          "data_points": 0
-        }
-      ]
+      "trending_keywords": []
     },
     "activity": {
       "label": "이색 체험",
-      "trending_keywords": [
-        {
-          "keyword": "장자크 상페 전시 | 메이필드호텔",
-          "trend_score": 100,
-          "data_points": 4
-        },
-        {
-          "keyword": "청년축제 | 강남",
-          "trend_score": 30,
-          "data_points": 5
-        },
-        {
-          "keyword": "로봇플러스 페스티벌 | 강남",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "비틀스 팝업 | 더현대 서울",
-          "trend_score": 30,
-          "data_points": 2
-        },
-        {
-          "keyword": "도예 공방 '흙의 시간' | 성수",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "향수 공방 '센트랩' | 홍대",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "방탈출 '미스터리 맨션' | 강남",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "한복 체험 '고운 한복' | 익선동",
-          "trend_score": 30,
-          "data_points": 0
-        }
-      ]
+      "trending_keywords": []
     },
     "beauty": {
       "label": "뷰티/웰니스",
-      "trending_keywords": [
-        {
-          "keyword": "퍼스널 컬러 진단 '컬러풀 유' | 성수",
-          "trend_score": 100,
-          "data_points": 5
-        },
-        {
-          "keyword": "퍼퓨라운지 팝업 | 성수",
-          "trend_score": 30,
-          "data_points": 1
-        },
-        {
-          "keyword": "더 룩 뷰티 팝업 | 미상",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "아로 뷰티 팝업 | 미상",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "바세린 글루타히야 팝업 | 미상",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "비건 코스메틱 팝업 '그린 뷰티' | 이태원",
-          "trend_score": 30,
-          "data_points": 0
-        }
-      ]
+      "trending_keywords": []
     },
     "dining": {
       "label": "컨셉 다이닝",
-      "trending_keywords": [
-        {
-          "keyword": "화사로와 팝업 | 화순",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "달라또 쿠키 팝업 | 미상",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "오사카야끼 팝업 | 압구정",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "드비저리 팝업 | 목동",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "코뮨 팝업 | 목동",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "오마카세 '미식의 밤' | 성수",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "컨셉 다이닝 '숲속의 만찬' | 한남동",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "비건 레스토랑 '초록 식탁' | 연남동",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "와인바 '밤의 미학' | 을지로",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "팝업 레스토랑 '셰프의 실험실' | 강남역",
-          "trend_score": 30,
-          "data_points": 0
-        }
-      ]
+      "trending_keywords": []
     },
     "cafe": {
       "label": "아트/테마 카페",
-      "trending_keywords": [
-        {
-          "keyword": "가오픈 카페 '시간의 흔적' | 성수",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "북카페 '페이지 앤 커피' | 연남동",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "베이커리 카페 '오븐 스토리' | 한남동",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "한옥 카페 '달빛 한잔' | 익선동",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "레트로 카페 '그때 그 시절' | 을지로",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "디저트 카페 '스위트 모먼트' | 망원동",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "플랜트 카페 '그린 스페이스' | 압구정",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "테마 카페 '이상한 나라의 앨리스' | 혜화",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "갤러리 카페 '아트 브릿지' | 잠실",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "루프탑 카페 '하늘 정원' | 홍대",
-          "trend_score": 30,
-          "data_points": 0
-        }
-      ]
+      "trending_keywords": []
     }
   }
 }
