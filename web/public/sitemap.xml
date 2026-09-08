@@ -9364,6 +9364,24 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/american-pho-house.html" />
   </url>
 
+  <!-- Gumirae Flea Market -->
+  <url>
+    <loc>https://kuromoon.net/ko/places/구미래-플리마켓.html</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/구미래-플리마켓.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/구미래-플리마켓.html" />
+  </url>
+  <url>
+    <loc>https://kuromoon.net/en/places/구미래-플리마켓.html</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/구미래-플리마켓.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/구미래-플리마켓.html" />
+  </url>
+
   <!-- LG Electronics Brand Exhibition - THE FIRST : Origins -->
   <url>
     <loc>https://kuromoon.net/ko/places/lg-electronics-brand-exhibition-the-first-origins.html</loc>

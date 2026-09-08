@@ -11,10 +11,10 @@ Updated: 2026-09-08
 - URL: https://kuromoon.net
 - Languages: Korean (/ko/), English (/en/)
 - Categories: 5
-- Total Places: 711
+- Total Places: 712
 
 ## Categories
-- Pop-up Stores & Events (팝업스토어/이벤트): 143 places
+- Pop-up Stores & Events (팝업스토어/이벤트): 144 places
 - Niche Dining (니치 다이닝): 148 places
 - Concept Cafes (콘셉트 카페): 210 places
 - activity: 109 places
@@ -542,6 +542,7 @@ Updated: 2026-09-08
 - [루프 서울 호텔 by 아늑 서울 강남 2호점](https://kuromoon.net/ko/places/loop-seoul-hotel-by-anuk-seoul-gangnam-2nd-branch.html) — 강남에 위치한 루프 서울 호텔 2호점으로, 히노끼 스파를 즐길 수 있는 웰니스 호텔.
 - [프리웨일 답십리영화미디어아트센터점](https://kuromoon.net/ko/places/freewhale-dapsimni-film-media-art-center-branch.html) — 미디어아트 전시와 음료를 즐기는 힐링 카페.
 - [아메리칸 포 하우스](https://kuromoon.net/ko/places/american-pho-house.html) — 서울역 만리동과 을지로의 미국식 쌀국수 맛집.
+- [구미래 플리마켓](https://kuromoon.net/ko/places/구미래-플리마켓.html) — 연남동 동진주차장 구미래 빈티지 플리마켓 팝업
 - [LG전자 브랜드 전시 - THE FIRST : Origins](https://kuromoon.net/ko/places/lg-electronics-brand-exhibition-the-first-origins.html) — LG전자의 역사를 담은 미디어아트 팝업 전시.
 - [분카샤 을지로점](https://kuromoon.net/ko/places/bunkasha-euljiro.html) — 을지로3가역 골목에 위치한 분위기 좋은 레트로 카페.
 - [K리그X산리오캐릭터즈 팝업스토어](https://kuromoon.net/ko/places/k-league-x-sanrio-characters-pop-up-store.html) — K리그와 산리오 캐릭터즈의 협업 팝업스토어
@@ -1255,6 +1256,7 @@ Updated: 2026-09-08
 - [Loop Seoul Hotel by Anuk Seoul Gangnam 2nd Branch](https://kuromoon.net/en/places/loop-seoul-hotel-by-anuk-seoul-gangnam-2nd-branch.html) — Loop Seoul Hotel Gangnam 2nd Branch offers a wellness experience with Hinoki spa.
 - [Freewhale Dapsimni Film Media Art Center Branch](https://kuromoon.net/en/places/freewhale-dapsimni-film-media-art-center-branch.html) — A healing cafe where you can enjoy media art exhibitions and drinks.
 - [American Pho House](https://kuromoon.net/en/places/american-pho-house.html) — A popular American-style pho restaurant in Seoul's Manri-dong and Euljiro.
+- [Gumirae Flea Market](https://kuromoon.net/en/places/구미래-플리마켓.html) — Gumirae vintage flea market pop-up in Yeonnam-dong
 - [LG Electronics Brand Exhibition - THE FIRST : Origins](https://kuromoon.net/en/places/lg-electronics-brand-exhibition-the-first-origins.html) — LG Electronics' media art pop-up exhibition showcasing its history.
 - [Bunkasha Euljiro](https://kuromoon.net/en/places/bunkasha-euljiro.html) — Atmospheric retro cafe located in an alley near Euljiro 3-ga Station.
 - [K-League X Sanrio Characters Pop-up Store](https://kuromoon.net/en/places/k-league-x-sanrio-characters-pop-up-store.html) — K-League and Sanrio Characters collaboration pop-up store

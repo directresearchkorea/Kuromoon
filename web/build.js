@@ -190,6 +190,11 @@ function buildDetailPages(lang, places, template) {
   const isKo = lang === 'ko';
 
   places.forEach(place => {
+    // [NEW] Fail-safe: Skip building pages for places that lack a description to prevent empty UI bugs
+    if (!place.description_ko || !place.description_ko.trim()) {
+      console.log(`⚠️ Skipping page build for "${place.name_ko}" due to missing description.`);
+      return;
+    }
     const name    = isKo ? place.name_ko    : place.name_en;
     const address = isKo ? place.address_ko : place.address_en;
     const summary = isKo ? place.summary_ko : place.summary_en;
@@ -227,19 +232,23 @@ function buildDetailPages(lang, places, template) {
       const cleanAddress = address.replace(/\s+(\d+층|\d+호|\d+F|지하\s*\d+층|지상\s*\d+층).*$/i, '').trim();
       
       // Use place name for Naver/Kakao maps (requested for popups as well to avoid general location info overflow)
-      const naverKakaoQueryStr = place.name_ko.replace(/[\[\]]/g, '').trim();
+      let naverKakaoQueryStr = place.name_ko.replace(/[\[\]]/g, '').trim();
+      if (place.category === 'popup' && (naverKakaoQueryStr.length > 15 || naverKakaoQueryStr.includes('-') || naverKakaoQueryStr.includes(':'))) {
+          naverKakaoQueryStr = cleanAddress || naverKakaoQueryStr;
+      }
       const naverKakaoQuery = encodeURIComponent(naverKakaoQueryStr);
+      const naverMapLink = place.naver_map_url || `https://map.naver.com/v5/search/${naverKakaoQuery}`;
       
       // Use localized query for Google maps (which can be English or Korean)
       const googleQueryStr = name;
       const googleQuery = encodeURIComponent(googleQueryStr);
       
       if (isKo) {
-        mapButtons += `<a href="https://map.naver.com/v5/search/${naverKakaoQuery}" target="_blank" rel="noopener" class="btn btn-secondary" style="border-color:#03c75a; color:#03c75a;">🟢 네이버 지도</a>`;
+        mapButtons += `<a href="${naverMapLink}" target="_blank" rel="noopener" class="btn btn-secondary" style="border-color:#03c75a; color:#03c75a;">🟢 네이버 지도</a>`;
         mapButtons += `<a href="https://map.kakao.com/link/search/${naverKakaoQuery}" target="_blank" rel="noopener" class="btn btn-secondary" style="border-color:#FEE500; color:#391B1B;">🟡 카카오맵</a>`;
       } else {
         mapButtons += `<a href="https://www.google.com/maps/search/?api=1&query=${googleQuery}" target="_blank" rel="noopener" class="btn btn-secondary" style="border-color:#4285F4; color:#4285F4;">🔵 Google Maps</a>`;
-        mapButtons += `<a href="https://map.naver.com/v5/search/${naverKakaoQuery}" target="_blank" rel="noopener" class="btn btn-secondary" style="border-color:#03c75a; color:#03c75a;">🟢 Naver Map</a>`;
+        mapButtons += `<a href="${naverMapLink}" target="_blank" rel="noopener" class="btn btn-secondary" style="border-color:#03c75a; color:#03c75a;">🟢 Naver Map</a>`;
       }
     }
 
@@ -300,6 +309,10 @@ function buildDetailPages(lang, places, template) {
     const heroImageBlock = '';
 
     const keywords = (place.tags || []).join(',');
+    const descText = isKo ? place.description_ko : place.description_en;
+    const descBlock = descText ? `<div class="ai-description" style="margin-top: 1.5rem; line-height: 1.6; color: var(--text-secondary); background: rgba(255,255,255,0.03); border-left: 3px solid var(--accent); padding: 1rem; border-radius: 4px; font-size: 0.9rem;">
+          ${descText}
+        </div>` : '';
 
     const html = template
       .replace(/\{\{GA_MEASUREMENT_ID\}\}/g,   process.env.GA_MEASUREMENT_ID || 'G-XXXXXXXXXX')
@@ -311,7 +324,7 @@ function buildDetailPages(lang, places, template) {
       .replace(/\{\{PLACE_IMAGE\}\}/g,        place.image || '')
       .replace(/\{\{HERO_IMAGE_BLOCK\}\}/g,   heroImageBlock)
       .replace(/\{\{PLACE_SUMMARY\}\}/g,      summary || '')
-      .replace(/\{\{PLACE_DESCRIPTION\}\}/g,  (isKo ? place.description_ko : place.description_en) || '')
+      .replace(/\{\{PLACE_DESCRIPTION_BLOCK\}\}/g,  descBlock)
       .replace(/\{\{PLACE_CATEGORY_LABEL\}\}/g, catLabel)
       .replace(/\{\{STATUS_BADGE_BLOCK\}\}/g,  statusBadgeBlock)
       .replace(/\{\{EVENT_DATES\}\}/g,        eventDatesHtml)

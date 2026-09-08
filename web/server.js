@@ -194,6 +194,76 @@ const server = http.createServer((req, res) => {
                 }
             });
             return;
+        } else if (urlWithoutQuery === '/api/update-place') {
+            let body = '';
+            req.on('data', chunk => body += chunk);
+            req.on('end', async () => {
+                try {
+                    const payload = JSON.parse(body);
+                    const { id, statusGroup, category, summary_ko, description_ko, operating_status } = payload;
+                    if (!id) {
+                        res.writeHead(400, { 'Content-Type': 'application/json' });
+                        return res.end(JSON.stringify({ error: 'Missing place ID' }));
+                    }
+
+                    const dataDir = path.join(WEB_DIR, 'data');
+                    const reviewFile = path.join(dataDir, 'review_needed.json');
+                    const placesFile = path.join(dataDir, 'places.json');
+
+                    let reviewPlaces = fs.existsSync(reviewFile) ? JSON.parse(fs.readFileSync(reviewFile, 'utf8')) : [];
+                    let places = fs.existsSync(placesFile) ? JSON.parse(fs.readFileSync(placesFile, 'utf8')) : [];
+
+                    let place = null;
+                    if (statusGroup === 'published') {
+                        const idx = places.findIndex(p => p.id === id);
+                        if (idx > -1) {
+                            place = places[idx];
+                            place.category = category;
+                            place.summary_ko = summary_ko;
+                            place.description_ko = description_ko;
+                            place.operating_status = operating_status;
+                            fs.writeFileSync(placesFile, JSON.stringify(places, null, 2), 'utf8');
+                        }
+                    } else {
+                        const idx = reviewPlaces.findIndex(p => p.id === id);
+                        if (idx > -1) {
+                            place = reviewPlaces[idx];
+                            place.category = category;
+                            place.summary_ko = summary_ko;
+                            place.description_ko = description_ko;
+                            place.operating_status = operating_status;
+                            place.confidence_score = 100; // auto-approve after manual edit
+                            
+                            places.push(place);
+                            reviewPlaces.splice(idx, 1);
+                            
+                            fs.writeFileSync(placesFile, JSON.stringify(places, null, 2), 'utf8');
+                            fs.writeFileSync(reviewFile, JSON.stringify(reviewPlaces, null, 2), 'utf8');
+                        }
+                    }
+
+                    if (!place) {
+                        res.writeHead(404, { 'Content-Type': 'application/json' });
+                        return res.end(JSON.stringify({ error: 'Place not found' }));
+                    }
+
+                    // Rebuild
+                    try {
+                        const { execSync } = require('child_process');
+                        execSync(`node "${path.join(WEB_DIR, 'build.js')}"`, { stdio: 'inherit' });
+                        log(`[API] Rebuilt site successfully for updated place: ${place.id}`);
+                    } catch (buildErr) {
+                        console.error(`[API] Error rebuilding site: ${buildErr.message}`);
+                    }
+
+                    res.writeHead(200, { 'Content-Type': 'application/json' });
+                    res.end(JSON.stringify({ success: true }));
+                } catch (e) {
+                    res.writeHead(400, { 'Content-Type': 'application/json' });
+                    res.end(JSON.stringify({ error: e.message }));
+                }
+            });
+            return;
         } else if (urlWithoutQuery === '/api/delete-place') {
             let body = '';
             req.on('data', chunk => body += chunk);

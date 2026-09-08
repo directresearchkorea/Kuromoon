@@ -335,6 +335,40 @@ async function main() {
             const prompt = buildPrompt(input.source_text, input.category, refDate);
             const extracted = await callGeminiAPI(prompt, apiKey);
 
+            // [NEW] Deep Date Search for Popups
+            if (extracted && (extracted.category === 'popup' || input.category === 'popup' || extracted.category === 'exhibition') && (!extracted.startDate || !extracted.endDate)) {
+                log(`   📅 AI failed to find dates for "${extracted.name_ko}". Doing a deep blog search for the dates...`);
+                try {
+                    const dateQuery = `"${extracted.name_ko}" 기간 OR 언제까지`;
+                    const dateBlogs = await searchNaverBlog(dateQuery, 5, 'sim');
+                    if (dateBlogs && dateBlogs.items && dateBlogs.items.length > 0) {
+                        const dateSnippets = dateBlogs.items.map((item, idx) => `[리뷰 ${idx+1}] ` + item.description.replace(/<[^>]+>/g, '')).join('\n\n');
+                        const datePrompt = `아래는 '${extracted.name_ko}' 팝업스토어/전시의 운영 기간을 찾기 위해 검색한 최신 네이버 블로그 요약문들입니다.
+문맥을 읽고 행사 시작일(startDate)과 종료일(endDate)을 찾아 YYYY-MM-DD 형식으로 반환하세요.
+정확한 연도를 모르면 현재 연도(${refDate.split('-')[0]})를 기준으로 추론하세요.
+도저히 찾을 수 없으면 null을 반환하세요.
+
+블로그 요약문:
+${dateSnippets}
+
+반드시 오직 아래 JSON 형식으로만 반환하세요:
+{"startDate": "2026-08-29", "endDate": "2026-09-05"}
+`;
+                        const dateExtracted = await callGeminiAPI(datePrompt, apiKey);
+                        if (dateExtracted && dateExtracted.startDate && dateExtracted.endDate) {
+                            extracted.startDate = dateExtracted.startDate;
+                            extracted.endDate = dateExtracted.endDate;
+                            log(`   ✅ Deep Search Success: Found dates ${extracted.startDate} ~ ${extracted.endDate}`);
+                        } else {
+                            log(`   ❌ Deep Search Failed: Still couldn't find dates.`);
+                        }
+                    }
+                } catch(e) {
+                    log(`   ⚠️ Deep Date Search error: ${e.message}`);
+                }
+            }
+
+
             // Validate
             const validation = validatePlace(extracted);
             if (!validation.valid) {
