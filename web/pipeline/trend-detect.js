@@ -403,59 +403,47 @@ async function main() {
             } catch(e) {}
         }
 
-        const prompt = `당신은 한국의 로컬 검색 및 SNS 소셜 미디어 트렌드 분석 전문가입니다.${feedbackText}
+        dynamicKeywords = { popup: [], activity: [], beauty: [], dining: [], cafe: [] };
+        let anySuccess = false;
+
+        log('🧠 Fetching trends via Cloud Gemini (Google Search Grounding, category by category)...');
+        
+        for (const cat of categories) {
+            const prompt = `당신은 한국의 로컬 검색 및 SNS 소셜 미디어 트렌드 분석 전문가입니다.${feedbackText}
 현재 시간은 **2026년 9월**입니다.
-한국(특히 서울)의 10대~30대 젊은층 사이에서 **가장 최근에 오픈했거나 이번 주에 폭발적으로 바이럴되고 있는 초신상 핫플레이스 키워드**를 카테고리별로 10개씩 찾아주세요.
+한국(특히 서울)의 10대~30대 젊은층 사이에서 **가장 최근에 오픈했거나 이번 주에 폭발적으로 바이럴되고 있는 [${cat.label}] 관련 초신상 핫플레이스 키워드**를 10개 찾아주세요.
 
 ## 최신 실시간 검색 (매우 중요):
 주의사항 1: 이미 너무 유명한 곳(아모레 성수, 더현대 서울, 런던베이글뮤지엄 등), 체인점, 혹은 이미 수십 번 뉴스에 나온 장소는 절대로 제외하세요.
 주의사항 2: 이번 주에 갓 오픈한 초신상 팝업, 가오픈 식당, 팔로워가 적은 사람들 사이에서 '방금' 뜨기 시작한 마이크로 트렌드 장소를 최우선으로 발굴하세요.
-**반드시 당신의 구글 검색(Google Search Grounding) 능력을 적극적으로 활용하여** 현재 트위터/인스타/블로그 등에서 폭발적으로 유행 중인 최신 팝업과 핫플을 찾아내어 리스트를 구성하세요.
+**반드시 당신의 구글 검색(Google Search Grounding) 능력을 적극적으로 활용하여** 현재 트위터/인스타/블로그 등에서 폭발적으로 유행 중인 최신 핫플을 찾아내어 리스트를 구성하세요.
 
 ## 중요 주의사항 (크리티컬 - 어길 시 실패):
 1. **철저한 최신성**:
-   - 과거부터 오랫동안 꾸준히 유명했던 장소(예: 카니랩, 어둠속의대화, 롯데월드 교복 대여 등)는 **절대 포함하지 마세요**.
-   - 반드시 **최근 1달 이내(가급적 최근 1~2주) 가오픈했거나 새로 시작한 팝업스토어, 신상 카페, 신규 전시**만 발굴해야 합니다.
+   - 과거부터 오랫동안 꾸준히 유명했던 장소는 **절대 포함하지 마세요**.
+   - 반드시 **최근 1달 이내(가급적 최근 1~2주) 가오픈했거나 새로 시작한 장소**만 발굴해야 합니다.
 2. **경험 및 구체성 중심**:
-   - 팝업스토어나 전시의 경우, 행사의 길고 복잡한 공식 명칭 대신 **네이버/카카오 지도에서 사람들이 흔히 검색할 만한 가장 짧고 직관적인 핵심 상호명(핵심 브랜드명+지역 또는 팝업)**으로 요약해서 추출하세요. (예: 'STORY A 성수 : 뷰티서바이벌 살인사건' -> '아모레성수 뷰티서바이벌').
-   - **[핵심 주의사항]** '성수 팝업스토어', '스토리텔링 오마카세', '홍대 공방' 처럼 특정 상호명이 없는 모호한 일반 명사는 절대 출력하지 마세요. 반드시 구체적인 고유 브랜드명/상호명이 포함되어야 합니다.
-   - **[매우 중요]** 일반적인 동네 밥집, 흔한 프랜차이즈, 평범한 고깃집이나 국밥집 등은 **절대 추출하지 마세요**. 인스타그래머블한 컨셉 다이닝, 특별한 웨이팅 맛집, 팝업 식당 등 **핫플레이스 성격이 강한 곳만** 엄선하세요.
-3. **카테고리 중복 금지**:
-   - 동일한 키워드를 여러 카테고리에 중복해서 넣지 마세요. 가장 성격이 잘 맞는 **단 하나의 카테고리**에만 배정해야 합니다.
+   - 길고 복잡한 공식 명칭 대신 **네이버/카카오 지도에서 사람들이 흔히 검색할 만한 가장 짧고 직관적인 핵심 상호명(핵심 브랜드명+지역)**으로 요약해서 추출하세요. (예: 'STORY A 성수 : 뷰티서바이벌 살인사건' -> '아모레성수 뷰티서바이벌').
+   - **[핵심 주의사항]** 특정 상호명이 없는 모호한 일반 명사('성수 팝업', '홍대 공방')는 절대 출력하지 마세요.
 
 ## JSON Response Schema (반드시 아래 포맷의 순수 JSON 텍스트만 출력하세요. 다른 설명은 일절 추가하지 마세요):
 \`\`\`json
 {
-  "popup": ["상호명 팝업", ... 10개],
-  "activity": ["상호명 공방", ... 10개],
-  "beauty": ["상호명 스파", ... 10개],
-  "dining": ["상호명 다이닝", ... 10개],
-  "cafe": ["상호명 카페", ... 10개]
+  "${cat.name}": ["상호명", ... 10개]
 }
 \`\`\`
 `;
-    try {
-        log('🧠 Fetching trends via Cloud Gemini (Google Search Grounding)...');
-        let geminiResult;
-        try {
-            if (geminiApiKey) {
-                geminiResult = await makeGeminiRequest(prompt, geminiApiKey, true);
-            } else {
-                throw new Error("No Gemini Key");
-            }
-        } catch (err) {
-            geminiResult = null;
-            log(`⚠️ Gemini extraction failed: ${err.message}`);
-        }
-
-        dynamicKeywords = { popup: [], activity: [], beauty: [], dining: [], cafe: [] };
-        let anySuccess = false;
-
-        if (geminiResult) {
-            log('✅ Cloud Gemini extraction successful.');
-            anySuccess = true;
-            for (let k of Object.keys(dynamicKeywords)) {
-                if (geminiResult[k]) dynamicKeywords[k].push(...geminiResult[k]);
+            try {
+                if (geminiApiKey) {
+                    const geminiResult = await makeGeminiRequest(prompt, geminiApiKey, true);
+                    if (geminiResult && geminiResult[cat.name]) {
+                        dynamicKeywords[cat.name].push(...geminiResult[cat.name]);
+                        anySuccess = true;
+                        log(`✅ Category [${cat.label}] extraction successful.`);
+                    }
+                }
+            } catch (err) {
+                log(`⚠️ Category [${cat.label}] extraction failed: ${err.message}`);
             }
         }
 
@@ -492,9 +480,6 @@ ${JSON.stringify(dynamicKeywords, null, 2)}`;
                 }
             }
         }
-    } catch (e) {
-        log(`⚠️ Combined extraction failed: ${e.message}`);
-    }
     } else {
         log('ℹ️ GEMINI_API_KEY not configured. Using predefined fallbacks.');
     }

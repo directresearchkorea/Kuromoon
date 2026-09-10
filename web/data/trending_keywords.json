@@ -1,22 +1,175 @@
 {
-  "generated_at": "2026-09-09",
-  "mode": "live-fallback",
+  "generated_at": "2026-09-10",
+  "mode": "live-dynamic",
   "period": {
-    "start": "2026-08-10",
-    "end": "2026-09-09"
+    "start": "2026-08-11",
+    "end": "2026-09-10"
   },
   "categories": {
     "popup": {
       "label": "팝업/전시",
-      "trending_keywords": []
+      "trending_keywords": [
+        {
+          "keyword": "스포티파이 하우스 | 성수",
+          "trend_score": 100,
+          "data_points": 5
+        },
+        {
+          "keyword": "썸띵한상회 | 성수",
+          "trend_score": 38,
+          "data_points": 5
+        },
+        {
+          "keyword": "왓 위 웨어 | 압구정본점",
+          "trend_score": 33,
+          "data_points": 5
+        },
+        {
+          "keyword": "더 하겐 크루즈 | 성수",
+          "trend_score": 30,
+          "data_points": 2
+        },
+        {
+          "keyword": "마블 울버린 더 클로 | 홍대",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "미미달 K-굿즈 | 송파",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "메이크프렘 박지훈 | 연남",
+          "trend_score": 30,
+          "data_points": 4
+        },
+        {
+          "keyword": "프레잉 한글 | 서울",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "반디더핑크 스테레오타입스 페인터스 | 더현대 서울",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "블리치 천년혈전편 콜라보 카페 | 홍대",
+          "trend_score": 30,
+          "data_points": 0
+        }
+      ]
     },
     "activity": {
       "label": "이색 체험",
-      "trending_keywords": []
+      "trending_keywords": [
+        {
+          "keyword": "오브젝트 | 서울 에스팩토리",
+          "trend_score": 100,
+          "data_points": 5
+        },
+        {
+          "keyword": "서울풍물시장 | 미상",
+          "trend_score": 31,
+          "data_points": 5
+        },
+        {
+          "keyword": "마녀공장 소이빈 방앗간 | 성수",
+          "trend_score": 30,
+          "data_points": 2
+        },
+        {
+          "keyword": "플레이스테이션 더 클로 | 홍대",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "RE;CODE X DO HO SUH | 청담",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "짱구 국내 최초 체험전 | 성수",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "폼폼푸린 와-앙만두 팝업 | 용산",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "MAKE PREM X 박지훈 팝업 | 연남",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "에반 DEATH OF ME 팝업 | 용산",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "2026 대한민국 농업박람회 | 양재",
+          "trend_score": 30,
+          "data_points": 5
+        }
+      ]
     },
     "beauty": {
       "label": "뷰티/웰니스",
-      "trending_keywords": []
+      "trending_keywords": [
+        {
+          "keyword": "무신사 뷰티 | 홍대",
+          "trend_score": 100,
+          "data_points": 5
+        },
+        {
+          "keyword": "마녀공장 소이빈 방앗간 | 성수",
+          "trend_score": 30,
+          "data_points": 2
+        },
+        {
+          "keyword": "디올 루즈 온 스테이지 | 잠실",
+          "trend_score": 30,
+          "data_points": 5
+        },
+        {
+          "keyword": "디솔트 사우나 | 판교",
+          "trend_score": 30,
+          "data_points": 1
+        },
+        {
+          "keyword": "바크 풋웨어 | 중동",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "조선미녀 팝업 | 명동",
+          "trend_score": 30,
+          "data_points": 1
+        },
+        {
+          "keyword": "슈퍼패스트 | 서울숲 뷰티성수",
+          "trend_score": 30,
+          "data_points": 5
+        },
+        {
+          "keyword": "듀릭서 팝업 | 중구",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "네일톡톡 팝업 | 여의도",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "메이크프렘 박지훈 | 연남",
+          "trend_score": 30,
+          "data_points": 4
+        }
+      ]
     },
     "dining": {
       "label": "컨셉 다이닝",
