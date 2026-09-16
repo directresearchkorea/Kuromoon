@@ -33111,5 +33111,183 @@
         ]
       }
     }
+  },
+  {
+    "timestamp": "2026-09-16T00:04:33.617Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "RESCENE | 더현대 서울",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "LG전자 THE FIRST Origins | 강남",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "프레잉 한글 팝업 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "마이멜로디 압소바 | 롯데 잠실",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "어그 윌리 차바리아 | 무신사 성수",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "마블 울버린 더 클로 | AK 홍대",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "서울 100K 아디다스 | 롯데월드몰",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "디케이스토어 보마켓 | 한남",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "29CM 로프트 페이지투페이지스 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "이마트24 떡지순례 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": []
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": []
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": [
+          {
+            "keyword": "옥토버페스트 서울 2026 | 마포",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "고트델리 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "바비큐 빌리지 | 난지캠핑장",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "성수르치아바타 팝업 | AK플라자 분당",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "이모야 킨지로 팝업 | 현대백화점 판교",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "곰곰식당 | 성수",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "민트스타 부스 | 뚝섬한강공원",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "더 마고 그릴 JW Garden Party 코스 | 미상",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "선셋 와인 & 비어 페스티벌 2026 | 인스파이어",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "셀프 BBQ존 | 난지캠핑장",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": [
+          {
+            "keyword": "명화 카페 | 홍대",
+            "trend_score": 100,
+            "data_points": 2
+          },
+          {
+            "keyword": "메이플스토리 이스케이프 | 홍대",
+            "trend_score": 52,
+            "data_points": 2
+          },
+          {
+            "keyword": "애프터올 | 을지로",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "페닌슐라 부티크 | 롯데백화점 본점",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "밀레 커피 카라반 팝업 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "팟리추얼 | 성수",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "카페본작 | 성수",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "이파리서재 | 성수",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "안탭리 아뜰리에 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "K리그 산리오 팝업 | 미상",
+            "trend_score": 30,
+            "data_points": 5
+          }
+        ]
+      }
+    }
   }
 ]
