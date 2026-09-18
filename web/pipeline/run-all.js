@@ -246,7 +246,31 @@ async function main() {
         log('═'.repeat(50));
         try {
             const rootDir = path.resolve(WEB_DIR, '..');
-            execSync('git add -A', { cwd: rootDir, stdio: 'inherit' });
+            // Explicitly stage only production data and public artifacts (avoid git add -A)
+            const stageTargets = [
+                'web/data/places.json',
+                'web/data/trending_keywords.json',
+                'web/data/trend_history.json',
+                'web/data/custom_keywords.json',
+                'web/public'
+            ];
+            for (const target of stageTargets) {
+                const fullTarget = path.join(rootDir, target);
+                if (fs.existsSync(fullTarget)) {
+                    execSync(`git add "${target}"`, { cwd: rootDir, stdio: 'inherit' });
+                }
+            }
+
+            // Safety guard: ensure no sensitive files were staged
+            const stagedOutput = execSync('git diff --name-only --cached', { cwd: rootDir, encoding: 'utf8' }).trim();
+            const stagedFiles = stagedOutput ? stagedOutput.split(/\r?\n/) : [];
+            const sensitivePattern = /(\.env|secret|token|password|dashboard.*\.html$|\.bak)/i;
+            const blockedFiles = stagedFiles.filter(f => f && sensitivePattern.test(f));
+            if (blockedFiles.length > 0) {
+                execSync('git reset', { cwd: rootDir, stdio: 'inherit' });
+                throw new Error(`Safety violation: Sensitive file(s) detected in staging: ${blockedFiles.join(', ')}. Git commit aborted.`);
+            }
+
             try {
                 const dateStr = new Date().toISOString().replace('T', ' ').substring(0, 19);
                 execSync(`git commit -m "🤖 Local Auto-update: ${dateStr}"`, { cwd: rootDir, stdio: 'inherit' });

@@ -60,6 +60,7 @@ jobs:
           cd ..
           git config user.name "Kuromoon Bot"
           git config user.email "bot@kuromoon.com"
-          git add -A
+          git add web/data/places.json web/data/trending_keywords.json web/data/trend_history.json web/public/
           git diff --cached --quiet || git commit -m "🤖 Auto-update: $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
+
