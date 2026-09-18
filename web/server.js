@@ -4,6 +4,8 @@ const path = require('path');
 
 const PORT = 3000;
 const WEB_DIR = __dirname;
+const PUBLIC_DIR = path.join(WEB_DIR, 'public');
+const DATA_DIR = path.join(WEB_DIR, 'data');
 
 // Load .env
 const envPath = path.join(WEB_DIR, '.env');
@@ -22,11 +24,20 @@ function log(msg) {
     console.log(`[${ts}] ${msg}`);
 }
 
+function isSafeOrigin(req) {
+    const origin = req.headers['origin'];
+    const referer = req.headers['referer'];
+    const allowed = ['http://localhost:3000', 'http://127.0.0.1:3000'];
+    if (origin && !allowed.some(a => origin.startsWith(a))) return false;
+    if (referer && !allowed.some(a => referer.startsWith(a))) return false;
+    return true;
+}
+
 const MIME_TYPES = {
-    '.html': 'text/html',
-    '.css': 'text/css',
-    '.js': 'text/javascript',
-    '.json': 'application/json',
+    '.html': 'text/html; charset=utf-8',
+    '.css': 'text/css; charset=utf-8',
+    '.js': 'text/javascript; charset=utf-8',
+    '.json': 'application/json; charset=utf-8',
     '.png': 'image/png',
     '.jpg': 'image/jpeg',
     '.gif': 'image/gif',
@@ -35,12 +46,28 @@ const MIME_TYPES = {
 };
 
 const server = http.createServer((req, res) => {
-    // Decode URI to handle Korean characters in paths if any
-    const decodedUrl = decodeURIComponent(req.url);
+    // Basic Security Headers
+    res.setHeader('X-Content-Type-Options', 'nosniff');
+    res.setHeader('X-Frame-Options', 'SAMEORIGIN');
+
+    // Decode URI safely
+    let decodedUrl;
+    try {
+        decodedUrl = decodeURIComponent(req.url);
+    } catch(e) {
+        res.writeHead(400, { 'Content-Type': 'text/plain' });
+        res.end('Bad Request');
+        return;
+    }
     const urlWithoutQuery = decodedUrl.split('?')[0];
     
     // API routes for Approving/Discarding pending places
     if (req.method === 'POST') {
+        if (!isSafeOrigin(req)) {
+            res.writeHead(403, { 'Content-Type': 'application/json' });
+            res.end(JSON.stringify({ error: 'Forbidden: Untrusted origin' }));
+            return;
+        }
         if (urlWithoutQuery === '/api/approve-place' || urlWithoutQuery === '/api/discard-place') {
             let body = '';
             req.on('data', chunk => body += chunk);
@@ -334,22 +361,59 @@ const server = http.createServer((req, res) => {
         }
     }
 
-    // Default route
-    let urlPath = urlWithoutQuery === '/' ? '/public/dashboard.html' : urlWithoutQuery;
-
-    // Map frontend paths (ko, en, img, css, pagefind) to the 'public' directory
-    const publicDirs = ['/ko', '/en', '/img', '/css', '/pagefind', '/js'];
-    if (publicDirs.some(dir => urlPath.startsWith(dir))) {
-        urlPath = '/public' + urlPath;
+    // Allow only GET and HEAD for static files
+    if (req.method !== 'GET' && req.method !== 'HEAD') {
+        res.writeHead(405, { 'Content-Type': 'text/plain' });
+        res.end('Method Not Allowed');
+        return;
     }
 
-    let filePath = path.join(WEB_DIR, urlPath);
+    let filePath;
 
-    // Security check - prevent directory traversal
-    if (!filePath.startsWith(WEB_DIR)) {
-        res.writeHead(403, { 'Content-Type': 'text/plain' });
-        res.end('Forbidden');
-        return;
+    // Handle dashboard aliases
+    if (urlWithoutQuery === '/' || urlWithoutQuery === '/dashboard' || urlWithoutQuery === '/dashboard.html' || urlWithoutQuery === '/public/dashboard.html') {
+        filePath = path.join(PUBLIC_DIR, 'dashboard.html');
+    } else if (urlWithoutQuery.startsWith('/data/')) {
+        // Whitelist for specific JSON data files needed by the dashboard
+        const dataMatch = urlWithoutQuery.match(/^\/data\/([a-zA-Z0-9_-]+\.json)$/);
+        if (!dataMatch) {
+            res.writeHead(403, { 'Content-Type': 'text/plain' });
+            res.end('Forbidden');
+            return;
+        }
+        filePath = path.resolve(DATA_DIR, dataMatch[1]);
+        if (!filePath.startsWith(DATA_DIR)) {
+            res.writeHead(403, { 'Content-Type': 'text/plain' });
+            res.end('Forbidden');
+            return;
+        }
+    } else {
+        // Strictly isolate file serving to PUBLIC_DIR
+        let relPath = urlWithoutQuery;
+        if (relPath.startsWith('/public/')) {
+            relPath = relPath.substring(7);
+        } else if (relPath === '/public') {
+            relPath = '/dashboard.html';
+        }
+
+        // Canonicalize and resolve strictly within PUBLIC_DIR
+        filePath = path.resolve(PUBLIC_DIR, '.' + path.normalize(relPath));
+        if (!filePath.startsWith(PUBLIC_DIR)) {
+            res.writeHead(403, { 'Content-Type': 'text/plain' });
+            res.end('Forbidden');
+            return;
+        }
+
+        // Directory index resolution (e.g. /ko/ -> /ko/index.html)
+        if (fs.existsSync(filePath)) {
+            const stat = fs.statSync(filePath);
+            if (stat.isDirectory()) {
+                const indexFile = path.join(filePath, 'index.html');
+                if (fs.existsSync(indexFile)) {
+                    filePath = indexFile;
+                }
+            }
+        }
     }
 
     const ext = path.extname(filePath);
@@ -358,23 +422,24 @@ const server = http.createServer((req, res) => {
     fs.readFile(filePath, (err, content) => {
         if (err) {
             if (err.code === 'ENOENT') {
-                res.writeHead(404, { 'Content-Type': 'text/html' });
+                res.writeHead(404, { 'Content-Type': 'text/html; charset=utf-8' });
                 res.end('<h1>404 Not Found</h1><p>File not found.</p>', 'utf-8');
             } else {
-                res.writeHead(500);
+                res.writeHead(500, { 'Content-Type': 'text/plain' });
                 res.end(`Server Error: ${err.code}`);
             }
         } else {
             res.writeHead(200, { 'Content-Type': contentType });
-            res.end(content, 'utf-8');
+            res.end(content);
         }
     });
 });
 
-server.listen(PORT, () => {
+server.listen(PORT, '127.0.0.1', () => {
     console.log('\n==================================================');
-    console.log(`💻 Kuromoon Dashboard server is running!`);
-    console.log(`👉 Open: http://localhost:${PORT}/public/dashboard.html`);
+    console.log(`💻 Kuromoon Dashboard server is running securely on 127.0.0.1:${PORT}!`);
+    console.log(`👉 Open: http://127.0.0.1:${PORT}/dashboard.html`);
     console.log('==================================================\n');
     console.log('Press Ctrl+C to stop the server.');
 });
+
