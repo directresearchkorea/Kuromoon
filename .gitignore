@@ -16,11 +16,21 @@ web/data/review_needed.json
 web/data/discarded_places.json
 web/data/pipeline_log.json
 
-# Local Admin Dashboard (Private, never upload to Git)
-web/public/dashboard.html
+# Local Admin Dashboard & Backups (Private, never upload to Git)
+*dashboard*.html
+web/public/dashboard*.html
+*.bak
+*.bak.*
+web/*.bak.js
+
+# Temporary & Test Scripts
+web/temp*.js
+web/test-*.js
+web/test-*.html
 
 # IDE & OS Temp Files
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
+
