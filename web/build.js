@@ -72,6 +72,25 @@ function ensureDir(dir) {
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 }
 
+function escapeHtml(str) {
+  if (str === null || str === undefined) return '';
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
+}
+
+function sanitizeUrl(url) {
+  if (!url || typeof url !== 'string') return '';
+  const trimmed = url.trim();
+  if (/^https?:\/\//i.test(trimmed)) {
+    return trimmed;
+  }
+  return '';
+}
+
 // ─── Generate JSON-LD for Schema.org ─────────────────────────────────
 function buildSchemaLD(place, lang) {
   const isKo = lang === 'ko';
@@ -95,7 +114,7 @@ function buildSchemaLD(place, lang) {
     "@type": schemaType,
     "name": name,
     "description": summary,
-    "image": place.image || `${SITE_URL}/img/og-default.jpg`,
+    "image": sanitizeUrl(place.image) || `${SITE_URL}/img/og-default.jpg`,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": address,
@@ -103,12 +122,13 @@ function buildSchemaLD(place, lang) {
     }
   };
 
-  if (place.reservation_url) {
+  const safeReservationUrl = sanitizeUrl(place.reservation_url);
+  if (safeReservationUrl) {
     schema.potentialAction = {
       "@type": "ReserveAction",
       "target": {
         "@type": "EntryPoint",
-        "urlTemplate": place.reservation_url
+        "urlTemplate": safeReservationUrl
       }
     };
   }
@@ -125,8 +145,9 @@ function buildSchemaLD(place, lang) {
     };
   }
 
-  return JSON.stringify(schema, null, 2);
+  return JSON.stringify(schema, null, 2).replace(/<\//g, '<\\/');
 }
+
 
 // ─── Build Index Page ────────────────────────────────────────────────
 function buildIndexPage(lang, places, template) {
@@ -144,13 +165,19 @@ function buildIndexPage(lang, places, template) {
 
   let listHtml = '';
   sortedPlaces.forEach(place => {
-    const name    = isKo ? place.name_ko    : place.name_en;
-    const summary = isKo ? place.summary_ko : place.summary_en;
-    const catLabel = CATEGORY_LABELS[lang][place.category] || place.category;
+    const rawName    = isKo ? place.name_ko    : place.name_en;
+    const rawSummary = isKo ? place.summary_ko : place.summary_en;
+    const rawCatLabel = CATEGORY_LABELS[lang][place.category] || place.category;
+
+    const name = escapeHtml(rawName);
+    const summary = escapeHtml(rawSummary);
+    const catLabel = escapeHtml(rawCatLabel);
+    const safeCat = escapeHtml(place.category || '');
+    const safeId = encodeURIComponent(place.id);
 
     const imgHtml = '';
     listHtml += `
-      <a href="./places/${place.id}.html" class="place-card" data-category="${place.category}" data-place-id="${place.id}">
+      <a href="./places/${safeId}.html" class="place-card" data-category="${safeCat}" data-place-id="${safeId}">
         ${imgHtml}
         <div class="place-card-body">
           <div class="place-card-category">${catLabel}</div>
@@ -195,70 +222,76 @@ function buildDetailPages(lang, places, template) {
       console.log(`⚠️ Skipping page build for "${place.name_ko}" due to missing description.`);
       return;
     }
-    const name    = isKo ? place.name_ko    : place.name_en;
-    const address = isKo ? place.address_ko : place.address_en;
-    const summary = isKo ? place.summary_ko : place.summary_en;
-    const catLabel = CATEGORY_LABELS[lang][place.category] || place.category;
+    const rawName    = isKo ? place.name_ko    : place.name_en;
+    const rawAddress = isKo ? place.address_ko : place.address_en;
+    const rawSummary = isKo ? place.summary_ko : place.summary_en;
+    const rawCatLabel = CATEGORY_LABELS[lang][place.category] || place.category;
+
+    const name = escapeHtml(rawName);
+    const address = escapeHtml(rawAddress);
+    const summary = escapeHtml(rawSummary);
+    const catLabel = escapeHtml(rawCatLabel);
 
     // Tags
-    const tagsHtml = (place.tags || []).map(tag => `<span class="tag">#${tag}</span>`).join('');
+    const tagsHtml = (place.tags || []).map(tag => `<span class="tag">#${escapeHtml(tag)}</span>`).join('');
 
     // Event Dates UI
     const eventDatesHtml = (place.startDate && place.endDate)
-      ? `<div class="event-dates">🗓️ ${isKo ? '진행 기간' : 'Period'}: ${place.startDate} ~ ${place.endDate}</div>`
+      ? `<div class="event-dates">🗓️ ${isKo ? '진행 기간' : 'Period'}: ${escapeHtml(place.startDate)} ~ ${escapeHtml(place.endDate)}</div>`
       : '';
 
     // Info rows
     let infoRows = '';
-    if (address) infoRows += `<div class="info-row"><span class="info-icon">📍</span><span class="info-label">${t.labelAddr}</span><span class="info-value">${address}</span></div>`;
-    if (place.hours) infoRows += `<div class="info-row"><span class="info-icon">🕒</span><span class="info-label">${t.labelHours}</span><span class="info-value">${place.hours}</span></div>`;
-    if (place.price_range) infoRows += `<div class="info-row"><span class="info-icon">💰</span><span class="info-label">${t.labelPrice}</span><span class="info-value">${place.price_range}</span></div>`;
+    if (rawAddress) infoRows += `<div class="info-row"><span class="info-icon">📍</span><span class="info-label">${escapeHtml(t.labelAddr)}</span><span class="info-value">${address}</span></div>`;
+    if (place.hours) infoRows += `<div class="info-row"><span class="info-icon">🕒</span><span class="info-label">${escapeHtml(t.labelHours)}</span><span class="info-value">${escapeHtml(place.hours)}</span></div>`;
+    if (place.price_range) infoRows += `<div class="info-row"><span class="info-icon">💰</span><span class="info-label">${escapeHtml(t.labelPrice)}</span><span class="info-value">${escapeHtml(place.price_range)}</span></div>`;
 
     // Parking Row
     if (place.parking === true) {
       const parkingVal = isKo ? '가능 (Available)' : 'Available';
-      infoRows += `<div class="info-row"><span class="info-icon">🚗</span><span class="info-label">${t.labelParking}</span><span class="info-value">${parkingVal}</span></div>`;
+      infoRows += `<div class="info-row"><span class="info-icon">🚗</span><span class="info-label">${escapeHtml(t.labelParking)}</span><span class="info-value">${parkingVal}</span></div>`;
     }
     // Foreign Friendly Row
     if (place.foreign_friendly === true) {
       const foreignVal = isKo ? '지원 (Yes)' : 'Yes';
-      infoRows += `<div class="info-row"><span class="info-icon">🌐</span><span class="info-label">${t.labelForeign}</span><span class="info-value">${foreignVal}</span></div>`;
+      infoRows += `<div class="info-row"><span class="info-icon">🌐</span><span class="info-label">${escapeHtml(t.labelForeign)}</span><span class="info-value">${foreignVal}</span></div>`;
     }
 
     // Map Links (Deep Links for UX)
     let mapButtons = '';
-    if (address) {
+    if (rawAddress) {
       // 층수/호수 등 검색 방해 요소 제거 (예: 1층, 2F, 105호, 지하1층 등)
-      const cleanAddress = address.replace(/\s+(\d+층|\d+호|\d+F|지하\s*\d+층|지상\s*\d+층).*$/i, '').trim();
+      const cleanAddress = rawAddress.replace(/\s+(\d+층|\d+호|\d+F|지하\s*\d+층|지상\s*\d+층).*$/i, '').trim();
       
       // Use place name for Naver/Kakao maps (requested for popups as well to avoid general location info overflow)
-      let naverKakaoQueryStr = place.name_ko.replace(/[\[\]]/g, '').trim();
+      let naverKakaoQueryStr = (place.name_ko || '').replace(/[\[\]]/g, '').trim();
       if (place.category === 'popup' && (naverKakaoQueryStr.length > 15 || naverKakaoQueryStr.includes('-') || naverKakaoQueryStr.includes(':'))) {
           naverKakaoQueryStr = cleanAddress || naverKakaoQueryStr;
       }
       const naverKakaoQuery = encodeURIComponent(naverKakaoQueryStr);
-      const naverMapLink = place.naver_map_url || `https://map.naver.com/v5/search/${naverKakaoQuery}`;
+      const naverMapLink = sanitizeUrl(place.naver_map_url) || `https://map.naver.com/v5/search/${naverKakaoQuery}`;
       
       // Use localized query for Google maps (which can be English or Korean)
-      const googleQueryStr = name;
+      const googleQueryStr = rawName;
       const googleQuery = encodeURIComponent(googleQueryStr);
       
       if (isKo) {
-        mapButtons += `<a href="${naverMapLink}" target="_blank" rel="noopener" class="btn btn-secondary" style="border-color:#03c75a; color:#03c75a;">🟢 네이버 지도</a>`;
-        mapButtons += `<a href="https://map.kakao.com/link/search/${naverKakaoQuery}" target="_blank" rel="noopener" class="btn btn-secondary" style="border-color:#FEE500; color:#391B1B;">🟡 카카오맵</a>`;
+        mapButtons += `<a href="${escapeHtml(naverMapLink)}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="border-color:#03c75a; color:#03c75a;">🟢 네이버 지도</a>`;
+        mapButtons += `<a href="https://map.kakao.com/link/search/${naverKakaoQuery}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="border-color:#FEE500; color:#391B1B;">🟡 카카오맵</a>`;
       } else {
-        mapButtons += `<a href="https://www.google.com/maps/search/?api=1&query=${googleQuery}" target="_blank" rel="noopener" class="btn btn-secondary" style="border-color:#4285F4; color:#4285F4;">🔵 Google Maps</a>`;
-        mapButtons += `<a href="${naverMapLink}" target="_blank" rel="noopener" class="btn btn-secondary" style="border-color:#03c75a; color:#03c75a;">🟢 Naver Map</a>`;
+        mapButtons += `<a href="https://www.google.com/maps/search/?api=1&query=${googleQuery}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="border-color:#4285F4; color:#4285F4;">🔵 Google Maps</a>`;
+        mapButtons += `<a href="${escapeHtml(naverMapLink)}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="border-color:#03c75a; color:#03c75a;">🟢 Naver Map</a>`;
       }
     }
 
     // Reservation Button Block
     let reservationBtnBlock = '';
-    if (place.reservation_url) {
+    const safeReservationUrl = sanitizeUrl(place.reservation_url);
+    if (safeReservationUrl) {
       const bookingText = isKo ? '지금 예약하기' : 'Book Now';
       reservationBtnBlock = `
         <div class="action-buttons" style="margin-bottom:0.75rem;">
-          <a href="${place.reservation_url}" target="_blank" rel="noopener" class="btn btn-primary" style="display:block; width:100%;">📅 ${bookingText}</a>
+          <a href="${escapeHtml(safeReservationUrl)}" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="display:block; width:100%;">📅 ${bookingText}</a>
         </div>
       `;
     }
@@ -269,22 +302,28 @@ function buildDetailPages(lang, places, template) {
       let instaUrl = place.instagram.trim();
       if (instaUrl.includes('instagram.com/')) {
         const parts = instaUrl.split('instagram.com/');
-        const username = parts[1].split('?')[0].replace(/\/$/, '');
+        const username = parts[1].split('?')[0].replace(/\/$/, '').replace(/[^a-zA-Z0-9._]/g, '');
+        instaUrl = `https://www.instagram.com/${username}/`;
+      } else if (instaUrl.startsWith('@')) {
+        const username = instaUrl.slice(1).replace(/[^a-zA-Z0-9._]/g, '');
         instaUrl = `https://www.instagram.com/${username}/`;
       }
-      instagramBtnBlock = `
-        <a href="${instaUrl}" target="_blank" rel="noopener" class="btn btn-secondary" style="border-color:#e1306c; color:#e1306c;">📸 Instagram</a>
-      `;
+      const safeInstaUrl = sanitizeUrl(instaUrl);
+      if (safeInstaUrl) {
+        instagramBtnBlock = `
+          <a href="${escapeHtml(safeInstaUrl)}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="border-color:#e1306c; color:#e1306c;">📸 Instagram</a>
+        `;
+      }
     }
-
 
     // Trust / Status Badge Block
     let statusBadgeBlock = '';
-    const reviewCount = place.review_count || 0;
-    const statusText = place.operating_status || '확인 불가';
+    const reviewCount = parseInt(place.review_count, 10) || 0;
+    const rawStatusText = place.operating_status || (isKo ? '확인 불가' : 'Verification Unknown');
+    const statusText = escapeHtml(rawStatusText);
     
     // Hide operating status if it is "확인 불가" or "Verification Unknown"
-    const showStatus = statusText !== '확인 불가' && statusText !== 'Verification Unknown';
+    const showStatus = rawStatusText !== '확인 불가' && rawStatusText !== 'Verification Unknown';
     
     if (isKo) {
       statusBadgeBlock = `
@@ -309,19 +348,37 @@ function buildDetailPages(lang, places, template) {
     const heroImageBlock = '';
 
     const keywords = (place.tags || []).join(',');
-    const descText = isKo ? place.description_ko : place.description_en;
+    const rawDescText = isKo ? place.description_ko : place.description_en;
+    const descText = escapeHtml(rawDescText);
     const descBlock = descText ? `<div class="ai-description" style="margin-top: 1.5rem; line-height: 1.6; color: var(--text-secondary); background: rgba(255,255,255,0.03); border-left: 3px solid var(--accent); padding: 1rem; border-radius: 4px; font-size: 0.9rem;">
           ${descText}
         </div>` : '';
 
+    const gtagData = JSON.stringify({
+      place_id: place.id,
+      place_name: rawName,
+      place_category: place.category || '',
+      place_keywords: keywords
+    }).replace(/<\//g, '<\\/');
+
+    const breadcrumbLd = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Kuromoon", "item": `https://kuromoon.com/${lang}/` },
+        { "@type": "ListItem", "position": 2, "name": rawName, "item": `https://kuromoon.com/${lang}/places/${place.id}.html` }
+      ]
+    }, null, 2).replace(/<\//g, '<\\/');
+
     const html = template
       .replace(/\{\{GA_MEASUREMENT_ID\}\}/g,   process.env.GA_MEASUREMENT_ID || 'G-XXXXXXXXXX')
-      .replace(/\{\{PLACE_KEYWORDS\}\}/g,      keywords.replace(/'/g, "\\'"))
-      .replace(/\{\{PLACE_CATEGORY_RAW\}\}/g,  place.category || '')
+      .replace(/\{\{GTAG_PLACE_DATA\}\}/g,    gtagData)
+      .replace(/\{\{BREADCRUMB_JSON_LD\}\}/g,  breadcrumbLd)
+      .replace(/\{\{PLACE_CATEGORY_RAW\}\}/g,  escapeHtml(place.category || ''))
       .replace(/\{\{LANG\}\}/g,               lang)
-      .replace(/\{\{PLACE_ID\}\}/g,           place.id)
+      .replace(/\{\{PLACE_ID\}\}/g,           encodeURIComponent(place.id))
       .replace(/\{\{PLACE_NAME\}\}/g,         name)
-      .replace(/\{\{PLACE_IMAGE\}\}/g,        place.image || '')
+      .replace(/\{\{PLACE_IMAGE\}\}/g,        escapeHtml(sanitizeUrl(place.image) || ''))
       .replace(/\{\{HERO_IMAGE_BLOCK\}\}/g,   heroImageBlock)
       .replace(/\{\{PLACE_SUMMARY\}\}/g,      summary || '')
       .replace(/\{\{PLACE_DESCRIPTION_BLOCK\}\}/g,  descBlock)

@@ -13,12 +13,7 @@
     gtag('config', '{{GA_MEASUREMENT_ID}}');
 
     // Track place detail view
-    gtag('event', 'view_place_detail', {
-      'place_id': '{{PLACE_ID}}',
-      'place_name': '{{PLACE_NAME}}',
-      'place_category': '{{PLACE_CATEGORY_RAW}}',
-      'place_keywords': '{{PLACE_KEYWORDS}}'
-    });
+    gtag('event', 'view_place_detail', {{GTAG_PLACE_DATA}});
   </script>
 
   <!-- ─── Primary SEO ─── -->
@@ -54,14 +49,7 @@
 
   <!-- ─── BreadcrumbList ─── -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Kuromoon", "item": "https://kuromoon.com/{{LANG}}/" },
-      { "@type": "ListItem", "position": 2, "name": "{{PLACE_NAME}}", "item": "https://kuromoon.com/{{LANG}}/places/{{PLACE_ID}}.html" }
-    ]
-  }
+  {{BREADCRUMB_JSON_LD}}
   </script>
 
   <link rel="stylesheet" href="../../css/style.css">
