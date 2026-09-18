@@ -13,12 +13,7 @@
     gtag('config', 'G-4YKCWHHXV9');
 
     // Track place detail view
-    gtag('event', 'view_place_detail', {
-      'place_id': 'matilda',
-      'place_name': 'Matilda',
-      'place_category': 'cafe',
-      'place_keywords': 'LP카페,제주카페,오션뷰,고양이,한적한'
-    });
+    gtag('event', 'view_place_detail', {"place_id":"matilda","place_name":"Matilda","place_category":"cafe","place_keywords":"LP카페,제주카페,오션뷰,고양이,한적한"});
   </script>
 
   <!-- ─── Primary SEO ─── -->
@@ -66,13 +61,23 @@
   <!-- ─── BreadcrumbList ─── -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Kuromoon", "item": "https://kuromoon.com/en/" },
-      { "@type": "ListItem", "position": 2, "name": "Matilda", "item": "https://kuromoon.com/en/places/matilda.html" }
-    ]
-  }
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Kuromoon",
+      "item": "https://kuromoon.com/en/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Matilda",
+      "item": "https://kuromoon.com/en/places/matilda.html"
+    }
+  ]
+}
   </script>
 
   <link rel="stylesheet" href="../../css/style.css">
@@ -122,7 +127,7 @@
         <p class="detail-summary" data-pagefind-meta="summary">Cozy cafe in Aewol-eup, Jeju, with LP music and ocean views.</p>
 
         <div class="ai-description" style="margin-top: 1.5rem; line-height: 1.6; color: var(--text-secondary); background: rgba(255,255,255,0.03); border-left: 3px solid var(--accent); padding: 1rem; border-radius: 4px; font-size: 0.9rem;">
-          'Matilda' in Aewol-eup, Jeju, is an art/theme cafe where visitors can enjoy LP music alongside the beautiful scenery of Gonae-ri's coastal road. Guests can relax while gazing at the ocean view from the window or spend leisurely time in the cozy atmosphere, with the chance to encounter a cute cat adding to the unique experience. While specific signature menus or photo zones aren't mentioned, the combination of LP music and the sea view itself creates an attractive setting for memorable photos. This tranquil and cozy space is ideal for those seeking solo relaxation or a quiet date with a loved one, further enhanced by ample parking for a comfortable visit. No specific reservation information is provided, but the spacious and quiet parking lot ensures a relaxed visit.
+          &#039;Matilda&#039; in Aewol-eup, Jeju, is an art/theme cafe where visitors can enjoy LP music alongside the beautiful scenery of Gonae-ri&#039;s coastal road. Guests can relax while gazing at the ocean view from the window or spend leisurely time in the cozy atmosphere, with the chance to encounter a cute cat adding to the unique experience. While specific signature menus or photo zones aren&#039;t mentioned, the combination of LP music and the sea view itself creates an attractive setting for memorable photos. This tranquil and cozy space is ideal for those seeking solo relaxation or a quiet date with a loved one, further enhanced by ample parking for a comfortable visit. No specific reservation information is provided, but the spacious and quiet parking lot ensures a relaxed visit.
         </div>
 
         <!-- ─── Tags ─── -->
@@ -136,12 +141,12 @@
         <!-- ─── Action Buttons ─── -->
         
         <div class="action-buttons">
-          <a href="https://www.google.com/maps/search/?api=1&query=Matilda" target="_blank" rel="noopener" class="btn btn-secondary" style="border-color:#4285F4; color:#4285F4;">🔵 Google Maps</a><a href="https://map.naver.com/v5/search/%EB%A7%88%ED%8B%B8%EB%8B%A4" target="_blank" rel="noopener" class="btn btn-secondary" style="border-color:#03c75a; color:#03c75a;">🟢 Naver Map</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Matilda" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="border-color:#4285F4; color:#4285F4;">🔵 Google Maps</a><a href="https://map.naver.com/v5/search/%EB%A7%88%ED%8B%B8%EB%8B%A4" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="border-color:#03c75a; color:#03c75a;">🟢 Naver Map</a>
         </div>
         <div class="action-buttons">
           
-        <a href="https://www.instagram.com/mathilda.official_/" target="_blank" rel="noopener" class="btn btn-secondary" style="border-color:#e1306c; color:#e1306c;">📸 Instagram</a>
-      
+          <a href="https://www.instagram.com/mathilda.official_/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="border-color:#e1306c; color:#e1306c;">📸 Instagram</a>
+        
           <button onclick="shareKakao()" class="btn btn-secondary">💬 카카오</button>
           <button onclick="copyLink()" class="btn btn-secondary">🔗 링크</button>
         </div>

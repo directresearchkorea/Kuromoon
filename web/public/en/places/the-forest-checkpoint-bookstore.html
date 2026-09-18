@@ -13,12 +13,7 @@
     gtag('config', 'G-4YKCWHHXV9');
 
     // Track place detail view
-    gtag('event', 'view_place_detail', {
-      'place_id': 'the-forest-checkpoint-bookstore',
-      'place_name': 'The Forest Checkpoint Bookstore',
-      'place_category': 'cafe',
-      'place_keywords': '인왕산,북카페,숲뷰,야외테라스,산책코스'
-    });
+    gtag('event', 'view_place_detail', {"place_id":"the-forest-checkpoint-bookstore","place_name":"The Forest Checkpoint Bookstore","place_category":"cafe","place_keywords":"인왕산,북카페,숲뷰,야외테라스,산책코스"});
   </script>
 
   <!-- ─── Primary SEO ─── -->
@@ -66,13 +61,23 @@
   <!-- ─── BreadcrumbList ─── -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Kuromoon", "item": "https://kuromoon.com/en/" },
-      { "@type": "ListItem", "position": 2, "name": "The Forest Checkpoint Bookstore", "item": "https://kuromoon.com/en/places/the-forest-checkpoint-bookstore.html" }
-    ]
-  }
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Kuromoon",
+      "item": "https://kuromoon.com/en/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "The Forest Checkpoint Bookstore",
+      "item": "https://kuromoon.com/en/places/the-forest-checkpoint-bookstore.html"
+    }
+  ]
+}
   </script>
 
   <link rel="stylesheet" href="../../css/style.css">
@@ -122,7 +127,7 @@
         <p class="detail-summary" data-pagefind-meta="summary">A large book cafe with a great view on Inwangsan Mountain.</p>
 
         <div class="ai-description" style="margin-top: 1.5rem; line-height: 1.6; color: var(--text-secondary); background: rgba(255,255,255,0.03); border-left: 3px solid var(--accent); padding: 1rem; border-radius: 4px; font-size: 0.9rem;">
-          The Forest Checkpoint Bookstore is a spacious book cafe nestled on the slopes of Inwangsan Mountain, a unique venue transformed from a former military checkpoint, carrying a special historical narrative. It boasts stunning views of Inwangsan's lush forest through its expansive windows, complemented by outdoor terraces and open-air spaces perfect for unwinding amidst nature. This spot is highly recommended for a weekend family outing along the Inwangsan trail, offering an ideal setting to read or simply relax while soaking in the beautiful natural scenery. It is renowned for its immersive reading experience with a captivating forest view, serving as a perfect retreat after a refreshing walk on Inwangsan Mountain.
+          The Forest Checkpoint Bookstore is a spacious book cafe nestled on the slopes of Inwangsan Mountain, a unique venue transformed from a former military checkpoint, carrying a special historical narrative. It boasts stunning views of Inwangsan&#039;s lush forest through its expansive windows, complemented by outdoor terraces and open-air spaces perfect for unwinding amidst nature. This spot is highly recommended for a weekend family outing along the Inwangsan trail, offering an ideal setting to read or simply relax while soaking in the beautiful natural scenery. It is renowned for its immersive reading experience with a captivating forest view, serving as a perfect retreat after a refreshing walk on Inwangsan Mountain.
         </div>
 
         <!-- ─── Tags ─── -->
@@ -136,12 +141,12 @@
         <!-- ─── Action Buttons ─── -->
         
         <div class="action-buttons">
-          <a href="https://www.google.com/maps/search/?api=1&query=The%20Forest%20Checkpoint%20Bookstore" target="_blank" rel="noopener" class="btn btn-secondary" style="border-color:#4285F4; color:#4285F4;">🔵 Google Maps</a><a href="https://map.naver.com/v5/search/%EB%8D%94%EC%88%B2%20%EC%B4%88%EC%86%8C%EC%B1%85%EB%B0%A9" target="_blank" rel="noopener" class="btn btn-secondary" style="border-color:#03c75a; color:#03c75a;">🟢 Naver Map</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=The%20Forest%20Checkpoint%20Bookstore" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="border-color:#4285F4; color:#4285F4;">🔵 Google Maps</a><a href="https://map.naver.com/v5/search/%EB%8D%94%EC%88%B2%20%EC%B4%88%EC%86%8C%EC%B1%85%EB%B0%A9" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="border-color:#03c75a; color:#03c75a;">🟢 Naver Map</a>
         </div>
         <div class="action-buttons">
           
-        <a href="https://www.instagram.com/deosup_chosochaekbang/" target="_blank" rel="noopener" class="btn btn-secondary" style="border-color:#e1306c; color:#e1306c;">📸 Instagram</a>
-      
+          <a href="https://www.instagram.com/deosup_chosochaekbang/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="border-color:#e1306c; color:#e1306c;">📸 Instagram</a>
+        
           <button onclick="shareKakao()" class="btn btn-secondary">💬 카카오</button>
           <button onclick="copyLink()" class="btn btn-secondary">🔗 링크</button>
         </div>

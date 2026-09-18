@@ -13,12 +13,7 @@
     gtag('config', 'G-4YKCWHHXV9');
 
     // Track place detail view
-    gtag('event', 'view_place_detail', {
-      'place_id': 'paju-norigoreum',
-      'place_name': 'Paju Norigoreum',
-      'place_category': 'cafe',
-      'place_keywords': '미디어아트,테마카페,아이랑가볼만한곳,실내데이트,파주'
-    });
+    gtag('event', 'view_place_detail', {"place_id":"paju-norigoreum","place_name":"Paju Norigoreum","place_category":"cafe","place_keywords":"미디어아트,테마카페,아이랑가볼만한곳,실내데이트,파주"});
   </script>
 
   <!-- ─── Primary SEO ─── -->
@@ -66,13 +61,23 @@
   <!-- ─── BreadcrumbList ─── -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Kuromoon", "item": "https://kuromoon.com/en/" },
-      { "@type": "ListItem", "position": 2, "name": "Paju Norigoreum", "item": "https://kuromoon.com/en/places/paju-norigoreum.html" }
-    ]
-  }
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Kuromoon",
+      "item": "https://kuromoon.com/en/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Paju Norigoreum",
+      "item": "https://kuromoon.com/en/places/paju-norigoreum.html"
+    }
+  ]
+}
   </script>
 
   <link rel="stylesheet" href="../../css/style.css">
@@ -122,7 +127,7 @@
         <p class="detail-summary" data-pagefind-meta="summary">Indoor media art theme cafe in Paju, perfect for families with kids.</p>
 
         <div class="ai-description" style="margin-top: 1.5rem; line-height: 1.6; color: var(--text-secondary); background: rgba(255,255,255,0.03); border-left: 3px solid var(--accent); padding: 1rem; border-radius: 4px; font-size: 0.9rem;">
-          Paju Norigoreum is a unique indoor cafe combining media art and a thematic concept, offering a special space for families to enjoy with children. Visitors can immerse themselves in diverse media art exhibitions, stimulating their imagination with visual experiences, and engage in indoor play activities as suggested by its name, 'Norigoreum' (play cloud). While specific signature menus or photo zones are not explicitly mentioned, the media art installations themselves provide excellent backdrops for memorable pictures. This venue is perfect for families, especially those planning a special indoor outing with kids, providing a comfortable atmosphere even on rainy or hot summer days. With convenient parking facilities, it is easily accessible for those traveling by car.
+          Paju Norigoreum is a unique indoor cafe combining media art and a thematic concept, offering a special space for families to enjoy with children. Visitors can immerse themselves in diverse media art exhibitions, stimulating their imagination with visual experiences, and engage in indoor play activities as suggested by its name, &#039;Norigoreum&#039; (play cloud). While specific signature menus or photo zones are not explicitly mentioned, the media art installations themselves provide excellent backdrops for memorable pictures. This venue is perfect for families, especially those planning a special indoor outing with kids, providing a comfortable atmosphere even on rainy or hot summer days. With convenient parking facilities, it is easily accessible for those traveling by car.
         </div>
 
         <!-- ─── Tags ─── -->
@@ -136,12 +141,12 @@
         <!-- ─── Action Buttons ─── -->
         
         <div class="action-buttons">
-          <a href="https://www.google.com/maps/search/?api=1&query=Paju%20Norigoreum" target="_blank" rel="noopener" class="btn btn-secondary" style="border-color:#4285F4; color:#4285F4;">🔵 Google Maps</a><a href="https://map.naver.com/v5/search/%ED%8C%8C%EC%A3%BC%EB%86%80%EC%9D%B4%EA%B5%AC%EB%A6%84" target="_blank" rel="noopener" class="btn btn-secondary" style="border-color:#03c75a; color:#03c75a;">🟢 Naver Map</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Paju%20Norigoreum" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="border-color:#4285F4; color:#4285F4;">🔵 Google Maps</a><a href="https://map.naver.com/v5/search/%ED%8C%8C%EC%A3%BC%EB%86%80%EC%9D%B4%EA%B5%AC%EB%A6%84" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="border-color:#03c75a; color:#03c75a;">🟢 Naver Map</a>
         </div>
         <div class="action-buttons">
           
-        <a href="https://www.instagram.com/ebs_pajunoligoorm/" target="_blank" rel="noopener" class="btn btn-secondary" style="border-color:#e1306c; color:#e1306c;">📸 Instagram</a>
-      
+          <a href="https://www.instagram.com/ebs_pajunoligoorm/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="border-color:#e1306c; color:#e1306c;">📸 Instagram</a>
+        
           <button onclick="shareKakao()" class="btn btn-secondary">💬 카카오</button>
           <button onclick="copyLink()" class="btn btn-secondary">🔗 링크</button>
         </div>

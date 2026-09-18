@@ -13,12 +13,7 @@
     gtag('config', 'G-4YKCWHHXV9');
 
     // Track place detail view
-    gtag('event', 'view_place_detail', {
-      'place_id': 'sabujak-craft',
-      'place_name': 'Sabujak Craft',
-      'place_category': 'popup',
-      'place_keywords': '원데이클래스,이색체험,공방,모루인형,위빙공예'
-    });
+    gtag('event', 'view_place_detail', {"place_id":"sabujak-craft","place_name":"Sabujak Craft","place_category":"popup","place_keywords":"원데이클래스,이색체험,공방,모루인형,위빙공예"});
   </script>
 
   <!-- ─── Primary SEO ─── -->
@@ -60,7 +55,7 @@
     "streetAddress": "3rd Floor, 30, Donggyo-ro 38-gil, Mapo-gu, Seoul, Republic of Korea",
     "addressCountry": "KR"
   },
-  "startDate": "2026-09-16",
+  "startDate": "2026-09-18",
   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "eventStatus": "https://schema.org/EventScheduled",
   "location": {
@@ -78,13 +73,23 @@
   <!-- ─── BreadcrumbList ─── -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Kuromoon", "item": "https://kuromoon.com/en/" },
-      { "@type": "ListItem", "position": 2, "name": "Sabujak Craft", "item": "https://kuromoon.com/en/places/sabujak-craft.html" }
-    ]
-  }
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Kuromoon",
+      "item": "https://kuromoon.com/en/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Sabujak Craft",
+      "item": "https://kuromoon.com/en/places/sabujak-craft.html"
+    }
+  ]
+}
   </script>
 
   <link rel="stylesheet" href="../../css/style.css">
@@ -148,12 +153,12 @@
         <!-- ─── Action Buttons ─── -->
         
         <div class="action-buttons">
-          <a href="https://www.google.com/maps/search/?api=1&query=Sabujak%20Craft" target="_blank" rel="noopener" class="btn btn-secondary" style="border-color:#4285F4; color:#4285F4;">🔵 Google Maps</a><a href="https://map.naver.com/v5/search/%EC%82%AC%EB%B6%80%EC%9E%91%ED%81%AC%EB%9E%98%ED%94%84%ED%8A%B8" target="_blank" rel="noopener" class="btn btn-secondary" style="border-color:#03c75a; color:#03c75a;">🟢 Naver Map</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Sabujak%20Craft" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="border-color:#4285F4; color:#4285F4;">🔵 Google Maps</a><a href="https://map.naver.com/v5/search/%EC%82%AC%EB%B6%80%EC%9E%91%ED%81%AC%EB%9E%98%ED%94%84%ED%8A%B8" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="border-color:#03c75a; color:#03c75a;">🟢 Naver Map</a>
         </div>
         <div class="action-buttons">
           
-        <a href="https://www.instagram.com/sabuzak.craft/" target="_blank" rel="noopener" class="btn btn-secondary" style="border-color:#e1306c; color:#e1306c;">📸 Instagram</a>
-      
+          <a href="https://www.instagram.com/sabuzak.craft/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="border-color:#e1306c; color:#e1306c;">📸 Instagram</a>
+        
           <button onclick="shareKakao()" class="btn btn-secondary">💬 카카오</button>
           <button onclick="copyLink()" class="btn btn-secondary">🔗 링크</button>
         </div>

@@ -13,12 +13,7 @@
     gtag('config', 'G-4YKCWHHXV9');
 
     // Track place detail view
-    gtag('event', 'view_place_detail', {
-      'place_id': 'beethoven-house',
-      'place_name': '베토벤하우스',
-      'place_category': 'cafe',
-      'place_keywords': '디저트 오마카세,스페셜티 커피,뮤직홀,영종도 카페,베토벤 테마'
-    });
+    gtag('event', 'view_place_detail', {"place_id":"beethoven-house","place_name":"베토벤하우스","place_category":"cafe","place_keywords":"디저트 오마카세,스페셜티 커피,뮤직홀,영종도 카페,베토벤 테마"});
   </script>
 
   <!-- ─── Primary SEO ─── -->
@@ -66,13 +61,23 @@
   <!-- ─── BreadcrumbList ─── -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Kuromoon", "item": "https://kuromoon.com/ko/" },
-      { "@type": "ListItem", "position": 2, "name": "베토벤하우스", "item": "https://kuromoon.com/ko/places/beethoven-house.html" }
-    ]
-  }
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Kuromoon",
+      "item": "https://kuromoon.com/ko/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "베토벤하우스",
+      "item": "https://kuromoon.com/ko/places/beethoven-house.html"
+    }
+  ]
+}
   </script>
 
   <link rel="stylesheet" href="../../css/style.css">
@@ -122,7 +127,7 @@
         <p class="detail-summary" data-pagefind-meta="summary">베토벤의 커피 사랑을 테마로 한 영종도 카페.</p>
 
         <div class="ai-description" style="margin-top: 1.5rem; line-height: 1.6; color: var(--text-secondary); background: rgba(255,255,255,0.03); border-left: 3px solid var(--accent); padding: 1rem; border-radius: 4px; font-size: 0.9rem;">
-          영종도에 위치한 '베토벤하우스'는 위대한 작곡가 베토벤이 지독한 커피광이었다는 흥미로운 사실을 테마로 한 아트/테마 카페입니다. 방문객들은 베토벤의 커피 사랑 스토리를 담은 스페셜티 커피와 맛있는 빵을 맛볼 수 있으며, 함께 운영되는 뮤직홀에서 클래식 음악을 감상하며 특별한 시간을 보낼 수 있습니다. 특히 베토벤이 수입의 1/4을 커피에 쓸 정도였다는 이야기에 영감을 받은 스페셜티 커피는 이곳의 시그니처 메뉴로 꼭 경험해봐야 합니다. 음악과 커피를 동시에 즐길 수 있는 독특한 분위기는 영종도에서 이색적인 데이트나 친구들과의 모임을 계획하는 분들에게 안성맞춤입니다. (예약 및 웨이팅 정보는 텍스트에 명시되어 있지 않습니다.)
+          영종도에 위치한 &#039;베토벤하우스&#039;는 위대한 작곡가 베토벤이 지독한 커피광이었다는 흥미로운 사실을 테마로 한 아트/테마 카페입니다. 방문객들은 베토벤의 커피 사랑 스토리를 담은 스페셜티 커피와 맛있는 빵을 맛볼 수 있으며, 함께 운영되는 뮤직홀에서 클래식 음악을 감상하며 특별한 시간을 보낼 수 있습니다. 특히 베토벤이 수입의 1/4을 커피에 쓸 정도였다는 이야기에 영감을 받은 스페셜티 커피는 이곳의 시그니처 메뉴로 꼭 경험해봐야 합니다. 음악과 커피를 동시에 즐길 수 있는 독특한 분위기는 영종도에서 이색적인 데이트나 친구들과의 모임을 계획하는 분들에게 안성맞춤입니다. (예약 및 웨이팅 정보는 텍스트에 명시되어 있지 않습니다.)
         </div>
 
         <!-- ─── Tags ─── -->
@@ -136,12 +141,12 @@
         <!-- ─── Action Buttons ─── -->
         
         <div class="action-buttons">
-          <a href="https://map.naver.com/v5/search/%EB%B2%A0%ED%86%A0%EB%B2%A4%ED%95%98%EC%9A%B0%EC%8A%A4" target="_blank" rel="noopener" class="btn btn-secondary" style="border-color:#03c75a; color:#03c75a;">🟢 네이버 지도</a><a href="https://map.kakao.com/link/search/%EB%B2%A0%ED%86%A0%EB%B2%A4%ED%95%98%EC%9A%B0%EC%8A%A4" target="_blank" rel="noopener" class="btn btn-secondary" style="border-color:#FEE500; color:#391B1B;">🟡 카카오맵</a>
+          <a href="https://map.naver.com/v5/search/%EB%B2%A0%ED%86%A0%EB%B2%A4%ED%95%98%EC%9A%B0%EC%8A%A4" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="border-color:#03c75a; color:#03c75a;">🟢 네이버 지도</a><a href="https://map.kakao.com/link/search/%EB%B2%A0%ED%86%A0%EB%B2%A4%ED%95%98%EC%9A%B0%EC%8A%A4" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="border-color:#FEE500; color:#391B1B;">🟡 카카오맵</a>
         </div>
         <div class="action-buttons">
           
-        <a href="https://www.instagram.com/beethovenhaus_incheon/" target="_blank" rel="noopener" class="btn btn-secondary" style="border-color:#e1306c; color:#e1306c;">📸 Instagram</a>
-      
+          <a href="https://www.instagram.com/beethovenhaus_incheon/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="border-color:#e1306c; color:#e1306c;">📸 Instagram</a>
+        
           <button onclick="shareKakao()" class="btn btn-secondary">💬 카카오</button>
           <button onclick="copyLink()" class="btn btn-secondary">🔗 링크</button>
         </div>
