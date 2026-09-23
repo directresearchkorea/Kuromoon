@@ -265,7 +265,7 @@ function buildDetailPages(lang, places, template) {
       
       // Use place name for Naver/Kakao maps (requested for popups as well to avoid general location info overflow)
       let naverKakaoQueryStr = (place.name_ko || '').replace(/[\[\]]/g, '').trim();
-      if (place.category === 'popup' && (naverKakaoQueryStr.length > 15 || naverKakaoQueryStr.includes('-') || naverKakaoQueryStr.includes(':'))) {
+      if (place.category === 'popup' && (naverKakaoQueryStr.length > 20 || naverKakaoQueryStr.includes('♥') || naverKakaoQueryStr.includes(':'))) {
           naverKakaoQueryStr = cleanAddress || naverKakaoQueryStr;
       }
       const naverKakaoQuery = encodeURIComponent(naverKakaoQueryStr);
