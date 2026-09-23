@@ -1,63 +1,63 @@
 {
-  "generated_at": "2026-09-19",
+  "generated_at": "2026-09-23",
   "mode": "live-dynamic",
   "period": {
-    "start": "2026-08-20",
-    "end": "2026-09-19"
+    "start": "2026-08-24",
+    "end": "2026-09-23"
   },
   "categories": {
     "popup": {
       "label": "팝업/전시",
       "trending_keywords": [
         {
-          "keyword": "피카츄의 가을 나들이 | 하이커 그라운드",
+          "keyword": "클리오 풍년다방 팝업 | 성수",
           "trend_score": 100,
-          "data_points": 4
+          "data_points": 2
         },
         {
-          "keyword": "랙앤본 팝업 | 성수",
-          "trend_score": 100,
+          "keyword": "다이와 피어39 팝업 | 강남",
+          "trend_score": 30,
           "data_points": 1
         },
         {
-          "keyword": "ENHYPEN VR CONCERT | 강남",
-          "trend_score": 75,
-          "data_points": 1
-        },
-        {
-          "keyword": "U+일상비일상의틈 아트 개러지 | 강남",
+          "keyword": "양개 팝업 | 더현대 서울",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "푸투라 | 서울 북촌",
+          "keyword": "SK텔레콤 X 랜덤 다이버시티 Emotion Lab | 성수",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "탄산마그네슘 팝업 | 성수",
           "trend_score": 30,
           "data_points": 5
         },
         {
-          "keyword": "리바이스 우먼스 익스피리언스 | 성수",
+          "keyword": "지박소년 하나코 군2 X Gratte | 홍대",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "마녀공장 소이빈 방앗간 | 성수",
-          "trend_score": 30,
-          "data_points": 3
-        },
-        {
-          "keyword": "바이레도 FUTURE MEMORIES | 성수",
+          "keyword": "비비앙 구름 호텔 팝업 | 성수",
           "trend_score": 30,
           "data_points": 2
         },
         {
-          "keyword": "Pokémon Pokopia Concept Store | 무신사 성수",
+          "keyword": "설화수 자음생크림 60주년 팝업 | 신세계 강남",
+          "trend_score": 30,
+          "data_points": 2
+        },
+        {
+          "keyword": "아누아 PDRN 라인 팝업 | 올리브영 성수",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "올리브영 시티로그 팝업 | 성수",
+          "keyword": "점프샵 서울 팝업스토어 | 서울",
           "trend_score": 30,
-          "data_points": 4
+          "data_points": 0
         }
       ]
     },
@@ -65,52 +65,52 @@
       "label": "이색 체험",
       "trending_keywords": [
         {
-          "keyword": "쿠팡 온리 페스타 | 성수",
+          "keyword": "달라또 팝업 | 성수",
           "trend_score": 100,
-          "data_points": 4
+          "data_points": 5
         },
         {
-          "keyword": "서울안전한마당 | 여의도",
+          "keyword": "노들섬 수변문화공간 | 노들섬",
+          "trend_score": 50,
+          "data_points": 5
+        },
+        {
+          "keyword": "서울퓨처랩 | 마곡",
+          "trend_score": 50,
+          "data_points": 5
+        },
+        {
+          "keyword": "2026 서울라이트 한강 빛섬축제 | 한강",
+          "trend_score": 33,
+          "data_points": 3
+        },
+        {
+          "keyword": "서울라이트 DDP | DDP",
           "trend_score": 30,
           "data_points": 5
         },
         {
-          "keyword": "서울로미디어캔버스 | 미상",
+          "keyword": "용산 폼폼푸린 만두집 | 용산",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "포켓몬 포코피아 컨셉스토어 | 성수",
           "trend_score": 30,
           "data_points": 3
         },
         {
-          "keyword": "성수 게임 테마 파크 | 성수",
+          "keyword": "프레잉 한글 팝업 | 서울",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "강남청년축제 웰니스 소셜링 | 강남",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "서울라이트 한강 빛섬축제 | 한강",
+          "keyword": "얼렁뚱땅상점 팝업 | 신촌",
           "trend_score": 30,
           "data_points": 3
         },
         {
-          "keyword": "안드레아 갈바니 개인전 | Tang Contemporary Art Seoul",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "스튜디오블랭크 굿즈 팝업 | 강서",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "브레드 이발소 팝업 | 신촌",
-          "trend_score": 30,
-          "data_points": 5
-        },
-        {
-          "keyword": "쇼뮤지컬 TOUCH FIVE | 미상",
+          "keyword": "크래비티 팝업 탐정 크크루 | 홍대",
           "trend_score": 30,
           "data_points": 0
         }
@@ -120,14 +120,9 @@
       "label": "뷰티/웰니스",
       "trending_keywords": [
         {
-          "keyword": "무신사 뷰티 | 홍대",
+          "keyword": "탄산마그네슘 팝업 | 영등포",
           "trend_score": 100,
           "data_points": 5
-        },
-        {
-          "keyword": "올리브러브 | 남대문",
-          "trend_score": 30,
-          "data_points": 3
         },
         {
           "keyword": "아누아 PDRN 팝업 | 성수",
@@ -135,131 +130,54 @@
           "data_points": 0
         },
         {
-          "keyword": "티슬로 팝업 | 성수",
+          "keyword": "캐시돌X맹 팝업 | 성수",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "클리오 풍년마당 팝업 | 성수",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "비클린X이쁨 팝업 | 중구",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "폰피쉬 팝업 | 무신사뷰티 홍대",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "비비앙 구름 호텔 팝업 | 성수",
           "trend_score": 30,
           "data_points": 2
         },
         {
-          "keyword": "마녀공장 소이빈 방앗간 | 성수",
+          "keyword": "프롬퓨처 팝업 | 압구정",
           "trend_score": 30,
-          "data_points": 3
+          "data_points": 0
         },
         {
-          "keyword": "바이레도 FUTURE MEMORIES 팝업 | 성수",
+          "keyword": "다이브인X피노키 팝업 | 잠실",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "닥터딥 팝업 | 성수",
           "trend_score": 30,
           "data_points": 2
-        },
-        {
-          "keyword": "바세린 글루타히야 팝업 | 강남",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "르브아제 팝업 | 중구",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "세퍼퓨라운지 팝업 | 성수",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "더 룩 팝업 | 미상",
-          "trend_score": 30,
-          "data_points": 3
         }
       ]
     },
     "dining": {
       "label": "컨셉 다이닝",
-      "trending_keywords": [
-        {
-          "keyword": "한정선 찹쌀떡 팝업 | 더현대 서울",
-          "trend_score": 100,
-          "data_points": 5
-        },
-        {
-          "keyword": "대왕 카스테라 팝업 | 판교 현대백화점",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "슈카 빵 팝업 | 성수",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "아임파이 팝업 | 천호 현대백화점",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "일본식 계란말이 팝업 | 삼성 현대백화점",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "봉주르팝업 | 현대어린이책미술관",
-          "trend_score": 30,
-          "data_points": 0
-        }
-      ]
+      "trending_keywords": []
     },
     "cafe": {
       "label": "아트/테마 카페",
-      "trending_keywords": [
-        {
-          "keyword": "원신 카페 | 홍대",
-          "trend_score": 100,
-          "data_points": 5
-        },
-        {
-          "keyword": "바샤커피 팝업 | 롯데 노원점",
-          "trend_score": 30,
-          "data_points": 4
-        },
-        {
-          "keyword": "소울로스터리 팝업 | 건대",
-          "trend_score": 30,
-          "data_points": 1
-        },
-        {
-          "keyword": "브레드이발소 팝업 | 신촌",
-          "trend_score": 30,
-          "data_points": 5
-        },
-        {
-          "keyword": "카페 메모리얼 | 용산",
-          "trend_score": 30,
-          "data_points": 5
-        },
-        {
-          "keyword": "하우스 오브 토이스토리 팝업 | 성수",
-          "trend_score": 30,
-          "data_points": 5
-        },
-        {
-          "keyword": "틈결 에스더버니 팝업 | 성수",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "구냥이 메이드바이 팝업 | 홍대",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "프레잉 한글 팝업 | 서울",
-          "trend_score": 30,
-          "data_points": 0
-        },
-        {
-          "keyword": "REVOIRZÉ 팝업 | DDP",
-          "trend_score": 30,
-          "data_points": 0
-        }
-      ]
+      "trending_keywords": []
     }
   }
 }
