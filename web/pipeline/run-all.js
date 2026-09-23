@@ -271,14 +271,26 @@ async function main() {
                 throw new Error(`Safety violation: Sensitive file(s) detected in staging: ${blockedFiles.join(', ')}. Git commit aborted.`);
             }
 
+            // 1. Git Commit
+            let commitCreated = false;
             try {
                 const dateStr = new Date().toISOString().replace('T', ' ').substring(0, 19);
                 execSync(`git commit -m "🤖 Local Auto-update: ${dateStr}"`, { cwd: rootDir, stdio: 'inherit' });
-                execSync('git push', { cwd: rootDir, stdio: 'inherit' });
+                commitCreated = true;
+                log('✅ Git commit created locally.');
+            } catch (commitErr) {
+                log('ℹ️ Git commit skipped (no new changes to commit).');
+            }
+
+            // 2. Git Push
+            try {
+                log('🚀 Attempting git push to GitHub...');
+                execSync('git push origin main', { cwd: rootDir, stdio: 'inherit', timeout: 30000 });
                 log('✅ Git push completed successfully! (Cloudflare Pages will auto-deploy)');
                 appendLog('git-push', 'success', 'Git Commit & Push 완료');
-            } catch (e) {
-                log('ℹ️ Git commit skipped (no changes to commit)');
+            } catch (pushErr) {
+                log(`⚠️ Git push failed or timed out: ${pushErr.message}`);
+                appendLog('git-push', 'error', `Git Push 실패: ${pushErr.message}`);
             }
         } catch (e) {
             log(`❌ Git Push failed: ${e.message}`);
