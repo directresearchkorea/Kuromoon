@@ -34170,5 +34170,234 @@
         ]
       }
     }
+  },
+  {
+    "timestamp": "2026-09-24T09:05:19.357Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "폼폼푸린 만두집 | 용산",
+            "trend_score": 100,
+            "data_points": 1
+          },
+          {
+            "keyword": "Light Up Your SEOUL 팝업 | 코엑스몰",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "SK텔레콤 랜덤 다이버시티 Emotion Lab | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "지박소년 하나코 군2 콜라보 카페 | 홍대",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "포켓몬 포코피아 무신사 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "달라또 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "블리치 천년혈전편 콜라보 카페 | 홍대",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "푸투라 레픽 아나돌 전시 | 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "소피텔 서울 더 시크릿 체크인 팝업 | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "마이티즈 Rock The Stage 팝업 | 홍대",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "폼폼푸린 만두집 | 용산",
+            "trend_score": 100,
+            "data_points": 1
+          },
+          {
+            "keyword": "2026 시크릿 도서전 | 마포",
+            "trend_score": 32,
+            "data_points": 3
+          },
+          {
+            "keyword": "푸투라 | 서울",
+            "trend_score": 32,
+            "data_points": 5
+          },
+          {
+            "keyword": "오브젝트 서울 | 성수",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "루미너스 컨셉 스토어 | 한남",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "Emotion Lab | 성수",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "크래비티 팝업 탐정 크크루 | 홍대",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "포켓몬 포코피아 컨셉스토어 | 성수",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "던스트 플래그십 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "짱구 국내 최초 체험전 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": [
+          {
+            "keyword": "텐먼스 팝업 | 성수",
+            "trend_score": 100,
+            "data_points": 3
+          },
+          {
+            "keyword": "아누아 PDRN 라인 팝업스토어 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "마스마룰즈 팝업 | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "메이크프렘 팝업 | 연남",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "탄산마그네슘 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "더 디코드 | 압구정",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "세퍼퓨라운지 무하과의 계절 팝업 스토어 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "크록스 스튜디오 | 연남",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "SK텔레콤 X 랜덤 다이버시티 전시 : Emotion Lab | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "뚜오미오 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": [
+          {
+            "keyword": "NOR | 강남",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "달라또 팝업 | 성수",
+            "trend_score": 71,
+            "data_points": 5
+          },
+          {
+            "keyword": "폼폼푸린 만두집 | 용산",
+            "trend_score": 51,
+            "data_points": 1
+          },
+          {
+            "keyword": "고움 | 미상",
+            "trend_score": 34,
+            "data_points": 5
+          },
+          {
+            "keyword": "괴산 찰떡 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "가온가옥 | 미상",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "임정식 셰프의 곰탕랩 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "Escale | 서울",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "로이로이 | 연남동",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "소울로스터리 팝업 | 건대스타시티점",
+            "trend_score": 30,
+            "data_points": 1
+          }
+        ]
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": []
+      }
+    }
   }
 ]
