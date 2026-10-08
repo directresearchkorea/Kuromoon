@@ -35799,5 +35799,3726 @@
         ]
       }
     }
+  },
+  {
+    "timestamp": "2026-09-28T09:07:38.978Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "미세스 그린 애플 팝업 | 여의도",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "슈퍼드라이 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "초가구야공주 팝업 | 신촌",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "사일로 브루어리 팝업 | 잠실",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "스트릿 월드 파이터 팝업 | 동대문",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "푸투라 | 미상",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "오브젝트 | 성수",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "주술회전 콜라보 카페 | 홍대",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "고레에다 히로카즈 룩백 팝업 | 연남동",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "소피텔 서울 더 시크릿 체크인 | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "갤럭시 로봇파크 | 강동",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "안양천 빛축제 | 안양천",
+            "trend_score": 36,
+            "data_points": 5
+          },
+          {
+            "keyword": "T팩토리 이모션 랩 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "NCT 네오 디멘션 | 롯데월드",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "서울달 아래 보름달 소원 | 여의도",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "빅뱅 코스모스 미디어 전시 | 을지로",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "크래비티 탐정 크크루 | 홍대",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "탐정 스누피 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "하트풋 추석맞이 체험 | 잠실",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "한식도서관 오감 체험 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": [
+          {
+            "keyword": "무신사 뷰티 | 홍대",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "클리오 풍년다방 | 성수",
+            "trend_score": 92,
+            "data_points": 4
+          },
+          {
+            "keyword": "오프뷰티 | 홍대",
+            "trend_score": 62,
+            "data_points": 5
+          },
+          {
+            "keyword": "루나 클라우드 레이어 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "리베르 INTO THE CLOUDS | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "메이크프렘 팝업 | 연남",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "올리브영 시티 로그 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "나이스웨더 에이딕트 팝업 | 여의도",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "아누아 PDRN SHOWER | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "T팩토리 이모션 랩 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          }
+        ]
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": []
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": [
+          {
+            "keyword": "다모여 페스타 | 홍대",
+            "trend_score": 100,
+            "data_points": 4
+          },
+          {
+            "keyword": "원신 Cafe in Seoul | 홍대",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "주술회전 콜라보 카페 | 홍대",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "쎄비하우스 | 성수",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "꽁티드툴레아 | 가로수길",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "HAUS NOWHERE | 성수",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "스토리A 뷰티서바이벌 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "하츠네 미쿠 애니메이트 카페 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "투어스 42 Forest | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "리베르 INTO THE CLOUDS | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-29T00:10:33.114Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "푸투라 | 서울 북촌",
+            "trend_score": 100,
+            "data_points": 6
+          },
+          {
+            "keyword": "사일로 브루어리 팝업 | 송파구",
+            "trend_score": 81,
+            "data_points": 2
+          },
+          {
+            "keyword": "미세스 그린 애플 팝업 | 영등포구",
+            "trend_score": 69,
+            "data_points": 6
+          },
+          {
+            "keyword": "AGE20'S 디 에이지투웨니스 하우스 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "르시스 팝업 | 성동구",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "애즈온 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "스트릿 월드 파이터 팝업 | 동대문",
+            "trend_score": 30,
+            "data_points": 6
+          },
+          {
+            "keyword": "Angel♡Devil 팝업 | 마포구",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "NESS 팝업 THE ROOM | 영등포구",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "아누아 PDRN SHOWER 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "하우스 오브 뱀파이어 | 미상",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "서울굿즈 팝업 | 코엑스",
+            "trend_score": 50,
+            "data_points": 1
+          },
+          {
+            "keyword": "디디디랩 팝업 | 광화문",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "T1 AR ROOM | 서울스카이",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "포켓몬 포코피아 | 성수",
+            "trend_score": 30,
+            "data_points": 6
+          },
+          {
+            "keyword": "안유진 장원영 미디어 전시 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "빅뱅 미디어 전시 | 서울광장",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "노들섬 미디어정원 | 노들섬",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "NCT 네오디멘션 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "김미천 두더지들 전시 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": []
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": []
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": []
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-29T09:06:51.431Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "미세스 그린 애플 팝업 | 여의도",
+            "trend_score": 100,
+            "data_points": 6
+          },
+          {
+            "keyword": "피카츄의 가을나들이 | 종로",
+            "trend_score": 75,
+            "data_points": 6
+          },
+          {
+            "keyword": "Angel♡Devil 팝업 | 마포",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "초가구야공주 팝업 | 신촌",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "사일로 브루어리 팝업 | 송파",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "던스트 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "스트릿 월드 파이터 팝업 | 동대문",
+            "trend_score": 30,
+            "data_points": 6
+          },
+          {
+            "keyword": "NESS 팝업 | 여의도",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "소녀의 낭만을 담은 르시스 팝업 | 성동구",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "Light Up Your SEOUL | 코엑스",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "슈퍼드라이 성수 팝업 | 성수",
+            "trend_score": 100,
+            "data_points": 3
+          },
+          {
+            "keyword": "미세스 그린 애플 팝업 | 더현대 서울",
+            "trend_score": 41,
+            "data_points": 6
+          },
+          {
+            "keyword": "넥슨 홍대 메이플스토리 방탈출 카페 | 홍대",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "펀포지 홍대 플래그십 스토어 | 홍대",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "식스도파민 소피텔 서울 팝업 | 소피텔 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "강원랜드 홍대 고길동 팝업 | 홍대",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "서울문화예술교육센터 | 용산",
+            "trend_score": 30,
+            "data_points": 6
+          },
+          {
+            "keyword": "피카츄의 가을나들이 | 하이커 그라운드",
+            "trend_score": 30,
+            "data_points": 6
+          },
+          {
+            "keyword": "고터세빛 K-STYLE UP FESTA | 고터세빛",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "신세계 강남 주간 소년 점프 팝업 | 신세계 강남",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": [
+          {
+            "keyword": "무신사 뷰티 | 홍대",
+            "trend_score": 100,
+            "data_points": 6
+          },
+          {
+            "keyword": "아늑 시그니처 | 구로",
+            "trend_score": 71,
+            "data_points": 6
+          },
+          {
+            "keyword": "아누아 PDRN 라인 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "AGE20'S 디 에이지투웨니스 하우스 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "센녹 배스 하우스 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "왓더퓸 247 팝업 | 더현대서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "서울굿즈 웰니스 팝업 | 코엑스몰",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "메이크프렘 팝업 | 연남",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "에이딕트 팝업 | 여의도",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "NESS 팝업 | THE ROOM 여의도",
+            "trend_score": 30,
+            "data_points": 2
+          }
+        ]
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": []
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": [
+          {
+            "keyword": "전지적 독자 시점 애니메이트 카페 | 홍대",
+            "trend_score": 100,
+            "data_points": 6
+          },
+          {
+            "keyword": "원신 카페 | 홍대",
+            "trend_score": 54,
+            "data_points": 6
+          },
+          {
+            "keyword": "쎄비하우스 | 성수",
+            "trend_score": 30,
+            "data_points": 6
+          },
+          {
+            "keyword": "주술회전 콜라보 카페 | 미상",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "서울잇다플레이스 | 성동",
+            "trend_score": 30,
+            "data_points": 6
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-30T00:06:43.674Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "점프샵 | 신세계 강남",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "슈퍼드라이 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "렌시스 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "고길동의 낯선 강원랜드 팝업 | 홍대",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "소피텔 서울 더 시크릿 체크인 | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "푸투라 | 북촌",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "Light Up Your SEOUL 팝업 | 코엑스몰",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "미니지티 팝업 | 신세계 강남",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "던스트 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "29CM X LOFT 앙코르 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 3
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "모두의 풍속도 | 경복궁",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "클리오 풍년다방 팝업 | 성수",
+            "trend_score": 65,
+            "data_points": 3
+          },
+          {
+            "keyword": "블리치 콜라보 카페 | 마포",
+            "trend_score": 62,
+            "data_points": 5
+          },
+          {
+            "keyword": "CU 페리페라 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "BTS 달마중 팝업 | 용산",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "리베르 INTO THE CLOUDS 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "올리브영 롬앤 산리오 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "온그리디언츠 VIP 라운지 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "미니지티 팝업 | 신세계 강남",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "프레잉 한글 팝업 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": [
+          {
+            "keyword": "무신사 뷰티 | 홍대",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "클리오 풍년다방 팝업 | 성수",
+            "trend_score": 38,
+            "data_points": 3
+          },
+          {
+            "keyword": "아누아 PDRN 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "리베르 X 무신사 뷰티 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "메이크프렘 팝업 | 연남",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "온그리디언츠 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "롬앤 산리오캐릭터즈 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "에이딕트 팝업 | 여의도",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "시슬리 파리 팝업 | 강남",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "더콜디스트모먼트 팝업 | 서초",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": []
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": [
+          {
+            "keyword": "전지적 독자 시점 애니메이트 카페 | 홍대",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "블리치 콜라보 카페 | 홍대",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "원신 Cafe | 홍대",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "카페 더 윈드 | 서교동",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "소피텔 서울 더 시크릿 체크인 | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "더콜디스트모먼트 팝업 | 서초",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "르시스 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "초가구야공주 팝업 | 신촌",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "NESS 팝업 | 여의도",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "별 연구소 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-30T09:06:55.212Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "미세스 그린 애플 팝업 | 여의도",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "슈퍼드라이 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "소피텔 서울 팝업 | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "더콜디스트모먼트 팝업 | 강남",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "르시스 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "투위미 42 포레스트 | 서울숲",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "엔하이픈 엔친 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "클리오 풍년다방 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "테노 팝업 | 현대목동",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "라리가 웹툰 팝업 | 잠실",
+            "trend_score": 30,
+            "data_points": 3
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "그랜드 하얏트 서울 신상호 작가 전시 | 그랜드 하얏트 서울",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "푸투라 | 서울",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "노들섬 수변문화공간 | 노들섬",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "LG전자 라이프집 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "스위트 에이전트 무신사 | 서울숲",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "짱구는 못말려 시공간 대모험 | 성수",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "새삶스런 예술 전파사 | 샤로수길",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "사일로 브루어리 커스텀 라벨링 서비스 | 송파",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "클리오 풍년다방 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "신세계푸드 스꾸하우스 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": [
+          {
+            "keyword": "무신사 뷰티 | 홍대",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "클리오 풍년다방 팝업 | 성수",
+            "trend_score": 38,
+            "data_points": 3
+          },
+          {
+            "keyword": "리베르 팝업 | 성수",
+            "trend_score": 31,
+            "data_points": 3
+          },
+          {
+            "keyword": "루나 팝업 무신사 메가스토어 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "센녹 배스 하우스 | 성수",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "메이크프렘 팝업 | 홍대",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "나이스웨더 X 에이딕트 팝업 | 여의도",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "시슬리 파리 팝업 | 강남",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "르시스 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "비비앙 구름 호텔 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 3
+          }
+        ]
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": [
+          {
+            "keyword": "오일제 | 미상",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "가온가옥 | 미상",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "곰탕랩 | 미상",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "고움 | 미상",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "소넷 | 미상",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "묵정 | 미상",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "샤콘느 | 미상",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "후제 | 미상",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "JP at Louis Vuitton | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "스시정대 | 청담",
+            "trend_score": 30,
+            "data_points": 5
+          }
+        ]
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": []
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-01T00:07:27.581Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "온앤온 | 한남",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "더 위켄드 팝업 | 무신사",
+            "trend_score": 67,
+            "data_points": 3
+          },
+          {
+            "keyword": "클리오 풍년다방 | 강남",
+            "trend_score": 45,
+            "data_points": 5
+          },
+          {
+            "keyword": "레자미오네뜨 | 롯데월드몰",
+            "trend_score": 33,
+            "data_points": 5
+          },
+          {
+            "keyword": "푸투라 | 서울 북촌",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "T팩토리 이모션 랩 | 성수",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "신세계푸드 스꾸하우스 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "더콜디스트모먼트 팝업 | 무신사",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "AGE20'S 하우스 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "유앤어스 퍼니처 | 송파",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "노원 점프 | 노원",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "푸투라 | 서울 북촌",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "스꾸하우스 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "시크릿 도서전 | 마포",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "서울 로봇 AI 과학관 | 도봉",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "강서 별빛 우주 과학관 | 강서",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "노들섬 수변문화공간 | 노들섬",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "서울잇다플레이스 | 성동",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "아따맘마 전시 | 홍대",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "안드레아 갈바니 전시 | 서울",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": [
+          {
+            "keyword": "클리오 풍년다방 팝업 | 성수",
+            "trend_score": 100,
+            "data_points": 3
+          },
+          {
+            "keyword": "아누아 PDRN 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "메디힐 서울 에디션 팝업 | 올리브영N 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "AGE20'S 하우스 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "루나 CLOUD LAYER 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "톤28 팝업 | 롯데월드몰",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "DK Life Store 팝업 | 롯데 건대점",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "무신사 뷰티 플래그십 | 홍대",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "올리브베러 썸머 웰니스 스탑 | 강남",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "LG생활건강 더후 NAD 팝업 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": []
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": [
+          {
+            "keyword": "전지적 독자 시점 애니메이트 카페 | 홍대",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "아리땁다 아리수 팝업 | 여의도",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "서울잇다플레이스 | 뚝섬",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "원신 Cafe | 홍대",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "마법소녀 마도카 마기카 카페 | 잠실",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "이누야샤 팝업 | 홍대",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "크래비티 팝업 탐정 크크루 | 홍대",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "소울로스터리 춘천 카페 | 건대스타시티점",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "프레잉 | 서울",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "가볼고잉 | AK플라자 홍대",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-01T09:13:18.022Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "슈퍼드라이 팝업 | 성수",
+            "trend_score": 100,
+            "data_points": 3
+          },
+          {
+            "keyword": "고레에다 히로카즈 룩백 팝업 | 연남 스페이스비",
+            "trend_score": 61,
+            "data_points": 5
+          },
+          {
+            "keyword": "내가 키운 S급들 팝업 던전 브레이크 | 용산",
+            "trend_score": 40,
+            "data_points": 5
+          },
+          {
+            "keyword": "보이넥스트도어 팝업 | 명동",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "투어스 팝업 TWIMI 42 Forest | 성동",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "루나 팝업 CLOUD LAYER | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "크록스 팝업 CROCS STUDIO | 마포",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "엘노어 팝업 | 신세계 강남",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "아리땁다 아리수 팝업 | 여의도 한강공원",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "동물보호의 날 기념 팝업 | 성수 더가베",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "서울라이트 한강 빛섬축제 | 노들섬",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "스꾸하우스 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "소피텔 서울 더 시크릿 체크인 | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "AGE20'S 팝업 하우스 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "사일로 브루어리 커스텀 라벨링 | 송파",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "크록스 스튜디오 | 홍대",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "서울굿즈 팝업 서울의 밤 | 코엑스몰",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "nif이픈 하우스 오브 뱀파이어 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "nct 네오디멘션 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "남산골한옥마을 야간 방탈출 | 남산골한옥마을",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": []
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": []
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": []
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-02T00:10:35.849Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "슈퍼드라이 | 성수",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "짱구는 못말려 | 성수",
+            "trend_score": 62,
+            "data_points": 5
+          },
+          {
+            "keyword": "서울마이소울샵 | 서울갤러리",
+            "trend_score": 36,
+            "data_points": 5
+          },
+          {
+            "keyword": "투어스 TWIMI 42 Forest | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "FC서울 ROAD TO 7 STARS | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "서울시 유리지공예상 기념전 | 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "해방촌 신흥시장 야시장 | 해방촌 신흥시장",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "고길동의 낯선 강원랜드 | 홍대",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "오늘은 1004 동물복지 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "BTS 달마중 팝업 | 용산",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": []
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": [
+          {
+            "keyword": "톤28 | 롯데월드몰",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "픽넘버쓰리 | 성수",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "루나 클라우드 레이어 | 성수",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "무신사 뷰티 | 홍대",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "에이지투웨니스 | 성수",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "서울국제정원박람회 K-뷰티가든 | 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "월드 웰니스 관광 페어 | 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "오리키 통합웰니스 | 이태원",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "클리오 풍년다방 | 성수",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "옵티마웰니스뮤지엄 | 이태원",
+            "trend_score": 30,
+            "data_points": 5
+          }
+        ]
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": []
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": []
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-02T09:07:22.609Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": []
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "서울건축문화제 | 도시건축전시관",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "시크릿 도서전 | 마포",
+            "trend_score": 49,
+            "data_points": 5
+          },
+          {
+            "keyword": "루나 클라우드 레이어 | 성수",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "크록스 스튜디오 | 홍대",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "LG트윈스 굿바이 | 잠실",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "김천김밥축제 팝업 | 잠실",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "더 시크릿 체크인 | 더현대",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "스꾸하우스 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "안드레아 갈바니 전시 | Tang Contemporary",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "충무김밥 팝업 | 신촌",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": [
+          {
+            "keyword": "무신사 뷰티 | 홍대",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "루나 팝업 | 성수",
+            "trend_score": 65,
+            "data_points": 2
+          },
+          {
+            "keyword": "오프뷰티 | 홍대",
+            "trend_score": 49,
+            "data_points": 5
+          },
+          {
+            "keyword": "클리오 풍년다방 팝업 | 강남",
+            "trend_score": 44,
+            "data_points": 3
+          },
+          {
+            "keyword": "AGE20'S 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "비그룸 EQL | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "디어드라세나 팝업 | 현대판교",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "제로이드 누렁이 팝업 | 홍대",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "서울국제정원박람회 K뷰티가든 | 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "봉은사 야간 사찰 명상 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": []
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": []
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-03T00:07:12.437Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "슈퍼드라이 | 성수",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "던스트 | 롯데월드몰 (잠실)",
+            "trend_score": 59,
+            "data_points": 5
+          },
+          {
+            "keyword": "FC서울 | 성수",
+            "trend_score": 31,
+            "data_points": 5
+          },
+          {
+            "keyword": "TWIMI 42 Forest | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "비그룸 EQL | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "르시스 | 성수",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "AGE20'S HOUSE | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "푸투라 서울 (레픽 아나돌 전시) | 서울",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "지그재그 익스프레스 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "레고트 플러피 | 용산",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "푸투라 서울 | 서울",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "무신사 메가스토어 | 성수",
+            "trend_score": 60,
+            "data_points": 5
+          },
+          {
+            "keyword": "서울로봇인공지능과학관 | 서울",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "강서별빛우주과학관 | 강서",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "BTS 달마중 팝업 | 용산",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "AGE20'S 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "TWIMI 42 Forest 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "오아시스 뮤지엄 | 홍대",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "어썸그라운드 재즈바 | 용산",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "봉은사 불교용품점 | 강남",
+            "trend_score": 30,
+            "data_points": 5
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": []
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": []
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": [
+          {
+            "keyword": "원신 카페 | 서울",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "마법소녀 마도카 마기카 애니메이트 카페 | 잠실",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "쿠오카 말차바 | 여의도",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "레고트 X 플러피 팝업 | 용산",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "소울로스터리 | 롯데건대스타시티 (광진)",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "리센느 가우디 팝업 | 강남",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "예스24 벌룬프렌즈 팝업 | 광진",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "에비스 라운지 팝업 | 여의도",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "시크릿 도서전 팝업 | 마포",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "한글날 특별전 팝업 | 여의도",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-03T09:09:59.309Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "AGE20'S 팝업 | 성수",
+            "trend_score": 100,
+            "data_points": 2
+          },
+          {
+            "keyword": "29CM 로프트 앙코르 팝업 | 성수",
+            "trend_score": 86,
+            "data_points": 2
+          },
+          {
+            "keyword": "마법소녀 마도카 마기카 애니메이트 카페 | 홍대",
+            "trend_score": 44,
+            "data_points": 5
+          },
+          {
+            "keyword": "푸투라 서울 레픽 아나돌 개인전 | 북촌",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "던스트 팝업 | 롯데월드몰",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "영화 룩백 팝업 | 연남",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "SK텔레콤 랜덤 다이버시티 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "오끼뜨 산리오캐릭터즈 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "FC서울 팝업 ROAD TO 7 STARS | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "루나 팝업 Cloud Layer Bar | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "점프샵 팝업 | 신세계 강남",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "푸투라 서울 | 북촌",
+            "trend_score": 73,
+            "data_points": 5
+          },
+          {
+            "keyword": "엔터테크 GES | DDP",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "LG트윈스 굿바이 팝업 | 잠실",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "FC서울 로드 투 7스타즈 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "루나 클라우드 레이어 바 | 성수",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "슈퍼드라이 박지훈 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "신흥시장 글로벌 로컬 페스티벌 | 해방촌",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "몽블랑 렛츠 라이트 팝업 | 잠실",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "아덕페 | 아이파크몰 용산",
+            "trend_score": 30,
+            "data_points": 5
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": []
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": []
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": []
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-04T00:11:41.412Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": []
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "람보르기니 | 서울 서초 전시장",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "K-문화 스테이션 | 시청역 지하",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "푸투라 | 서울 북촌",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "아트 쇼케이스 팝업 | 연남동",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "오브젝트 | 서울 성수",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "테크웨이브 | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "TWIMI 42 Forest | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "스위트 에이전트 | 무신사 서울숲",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "짱구는 못말려 몰입형 전시 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "휠라 화이트오픈서울 | 여의도공원",
+            "trend_score": 30,
+            "data_points": 2
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": []
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": [
+          {
+            "keyword": "함반 | 망원",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "회현카페 | 남대문",
+            "trend_score": 45,
+            "data_points": 5
+          },
+          {
+            "keyword": "달라또 팝업 | 성수",
+            "trend_score": 33,
+            "data_points": 5
+          },
+          {
+            "keyword": "퀴진케이 빌롱 | 한남",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "스시 미즈테이 | 약수역",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "대상그룹 괴산 찰떡 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "썸띵한상회 팝업 | 여수세계박람회",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "하겐다즈 팝업 The Häagen-Cruise | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "김천 김밥축제 팝업 | 잠실",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "죠노네 X 뉴뉴 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": []
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-04T09:03:33.127Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "포스트아카이브팩션 | 한남",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "LUNA Cloud Layer Bar | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "BTS 달마중 팝업 | 용산",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "JUMP SHOP | 신세계 강남",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "AGE20'S THE AGE20'S HOUSE | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "LG트윈스 굿바이 팝업 | 잠실",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "레고트 X 플러피 팝업 | 용산",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "쿠오카 MATCHA BAR | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "리프트바운드 팝업 | 아이파크몰",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "예스24 X 벌룬프렌즈 팝업 | 광진구",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "AGE20'S 팝업 | 성수",
+            "trend_score": 100,
+            "data_points": 2
+          },
+          {
+            "keyword": "리프트바운드 팝업 | 용산",
+            "trend_score": 32,
+            "data_points": 5
+          },
+          {
+            "keyword": "서울도시건축전시관 가을 프로그램 | 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "아리땁다 아리수 팝업 | 여의도",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "메디힐 서울 에디션 팝업 | 가회동",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "STORY A 뷰티서바이벌 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "노들섬 수변문화공간 | 노들섬",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "신흥시장 글로벌 로컬 페스티벌 | 미상",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "한맥대축제 구로마켓 런웨이 | 구로",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "양원숲길 오싹한 도서관 | 미상",
+            "trend_score": 30,
+            "data_points": 1
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": []
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": [
+          {
+            "keyword": "빌롱 | 미상",
+            "trend_score": 100,
+            "data_points": 3
+          },
+          {
+            "keyword": "에스칼 | 미상",
+            "trend_score": 75,
+            "data_points": 3
+          }
+        ]
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": [
+          {
+            "keyword": "쎄비하우스 | 성수",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "피카츄 가을 나들이 팝업 | 중구",
+            "trend_score": 57,
+            "data_points": 5
+          },
+          {
+            "keyword": "소울로스터리 | 건대스타시티",
+            "trend_score": 32,
+            "data_points": 5
+          },
+          {
+            "keyword": "블루록 카페 | 홍대",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "마법소녀 마도카☆마기카 카페 | 잠실",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "마법소녀 마도카☆마기카 카페 | 홍대",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "원신 카페 노드크라이&일루가 | 홍대",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "쿠오카 말차바 | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "리센느 가우디 팝업 | 강남",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "XYZ 컬러레드 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-05T00:04:30.464Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "르시스 팝업 | 성수",
+            "trend_score": 100,
+            "data_points": 1
+          },
+          {
+            "keyword": "AGE20'S 팝업 | 성수",
+            "trend_score": 100,
+            "data_points": 2
+          },
+          {
+            "keyword": "푸투라 서울 | 북촌",
+            "trend_score": 72,
+            "data_points": 5
+          },
+          {
+            "keyword": "마법소녀 마도카 마기카 카페 | 홍대",
+            "trend_score": 34,
+            "data_points": 5
+          },
+          {
+            "keyword": "비그룸 X EQL 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "레고트 X 플러피 팝업 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "쿠오카 MATCHA BAR | 여의도",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "한글날 특별전 | 여의도",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "보이넥스트도어 팝업 | 명동",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "오브젝트 서울 | 성수",
+            "trend_score": 30,
+            "data_points": 5
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "아덕페 | 용산",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "마법소녀 마도카 마기카 카페 | 홍대",
+            "trend_score": 85,
+            "data_points": 5
+          },
+          {
+            "keyword": "마법소녀 마도카 마기카 카페 | 잠실",
+            "trend_score": 85,
+            "data_points": 5
+          },
+          {
+            "keyword": "서울건축문화제 | 서울도시건축전시관",
+            "trend_score": 47,
+            "data_points": 5
+          },
+          {
+            "keyword": "시크릿 도서전 | 마포",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "LG트윈스 굿바이 | 잠실 송파",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "프로젝트 세카이 팝업 | 용산",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "퍼 메모리즈 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "스포티파이 하우스 | 성수",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "별 연구소 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": [
+          {
+            "keyword": "세퍼퓨라운지 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "퍼 메모리즈 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "t티슬로 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "삼띵한상회 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "세이토라젤 용과마트 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "오뉴뉴 조원 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "하트투와츠 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "xyz 무자 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "월래오래 함께 가게 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "샤에트오소 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": [
+          {
+            "keyword": "가매일식 | 판교",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "퀴진케이 빌롱 | 강남",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "이디야커피랩 스모키 커피다이닝 | 논현",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "T1 베이스캠프 하이드온부쉬 | 강남",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "달빛 주방 | 한남",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "미디어 파사드 다이닝 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "사운드 이터리 | 연남",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "시간여행 식탁 | 익선",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "향수 공방 다이닝 | 가로수길",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "미식 실험실 | 홍대",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": [
+          {
+            "keyword": "쎄비하우스 | 성수",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "주술회전 콜라보 카페 | 홍대",
+            "trend_score": 39,
+            "data_points": 3
+          },
+          {
+            "keyword": "산리오 아쿠아리움 머메이드 파티 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "고양이와 스프 콜라보 카페 | 건대",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "HAUS NOWHERE | 성수",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "이머시브 미디어 카페 | 연남",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "컨셉츄얼 드로잉룸 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "미래도시 컨셉 카페 | 홍대",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "환상정원 북카페 | 익선",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "아트 콜라보 갤러리 카페 | 압구정",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-05T09:04:08.445Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "미세스 그린 애플 팝업 | 여의도",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "보이넥스트도어 팝업 | 명동",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "AGE20'S 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "루나 클라우드 레이어 팝업 | 미상",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "던스트 팝업 | 잠실",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "BTS 달마중 팝업 | 용산",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "클리오 풍년다방 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "초가구야공주 팝업 | 신촌",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "렌시스 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "크록스 스튜디오 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "호요랜드 | 미상",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "점프샵 팝업 | 강남신세계",
+            "trend_score": 38,
+            "data_points": 5
+          },
+          {
+            "keyword": "AGE20'S 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "푸투라 | 미상",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "크록스 스튜디오 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "센녹 배스 하우스 | 성수",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "그리디센트 | 연남",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "홍대 아이스 카페 | 홍대",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "LG트윈스 굿바이 팝업 | 잠실",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "서울숲 가을 정원 깊이 읽기 | 서울숲",
+            "trend_score": 30,
+            "data_points": 1
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": [
+          {
+            "keyword": "무신사 뷰티 | 홍대",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "클리오 풍년다방 팝업 | 성수",
+            "trend_score": 48,
+            "data_points": 3
+          },
+          {
+            "keyword": "렌시스 팝업 | 성수",
+            "trend_score": 34,
+            "data_points": 5
+          },
+          {
+            "keyword": "티르티르 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "이브로쉐 두피 정화 연구소 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "아이보들 CCP Recovery Hotel | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "아누아 케이팝 데몬 헌터스 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "AGE20'S 더 에이지투웨니스 하우스 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "메디힐 팝업 | 가회동",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "비그룸 EQL 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": [
+          {
+            "keyword": "우주떡집 | 연희동",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "빌롱 | 강남",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "에스칼 | 미상",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "이목 스모크 다이닝 | 미상",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "묵정 오스틴강 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "비움 사찰음식 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "샤콘느 프렌치 오마카세 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "소넷 컨템포러리 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "후제 팜투테이블 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "양원숲길 오싹한 도서관 | 미상",
+            "trend_score": 30,
+            "data_points": 1
+          }
+        ]
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": []
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-06T00:08:42.492Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "룩백 | 미상",
+            "trend_score": 100,
+            "data_points": 6
+          },
+          {
+            "keyword": "블루락 | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 6
+          },
+          {
+            "keyword": "세컨드솔트 | 미상",
+            "trend_score": 30,
+            "data_points": 6
+          },
+          {
+            "keyword": "포옹즈미 | 미상",
+            "trend_score": 30,
+            "data_points": 6
+          },
+          {
+            "keyword": "팝콘 게임즈 보드게임 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "빵빵이와 옥지 | 미상",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "일리카페 Words of illy | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "던스트 | 롯데월드몰",
+            "trend_score": 30,
+            "data_points": 6
+          },
+          {
+            "keyword": "퀴진케이 빌롱 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "에이지투웨니스 하우스 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "K-문화 스테이션 | 미상",
+            "trend_score": 100,
+            "data_points": 6
+          },
+          {
+            "keyword": "피카츄의 가을나들이 | 미상",
+            "trend_score": 53,
+            "data_points": 6
+          },
+          {
+            "keyword": "노들섬 수변문화공간 | 미상",
+            "trend_score": 30,
+            "data_points": 6
+          },
+          {
+            "keyword": "오브젝트 서울 | 성수",
+            "trend_score": 30,
+            "data_points": 6
+          },
+          {
+            "keyword": "호러하우스 끝없는 탈출 | 미상",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "2026 아트 쇼케이스 | 미상",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "RE;CODE X DO HO SUH | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "서울마이소울 | 미상",
+            "trend_score": 30,
+            "data_points": 6
+          },
+          {
+            "keyword": "이누야샤 팝업 | 미상",
+            "trend_score": 30,
+            "data_points": 6
+          },
+          {
+            "keyword": "마블 더 클로 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": [
+          {
+            "keyword": "렌시스 | 성수",
+            "trend_score": 100,
+            "data_points": 6
+          },
+          {
+            "keyword": "무신사 뷰티 | 미상",
+            "trend_score": 30,
+            "data_points": 6
+          },
+          {
+            "keyword": "오브젝트 서울 | 성수",
+            "trend_score": 30,
+            "data_points": 6
+          },
+          {
+            "keyword": "루미너스 | 미상",
+            "trend_score": 30,
+            "data_points": 6
+          },
+          {
+            "keyword": "에이지투웨니스 | 성수",
+            "trend_score": 30,
+            "data_points": 6
+          },
+          {
+            "keyword": "이브로쉐 | 성수",
+            "trend_score": 30,
+            "data_points": 6
+          },
+          {
+            "keyword": "티르티르 | 성수",
+            "trend_score": 30,
+            "data_points": 6
+          },
+          {
+            "keyword": "아누아 | 성수",
+            "trend_score": 30,
+            "data_points": 6
+          },
+          {
+            "keyword": "클리오 풍년다방 | 성수",
+            "trend_score": 30,
+            "data_points": 6
+          }
+        ]
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": [
+          {
+            "keyword": "이목 스모크 다이닝 | 미상",
+            "trend_score": 100,
+            "data_points": 6
+          },
+          {
+            "keyword": "비움 | 미상",
+            "trend_score": 83,
+            "data_points": 6
+          },
+          {
+            "keyword": "하쿠시 | 미상",
+            "trend_score": 83,
+            "data_points": 6
+          },
+          {
+            "keyword": "샤콘느 | 미상",
+            "trend_score": 67,
+            "data_points": 6
+          },
+          {
+            "keyword": "소넷 | 미상",
+            "trend_score": 33,
+            "data_points": 6
+          },
+          {
+            "keyword": "퀴진케이 빌롱 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "JP at Louis Vuitton | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "후제 | 미상",
+            "trend_score": 30,
+            "data_points": 6
+          },
+          {
+            "keyword": "기와강 | 미상",
+            "trend_score": 30,
+            "data_points": 6
+          },
+          {
+            "keyword": "뛰뚜아멍 | 미상",
+            "trend_score": 30,
+            "data_points": 6
+          }
+        ]
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": []
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-06T09:10:15.131Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "내가 키운 S급들 팝업 | 용산",
+            "trend_score": 100,
+            "data_points": 6
+          },
+          {
+            "keyword": "애즈온 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "메이드바이 맘마 햄스토어 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "RE;CODE X DO HO SUH 전시 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "가볼고잉 | AK플라자 홍대",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "STARTer's Atelier | 성북",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "더한글 29CM KOYU | 광화문",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "신세계푸드 스꾸하우스 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "크록스 CROCS STUDIO | 연남",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "하비소울 X 메카소울 팝업 | 용산",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": []
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": [
+          {
+            "keyword": "무신사 뷰티 | 홍대",
+            "trend_score": 100,
+            "data_points": 6
+          },
+          {
+            "keyword": "AGE20'S 하우스 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "다이소 뷰티 | 건대",
+            "trend_score": 30,
+            "data_points": 6
+          },
+          {
+            "keyword": "아로셀 콜라겐 랩 팝업 | 강남",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "롯데 향수 팝업 | 강남",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "티슬로 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "용과마트 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "오뉴뉴 조원 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "하트투와츠 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "이니스프리 무빙카 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": []
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": []
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-07T00:07:09.747Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "고길동의 낯선 강원랜드 | 홍대",
+            "trend_score": 100,
+            "data_points": 2
+          },
+          {
+            "keyword": "내가 키운 S급들 팝업 | 용산",
+            "trend_score": 89,
+            "data_points": 5
+          },
+          {
+            "keyword": "던스트 팝업 | 롯데월드몰",
+            "trend_score": 37,
+            "data_points": 3
+          },
+          {
+            "keyword": "신세계푸드 스꾸하우스 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "AGE20'S THE AGE20'S HOUSE | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "AROCELL COLLAGEN LAB 팝업 | 올리브영 강남",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "BLUE LOCK 2026 THE LAST POP-UP | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "메이드바이 맘마 햄스토어 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "혜인서 전시 | 이태원",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "NON LABEL × crlbl WHAT INSPIRES NOW | 한남동",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "노원 점프 | 노원",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "블루록 팝업 | 더현대 서울",
+            "trend_score": 54,
+            "data_points": 5
+          },
+          {
+            "keyword": "스꾸하우스 | 성수",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "현대차 GBC 과학관 팝업 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "디스코테카 | 서울숲",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "잠수교 뚜벅뚜벅 축제 | 잠수교",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "서울 스마트라이프위크 | 코엑스",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "BTS 달마중 팝업 | 용산",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "스포티파이 하우스 | 성수",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "별 연구소 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": [
+          {
+            "keyword": "무신사 뷰티 | 홍대",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "티르티르 팝업 - TINTED SKIN GLOW CUSHION | 성수",
+            "trend_score": 58,
+            "data_points": 2
+          },
+          {
+            "keyword": "LUNA Cloud Layer Bar | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "더 에이지투웨니스 하우스 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "스킨앤랩 링거팩토리 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "이브로쉐 팝업 - 두피 정화 연구소 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "센녹 배스 하우스 | 성수",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "쿠오카 팝업 : MATCHA BAR | 영등포",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "아늑 시그니처 | 서울 구로",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "트렌타로마 향수 팝업 | 하남",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": []
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": []
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-07T09:03:41.159Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "내가 키운 S급들 팝업 | 용산",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "티르티르 팝업 | 성수",
+            "trend_score": 36,
+            "data_points": 2
+          },
+          {
+            "keyword": "이누야샤 팝업 | 홍대",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "크래비티 팝업 | 홍대",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "안효섭 랑이 어구리 팝업 | 신촌",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "얼렁뚱땅상점 팝업 | 신촌",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "슈퍼드라이 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "던스트 팝업 | 잠실",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "BTS 달마중 팝업 | 용산",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "렌시스 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 5
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "전지적 독자 시점 카페 | 홍대",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "푸투라 | 서울",
+            "trend_score": 30,
+            "data_points": 5
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": [
+          {
+            "keyword": "무신사 뷰티 | 홍대",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "런포트 | 미상",
+            "trend_score": 37,
+            "data_points": 5
+          },
+          {
+            "keyword": "AGE20'S HOUSE | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "이브로쉐 두피 연구소 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "웰니스하우스서울 | 강남",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "웰니스 더 한남 | 미상",
+            "trend_score": 30,
+            "data_points": 4
+          }
+        ]
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": [
+          {
+            "keyword": "퐁신당 | 현대백화점 천호",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "전포명가떡집 | 신세계 타임스퀘어",
+            "trend_score": 97,
+            "data_points": 5
+          },
+          {
+            "keyword": "퀴진케이 빌롱 | 강남",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "메이드바이 맘마 햄스토어 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "맛깔리아 한글날 잔치 | 롯데월드몰",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "필리앤델리 피자 | 현대백화점 천호",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "바삭 | 롯데백화점 잠실",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "대한도나쓰 | 신세계 타임스퀘어",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "피키팝 | 신세계 타임스퀘어",
+            "trend_score": 30,
+            "data_points": 5
+          }
+        ]
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": [
+          {
+            "keyword": "서울라이트 한강 빛섬축제 | 노들섬",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "원신 카페 인 서울 | 홍대",
+            "trend_score": 41,
+            "data_points": 5
+          },
+          {
+            "keyword": "쎄비하우스 | 성수",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "옻칠갤러리카페 | 홍대",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "메이플스토리 이스케이프 | 홍대",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "유포테이블 카페 귀멸의 칼날 콜라보 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "LG전자 서울숲 아트포레스트 | 서울숲",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "카오스 제로 나이트메어 콜라보 카페 | 홍대",
+            "trend_score": 30,
+            "data_points": 5
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-08T00:07:40.160Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "내가 키운 S급들 팝업 | 용산",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "스페인 미술 500년: 빛과 어둠의 연대기 | 예술의전당",
+            "trend_score": 71,
+            "data_points": 5
+          },
+          {
+            "keyword": "마녀공장 소이빈 방앗간 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "T1 BASE CAMP | 강남",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "2026 충남 미식여행 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "켄트로얄 X 케이팝 데몬 헌터스 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "《편린(Míope)》 | 화이트 큐브 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "스포티파이 하우스 | 성수",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "29CM X LOFT 페이지 투 페이지스 | 성수",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "신세계푸드 스꾸하우스 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "김천김밥축제 팝업 | 잠실",
+            "trend_score": 100,
+            "data_points": 2
+          },
+          {
+            "keyword": "스꾸하우스 | 성수",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "충남미식기행 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "띠아트뮤지엄 | 홍대",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "아쿠아리움 머메이드 파티 | 잠실",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "서울숲 속 탐정 스누피 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "AROCELL COLLAGEN LAB 팝업 | 강남",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "메이드바이 맘마 햄스토어 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "노들섬 수변공간 팝업 도서관 | 노들섬",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "좋은 시작이 모이는 곳, STARTer's Atelier | 성북구",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": [
+          {
+            "keyword": "시수하우스 | 신사",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "무신사 뷰티 | 홍대",
+            "trend_score": 85,
+            "data_points": 5
+          },
+          {
+            "keyword": "올리브베러 | 강남역",
+            "trend_score": 47,
+            "data_points": 5
+          },
+          {
+            "keyword": "티르티르 팝업 | 성수",
+            "trend_score": 44,
+            "data_points": 2
+          },
+          {
+            "keyword": "센녹 배스하우스 | 성수",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "이브로쉐 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "아누아 케데헌 뷰티 하우스 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "티슬로 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "웰니스하우스서울 | 강남",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "준오 | 한남",
+            "trend_score": 30,
+            "data_points": 5
+          }
+        ]
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": []
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": [
+          {
+            "keyword": "전지적 독자 시점 X 애니메이트 카페 | 홍대",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "쎄비하우스 | 성수",
+            "trend_score": 42,
+            "data_points": 5
+          },
+          {
+            "keyword": "메이플스토리 이스케이프 | 홍대",
+            "trend_score": 42,
+            "data_points": 5
+          },
+          {
+            "keyword": "원신 Cafe in Seoul 노드크라이&일루가 테마 | 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "스꾸하우스 | 성수",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "소울로스터리 춘천 카페 팝업 | 건대스타시티점",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "쿠오카 팝업 MATCHA BAR | 영등포",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "에비스 팝업 더 라운지 | 영등포",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "마법소녀 마도카☆마기카 X 애니메이트 카페 | 잠실",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "고요산장 카페 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      }
+    }
   }
 ]

@@ -264,7 +264,7 @@ async function main() {
             // Safety guard: ensure no sensitive files were staged
             const stagedOutput = execSync('git diff --name-only --cached', { cwd: rootDir, encoding: 'utf8' }).trim();
             const stagedFiles = stagedOutput ? stagedOutput.split(/\r?\n/) : [];
-            const sensitivePattern = /(\.env|secret|token|password|dashboard.*\.html$|\.bak)/i;
+            const sensitivePattern = /(^|[\\/])(\.env(\..+)?|.*\.pem|.*\.key|dashboard.*\.html|\.bak|credentials\.json)$/i;
             const blockedFiles = stagedFiles.filter(f => f && sensitivePattern.test(f));
             if (blockedFiles.length > 0) {
                 execSync('git reset', { cwd: rootDir, stdio: 'inherit' });
