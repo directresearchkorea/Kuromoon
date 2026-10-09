@@ -1156,24 +1156,6 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/하우스-노웨어-서울.html" />
   </url>
 
-  <!-- Taco Tuesday Seongsu Main Branch -->
-  <url>
-    <loc>https://kuromoon.net/ko/places/taco-tuesday-seongsu-main-branch.html</loc>
-    <lastmod>2026-10-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/taco-tuesday-seongsu-main-branch.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/taco-tuesday-seongsu-main-branch.html" />
-  </url>
-  <url>
-    <loc>https://kuromoon.net/en/places/taco-tuesday-seongsu-main-branch.html</loc>
-    <lastmod>2026-10-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/taco-tuesday-seongsu-main-branch.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/taco-tuesday-seongsu-main-branch.html" />
-  </url>
-
   <!-- Oilje -->
   <url>
     <loc>https://kuromoon.net/ko/places/오일제.html</loc>
@@ -1334,6 +1316,24 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/시수하우스.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/시수하우스.html" />
+  </url>
+
+  <!-- Arirang Dowon -->
+  <url>
+    <loc>https://kuromoon.net/ko/places/아리랑도원.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/아리랑도원.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/아리랑도원.html" />
+  </url>
+  <url>
+    <loc>https://kuromoon.net/en/places/아리랑도원.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/아리랑도원.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/아리랑도원.html" />
   </url>
 
   <!-- 4233 Mind Center -->
@@ -1984,22 +1984,22 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/seven-theme-cafe-main-branch.html" />
   </url>
 
-  <!-- Awesome Ground Jazz Bar -->
+  <!-- Taco Tuesday Seongsu Main Branch -->
   <url>
-    <loc>https://kuromoon.net/ko/places/어썸그라운드-재즈바.html</loc>
+    <loc>https://kuromoon.net/ko/places/taco-tuesday-seongsu-main-branch.html</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/어썸그라운드-재즈바.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/어썸그라운드-재즈바.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/taco-tuesday-seongsu-main-branch.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/taco-tuesday-seongsu-main-branch.html" />
   </url>
   <url>
-    <loc>https://kuromoon.net/en/places/어썸그라운드-재즈바.html</loc>
+    <loc>https://kuromoon.net/en/places/taco-tuesday-seongsu-main-branch.html</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/어썸그라운드-재즈바.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/어썸그라운드-재즈바.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/taco-tuesday-seongsu-main-branch.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/taco-tuesday-seongsu-main-branch.html" />
   </url>
 
   <!-- Wonder Village -->
@@ -2326,6 +2326,24 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/super-matcha-seongsu.html" />
   </url>
 
+  <!-- Awesome Ground Jazz Bar -->
+  <url>
+    <loc>https://kuromoon.net/ko/places/어썸그라운드-재즈바.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/어썸그라운드-재즈바.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/어썸그라운드-재즈바.html" />
+  </url>
+  <url>
+    <loc>https://kuromoon.net/en/places/어썸그라운드-재즈바.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/어썸그라운드-재즈바.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/어썸그라운드-재즈바.html" />
+  </url>
+
   <!-- Confierre -->
   <url>
     <loc>https://kuromoon.net/ko/places/confierre.html</loc>
@@ -2486,6 +2504,24 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/good-morning-gut-club.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/good-morning-gut-club.html" />
+  </url>
+
+  <!-- Costco Korea Sangbong Branch -->
+  <url>
+    <loc>https://kuromoon.net/ko/places/costco-korea-sangbong-branch.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/costco-korea-sangbong-branch.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/costco-korea-sangbong-branch.html" />
+  </url>
+  <url>
+    <loc>https://kuromoon.net/en/places/costco-korea-sangbong-branch.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/costco-korea-sangbong-branch.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/costco-korea-sangbong-branch.html" />
   </url>
 
   <!-- Artio Hongdae Art Workshop One-Day Class -->
@@ -3026,24 +3062,6 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/the-hanoi-foot-body-apgujeong-branch.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/the-hanoi-foot-body-apgujeong-branch.html" />
-  </url>
-
-  <!-- Costco Korea Sangbong Branch -->
-  <url>
-    <loc>https://kuromoon.net/ko/places/costco-korea-sangbong-branch.html</loc>
-    <lastmod>2026-10-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/costco-korea-sangbong-branch.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/costco-korea-sangbong-branch.html" />
-  </url>
-  <url>
-    <loc>https://kuromoon.net/en/places/costco-korea-sangbong-branch.html</loc>
-    <lastmod>2026-10-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/costco-korea-sangbong-branch.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/costco-korea-sangbong-branch.html" />
   </url>
 
   <!-- Yosigo Exhibition -->
@@ -3674,24 +3692,6 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/2026-충남-미식여행-팝업-충남-테이스티-마켓.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/2026-충남-미식여행-팝업-충남-테이스티-마켓.html" />
-  </url>
-
-  <!-- Arirang Dowon -->
-  <url>
-    <loc>https://kuromoon.net/ko/places/아리랑도원.html</loc>
-    <lastmod>2026-10-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/아리랑도원.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/아리랑도원.html" />
-  </url>
-  <url>
-    <loc>https://kuromoon.net/en/places/아리랑도원.html</loc>
-    <lastmod>2026-10-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/아리랑도원.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/아리랑도원.html" />
   </url>
 
   <!-- Imok Smoke Dining -->
@@ -8210,6 +8210,78 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/경상남도-x-롯데웰푸드-스위트-에이전트-팝업.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/경상남도-x-롯데웰푸드-스위트-에이전트-팝업.html" />
+  </url>
+
+  <!-- Heollaengi Mulgae Pop-up -->
+  <url>
+    <loc>https://kuromoon.net/ko/places/헐랭이물개-팝업.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/헐랭이물개-팝업.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/헐랭이물개-팝업.html" />
+  </url>
+  <url>
+    <loc>https://kuromoon.net/en/places/헐랭이물개-팝업.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/헐랭이물개-팝업.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/헐랭이물개-팝업.html" />
+  </url>
+
+  <!-- Ibloom Pop-up -->
+  <url>
+    <loc>https://kuromoon.net/ko/places/아이블룸네일속눈썹.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/아이블룸네일속눈썹.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/아이블룸네일속눈썹.html" />
+  </url>
+  <url>
+    <loc>https://kuromoon.net/en/places/아이블룸네일속눈썹.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/아이블룸네일속눈썹.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/아이블룸네일속눈썹.html" />
+  </url>
+
+  <!-- Zeroid X Nuleongi Pop-up -->
+  <url>
+    <loc>https://kuromoon.net/ko/places/제로이드-x-누렁이-팝업.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/제로이드-x-누렁이-팝업.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/제로이드-x-누렁이-팝업.html" />
+  </url>
+  <url>
+    <loc>https://kuromoon.net/en/places/제로이드-x-누렁이-팝업.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/제로이드-x-누렁이-팝업.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/제로이드-x-누렁이-팝업.html" />
+  </url>
+
+  <!-- Nothing Written Cafe Corner -->
+  <url>
+    <loc>https://kuromoon.net/ko/places/nothing-written-cafe-corner.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/nothing-written-cafe-corner.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/nothing-written-cafe-corner.html" />
+  </url>
+  <url>
+    <loc>https://kuromoon.net/en/places/nothing-written-cafe-corner.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/nothing-written-cafe-corner.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/nothing-written-cafe-corner.html" />
   </url>
 
   <!-- Flaby Hyehwa Branch -->
@@ -13324,60 +13396,6 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/혜인서.html" />
   </url>
 
-  <!-- Heollaengi Mulgae Pop-up -->
-  <url>
-    <loc>https://kuromoon.net/ko/places/헐랭이물개-팝업.html</loc>
-    <lastmod>2026-10-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/헐랭이물개-팝업.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/헐랭이물개-팝업.html" />
-  </url>
-  <url>
-    <loc>https://kuromoon.net/en/places/헐랭이물개-팝업.html</loc>
-    <lastmod>2026-10-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/헐랭이물개-팝업.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/헐랭이물개-팝업.html" />
-  </url>
-
-  <!-- Ibloom Pop-up -->
-  <url>
-    <loc>https://kuromoon.net/ko/places/아이블룸네일속눈썹.html</loc>
-    <lastmod>2026-10-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/아이블룸네일속눈썹.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/아이블룸네일속눈썹.html" />
-  </url>
-  <url>
-    <loc>https://kuromoon.net/en/places/아이블룸네일속눈썹.html</loc>
-    <lastmod>2026-10-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/아이블룸네일속눈썹.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/아이블룸네일속눈썹.html" />
-  </url>
-
-  <!-- Zeroid X Nuleongi Pop-up -->
-  <url>
-    <loc>https://kuromoon.net/ko/places/제로이드-x-누렁이-팝업.html</loc>
-    <lastmod>2026-10-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/제로이드-x-누렁이-팝업.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/제로이드-x-누렁이-팝업.html" />
-  </url>
-  <url>
-    <loc>https://kuromoon.net/en/places/제로이드-x-누렁이-팝업.html</loc>
-    <lastmod>2026-10-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/제로이드-x-누렁이-팝업.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/제로이드-x-누렁이-팝업.html" />
-  </url>
-
   <!-- Ja Cafe -->
   <url>
     <loc>https://kuromoon.net/ko/places/해번자.html</loc>
@@ -13396,22 +13414,76 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/해번자.html" />
   </url>
 
-  <!-- Nothing Written Cafe Corner -->
+  <!-- Subdued Pop-up -->
   <url>
-    <loc>https://kuromoon.net/ko/places/nothing-written-cafe-corner.html</loc>
+    <loc>https://kuromoon.net/ko/places/섭듀드.html</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/nothing-written-cafe-corner.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/nothing-written-cafe-corner.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/섭듀드.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/섭듀드.html" />
   </url>
   <url>
-    <loc>https://kuromoon.net/en/places/nothing-written-cafe-corner.html</loc>
+    <loc>https://kuromoon.net/en/places/섭듀드.html</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/nothing-written-cafe-corner.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/nothing-written-cafe-corner.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/섭듀드.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/섭듀드.html" />
+  </url>
+
+  <!-- Mamari X Bottari Taco Pop-up -->
+  <url>
+    <loc>https://kuromoon.net/ko/places/마마리-x-보따리-타코-팝업.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/마마리-x-보따리-타코-팝업.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/마마리-x-보따리-타코-팝업.html" />
+  </url>
+  <url>
+    <loc>https://kuromoon.net/en/places/마마리-x-보따리-타코-팝업.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/마마리-x-보따리-타코-팝업.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/마마리-x-보따리-타코-팝업.html" />
+  </url>
+
+  <!-- Sleep No More Seoul -->
+  <url>
+    <loc>https://kuromoon.net/ko/places/매키탄-호텔.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/매키탄-호텔.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/매키탄-호텔.html" />
+  </url>
+  <url>
+    <loc>https://kuromoon.net/en/places/매키탄-호텔.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/매키탄-호텔.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/매키탄-호텔.html" />
+  </url>
+
+  <!-- Genshin Impact Theme Cafe -->
+  <url>
+    <loc>https://kuromoon.net/ko/places/나비공간.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/나비공간.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/나비공간.html" />
+  </url>
+  <url>
+    <loc>https://kuromoon.net/en/places/나비공간.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/나비공간.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/나비공간.html" />
   </url>
 
   <!-- Genshin Cafe in Seoul -->
@@ -13592,6 +13664,42 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/옻칠갤러리카페.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/옻칠갤러리카페.html" />
+  </url>
+
+  <!-- Tongkeunson Jjukkumi Maeul Gyesan Main Branch -->
+  <url>
+    <loc>https://kuromoon.net/ko/places/통큰손쭈꾸미마을-계산본점.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/통큰손쭈꾸미마을-계산본점.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/통큰손쭈꾸미마을-계산본점.html" />
+  </url>
+  <url>
+    <loc>https://kuromoon.net/en/places/통큰손쭈꾸미마을-계산본점.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/통큰손쭈꾸미마을-계산본점.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/통큰손쭈꾸미마을-계산본점.html" />
+  </url>
+
+  <!-- Illie et Combre -->
+  <url>
+    <loc>https://kuromoon.net/ko/places/일리에콩브레.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/일리에콩브레.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/일리에콩브레.html" />
+  </url>
+  <url>
+    <loc>https://kuromoon.net/en/places/일리에콩브레.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/일리에콩브레.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/일리에콩브레.html" />
   </url>
 
   <!-- Alphadrive One Pop-up -->
@@ -14008,6 +14116,24 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/기간한정-jump-shop-in-seoul-제3탄.html" />
   </url>
 
+  <!-- 88 Steak Seoul Forest -->
+  <url>
+    <loc>https://kuromoon.net/ko/places/88스테이크-서울숲.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/88스테이크-서울숲.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/88스테이크-서울숲.html" />
+  </url>
+  <url>
+    <loc>https://kuromoon.net/en/places/88스테이크-서울숲.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/88스테이크-서울숲.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/88스테이크-서울숲.html" />
+  </url>
+
   <!-- Black Day Food Mart -->
   <url>
     <loc>https://kuromoon.net/ko/places/black-day-food-mart.html</loc>
@@ -14150,6 +14276,24 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/브레드-이발소-팝업-스토어-the-backstage.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/브레드-이발소-팝업-스토어-the-backstage.html" />
+  </url>
+
+  <!-- Gonggeunhye Gallery -->
+  <url>
+    <loc>https://kuromoon.net/ko/places/공근혜갤러리.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/공근혜갤러리.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/공근혜갤러리.html" />
+  </url>
+  <url>
+    <loc>https://kuromoon.net/en/places/공근혜갤러리.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/공근혜갤러리.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/공근혜갤러리.html" />
   </url>
 
   <!-- Pause Studio -->
@@ -14348,6 +14492,24 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/popup-이모모찌.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/popup-이모모찌.html" />
+  </url>
+
+  <!-- Demali -->
+  <url>
+    <loc>https://kuromoon.net/ko/places/드말리-베이커리-앤-다이닝-카페.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/드말리-베이커리-앤-다이닝-카페.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/드말리-베이커리-앤-다이닝-카페.html" />
+  </url>
+  <url>
+    <loc>https://kuromoon.net/en/places/드말리-베이커리-앤-다이닝-카페.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/드말리-베이커리-앤-다이닝-카페.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/드말리-베이커리-앤-다이닝-카페.html" />
   </url>
 
   <!-- Hansangmin Bakery Geomdan New Town Branch -->
@@ -15682,6 +15844,24 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/던스트-제주-플래그십-스토어.html" />
   </url>
 
+  <!-- Yuwal Jeju Popup -->
+  <url>
+    <loc>https://kuromoon.net/ko/places/유월그리고열두마루.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/유월그리고열두마루.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/유월그리고열두마루.html" />
+  </url>
+  <url>
+    <loc>https://kuromoon.net/en/places/유월그리고열두마루.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/유월그리고열두마루.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/유월그리고열두마루.html" />
+  </url>
+
   <!-- LP Cafe Sound of Music -->
   <url>
     <loc>https://kuromoon.net/ko/places/lp-cafe-sound-of-music.html</loc>
@@ -16204,24 +16384,6 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/dayeonjae.html" />
   </url>
 
-  <!-- Yuwal Jeju Popup -->
-  <url>
-    <loc>https://kuromoon.net/ko/places/유월그리고열두마루.html</loc>
-    <lastmod>2026-10-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/유월그리고열두마루.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/유월그리고열두마루.html" />
-  </url>
-  <url>
-    <loc>https://kuromoon.net/en/places/유월그리고열두마루.html</loc>
-    <lastmod>2026-10-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/유월그리고열두마루.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/유월그리고열두마루.html" />
-  </url>
-
   <!-- Atelier Hwasil Gyeongju Bomun Branch -->
   <url>
     <loc>https://kuromoon.net/ko/places/atelier-hwasil-gyeongju-bomun-branch.html</loc>
@@ -16490,6 +16652,24 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/내가-키운-s급들-팝업-던전-브레이크.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/내가-키운-s급들-팝업-던전-브레이크.html" />
+  </url>
+
+  <!-- I'm Pie Cheonho Hyundai Department Store -->
+  <url>
+    <loc>https://kuromoon.net/ko/places/아임파이-외대본점.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/아임파이-외대본점.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/아임파이-외대본점.html" />
+  </url>
+  <url>
+    <loc>https://kuromoon.net/en/places/아임파이-외대본점.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kuromoon.net/ko/places/아임파이-외대본점.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kuromoon.net/en/places/아임파이-외대본점.html" />
   </url>
 
   <!-- Tirasia Resort -->
