@@ -40294,5 +40294,132 @@
         "trending_keywords": []
       }
     }
+  },
+  {
+    "timestamp": "2026-10-10T09:10:32.717Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "슈퍼드라이 팝업 | 성수",
+            "trend_score": 100,
+            "data_points": 4
+          },
+          {
+            "keyword": "주술회전 콜라보 카페 시부야사변 | 홍대",
+            "trend_score": 81,
+            "data_points": 4
+          },
+          {
+            "keyword": "고길동의 낯선 강원랜드 | 홍대",
+            "trend_score": 81,
+            "data_points": 2
+          },
+          {
+            "keyword": "명탐정 코난 30주년 | AK플라자 홍대",
+            "trend_score": 43,
+            "data_points": 5
+          },
+          {
+            "keyword": "티슬로 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "썸띵한상회 | 성수",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "세이토라젤 용과마트 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "드래곤볼 히어로즈 라이즈 | 성수",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "메디힐 서울에디션 | 북촌",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "내스급 던전 브레이크 | 용산",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "크래비티 팝업 - 탐정 크크루 | 홍대",
+            "trend_score": 100,
+            "data_points": 1
+          },
+          {
+            "keyword": "전지적 독자 시점 X 애니메이트 카페 | 홍대",
+            "trend_score": 65,
+            "data_points": 5
+          },
+          {
+            "keyword": "STORY A : 뷰티서바이벌 살인사건 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "SK텔레콤 이모션 랩 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "러쉬 라이브 공연 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "DEBUT COUNTDOWN 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "이누야샤 팝업 | 홍대",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "고길동의 낯선 강원랜드 | 마포구",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "하우스 오브 뱀파이어 | 서울",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "클리오 풍년다방 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 4
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": []
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": []
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": []
+      }
+    }
   }
 ]
