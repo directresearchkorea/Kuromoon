@@ -40548,5 +40548,183 @@
         ]
       }
     }
+  },
+  {
+    "timestamp": "2026-10-11T09:06:45.936Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "우사하나 팝업 | 용산",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "내가 키운 S급들 던전 브레이크 | 용산",
+            "trend_score": 87,
+            "data_points": 5
+          },
+          {
+            "keyword": "노나먹당 팝업 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "지그재그 익스프레스 팝업 | 미상",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "유월제주 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "브라운더스트2 글루피 팝업 | 홍대",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "굿스마일컴퍼니 팝업 | 홍대",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "피스마이너스원 X 조앤프렌즈 팝업 | 잠실",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "MEOVV 싱글 앨범 GO HARD 팝업 | 신세계 타임스퀘어",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "한컴타자 첫 캐릭터 팝업 | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": []
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": [
+          {
+            "keyword": "무신사 뷰티 | 홍대",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "바이레도 FUTURE MEMORIES 팝업 | 서울",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "마녀공장 소이빈 방앗간 | 성수",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "바세린 팝업 | 강남",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "이브로쉐 두피 정화 연구소 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "랩투마스 팝업 | 잠실",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "서울국제정원박람회 K-뷰티가든 | 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "티슬로 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "삼띵한상회 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "세이토라젤 용과마트 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": []
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": [
+          {
+            "keyword": "전지적 독자 시점 애니메이트 카페 | 홍대",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "주술회전 콜라보 카페 | 홍대",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "포켓몬 포코피아 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "솔테 라이브러리 | 성수",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "삼하루 | 성수",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "주술회전 게임 테마 팝업 | 강남",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "더 아카이브 | 은평",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "이누야샤 팝업 | 홍대",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "크래비티 팝업 탐정 크크루 | 홍대",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "2026 JINX 팝업 | 성동구",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      }
+    }
   }
 ]
