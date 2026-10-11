@@ -5,16 +5,16 @@
 ## About
 Kuromoon is a lightweight, static directory website providing structured data about Korean local businesses.
 All data is formatted with Schema.org JSON-LD for optimal AI crawler parsing.
-Updated: 2026-10-10
+Updated: 2026-10-11
 
 ## Website
 - URL: https://kuromoon.net
 - Languages: Korean (/ko/), English (/en/)
 - Categories: 5
-- Total Places: 943
+- Total Places: 944
 
 ## Categories
-- Pop-up Stores & Events (팝업스토어/이벤트): 271 places
+- Pop-up Stores & Events (팝업스토어/이벤트): 272 places
 - Niche Dining (니치 다이닝): 175 places
 - Concept Cafes (콘셉트 카페): 227 places
 - activity: 143 places
@@ -817,7 +817,6 @@ Updated: 2026-10-10
 - [오리와 개구리](https://kuromoon.net/ko/places/duck-and-frog.html) — 이색적인 개구리 고기와 오리 요리를 맛볼 수 있는 컨셉 다이닝 와인바.
 - [힐즈앤유로파](https://kuromoon.net/ko/places/hills-europa.html) — 해방촌 LP 카페 겸 바, 음악과 칵테일, 푸딩을 즐기는 곳.
 - [셀프바베큐존](https://kuromoon.net/ko/places/셀프바베큐존.html) — 용인제일오토캠핑장의 셀프 바베큐 시설
-- [기간한정 JUMP SHOP in SEOUL 제3탄](https://kuromoon.net/ko/places/기간한정-jump-shop-in-seoul-제3탄.html) — 신세계 강남에서 열리는 점프샵 팝업 제3탄
 - [블랙데이 식자재마트](https://kuromoon.net/ko/places/black-day-food-mart.html) — 클럽블랙 1층에 새롭게 오픈 예정인 식자재마트.
 - [도깨비코리아](https://kuromoon.net/ko/places/dokkaebi-korea.html) — 도깨비 테마의 독특한 아트 카페.
 - [하나미코지  팝업 스토어](https://kuromoon.net/ko/places/hanamikoji-pop-up-store.html) — 하나미코지 수제화와 캐주얼 브랜드 팝업 스토어
@@ -826,6 +825,7 @@ Updated: 2026-10-10
 - [토이스토리X피스마이너스원 익스클루시브 성수 팝업스토어](https://kuromoon.net/ko/places/toy-story-x-peaceminusone-exclusive-seongsu-pop-up-store.html) — 토이스토리와 피스마이너스원의 협업 팝업스토어
 - [하늘정원공간대여파티룸](https://kuromoon.net/ko/places/하늘정원공간대여파티룸.html) — 안산 루프탑 공간대여 파티룸 겸 테마 카페
 - [브레드 이발소 팝업 스토어 : The BackStage](https://kuromoon.net/ko/places/브레드-이발소-팝업-스토어-the-backstage.html) — 인기 애니메이션 브레드 이발소 팝업
+- [피키팝 팝업 스토어](https://kuromoon.net/ko/places/피키팝-팝업-스토어.html) — 현대백화점 천호점의 프리미엄 간식 팝업
 - [퍼즈 스튜디오](https://kuromoon.net/ko/places/pause-studio.html) — 제주에 위치한 셀프 바디프로필 전문 스튜디오.
 - [더풋샵마사지 종로구청점](https://kuromoon.net/ko/places/foot-shop-massage.html) — 아로마 테라피와 마사지로 몸의 피로를 풀고 밸런스를 맞추는 뷰티/웰니스 샵.
 - [NC백화점 강서점](https://kuromoon.net/ko/places/nc-department-store-gangseo-branch.html) — NC백화점 강서점, 다이닝과 쇼핑을 한 곳에서.
@@ -848,6 +848,7 @@ Updated: 2026-10-10
 - [스위트가든 뽀아르](https://kuromoon.net/ko/places/스위트가든-뽀아르.html) — 연남동의 작은 베이커리 카페
 - [안녕 : 안유진 X 장원영 미디어아트 전시](https://kuromoon.net/ko/places/안녕-안유진-x-장원영-미디어아트-전시.html) — 아이브 안유진, 장원영 미디어아트 전시
 - [큐브이스케이프 홍대점](https://kuromoon.net/ko/places/cube-escape-hongdae-branch.html) — 홍대에 위치한 이색 테마 방탈출 카페
+- [기간한정 JUMP SHOP in SEOUL 제3탄](https://kuromoon.net/ko/places/기간한정-jump-shop-in-seoul-제3탄.html) — 신세계 강남에서 열리는 점프샵 팝업 제3탄
 - [마녀공장 소이빈 방앗간 팝업스토어](https://kuromoon.net/ko/places/마녀공장-소이빈-방앗간-팝업스토어.html) — 
 - [랙앤본 성수 팝업 From SoHo to Seongsu](https://kuromoon.net/ko/places/랙앤본-성수-팝업-from-soho-to-seongsu.html) — 랙앤본 뉴욕 소호 매장을 성수에서 경험하는 팝업
 - [내 호수에 가둔 인어 X Gratte 콜라보 카페 @홍대](https://kuromoon.net/ko/places/내-호수에-가둔-인어-x-gratte-콜라보-카페-홍대.html) — 웹툰 '내 호수에 가둔 인어' 콜라보 카페
@@ -1762,7 +1763,6 @@ Updated: 2026-10-10
 - [Duck and Frog](https://kuromoon.net/en/places/duck-and-frog.html) — A unique concept dining wine bar offering exotic frog and duck dishes.
 - [Hills & Europa](https://kuromoon.net/en/places/hills-europa.html) — Hae-bangchon's LP cafe & bar, offering music, cocktails, and pudding.
 - [Yongin Jeil Auto Camping Ground Self BBQ Zone](https://kuromoon.net/en/places/셀프바베큐존.html) — Self BBQ facilities at Yongin Jeil Auto Camping Ground
-- [JUMP SHOP Pop-up Shinsegae Gangnam](https://kuromoon.net/en/places/기간한정-jump-shop-in-seoul-제3탄.html) — JUMP SHOP's 3rd pop-up event at Shinsegae Gangnam.
 - [Black Day Food Mart](https://kuromoon.net/en/places/black-day-food-mart.html) — Black Day Food Mart is set to open on the 1st floor of Club Black.
 - [Dokkaebi Korea](https://kuromoon.net/en/places/dokkaebi-korea.html) — A unique Dokkaebi-themed art cafe.
 - [Hanamikoji Pop-up Store](https://kuromoon.net/en/places/hanamikoji-pop-up-store.html) — Hanamikoji handmade shoes & casual brands pop-up store
@@ -1771,6 +1771,7 @@ Updated: 2026-10-10
 - [Toy Story X PEACEMINUSONE Exclusive Seongsu Pop-up Store](https://kuromoon.net/en/places/toy-story-x-peaceminusone-exclusive-seongsu-pop-up-store.html) — Toy Story and PEACEMINUSONE collaboration pop-up store
 - [Sky Garden Space Rental Party Room](https://kuromoon.net/en/places/하늘정원공간대여파티룸.html) — Rooftop space rental party room and theme cafe in Ansan.
 - [Bread Barbershop Pop-up at Hyundai Department Store Sinchon](https://kuromoon.net/en/places/브레드-이발소-팝업-스토어-the-backstage.html) — Popular animation Bread Barbershop pop-up
+- [Pickypop Popup](https://kuromoon.net/en/places/피키팝-팝업-스토어.html) — Premium snack popup store at Hyundai Department Store Cheonho.
 - [Pause Studio](https://kuromoon.net/en/places/pause-studio.html) — Self-body profile studio located in Jeju.
 - [Foot Shop Massage](https://kuromoon.net/en/places/foot-shop-massage.html) — A beauty/wellness shop offering aroma therapy and massages to relieve fatigue and balance the body.
 - [NC Department Store Gangseo Branch](https://kuromoon.net/en/places/nc-department-store-gangseo-branch.html) — NC Department Store Gangseo Branch, a multi-purpose venue for dining and shopping.
@@ -1793,6 +1794,7 @@ Updated: 2026-10-10
 - [Sweet Garden Poire](https://kuromoon.net/en/places/스위트가든-뽀아르.html) — Small bakery cafe in Yeonnam-dong
 - [AN-YOUNG : An Yujin X Jang Wonyoung Media Art Exhibition](https://kuromoon.net/en/places/안녕-안유진-x-장원영-미디어아트-전시.html) — IVE An Yujin & Jang Wonyoung media art exhibition.
 - [Cube Escape Hongdae Branch](https://kuromoon.net/en/places/cube-escape-hongdae-branch.html) — A unique themed escape room cafe in Hongdae.
+- [JUMP SHOP Pop-up Shinsegae Gangnam](https://kuromoon.net/en/places/기간한정-jump-shop-in-seoul-제3탄.html) — JUMP SHOP's 3rd pop-up event at Shinsegae Gangnam.
 - [undefined](https://kuromoon.net/en/places/마녀공장-소이빈-방앗간-팝업스토어.html) — 
 - [Rag&bone Seongsu Pop-up: From SoHo to Seongsu](https://kuromoon.net/en/places/랙앤본-성수-팝업-from-soho-to-seongsu.html) — Experience Rag&bone's New York SoHo store in Seongsu.
 - [The Mermaid Trapped in My Lake X Gratte Cafe](https://kuromoon.net/en/places/내-호수에-가둔-인어-x-gratte-콜라보-카페-홍대.html) — Webtoon 'The Mermaid Trapped in My Lake' collaboration cafe
