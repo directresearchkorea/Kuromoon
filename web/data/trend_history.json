@@ -40802,5 +40802,224 @@
         "trending_keywords": []
       }
     }
+  },
+  {
+    "timestamp": "2026-10-12T09:07:35.933Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "포켓몬 팝업 | 미상",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "드래곤볼 팝업 | 잠실 롯데월드몰",
+            "trend_score": 81,
+            "data_points": 5
+          },
+          {
+            "keyword": "러버덕 | 서울 석촌 호수",
+            "trend_score": 46,
+            "data_points": 5
+          },
+          {
+            "keyword": "디즈니 팝업 | 판교 현대백화점",
+            "trend_score": 32,
+            "data_points": 5
+          },
+          {
+            "keyword": "마블 굿즈 스피커 팝업 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "챌린저스 팝업 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "대왕 카스테라 팝업 | 판교 현대백화점",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "선업튀 팝업 | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "에델바이스 맥주 팝업 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "무직타이거 팝업 | 판교 현대백화점",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "안성팜랜드 | 안성",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "스키즈 팬미팅 | 미상",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "커플링만들기 | 미상",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "짱오락실 | 강남대로점",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "양산 영화공장 덕계 영화관 | 양산 덕계",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "수원 화성행궁 야간개장 | 수원 화성행궁",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "지산리조트 | 지산리조트",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "덕수궁/정동전망대 | 덕수궁",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": [
+          {
+            "keyword": "무신사 뷰티 | 홍대",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "바세린 글루타히야 팝업 | 강남",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "무화원 북촌향수공방 | 북촌",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "올리브영 성수 시티로그 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "질메디힐 뷰티풀 무빙카 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "육간누와 PDRN 샤워 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "티슬로 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "삼띵한상회 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "세이토라젤 용과마트 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "오뉴뉴 조원 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": []
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": [
+          {
+            "keyword": "선운각 | 서울 우이동",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "카페앤 | 서촌",
+            "trend_score": 90,
+            "data_points": 5
+          },
+          {
+            "keyword": "스톤크릭 | 원주",
+            "trend_score": 89,
+            "data_points": 5
+          },
+          {
+            "keyword": "봉 | 송리단길",
+            "trend_score": 85,
+            "data_points": 5
+          },
+          {
+            "keyword": "사브레 | 송리단길",
+            "trend_score": 79,
+            "data_points": 5
+          },
+          {
+            "keyword": "로스톤 | 대림",
+            "trend_score": 71,
+            "data_points": 5
+          },
+          {
+            "keyword": "포컬포인트 | 서울 청파",
+            "trend_score": 67,
+            "data_points": 5
+          },
+          {
+            "keyword": "테디스오븐 | 서울숲",
+            "trend_score": 47,
+            "data_points": 5
+          },
+          {
+            "keyword": "퇼커피 | 남가좌동",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "선운각 한옥카페 | 서울 우이동",
+            "trend_score": 30,
+            "data_points": 1
+          }
+        ]
+      }
+    }
   }
 ]
