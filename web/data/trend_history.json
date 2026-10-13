@@ -41021,5 +41021,234 @@
         ]
       }
     }
+  },
+  {
+    "timestamp": "2026-10-13T00:04:07.660Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "내가 키운 S급들 | 용산",
+            "trend_score": 100,
+            "data_points": 6
+          },
+          {
+            "keyword": "쿠팡 온리 페스타 | 성수",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "페이트 스테이 나이트 | 홍대",
+            "trend_score": 30,
+            "data_points": 6
+          },
+          {
+            "keyword": "오프사이드 마켓 펍지 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "산리오 머메이드 | 롯데월드 아쿠아리움",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "포켓몬 포코피아 | 성수",
+            "trend_score": 30,
+            "data_points": 6
+          },
+          {
+            "keyword": "T팩토리 랜덤 다이버시티 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "클리오 풍년다방 | 서울국제정원박람회",
+            "trend_score": 30,
+            "data_points": 6
+          },
+          {
+            "keyword": "에이티즈 라인프렌즈 | 홍대",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "마리나 라인간츠 미오페 화이트큐브 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "비비앙 구름 호텔 | 성수",
+            "trend_score": 100,
+            "data_points": 2
+          },
+          {
+            "keyword": "산리오캐릭터즈 | 롯데월드 아쿠아리움",
+            "trend_score": 30,
+            "data_points": 6
+          },
+          {
+            "keyword": "포켓몬 피카츄의 가을 나들이 | 미상",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "쿠팡 온리 페스타 | 성수",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "JUMP SHOP | 신세계 강남",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "블루 록 더 라스트 팝업 | 영등포",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "성수 빈티지 팝업스토어 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "에이티즈 라인프렌즈 | 홍대",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "한컴타자 팝업스토어 | 더현대 서울",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "팝마트 라부부의 수상한 편의점 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": [
+          {
+            "keyword": "아누아 | 성수",
+            "trend_score": 100,
+            "data_points": 6
+          },
+          {
+            "keyword": "루나 클라우드 레이어 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "롬앤 산리오 올리브영 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "유노브 파워퍼프걸 올리브영 | 명동",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "월드 웰니스 관광페어 | 서울",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "뷰티성수 슈퍼패스트 | 서울숲",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "패션뷰티 페스타 | 도산공원",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "센카 양파쿵야 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "티슬로 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "세이토라젤 용과마트 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": []
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": [
+          {
+            "keyword": "솔테라이브러리 | 성수",
+            "trend_score": 100,
+            "data_points": 6
+          },
+          {
+            "keyword": "전지적 독자 시점 X 애니메이트 카페 | 홍대",
+            "trend_score": 67,
+            "data_points": 6
+          },
+          {
+            "keyword": "에이치갤러리 | 한남",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "카페 페이즈 | 한남",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "미나앤폴 | 한남",
+            "trend_score": 30,
+            "data_points": 6
+          },
+          {
+            "keyword": "더 아카이브 | 롯데몰 은평점",
+            "trend_score": 30,
+            "data_points": 6
+          },
+          {
+            "keyword": "주술회전 콜라보 카페 | 홍대",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "클리오 풍년다방 | 성수",
+            "trend_score": 30,
+            "data_points": 6
+          },
+          {
+            "keyword": "포켓몬 포코피아 컨셉 스토어 | 성수",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "하겐크루즈 팝업스토어 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      }
+    }
   }
 ]
