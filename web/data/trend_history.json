@@ -41250,5 +41250,183 @@
         ]
       }
     }
+  },
+  {
+    "timestamp": "2026-10-13T09:10:34.382Z",
+    "categories": {
+      "popup": {
+        "label": "팝업/전시",
+        "trending_keywords": [
+          {
+            "keyword": "히카루가 죽은 여름 카페 | 신촌",
+            "trend_score": 100,
+            "data_points": 6
+          },
+          {
+            "keyword": "발베니 다니엘 아샴 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "스포티파이 하우스 | 성수",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "마녀공장 소이빈 방앗간 | 성수",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "바이레도 FUTURE MEMORIES | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "괴산 찰떡합격런 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "비비앙 구름 호텔 | 성수",
+            "trend_score": 30,
+            "data_points": 2
+          },
+          {
+            "keyword": "그린웨이코트 피프틴 | 송리단길",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "주술회전 팬텀 퍼레이드 | 삼성역",
+            "trend_score": 30,
+            "data_points": 6
+          },
+          {
+            "keyword": "스텔라이브 SIX STAR | 홍대",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "activity": {
+        "label": "이색 체험",
+        "trending_keywords": [
+          {
+            "keyword": "한컴타자 팝업 | 더현대서울",
+            "trend_score": 100,
+            "data_points": 5
+          },
+          {
+            "keyword": "로스트테크놀로지픽쳐스 | 합정",
+            "trend_score": 33,
+            "data_points": 6
+          },
+          {
+            "keyword": "지그재그 핑크카 | 성수",
+            "trend_score": 33,
+            "data_points": 1
+          },
+          {
+            "keyword": "띠아트뮤지엄 | 홍대",
+            "trend_score": 30,
+            "data_points": 6
+          },
+          {
+            "keyword": "현대면세점 에코싱크 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "프레데릭 말 피스마이너스원 | 한남",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "현대모터스튜디오 해브펀위드사이언스 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "DDP 그린칩스 페스티벌 | 동대문",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "명동 사각사각 펜페스트 | 명동",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "T Factory 이모션랩 | 성수",
+            "trend_score": 30,
+            "data_points": 0
+          }
+        ]
+      },
+      "beauty": {
+        "label": "뷰티/웰니스",
+        "trending_keywords": []
+      },
+      "dining": {
+        "label": "컨셉 다이닝",
+        "trending_keywords": []
+      },
+      "cafe": {
+        "label": "아트/테마 카페",
+        "trending_keywords": [
+          {
+            "keyword": "전지적 독자 시점 애니메이트 카페 | 홍대",
+            "trend_score": 100,
+            "data_points": 6
+          },
+          {
+            "keyword": "조용할권리 | 연남동",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "멜팅무드 | 미상",
+            "trend_score": 30,
+            "data_points": 0
+          },
+          {
+            "keyword": "더 아카이브 | 롯데몰 은평",
+            "trend_score": 30,
+            "data_points": 6
+          },
+          {
+            "keyword": "원신 Cafe | 미상",
+            "trend_score": 30,
+            "data_points": 3
+          },
+          {
+            "keyword": "클리오 풍년다방 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 5
+          },
+          {
+            "keyword": "솔테라이브러리 | 성수",
+            "trend_score": 30,
+            "data_points": 6
+          },
+          {
+            "keyword": "포켓몬 포코피아 팝업 | 성수",
+            "trend_score": 30,
+            "data_points": 4
+          },
+          {
+            "keyword": "하겐다즈 팝업스토어 | 성수",
+            "trend_score": 30,
+            "data_points": 1
+          },
+          {
+            "keyword": "이누야샤 팝업 | 홍대",
+            "trend_score": 30,
+            "data_points": 6
+          }
+        ]
+      }
+    }
   }
 ]
