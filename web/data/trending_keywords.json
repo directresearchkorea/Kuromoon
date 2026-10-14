@@ -1,181 +1,232 @@
 {
-  "generated_at": "2026-10-13",
+  "generated_at": "2026-10-14",
   "mode": "live-dynamic",
   "period": {
-    "start": "2026-09-13",
-    "end": "2026-10-13"
+    "start": "2026-09-14",
+    "end": "2026-10-14"
   },
   "categories": {
     "popup": {
       "label": "팝업/전시",
       "trending_keywords": [
         {
-          "keyword": "히카루가 죽은 여름 카페 | 신촌",
+          "keyword": "팔란티어 팝업 | 한남",
           "trend_score": 100,
-          "data_points": 6
+          "data_points": 5
         },
         {
-          "keyword": "발베니 다니엘 아샴 팝업 | 성수",
+          "keyword": "에이지투웨니스 | 성수",
+          "trend_score": 61,
+          "data_points": 5
+        },
+        {
+          "keyword": "서울드래곤시티 | 아이파크몰",
+          "trend_score": 36,
+          "data_points": 5
+        },
+        {
+          "keyword": "아르토 팝업 | 무신사 성수",
           "trend_score": 30,
           "data_points": 4
         },
         {
-          "keyword": "스포티파이 하우스 | 성수",
-          "trend_score": 30,
-          "data_points": 4
-        },
-        {
-          "keyword": "마녀공장 소이빈 방앗간 | 성수",
-          "trend_score": 30,
-          "data_points": 2
-        },
-        {
-          "keyword": "바이레도 FUTURE MEMORIES | 성수",
-          "trend_score": 30,
-          "data_points": 1
-        },
-        {
-          "keyword": "괴산 찰떡합격런 팝업 | 성수",
-          "trend_score": 30,
-          "data_points": 1
-        },
-        {
-          "keyword": "비비앙 구름 호텔 | 성수",
-          "trend_score": 30,
-          "data_points": 2
-        },
-        {
-          "keyword": "그린웨이코트 피프틴 | 송리단길",
+          "keyword": "직화즈 | 현대 신촌",
           "trend_score": 30,
           "data_points": 0
         },
         {
-          "keyword": "주술회전 팬텀 퍼레이드 | 삼성역",
+          "keyword": "제로어클락 | 현대 천호",
           "trend_score": 30,
-          "data_points": 6
+          "data_points": 5
         },
         {
-          "keyword": "스텔라이브 SIX STAR | 홍대",
+          "keyword": "KISS DESIRE LAND 팝업 | 미상",
           "trend_score": 30,
-          "data_points": 0
+          "data_points": 1
+        },
+        {
+          "keyword": "릴리이브 굿럭트롤 | 성수",
+          "trend_score": 30,
+          "data_points": 1
+        },
+        {
+          "keyword": "더웍스 페스타 | 성수",
+          "trend_score": 30,
+          "data_points": 5
+        },
+        {
+          "keyword": "더얀 XYZ | 성수",
+          "trend_score": 30,
+          "data_points": 2
         }
       ]
     },
     "activity": {
       "label": "이색 체험",
+      "trending_keywords": []
+    },
+    "beauty": {
+      "label": "뷰티/웰니스",
       "trending_keywords": [
         {
-          "keyword": "한컴타자 팝업 | 더현대서울",
+          "keyword": "클리오 풍년다방 | 성수",
           "trend_score": 100,
           "data_points": 5
         },
         {
-          "keyword": "로스트테크놀로지픽쳐스 | 합정",
-          "trend_score": 33,
-          "data_points": 6
-        },
-        {
-          "keyword": "지그재그 핑크카 | 성수",
-          "trend_score": 33,
-          "data_points": 1
-        },
-        {
-          "keyword": "띠아트뮤지엄 | 홍대",
+          "keyword": "픽넘버쓰리 | 성수",
           "trend_score": 30,
-          "data_points": 6
+          "data_points": 5
         },
         {
-          "keyword": "현대면세점 에코싱크 | 미상",
+          "keyword": "T팩토리 이모션 랩 | 성수",
           "trend_score": 30,
-          "data_points": 0
+          "data_points": 2
         },
         {
-          "keyword": "프레데릭 말 피스마이너스원 | 한남",
+          "keyword": "마녀공장 팝업 | 성수",
           "trend_score": 30,
           "data_points": 3
         },
         {
-          "keyword": "현대모터스튜디오 해브펀위드사이언스 | 미상",
+          "keyword": "티슬로 팝업 | 성수",
           "trend_score": 30,
-          "data_points": 0
+          "data_points": 2
         },
         {
-          "keyword": "DDP 그린칩스 페스티벌 | 동대문",
+          "keyword": "메이크프렘 팝업 | 연남",
           "trend_score": 30,
-          "data_points": 0
+          "data_points": 3
         },
         {
-          "keyword": "명동 사각사각 펜페스트 | 명동",
+          "keyword": "센녹 배스 하우스 | 성수",
           "trend_score": 30,
-          "data_points": 0
+          "data_points": 4
         },
         {
-          "keyword": "T Factory 이모션랩 | 성수",
+          "keyword": "메디힐 서울에디션 | 북촌",
           "trend_score": 30,
-          "data_points": 0
+          "data_points": 3
+        },
+        {
+          "keyword": "스튜디오씨 | 서울",
+          "trend_score": 30,
+          "data_points": 5
+        },
+        {
+          "keyword": "더설하 | 홍대",
+          "trend_score": 30,
+          "data_points": 5
         }
       ]
     },
-    "beauty": {
-      "label": "뷰티/웰니스",
-      "trending_keywords": []
-    },
     "dining": {
       "label": "컨셉 다이닝",
-      "trending_keywords": []
+      "trending_keywords": [
+        {
+          "keyword": "목구멍 | 홍대",
+          "trend_score": 100,
+          "data_points": 5
+        },
+        {
+          "keyword": "콘피에르 | 서울",
+          "trend_score": 41,
+          "data_points": 5
+        },
+        {
+          "keyword": "육몽 | 홍대",
+          "trend_score": 30,
+          "data_points": 5
+        },
+        {
+          "keyword": "로쏘 1924 | 홍대",
+          "trend_score": 30,
+          "data_points": 5
+        },
+        {
+          "keyword": "한우다움 | 홍대",
+          "trend_score": 30,
+          "data_points": 5
+        },
+        {
+          "keyword": "아치서울 | 용산",
+          "trend_score": 30,
+          "data_points": 5
+        },
+        {
+          "keyword": "스탠다드번 | 용산",
+          "trend_score": 30,
+          "data_points": 5
+        },
+        {
+          "keyword": "낙원 | 익선동",
+          "trend_score": 30,
+          "data_points": 5
+        },
+        {
+          "keyword": "스탠다드브레드 | 익선동",
+          "trend_score": 30,
+          "data_points": 5
+        },
+        {
+          "keyword": "글로우 | 성수",
+          "trend_score": 30,
+          "data_points": 5
+        }
+      ]
     },
     "cafe": {
       "label": "아트/테마 카페",
       "trending_keywords": [
         {
-          "keyword": "전지적 독자 시점 애니메이트 카페 | 홍대",
+          "keyword": "더정 우롱티프로젝트 | 마포",
           "trend_score": 100,
-          "data_points": 6
-        },
-        {
-          "keyword": "조용할권리 | 연남동",
-          "trend_score": 30,
           "data_points": 5
         },
         {
-          "keyword": "멜팅무드 | 미상",
+          "keyword": "비비앙 구름 호텔 | 성수",
+          "trend_score": 71,
+          "data_points": 2
+        },
+        {
+          "keyword": "더 아카이브 앱크 | 서촌",
+          "trend_score": 42,
+          "data_points": 2
+        },
+        {
+          "keyword": "JUMP SHOP | 신세계 강남",
+          "trend_score": 42,
+          "data_points": 4
+        },
+        {
+          "keyword": "원신 Cafe | 서울",
+          "trend_score": 35,
+          "data_points": 3
+        },
+        {
+          "keyword": "청년문화주간 | 홍대",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "산리오캐릭터즈 머메이드 파티 | 롯데월드 아쿠아리움",
+          "trend_score": 30,
+          "data_points": 0
+        },
+        {
+          "keyword": "포켓몬 피카츄의 가을 나들이 | 한국관광공사",
+          "trend_score": 30,
+          "data_points": 1
+        },
+        {
+          "keyword": "GREENWAYCOURT × fifteen° | 송리단길",
           "trend_score": 30,
           "data_points": 0
         },
         {
           "keyword": "더 아카이브 | 롯데몰 은평",
           "trend_score": 30,
-          "data_points": 6
-        },
-        {
-          "keyword": "원신 Cafe | 미상",
-          "trend_score": 30,
-          "data_points": 3
-        },
-        {
-          "keyword": "클리오 풍년다방 팝업 | 성수",
-          "trend_score": 30,
           "data_points": 5
-        },
-        {
-          "keyword": "솔테라이브러리 | 성수",
-          "trend_score": 30,
-          "data_points": 6
-        },
-        {
-          "keyword": "포켓몬 포코피아 팝업 | 성수",
-          "trend_score": 30,
-          "data_points": 4
-        },
-        {
-          "keyword": "하겐다즈 팝업스토어 | 성수",
-          "trend_score": 30,
-          "data_points": 1
-        },
-        {
-          "keyword": "이누야샤 팝업 | 홍대",
-          "trend_score": 30,
-          "data_points": 6
         }
       ]
     }
